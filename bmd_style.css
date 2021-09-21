@@ -834,20 +834,20 @@ CALL OUT/ SECTION STYLES
 /* Recommended Readings*/
 
 /* Removes left padding from bootstrap columns */
-.kl_wrapper .bs-container rocc_reading {
+.kl_wrapper .bs-container .rocc_reading {
 	padding-left: 0;
 }
 
-.kl_wrapper rocc_reading h3 {
+.kl_wrapper .rocc_reading h3 {
 	margin-top: 0;
 }
 
-.kl_wrapper rocc_reading h4 {
+.kl_wrapper .rocc_reading h4 {
 	font-size: 1rem;
 	colour: grey;
 	margin: 0;
 }
-.kl_wrapper rocc_reading p {
+.kl_wrapper .rocc_reading p {
 	margin-bottom: 1rem;
 }
 .kl_wrapper rocc_right_line {
@@ -856,6 +856,8 @@ CALL OUT/ SECTION STYLES
 	
 .kl_wrapper .rocc_reading img {
 	margin:0 0 1rem;
+	padding-right:20px;
+	border-right:3px solid var(--rocc_secondary);
 }
 
 /*----

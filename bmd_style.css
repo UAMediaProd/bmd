@@ -884,9 +884,9 @@ BUTTON STYLES
 }
 
 
-/* Secondary colour button */
+/* Secondary colour button ("blue" option for legacy support) */
 
-.kl_wrapper .rocc_secondary_button_container a {
+.kl_wrapper .rocc_secondary_button_container a, .kl_wrapper .rocc_blue_button_container a {
 	color: white;
 	font-size: 1.2rem;
 	font-weight: bold;
@@ -899,9 +899,9 @@ BUTTON STYLES
 	min-width: 180px;
 }
 
-.kl_wrapper .rocc_secondary_button_container p {margin:0}
+.kl_wrapper .rocc_secondary_button_container p, .kl_wrapper .rocc_blue_button_container p {margin:0}
 
-.kl_wrapper .rocc_secondary_button_container a:hover {
+.kl_wrapper .rocc_secondary_button_container a:hover, .kl_wrapper .rocc_secondary_button_container a:hover{
   background-color: var(--rocc_secondary_light);
 	color: white !important;
 }

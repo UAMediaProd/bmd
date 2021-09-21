@@ -774,7 +774,7 @@ CALL OUT/ SECTION STYLES
 
 .kl_wrapper .rocc_call_out_box {
 	border: 4px solid var(--rocc_secondary);
-	padding: 26px 1.875rem;
+	padding: 15px 20px;
 }
 
 .kl_wrapper .rocc_call_out_box h3 {

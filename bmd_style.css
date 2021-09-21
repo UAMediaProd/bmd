@@ -830,6 +830,21 @@ CALL OUT/ SECTION STYLES
 		
 	}
 }
+
+/*Underline H3*/
+
+.kl_wrapper .rocc_underline_h3 h3:after{
+    content: "";
+    position: relative;
+    width: 15%;
+    height: 1px;
+    display:block;
+    bottom: 0;
+    left:0;
+    top:0;
+    border-bottom: 3px solid var(--rocc_tertiary);
+}
+
 	
 /* Recommended Readings*/
 

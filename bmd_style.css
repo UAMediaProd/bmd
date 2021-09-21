@@ -801,15 +801,18 @@ CALL OUT/ SECTION STYLES
 .kl_wrapper .rocc_page_link_box h4 {
 	font-weight: bold;
 	font-size: 1.2rem;
+	margin-bottom:17px;
 }
 	
 .kl_wrapper .rocc_page_link_box h4:after{
     content: "";
-    position: absolute;
+    position: relative;
     width: 15%;
     height: 1px;
+    display:block;
     bottom: 0;
-    left:0%;
+    left:0;
+    top:0;
     border-bottom: 3px solid var(--rocc_tertiary);
 }
 

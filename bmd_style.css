@@ -601,9 +601,13 @@ figure {margin:0;}
 }
 
 .kl_wrapper .rocc_table_fancy td {
-	padding:8px!important;
+	padding:7px!important;
 	border:1px solid grey;
 	text-align:center;
+}
+
+.kl_wrapper .rocc_table_fancy td p {
+	margin:0!important;
 }
 
 @media only screen and (max-width:480px) {

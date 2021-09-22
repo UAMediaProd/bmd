@@ -1150,8 +1150,13 @@ text-decoration:none;
 }
 
 .kl_wrapper ul.kl_basic_navlist {
-	padding:0 5%;
+	padding:0;
 	font-weight:bold;
+}
+
+#kl_wrapper_3 #kl_navigation li {
+	text-align: center;
+    	width: 33.33%;
 }
 
 a.nav_list {
@@ -1178,7 +1183,6 @@ a.nav_list {
 		float:none;
 		text-align: center;
 		margin-bottom: 10px;
-		
 }
 	.kl_wrapper .kl_basic_navlist {
 		display:block;
@@ -1190,6 +1194,9 @@ a.nav_list {
 	.kl_wrapper ul.kl_basic_navlist {
 		padding: 0;
 	}
+	#kl_wrapper_3 #kl_navigation li {
+    	width: 100%;
+}
 }
 
 

@@ -1174,7 +1174,7 @@ a.nav_list {
 
 .kl_basic_navlist li[id*="kl_nav_item"] a:hover {
 	background:var(--rocc_secondary_light)!important;
-	color:white;
+	color:white!important;
 }
 
 

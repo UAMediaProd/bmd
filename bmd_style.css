@@ -1202,6 +1202,9 @@ a.nav_list {
 	#kl_wrapper_3 #kl_navigation li {
     	width: 100%;
 }
+	.kl_basic_navlist li[id*="kl_nav_item"] a:hover {
+	width:100%;
+}
 }
 
 

@@ -921,6 +921,7 @@ BUTTON STYLES
 	display: inline-block;
 	transition-duration: 0.2s;
 	min-width: 180px;
+	text-align:center;
 }
 
 .kl_wrapper .rocc_secondary_button_container p, .kl_wrapper .rocc_blue_button_container p {margin:0}
@@ -1119,6 +1120,7 @@ text-decoration:none;
 	display: inline-block;
 	transition-duration: 0.2s;
 	min-width: 180px;
+	text-align:center;
 }
 
 .kl_wrapper .rocc_action_box .rocc_secondary_button_container p, .kl_wrapper .rocc_action_box .rocc_blue_button_container p {margin:0}

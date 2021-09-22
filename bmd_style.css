@@ -371,12 +371,11 @@ line-height: 24px;
 
 .ig-list .indent_2 .ig-row a.ig-title, .ig-list .indent_2 .ig-row .locked_title {
 	font-weight: normal!important;
-	font-size: 1rem;
+	font-size: 1.15rem;
 	color: var(--rocc_secondary)!important;
 }
 
 .ig-list .indent_3 .ig-row a.ig-title, .ig-list .indent_3 .ig-row .locked_title {
-	font-style: italic!important;
 	font-weight:normal!important;
 	font-size: 1rem;
 	color: var(--rocc_secondary)!important;

@@ -1163,8 +1163,7 @@ text-decoration:none;
 #kl_wrapper_3 #kl_navigation li:hover {
 	text-align: center;
     	width: 33.33%;
-	background:var(--rocc_tertiary_light)!important;
-	color:var(--rocc_primary)!important;
+	background:var(--rocc_secondary_light)!important;
 }
 
 a.nav_list {

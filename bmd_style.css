@@ -1164,7 +1164,7 @@ text-decoration:none;
 }
 
 a.nav_list {
-	color: var(--rocc_primary); 
+	color: white; 
 	text-decoration:none!important;
 }
 
@@ -1174,6 +1174,7 @@ a.nav_list {
 
 .kl_basic_navlist li[id*="kl_nav_item"] a:hover {
 	background:var(--rocc_secondary_light)!important;
+	color:white;
 }
 
 

@@ -1129,7 +1129,7 @@ text-decoration:none;
 }
 
 @media only screen and (max-width:826px) {
-	.kl_wrapper .rocc_action_box .rocc_secondary_button_container {margin-top:12px}
+	.kl_wrapper .rocc_action_box .rocc_secondary_button_container {margin-top:12px;text-align:left!important;}
 }
 
 

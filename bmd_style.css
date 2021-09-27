@@ -1026,6 +1026,7 @@ BUTTON STYLES
 
 .kl_wrapper .rocc_grey_button_container a:hover {
 	background-color: #D1D1D1 !important;
+	a.external:active span {width:auto!important;}
 }
 
 .kl_wrapper .button_icon_download a:before {

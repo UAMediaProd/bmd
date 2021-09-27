@@ -861,15 +861,18 @@ CALL OUT/ SECTION STYLES
 	colour: grey;
 	margin: 0;
 }
+
 .kl_wrapper .rocc_reading p {
 	margin-bottom: 1rem;
 }
+
 .kl_wrapper .rocc_right_line {
-	border-right: 3px solid var(--rocc_secondary);
+	border-right: 3px solid var(--rocc_secondary); /* I've just added this into the img so it is applied automatically. Leaving this here for now just in case -Simon */
 }
 	
 .kl_wrapper .rocc_reading img {
 	margin:0 0 1rem;
+	border-right: 3px solid var(--rocc_secondary);
 }
 
 /*----

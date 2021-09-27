@@ -1025,6 +1025,10 @@ BUTTON STYLES
 	background-color: #D1D1D1 !important;
 }
 
+.kl_wrapper .button_icon_download a:before {
+	content:"i class=\0022fas fa-arrow-alt-circle-down\0022"
+}
+
 /* Module button styling */
 
 .kl_wrapper .rocc_module_group .bs-col-md, .kl_wrapper .rocc_module_group .bs-col-md-4 {

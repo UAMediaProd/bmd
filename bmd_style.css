@@ -872,6 +872,7 @@ CALL OUT/ SECTION STYLES
 	
 .kl_wrapper .rocc_reading img {
 	margin:0 0 1rem;
+	padding-right:15px;
 	border-right: 3px solid var(--rocc_secondary);
 }
 

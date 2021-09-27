@@ -864,7 +864,7 @@ CALL OUT/ SECTION STYLES
 .kl_wrapper .rocc_reading p {
 	margin-bottom: 1rem;
 }
-.kl_wrapper rocc_right_line {
+.kl_wrapper .rocc_right_line {
 	border-right: 3px solid var(--rocc_secondary);
 }
 	

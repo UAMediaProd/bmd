@@ -1032,6 +1032,14 @@ BUTTON STYLES
 	margin-right: 8px;
 }
 
+.kl_wrapper .button_icon_view a:before {
+	content: "\f06e";
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	margin-right: 8px;
+}
+
+
 /* Module button styling */
 
 .kl_wrapper .rocc_module_group .bs-col-md, .kl_wrapper .rocc_module_group .bs-col-md-4 {

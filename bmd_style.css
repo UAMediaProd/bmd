@@ -1026,7 +1026,10 @@ BUTTON STYLES
 }
 
 .kl_wrapper .button_icon_download a:before {
-	content:"i class=\0022fas fa-arrow-alt-circle-down\0022"
+	content: "\f358";
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	margin-right: 8px;
 }
 
 /* Module button styling */

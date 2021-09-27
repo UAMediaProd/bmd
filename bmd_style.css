@@ -70,6 +70,11 @@ TEXT STYLES
 	text-decoration: none!important;
 }
 
+/* Stops the auto-added external link span from messing up our buttons */
+.kl_wrapper a:hover {
+	a.external:active span {width:auto!important;}
+}
+
 
 /* Body text heading styles */
 
@@ -1023,11 +1028,6 @@ BUTTON STYLES
 	text-decoration: none !important;
 	display: inline-block;
 	transition-duration: 0.2s;
-}
-
-.kl_wrapper .rocc_grey_button_container a:hover {
-	background-color: #D1D1D1 !important;
-	a.external:active span {width:auto!important;}
 }
 
 .kl_wrapper .button_icon_download a:before {

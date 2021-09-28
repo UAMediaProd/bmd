@@ -1022,7 +1022,7 @@ BUTTON STYLES
 	background-color: #D1D1D1 !important;
 }
 
-.kl_wrapper .rocc_grey_button_container_download a:before, .kl_wrapper .rocc_grey_button_view a:before {
+.kl_wrapper .rocc_grey_button_container_download a:before, .kl_wrapper .rocc_grey_button_container_view a:before {
 	font-family: 'Font Awesome 5 Free';
 	font-weight: 900;
 	margin-right: 8px;
@@ -1032,7 +1032,7 @@ BUTTON STYLES
 	content: "\f358";
 }
 
-.kl_wrapper .rocc_grey_button_view a:before {
+.kl_wrapper .rocc_grey_button_container_view a:before {
 	content: "\f06e";
 }
 

@@ -71,8 +71,8 @@ TEXT STYLES
 }
 
 /* Stops the auto-added external link span from messing up our buttons */
-.kl_wrapper a:hover {
-	a.external:active span {width:auto!important;}
+.kl_wrapper a.external:active span, .kl_wrapper a.external:focus span {
+	width:auto!important;
 }
 
 

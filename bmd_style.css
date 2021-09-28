@@ -1275,6 +1275,13 @@ a.nav_list {
 	margin-bottom: 0;
 }
 
+.kl_wrapper .rocc_shadowcard .bs-col-xs-1 {
+	 margin-bottom:4px;
+}
+
+.kl_wrapper .rocc_shadowcard .bs-col {
+	 padding:0;
+}
 
 .kl_wrapper .cp_domain h3 {
 	color: var(--domain_cp_color);

@@ -1034,14 +1034,14 @@ BUTTON STYLES
 	transition-duration: 0.2s;
 }
 
-.kl_wrapper .button_icon_download a:before {
+.kl_wrapper .rocc_grey_button_download a:before {
 	content: "\f358";
 	font-family: 'Font Awesome 5 Free';
 	font-weight: 900;
 	margin-right: 8px;
 }
 
-.kl_wrapper .button_icon_view a:before {
+.kl_wrapper .rocc_grey_button_view a:before {
 	content: "\f06e";
 	font-family: 'Font Awesome 5 Free';
 	font-weight: 900;

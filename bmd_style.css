@@ -70,9 +70,9 @@ TEXT STYLES
 	text-decoration: none!important;
 }
 
-/* Stops the auto-added external link span from messing up our buttons */
+/* Removes the auto-added external link span to stop it from messing up our layouts */
 .kl_wrapper a.external:active span, .kl_wrapper a.external:focus span {
-	width:auto!important;
+	display:none;!important;
 }
 
 

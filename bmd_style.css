@@ -81,7 +81,7 @@ TEXT STYLES
 .kl_wrapper h2 {
  	color: var(--rocc_primary);
   	font-size: 2rem;
-	line-height: 2rem;
+	line-height: 2.4rem;
   	font-weight: bold;
 	margin: 0px 0px 15px;
   	padding: 0 !important;
@@ -92,7 +92,7 @@ TEXT STYLES
 .kl_wrapper h3 {
   	color: var(--rocc_primary);
   	font-size: 1.6rem;
-	line-height: 1.6rem;
+	line-height: 2rem;
 	margin-bottom: 5px;
   	font-weight: bold;
   	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif;

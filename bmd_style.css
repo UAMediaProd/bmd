@@ -313,6 +313,10 @@ TEXT STYLES
 
 /* Tutor "about" heading styles */
 
+.kl_wrapper .tutor_card .bs-col-md-2, .kl_wrapper .tutor_card .bs-col-md-3, .kl_wrapper .tutor_card .bs-col {
+	padding-left:0;
+}
+
 .kl_wrapper .tutor_info {
 	border-bottom: solid 3px var(--rocc_secondary);
 	margin-top: auto;

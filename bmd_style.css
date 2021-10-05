@@ -498,17 +498,17 @@ line-height: 24px;
 .kl_wrapper_parent {
 	max-width: 850px;
 	margin: auto;
-	
 }
 
 .kl_wrapper .rocc_column-flow-3 {columns: 250px 3;padding: 0 11px;}
 .kl_wrapper .rocc_column-flow-2 {columns: 300px 2;padding: 0 11px;}
 
-
 div[id*="kl_custom_block"], div[id*="kl_content_block_sub"] {
   margin: 0 0 3.5rem 0!important;
 }
 
+.kl_wrapper .rocc_no_padding_left {padding-left:none!important;}
+.kl_wrapper .rocc_no_padding_right {padding-right:none!important;}
 
 /* Figure styling */
 figure {margin:0;}

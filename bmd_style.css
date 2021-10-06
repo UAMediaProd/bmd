@@ -1133,7 +1133,7 @@ text-decoration:none;
 
 .kl_wrapper .rocc_action_box .rocc_secondary_button_container p, .kl_wrapper .rocc_action_box .rocc_blue_button_container p {margin:0}
 
-.kl_wrapper .rocc_action_box .rocc_secondary_button_container a:hover, .kl_wrapper .rocc_action_box .rocc_secondary_button_container a:hover{
+.kl_wrapper .rocc_action_box .rocc_secondary_button_container a:hover, .kl_wrapper .rocc_action_box .rocc_secondary_button_container a:hover, .rocc_blue_button_container a:hover {
   background-color: var(--rocc_secondary_light);
 	color: white !important;
 }

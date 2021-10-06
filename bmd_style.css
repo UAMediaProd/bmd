@@ -390,8 +390,29 @@ line-height: 24px;
 	color: var(--rocc_secondary)!important;
 }
 
+div.module-item-title span[title="Science and Scholarship"] {
+	padding: 10px 20px;
+	background: var(--domain_ss_color)!important;
+	color: white!important;
+}
 
+div.module-item-title span[title="Health and Society"] {
+	padding: 10px 20px;
+	background: var(--domain_hs_color)!important;
+	color: white!important;
+}
 
+div.module-item-title span[title="Professionalism and Leadership"] {
+	padding: 10px 20px;
+	background: var(--domain_pl_color)!important;
+	color: white!important;
+}
+
+div.module-item-title span[title="Clinical Practice"] {
+	padding: 10px 20px;
+	background: var(--domain_cp_color)!important;
+	color: white!important;
+}
 
 
 /* Custom lists */

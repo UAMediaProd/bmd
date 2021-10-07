@@ -349,6 +349,11 @@ TEXT STYLES
 
 /* Canvas Module List */
 
+.context_module {
+	font-family: 'MADE Evolve Sans', sans-serif;
+	letter-spacing: 0.009rem;
+}
+
 .ig-header {
 	background:var(--rocc_primary)!important;
 	padding:12px 6px 8px!important;

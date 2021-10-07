@@ -6,9 +6,9 @@ COLOR STYLES #1676c4
 	--rocc_primary: #102535;
 	--rocc_secondary:#3B52DB;
 	--rocc_secondary_light:#497ad7;
-	--rocc_call_out_info:#1676c4;
+	--rocc_call_out_info:#3B52DB;
 	--rocc_call_out_info_light:#ECF1F4;
-	--rocc_call_fout_key:#EA3434;
+	--rocc_call_out_key:#EA3434;
 	--rocc_call_out_key_light:#F0CDCD;
 	--rocc_call_out_highlight:#F89244;
 	--rocc_call_out_highlight_light:#FDEEE3;
@@ -191,7 +191,7 @@ TEXT STYLES
 	color: white;
 	font-size: 3rem;
 	font-weight: bold;
-	line-height: 2.916rem;
+	line-height: 3.5rem;
 	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif;
 	padding-left:1.875rem!important;
 	padding-bottom: 1.25rem;
@@ -390,8 +390,29 @@ line-height: 24px;
 	color: var(--rocc_secondary)!important;
 }
 
+div.module-item-title span[title="Science and Scholarship"] {
+	padding: 10px 20px;
+	background: var(--domain_ss_color)!important;
+	color: white!important;
+}
 
+div.module-item-title span[title="Health and Society"] {
+	padding: 10px 20px;
+	background: var(--domain_hs_color)!important;
+	color: white!important;
+}
 
+div.module-item-title span[title="Professionalism and Leadership"] {
+	padding: 10px 20px;
+	background: var(--domain_pl_color)!important;
+	color: white!important;
+}
+
+div.module-item-title span[title="Clinical Practice"] {
+	padding: 10px 20px;
+	background: var(--domain_cp_color)!important;
+	color: white!important;
+}
 
 
 /* Custom lists */
@@ -498,17 +519,17 @@ line-height: 24px;
 .kl_wrapper_parent {
 	max-width: 850px;
 	margin: auto;
-	
 }
 
 .kl_wrapper .rocc_column-flow-3 {columns: 250px 3;padding: 0 11px;}
 .kl_wrapper .rocc_column-flow-2 {columns: 300px 2;padding: 0 11px;}
 
-
 div[id*="kl_custom_block"], div[id*="kl_content_block_sub"] {
   margin: 0 0 3.5rem 0!important;
 }
 
+.kl_wrapper .rocc_no_padding_left {padding-left:none!important;}
+.kl_wrapper .rocc_no_padding_right {padding-right:none!important;}
 
 /* Figure styling */
 figure {margin:0;}
@@ -920,9 +941,9 @@ BUTTON STYLES
 
 /* Secondary colour button ("blue" option for legacy support) */
 
-.kl_wrapper .rocc_secondary_button_container a, .kl_wrapper .rocc_blue_button_container a {
+.kl_wrapper .rocc_secondary_button_container a, .kl_wrapper .rocc_blue_button_container a, .kl_wrapper .rocc_secondary_button_container_view a, .kl_wrapper .rocc_secondary_button_container_download a {
 	color: white;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	font-weight: bold;
 	background-color: var(--rocc_secondary) ;
 	border: none;
@@ -936,7 +957,7 @@ BUTTON STYLES
 
 .kl_wrapper .rocc_secondary_button_container p, .kl_wrapper .rocc_blue_button_container p {margin:0}
 
-.kl_wrapper .rocc_secondary_button_container a:hover, .kl_wrapper .rocc_secondary_button_container a:hover{
+.kl_wrapper .rocc_secondary_button_container a:hover, .kl_wrapper .rocc_secondary_button_container a:hover, .rocc_secondary_button_container_download a:hover{
   background-color: var(--rocc_secondary_light);
 	color: white !important;
 }
@@ -1133,7 +1154,7 @@ text-decoration:none;
 
 .kl_wrapper .rocc_action_box .rocc_secondary_button_container p, .kl_wrapper .rocc_action_box .rocc_blue_button_container p {margin:0}
 
-.kl_wrapper .rocc_action_box .rocc_secondary_button_container a:hover, .kl_wrapper .rocc_action_box .rocc_secondary_button_container a:hover{
+.kl_wrapper .rocc_action_box .rocc_secondary_button_container a:hover, .kl_wrapper .rocc_action_box .rocc_secondary_button_container a:hover, .rocc_blue_button_container a:hover {
   background-color: var(--rocc_secondary_light);
 	color: white !important;
 }

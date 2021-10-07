@@ -370,48 +370,64 @@ line-height: 24px;
 
 .ig-list .indent_0 .ig-row a.ig-title, .ig-list .indent_0 .ig-row .locked_title {
 	font-size: 1.25rem; 
-	color: var(--rocc_primary)!important;}
+	color: var(--rocc_primary);}
 
 .ig-list .indent_1 .ig-row a.ig-title, .ig-list .indent_1 .ig-row .locked_title {
 	font-size: 1.15rem; 
 	font-weight: normal!important;
-	color: var(--rocc_primary)!important;
+	color: var(--rocc_primary);
 }
 
 .ig-list .indent_2 .ig-row a.ig-title, .ig-list .indent_2 .ig-row .locked_title {
 	font-weight: normal!important;
 	font-size: 1.15rem;
-	color: var(--rocc_secondary)!important;
+	color: var(--rocc_secondary);
 }
 
 .ig-list .indent_3 .ig-row a.ig-title, .ig-list .indent_3 .ig-row .locked_title {
 	font-weight:normal!important;
 	font-size: 1rem;
-	color: var(--rocc_secondary)!important;
+	color: var(--rocc_secondary);
 }
 
 div.module-item-title span[title="Science and Scholarship"] {
 	padding: 10px 20px;
 	background: var(--domain_ss_color)!important;
 	color: white!important;
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-colour.svg');
+	background-size: 28px 28px;
+	height: 28px;
+	width: 28px;
 }
 
 div.module-item-title span[title="Health and Society"] {
 	padding: 10px 20px;
 	background: var(--domain_hs_color)!important;
 	color: white!important;
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/hs-colour.svg');
+	background-size: 28px 28px;
+	height: 28px;
+	width: 28px;
 }
 
 div.module-item-title span[title="Professionalism and Leadership"] {
 	padding: 10px 20px;
 	background: var(--domain_pl_color)!important;
 	color: white!important;
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/pl-colour.svg');
+	background-size: 28px 28px;
+	height: 28px;
+	width: 28px;
 }
 
 div.module-item-title span[title="Clinical Practice"] {
 	padding: 10px 20px;
 	background: var(--domain_cp_color)!important;
 	color: white!important;
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-colour.svg');
+	background-size: 28px 28px;
+	height: 28px;
+	width: 28px;
 }
 
 

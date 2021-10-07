@@ -401,8 +401,9 @@ div.module-item-title span[title="Science and Scholarship"] {
 }
 
 div.module-item-title span[title="Science and Scholarship"]:before {
+	content:'';
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-colour.svg');
-	background-size: 20px 20px;
+	background-size: 20px 29px;
 	height: 20px;
 	width: 20px;
 	padding-top: 5px;
@@ -417,8 +418,9 @@ div.module-item-title span[title="Health and Society"] {
 }
 
 div.module-item-title span[title="Health and Society"]:before {
+	content:'';
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/hs-colour.svg');
-	background-size: 20px 20px;
+	background-size: 20px 29px;
 	height: 20px;
 	width: 20px;
 	padding-top: 5px;
@@ -433,8 +435,9 @@ div.module-item-title span[title="Professionalism and Leadership"] {
 }
 
 div.module-item-title span[title="Professionalism and Leadership"]:before {
+	content:'';
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/pl-colour.svg');
-	background-size: 20px 20px;
+	background-size: 20px 29px;
 	height: 20px;
 	width: 20px;
 	padding-top: 5px;
@@ -449,8 +452,9 @@ div.module-item-title span[title="Clinical Practice"] {
 }
 
 div.module-item-title span[title="Clinical Practice"]:before {
+	content:'';
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-colour.svg');
-	background-size: 20px 20px;
+	background-size: 20px 29px;
 	height: 20px;
 	width: 20px;
 	padding-top: 5px;

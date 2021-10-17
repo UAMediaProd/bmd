@@ -395,8 +395,8 @@ line-height: 24px;
 	color: var(--rocc_secondary);
 }
 
-div.module-item-title span[title="Science and Scholarship"] {
-	padding: 10px 20px;
+div.module-item-title span[title="Science and Scholarship"], div.module-item-title span[title="Practicals, Tutorials and Seminars"] {
+	padding: 10px 32px;
 	color: var(--domain_ss_color)!important;
 }
 
@@ -407,13 +407,13 @@ div.module-item-title span[title="Science and Scholarship"]:before {
 	height: 20px;
 	width: 20px;
 	padding-top: 5px;
-	margin-left: -23px;
+	margin-left: -28px;
 	position: absolute;
 	background-repeat: no-repeat;
 }
 
 div.module-item-title span[title="Health and Society"] {
-	padding: 10px 20px;
+	padding: 10px 32px;
 	color: var(--domain_hs_color)!important;
 }
 
@@ -424,13 +424,13 @@ div.module-item-title span[title="Health and Society"]:before {
 	height: 20px;
 	width: 20px;
 	padding-top: 5px;
-	margin-left: -23px;
+	margin-left: -28px;
 	position: absolute;
 	background-repeat: no-repeat;
 }
 
 div.module-item-title span[title="Professionalism and Leadership"] {
-	padding: 10px 20px;
+	padding: 10px 32px;
 	color: var(--domain_pl_color)!important;
 }
 
@@ -441,13 +441,13 @@ div.module-item-title span[title="Professionalism and Leadership"]:before {
 	height: 20px;
 	width: 20px;
 	padding-top: 5px;
-	margin-left: -23px;
+	margin-left: -28px;
 	position: absolute;
 	background-repeat: no-repeat;
 }
 
 div.module-item-title span[title="Clinical Practice"] {
-	padding: 10px 20px;
+	padding: 10px 32px;
 	color: var(--domain_cp_color)!important;
 }
 
@@ -458,7 +458,7 @@ div.module-item-title span[title="Clinical Practice"]:before {
 	height: 20px;
 	width: 20px;
 	padding-top: 5px;
-	margin-left: -23px;
+	margin-left: -28px;
 	position: absolute;
 	background-repeat: no-repeat;
 }

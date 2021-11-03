@@ -71,9 +71,10 @@ TEXT STYLES
 }
 
 /* Removes the auto-added external link span to stop it from messing up our layouts */
+/* Commenting this out temporarily to see if it fixes our external-links-disappearing-on-click issue
 .kl_wrapper a.external:active span, .kl_wrapper a.external:focus span {
 	display:none;!important;
-}
+} */
 
 
 /* Body text heading styles */

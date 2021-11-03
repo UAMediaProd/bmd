@@ -500,7 +500,7 @@ div.module-item-title span[title="Clinical Practice"]:before {
 }
 
 .kl_wrapper .rocc_learning_outcomes ul {
-	padding: 0.625rem 0.625rem 0.625rem 2.5rem;
+	padding: 0.625rem 0.625rem 0.625rem 0;
 }
 
 .kl_wrapper .rocc_learning_outcomes ul li{
@@ -513,7 +513,7 @@ div.module-item-title span[title="Clinical Practice"]:before {
 }
 
 .kl_wrapper .rocc_learning_outcomes ol {
-	padding: 0.625rem 0.625rem 0.625rem 0;
+	padding: 0.625rem 0.625rem 0.625rem 2.5rem;
 }
 
 .kl_wrapper .rocc_learning_outcomes ol li{

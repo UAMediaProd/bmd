@@ -1441,25 +1441,27 @@ a.nav_list {
 }
 
 .rocc_roadmap_details {
-	padding-bottom:50px;
+    padding-bottom:50px;
 }
 
 .rocc_roadmap_details h2 {
-	font-size: 1.5rem;
+    font-size: 1.5rem;
     color: var(--rocc_primary);
     border-bottom: 2px solid var(--rocc_primary)!important;
     display: inherit;
 }
 
 .rocc_roadmap_details p {
-	margin: 0px 0px 10px;
+    margin: 0px 0px 10px;
     font-family: 'MADE Evolve Sans';
     font-size: 1.2rem;
+	padding-left:40px;
 }
 
 .rocc_roadmap_details img {
-	width: 30px;
+    width: 30px;
     margin-right: 10px;
+    margin-left:-40px;
 }
 
 

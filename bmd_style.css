@@ -512,7 +512,7 @@ div.module-item-title span[title="Clinical Practice"]:before {
 	font-size: 1.5rem;
 }
 
-kl_wrapper .rocc_learning_outcomes ol {
+.kl_wrapper .rocc_learning_outcomes ol {
 	padding: 0.625rem 0.625rem 0.625rem 0;
 }
 
@@ -522,7 +522,7 @@ kl_wrapper .rocc_learning_outcomes ol {
 
 .kl_wrapper .rocc_learning_outcomes ol li::marker {
   color: var(--rocc_secondary);
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	font-weight: bold;
 }
 

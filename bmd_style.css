@@ -1238,6 +1238,7 @@ text-decoration:none;
 
 .kl_wrapper .rocc_nav_group_container {
 	padding:0px 0;
+	min-height:150px;
 }
 
 .kl_wrapper .rocc_nav_group_heading {
@@ -1253,7 +1254,6 @@ text-decoration:none;
 }
 
 .kl_wrapper .rocc_nav_group_button {
-	background-color: var(--rocc_secondary);
 	padding: 10px 10px 10px 10px;
 	height:100%;
 	min-height:129px;

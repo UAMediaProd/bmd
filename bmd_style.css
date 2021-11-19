@@ -1228,6 +1228,64 @@ text-decoration:none;
 }
 
 
+
+/* Program Level Naviation Styling */
+
+.kl_wrapper .rocc_nav_group .bs-col-md, .kl_wrapper .rocc_nav_group .bs-col-md-4 {
+  padding-left:0px;
+  padding-right:0px;
+}
+
+.kl_wrapper .rocc_nav_group_container {
+	padding:0px 0;
+}
+
+.kl_wrapper .rocc_nav_group_heading {
+	background: #102535;
+	height: auto;
+	color: white;
+	padding: 8px;
+	font-weight: bold;
+}
+
+.kl_wrapper .rocc_nav_group_content {
+	padding:10px;
+}
+
+.kl_wrapper .rocc_nav_group_button {
+	background-color: var(--rocc_secondary);
+	padding: 10px 10px 10px 10px;
+	height:100%;
+	min-height:129px;
+ 	transition: 0.4s;
+}
+
+
+.kl_wrapper .rocc_nav_group_container h2 {
+	color: var(--rocc_primary);
+    	font-size: 1.5rem;
+	margin:0;
+	padding-bottom: 5px;
+}
+
+.kl_wrapper .rocc_nav_group_container h4 {
+  	font-size: 1rem;
+	line-height: 1.2rem;
+}
+
+.kl_wrapper .rocc_nav_group p {
+	margin: 0px 0 7px 0 !important;
+}
+
+@media only screen and (max-width:1200px) {
+	.kl_wrapper .rocc_nav_group_button {
+	padding: 15px 10px 5px 10px;
+ 	border-width: 0.937rem 1px 1px 1px;
+	min-height:104px;
+}
+}
+
+
 /*----Navigation Bar----*/
 
 .kl_basic_navlist {

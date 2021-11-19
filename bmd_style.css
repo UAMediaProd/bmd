@@ -1236,12 +1236,12 @@ text-decoration:none;
   padding-right:5px;
 }
 
-.kl_wrapper .rocc_nav_group_container {
-	top-padding:10px 0;
-	min-height:150px;
+.kl_wrapper .rocc_nav_group_button_container {
+	height:100%;
+	padding:10px 0;
 }
 
-.kl_wrapper .rocc_nav_group_heading {
+.kl_wrapper .rocc_nav_group_button_heading {
 	background: #102535;
 	height: auto;
 	color: white;
@@ -1249,31 +1249,37 @@ text-decoration:none;
 	font-weight: bold;
 }
 
-.kl_wrapper .rocc_nav_group_content {
+.kl_wrapper .rocc_nav_group_button_content {
 	padding:10px;
 }
 
 .kl_wrapper .rocc_nav_group_button {
-	padding: 10px 15px 10px 15px;
+	color: var(--rocc_primary);
+	margin: 5px 0;
+	padding: 10px 10px 10px 10px;
 	height:100%;
 	min-height:129px;
  	transition: 0.4s;
+	background-color: grey;
 }
 
+.kl_wrapper .rocc_nav_group_button:hover {
+	border-color: var(--rocc_secondary) ;
+}
 
-.kl_wrapper .rocc_nav_group_container h2 {
+.kl_wrapper .rocc_nav_group_button_container h2 {
 	color: var(--rocc_primary);
     	font-size: 1.5rem;
 	margin:0;
 	padding-bottom: 5px;
 }
 
-.kl_wrapper .rocc_nav_group_container h4 {
+.kl_wrapper .rocc_nav_group_button_container h4 {
   	font-size: 1rem;
 	line-height: 1.2rem;
 }
 
-.kl_wrapper .rocc_nav_group p {
+.kl_wrapper .rocc_nav_group_button p {
 	margin: 0px 0 7px 0 !important;
 }
 

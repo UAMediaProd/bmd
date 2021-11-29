@@ -413,6 +413,40 @@ div.module-item-title span[title="Science and Scholarship"]:before, div.module-i
 	background-repeat: no-repeat;
 }
 
+div.module-item-title span[title="Science and Scholarship (Nervous System)"], div.module-item-title span[title="Practicals, Workshops and Seminars"] {
+	padding: 10px 32px;
+	color: var(--domain_ss_color)!important;
+}
+
+div.module-item-title span[title="Science and Scholarship (Nervous System)"]:before, div.module-item-title span[title="Practicals, Workshops and Seminars"]:before {
+	content:'';
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-colour.svg');
+	background-size: 20px 29px;
+	height: 20px;
+	width: 20px;
+	padding-top: 5px;
+	margin-left: -28px;
+	position: absolute;
+	background-repeat: no-repeat;
+}
+
+div.module-item-title span[title="Science and Scholarship (Musculoskeletal)"], div.module-item-title span[title="Practicals, Workshops and Seminars"] {
+	padding: 10px 32px;
+	color: var(--domain_ss_color)!important;
+}
+
+div.module-item-title span[title="Science and Scholarship (Musculoskeletal)"]:before, div.module-item-title span[title="Practicals, Workshops and Seminars"]:before {
+	content:'';
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-colour.svg');
+	background-size: 20px 29px;
+	height: 20px;
+	width: 20px;
+	padding-top: 5px;
+	margin-left: -28px;
+	position: absolute;
+	background-repeat: no-repeat;
+}
+
 div.module-item-title span[title="Health and Society"] {
 	padding: 10px 32px;
 	color: var(--domain_hs_color)!important;

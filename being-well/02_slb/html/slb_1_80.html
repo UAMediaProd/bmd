@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<!--
+ * Project   : Being Well, Living Well (BWLW_AUS)
+ * Version   : 1.0.0
+ * Release   : Tue Jul 21 2020 15:19:45 GMT+0100 (British Summer Time)
+ * Copyright : Oxford University Press / Epigeum
+-->
+
+<html data-programme="Being Well, Living Well" data-course="Living Well">
+
+	<head>
+		<title>Action plan</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/424/course_files/css/project.min.css">
+		<link id="basic-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/424/course_files/css/print.min.css" disabled>
+		<link id="summary-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/424/course_files/css/print_interactive.min.css">
+	</head>
+
+	<body>
+	  
+		<div id="app" v-cloak>
+			<base-container
+				screen-id="slb_1_80"
+				current-module = "Module 2: Study-life balance "
+				page-title = "Action plan"
+				screen-time = "3"
+				screen-time-period = "mins">
+
+				<page-container>
+					
+					<page-row>
+						<page-content-sidebar>
+                            
+                            <!-- OPTIONAL COURSE EVALUATION START -->
+							<pod variant="q" has-modal="true">
+								<pod-heading>Module evaluation</pod-heading> <!-- pod title -->
+								<pod-content></pod-content>
+								<!-- pop-up pod content -->
+								<pod-modal-heading>Module evaluation (optional)</pod-modal-heading>
+								<pod-modal-content>
+									<p><a href="https://www.epigeum.com/downloads/hosted_content/BWLW_AUS/survey/bwlw_aus_survey.html" target="_blank">Click here</a> to help develop and improve this course by providing some brief feedback (anonymously, of course). Please note that completing this survey is entirely optional. However, your input would be very welcome.</p>
+								</pod-modal-content>
+							</pod>
+							<!-- OPTIONAL COURSE EVALUATION END -->
+                            
+                        </page-content-sidebar>
+						
+						<page-content-main>
+
+							<p>This module has focused on maintaining a study-life balance, and on including sleep as a part of that balance. Use this action plan to think about what you already feel satisfied with and do well in this balance, and then focus on the areas you want to do more with.</p>
+
+							<instructional-text><p>Two ideas have already been entered that you can choose to include, and there are five more spaces in which you can add your own topics. After each entry, click on the 'Plus' symbol to record your choice. If you want to stop before you reach ten, just click 'Plus' to make sure your last entry is recorded, and then read the feedback.</p></instructional-text>
+							<instructional-text-accessible><p>List up to five steps you want to take to improve your study-life balance. For example, you might want to turn off your notifications at night to reduce sleep disturbance.</p></instructional-text-accessible>
+							<br>
+
+							<!-- ACTIVITY START -->
+							<shopping-list max-num-items="10" input-position="below">
+								<shopping-list-item allow-delete="true">Fill in my time budget calculator, and then review and commit to making three positive changes to how I use my time</shopping-list-item>
+								<shopping-list-item allow-delete="true">Turn my notifications off at night to reduce sleep disturbance </shopping-list-item>
+								<shopping-list-summary-footer>
+									<h4>Feedback:</h4>
+									<p>Identifying areas that you want to improve is a great first step. There are lots of ways to take this further:</p>
+									<ul>
+										<li>Take up some of the suggestions in this module</li>
+										<li>Look at the <em>Resource bank</em> screen for more ideas</li>
+										<li>Talk to friends and family about the changes you might like to make</li>
+										<li>Contact student services for further guidance.</li>
+									</ul>
+									<p>It can be really helpful to share your plans with someone and get their encouragement and support.</p>
+								</shopping-list-summary-footer>
+							</shopping-list>
+							<!-- feedback -->
+							<feedback-reveal>
+								<p>Identifying areas that you want to improve is a great first step. There are lots of ways to take this further:</p>
+								<ul>
+									<li>Take up some of the suggestions in this module</li>
+									<li>Look at the <em>Resource bank</em> screen for more ideas</li>
+									<li>Talk to friends and family about the changes you might like to make</li>
+									<li>Contact student services for further guidance.</li>
+								</ul>
+								<p>It can be really helpful to share your plans with someone and get their encouragement and support.</p>
+							</feedback-reveal>
+							<!-- ACTIVITY END -->
+
+							<p>Life is always changing, and your plans will change too as you adapt to each new stage. Achieving the right study-life balance really is a journey, not a destination. If you equip yourself now with the skills to know yourself, and to keep yourself well in all the varying demands of student life, this will stand you in good stead after university too.</p>
+
+						</page-content-main>
+					</page-row>
+					
+				</page-container>
+			</base-container>
+		</div> <!-- END content wrapper -->
+
+		<!-- scripts -->
+		<script src="https://courses.epigeum.com/materials/platform/424/course_files/js/vendor.min.js"></script>
+		<script src="https://courses.epigeum.com/materials/platform/424/course_files/js/vue-components.min.js"></script>
+		<script>
+			new Vue({
+			  el: "#app",
+			  data: {},
+			  mounted: function () {
+				var core = document.createElement('script');
+				core.src = "https://courses.epigeum.com/materials/platform/424/course_files/js/core.min.js";
+				document.getElementsByTagName('head')[0].appendChild(core);
+
+				var project = document.createElement('script');
+				project.src = "https://courses.epigeum.com/materials/platform/424/course_files/js/project.min.js";
+				document.getElementsByTagName('head')[0].appendChild(project);
+			  }
+			});
+		</script>
+
+	</body>
+</html>

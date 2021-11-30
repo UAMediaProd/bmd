@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+
+<!--
+ * Project   : Being Well, Living Well (BWLW_AUS)
+ * Version   : 1.0.0
+ * Release   : Tue Jul 21 2020 15:19:45 GMT+0100 (British Summer Time)
+ * Copyright : Oxford University Press / Epigeum
+-->
+
+<html data-programme="Being Well, Living Well" data-course="Spending Well">
+
+	<head>
+		<title>Daily expenditure</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/440/course_files/css/project.min.css">
+		<link id="basic-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/440/course_files/css/print.min.css" disabled>
+		<link id="summary-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/440/course_files/css/print_interactive.min.css">
+	</head>
+
+	<body>
+	  
+		<div id="app" v-cloak>
+			<base-container
+				screen-id="lco_1_40"
+				current-module = "Module 3: Living costs"
+				page-title = "Daily expenditure"
+				screen-time = "3"
+				screen-time-period = "mins">
+
+				<page-container>
+
+					<page-row>
+						<page-content-main>
+
+							<p>As well as accommodation costs and bill payments, you will also be spending money on food, clothing, books for your course, and other day-to-day items. Keeping an eye on your budget is crucial to managing these payments. This screen aims to help you think about smart purchasing options, and provide tips on avoiding impulse purchases.</p>
+							
+							<instructional-text><p>Make a list in the calculator of all the things that you will need to buy on a day-to-day basis, and attach a rough weekly cost to each item. The calculator will then show a weekly and monthly total.</p></instructional-text>
+
+						</page-content-main>
+					</page-row>
+
+					<page-row>
+						<page-content-main>
+
+							<instructional-text-accessible>
+								<p>Make a list in the calculator of all the things that you will need to buy on a day-to-day basis, and attach a rough weekly cost to each item. The calculator will then show a weekly and monthly total.</p>
+								<p>You will need a calculator for this activity. Make a list of all the things you will need to buy on a day-to-day basis using the items in the sample table provided as a guide. Estimate a rough weekly amount for each item.</p>
+								<p>You will use these estimates to calculate your weekly and monthly expenditures:</p>
+								<ul>
+									<li>To calculate your weekly total, add together the total cost of the items you've identified. </li>
+									<li>To calculate your monthly total, multiply your total weekly cost by 52 and divide this number by 12.</li>
+								</ul>
+								<p>Once you have your totals, continue on for some feedback.</p>
+							</instructional-text-accessible>
+
+							<!-- ACTIVITY START -->
+							<activity id="lco_1_40" class="lco_1_40 remove-accessible">
+								<table class="table table-bordered">
+									<thead>
+										<tr class="header-row">
+											<th>Item</th>
+											<th>Weekly</th>
+											<th>Fortnightly</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr class="calculate-row user-input-row">
+											<td>Groceries</td>
+											<td class="weekly-item-cell"><input type="text" value="0.00" /></td>
+											<td class="monthly-item-cell">0.00</td>
+										</tr>
+										<tr class="calculate-row user-input-row">
+											<td>Toiletries</td>
+											<td class="weekly-item-cell"><input type="text" value="0.00" /></td>
+											<td class="monthly-item-cell">0.00</td>
+										</tr>
+										<tr class="calculate-row user-input-row">
+											<td>Clothes</td>
+											<td class="weekly-item-cell"><input type="text" value="0.00" /></td>
+											<td class="monthly-item-cell">0.00</td>
+										</tr>
+										<tr class="calculate-row user-input-row">
+											<td>Laundry costs</td>
+											<td class="weekly-item-cell"><input type="text" value="0.00" /></td>
+											<td class="monthly-item-cell">0.00</td>
+										</tr>
+										<tr class="calculate-row user-input-row">
+											<td>Social activities</td>
+											<td class="weekly-item-cell"><input type="text" value="0.00" /></td>
+											<td class="monthly-item-cell">0.00</td>
+										</tr>
+										<tr class="calculate-row user-input-row">
+											<td>Course books and materials</td>
+											<td class="weekly-item-cell"><input type="text" value="0.00" /></td>
+											<td class="monthly-item-cell">0.00</td>
+										</tr>
+										<tr class="calculate-row user-input-row">
+											<td>Travel (e.g. bus fare or petrol)</td>
+											<td class="weekly-item-cell"><input type="text" value="0.00" /></td>
+											<td class="monthly-item-cell">0.00</td>
+										</tr>
+										<tr class="calculate-row user-input-row">
+											<td>Mobile phone</td>
+											<td class="weekly-item-cell"><input type="text" value="0.00" /></td>
+											<td class="monthly-item-cell">0.00</td>
+										</tr>
+										<tr class="add-row">
+											<td colspan="5"><button class="btn btn-primary btn-add-row">Add row</button></td>
+										</tr>
+										<tr class="totals-row">
+											<td>Grand total</td>
+											<td class="weekly-total-cell"></td>
+											<td class="monthly-total-cell"></td>
+										</tr>
+									</tbody>
+								</table>
+							</activity>
+							<!-- ACCESSIBLE START -->
+							<accessible-block>
+								<table class="table table-bordered">
+									<thead>
+										<tr class="header-row">
+											<th>Item</th>
+											<th>Weekly</th>
+											<th>Fortnightly</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Groceries</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Toiletries</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Clothes</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Laundry costs</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Social activities</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Course books and materials</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Travel (e.g. bus fare or petrol)</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Mobile phone</td>
+											<td></td>
+											<td></td>
+										</tr>
+									</tbody>
+								</table>
+								<hr>
+								<h4>Feedback:</h4>
+								<p>Have you included subscriptions to things like Netflix and Spotify, if you use them? How about gym membership, trips home, university society fees and phone contracts? You might like to put a sum in for Christmas and birthday presents and treats for yourself (use the 'Other' row).</p>
+								<p>For more information on creating a budget, see the module titled: <em>Financial awareness</em>. The great thing about building a budget is that you can tweak it to make it work for you, particularly if you have a busy month of social activities coming up, or you are working fewer hours at a part-time job, for example.</p>
+							</accessible-block>
+							<!-- ACCESSIBLE END -->
+							<!-- feedback -->
+							<interactive-text>
+								<feedback-reveal>
+									<p>Have you included subscriptions to things like Netflix and Spotify, if you use them? How about gym membership, trips home, university society fees and phone contracts? You might like to put a sum in for Christmas and birthday presents and treats for yourself (use the 'Other' row).</p>
+									<p>For more information on creating a budget, see the module titled: <em>Financial awareness</em>. The great thing about building a budget is that you can tweak it to make it work for you, particularly if you have a busy month of social activities coming up, or you are working fewer hours at a part-time job, for example.</p>
+								</feedback-reveal>
+							</interactive-text>
+							<!-- ACTIVITY END -->
+
+							<p>Smart purchasing decisions on a day-to-day basis can make a big difference to your weekly spend, and the health of your overall finances.</p>
+							<p>See the <em>'Students say'</em> pod for video interviews with students about how they manage their budgets.</p>
+							
+						</page-content-main>
+					</page-row>
+
+					<page-row>
+						<page-content-main>
+
+							<instructional-text class="hide-in-mobile"><p>Consider each of the situations and decide which option is the best choice. Then click for feedback.</p></instructional-text>
+							<instructional-text-accessible class="show-in-mobile"><p>In the following activity, consider each of the situations and decide which option is the best choice. Then continue on for feedback.</p></instructional-text-accessible>
+							
+							<!-- ACTIVITY START -->
+							<process class="show-in-mobile" restart="true" score="true" variant="mcq">
+								<process-page>
+									<mcq>
+										<mcq-question>
+											<img show-in-accessible-version="false" src="https://courses.epigeum.com/materials/platform/440/course_files/images/activity_images/course_specific/lco_1_40_img1.png" class="img-responsive" />
+											<p>Yasmin has stopped at the supermarket to buy her main meal for the day. She has some ingredients at home but doesn't feel like cooking, even though she is low on money. What should she buy?</p>
+										</mcq-question>
+										<mcq-options>
+											<mcq-option neutral>
+												<mcq-answer>A supermarket home brand ready meal</mcq-answer>
+												<mcq-feedback>Ready meals are quick and easy, but will be more expensive in the long run. They may not be the best nutritional choice either. Yasmin should save these for when she is really busy.</mcq-feedback>
+											</mcq-option>
+											<mcq-option neutral>
+												<mcq-answer>Nothing. Get a takeaway</mcq-answer>
+												<mcq-feedback>Tempting and convenient, but expensive! An occasional takeaway is a treat and can brighten a bad day, but buy them too often and Yasmin's budget will be swallowed up.</mcq-feedback>
+											</mcq-option>
+											<mcq-option correct>
+												<mcq-answer>A new pasta sauce that's on special</mcq-answer>
+												<mcq-feedback>A great option, as Yasmin will save some money and she can cook some of the pasta she has at home. She could add some vegetables that are on special too for a quick, relatively healthy meal. She may even have some leftovers for later in the week.</mcq-feedback>
+											</mcq-option>
+											<mcq-option neutral>
+												<mcq-answer>A tin of beans and a loaf of bread </mcq-answer>
+												<mcq-feedback>Beans on toast is great, cheap, comfort food but may not be sufficient as a main meal. Will Yasmin use the bread up over the week or will it go to waste?</mcq-feedback>
+											</mcq-option>
+										</mcq-options>
+									</mcq>
+								</process-page>
+								<process-page>
+									<mcq>
+										<mcq-question>
+											<img show-in-accessible-version="false" src="https://courses.epigeum.com/materials/platform/440/course_files/images/activity_images/course_specific/lco_1_40_img2.png" class="img-responsive" />
+											<p>Iqbal has just been sent his mobile phone bill, but he can't afford to pay it. He got the contract before he came to university, and even though the phone is old, the bill is still &dollar;40 a month. Does Iqbal have any options?</p>
+										</mcq-question>
+										<mcq-options>
+											<mcq-option neutral>
+												<mcq-answer>Yes, he can just stop paying his contract</mcq-answer>
+												<mcq-feedback>Incorrect. An easy option, but if Iqbal stops paying a contract without notice, he will be in breach of the contract and could end up being chased for non-payment or, in the worst case, be referred to a debt collector. He should talk to the organisation immediately and discuss payment options.</mcq-feedback>
+											</mcq-option>
+											<mcq-option neutral>
+												<mcq-answer>No, he's tied into his contract and will get a new, even better phone soon anyway</mcq-answer>
+												<mcq-feedback>Maybe. The contract terms and conditions may include a clause for early termination. Iqbal should work out the cost of leaving the contract against the cost of moving to a cheap pay-as-you-go phone for the rest of the contract term, and whether the replacement phone will meet his needs.</mcq-feedback>
+											</mcq-option>
+											<mcq-option correct>
+												<mcq-answer>Yes, he can try and switch or renegotiate his contract</mcq-answer>
+												<mcq-feedback>It's always worth talking to the mobile phone provider about alternatives mid-contract, especially if affordability is an issue. Iqbal may have to swap to an older handset, but he could save a lot of money.</mcq-feedback>
+											</mcq-option>
+											<mcq-option neutral>
+												<mcq-answer>Yes, he can keep the phone but will need to make savings elsewhere</mcq-answer>
+												<mcq-feedback>Maybe. Iqbal can't see himself with a different phone &ndash; his whole life is on this device! When something is such a priority, then savings need to be found elsewhere. He could review outgoings for other non-essential payments, such as streaming services, and weigh up which is more important.</mcq-feedback>
+											</mcq-option>
+										</mcq-options>
+									</mcq>
+								</process-page>
+								<process-page>
+									<mcq>
+										<mcq-question>
+											<img show-in-accessible-version="false" src="https://courses.epigeum.com/materials/platform/440/course_files/images/activity_images/course_specific/lco_1_40_img3.png" class="img-responsive" />
+											<p>It's the end of term and Ben's housemates want to go out to town to celebrate. Ben is already in his overdraft and can't really afford it, but he doesn't want to let his friends down or miss out on a good night. Should he go out?</p>
+										</mcq-question>
+										<mcq-options>
+											<mcq-option neutral>
+												<mcq-answer>Yes, it will be worth it and his pay comes in next week</mcq-answer>
+												<mcq-feedback>Incorrect. By continuing to build up his overdraft, when Ben's next pay comes in it will just go towards paying the overdraft and he will be no better off. He needs to keep his overdraft to a minimum and try to increase his income.</mcq-feedback>
+											</mcq-option>
+											<mcq-option neutral>
+												<mcq-answer>No, he should say he's not feeling well and stay at home</mcq-answer>
+												<mcq-feedback>Incorrect. Whilst staying at home is a good option, being dishonest about the reason is not a great idea. Apart from anything else it might make him feel even worse. Ben should talk to his friends about his situation. They may come up with a more affordable way to celebrate, that includes everyone.</mcq-feedback>
+											</mcq-option>
+											<mcq-option correct>
+												<mcq-answer>Yes, but he should tell his friends that he can only spend a minimum amount</mcq-answer>
+												<mcq-feedback>This way, Ben can still go out, but his friends will know that he needs to be careful about what he's spending. They could check out places with student offers to keep costs down.</mcq-feedback>
+											</mcq-option>
+											<mcq-option neutral>
+												<mcq-answer>No, he needs to be honest with his friends and himself</mcq-answer>
+												<mcq-feedback>Maybe. Being honest is a good policy. It is likely that others are in the same boat and this may prompt a discussion about whether they can have an alternative celebration that would be cheaper all round.</mcq-feedback>
+											</mcq-option>
+										</mcq-options>
+									</mcq>
+								</process-page>
+								<process-page>
+									<mcq>
+										<mcq-question>
+										<img show-in-accessible-version="false" src="https://courses.epigeum.com/materials/platform/440/course_files/images/activity_images/course_specific/lco_1_40_img4.png" class="img-responsive" />
+											<p>Jo has received an email offering a free TV streaming subscription for three months. Should she sign up?</p>
+										</mcq-question>
+										<mcq-options>
+											<mcq-option neutral>
+												<mcq-answer>Yes, what's there to lose?</mcq-answer>
+												<mcq-feedback>Incorrect. It looks like a great offer and it's free &ndash; or is it? Jo must check the terms and conditions and whether her bank or card details are needed in order to sign up. If so, Jo can expect to be charged at the end of the 'free' period unless she cancels within the stated notice period.</mcq-feedback>
+											</mcq-option>
+											<mcq-option neutral>
+												<mcq-answer>No, this is a con and it will mean she gets caught in a contract</mcq-answer>
+												<mcq-feedback>Maybe. It's always a good idea to check out 'free offers' and make sure they are legitimate. If it is legitimate, there may well be a catch. Jo should check how long she is signing up for, whether she can cancel and how much she has to pay if she doesn't cancel.</mcq-feedback>
+											</mcq-option>
+											<mcq-option correct>
+												<mcq-answer>Yes, she can review her use before she has to start paying</mcq-answer>
+												<mcq-feedback>If Jo is smart she can sign up, put a reminder in her diary to cancel before the fees are due, and make sure she cancels any automatic payments she may have set up. These offers are designed to make it hard to give up the freebie. Can Jo afford the subscription if she decides she can't live without the service?</mcq-feedback>
+											</mcq-option>
+											<mcq-option neutral>
+												<mcq-answer>No, she can't afford it when the charges start</mcq-answer>
+												<mcq-feedback>Maybe. Whilst the offer is tempting and appears to be free, Jo knows that she can't afford the extra fortnightly fee based on her current commitments. If she signs up she might be tempted not to cancel at the end of the free period and then her finances will be pushed to the limit.</mcq-feedback>
+											</mcq-option>
+										</mcq-options>
+									</mcq>
+								</process-page>
+								<process-page>
+									<mcq>
+										<mcq-question>
+											<img show-in-accessible-version="false" src="https://courses.epigeum.com/materials/platform/440/course_files/images/activity_images/course_specific/lco_1_40_img5.png" class="img-responsive" />
+											<p>It's late at night, and Talia is feeling low and can't sleep. She has received an email alerting her to a price reduction on an expensive pair of trainers that she had considered buying a few weeks ago. Should she buy them now?</p>
+										</mcq-question>
+										<mcq-options>
+											<mcq-option neutral>
+												<mcq-answer>Yes, it will cheer her up</mcq-answer>
+												<mcq-feedback>Incorrect. Talia is feeling low and she hasn't had much sleep. A decision to suddenly buy an expensive item is likely to be one that she will regret, especially when she sees her bank balance tomorrow. If impulse purchasing is something you are prone to, try and understand the triggers and adopt strategies to help prevent you from making expensive decisions.</mcq-feedback>
+											</mcq-option>
+											<mcq-option correct>
+												<mcq-answer>No, she didn't need them a few weeks ago so doesn't need them now</mcq-answer>
+												<mcq-feedback>This is the rational answer, but research (Murray, N. 2017) has shown that impulse purchases are more likely to occur when someone is feeling low. It is also late at night, when there are fewer distractions. Talia should try to work out a strategy for dealing with these situations, as she is prone to impulse spending.</mcq-feedback>
+											</mcq-option>
+											<mcq-option neutral>
+												<mcq-answer>Yes, she can always return them if she changes her mind</mcq-answer>
+												<mcq-feedback>Maybe. Talia may feel strong enough to return the trainers when she receives them and has had a longer opportunity to consider the purchase. Research (Murray, 2017) suggests that shoppers struggle to return purchases they later regret.</mcq-feedback>
+											</mcq-option>
+											<mcq-option neutral>
+												<mcq-answer>No, she should wait until the morning at least</mcq-answer>
+												<mcq-feedback>Maybe. It is a good tactic to stall a hasty purchase decision, which Talia may regret later. Talia will have had time to think about the financial consequences of making this purchase and whether she can afford the trainers. Any strategy that prevents impulse buying and gives you time to think can be beneficial in sticking to your budget.</mcq-feedback>
+											</mcq-option>
+										</mcq-options>
+									</mcq>
+								</process-page>
+							</process>
+							<!-- feedback -->
+							<feedback-reveal>
+								<h4>Feedback</h4>
+								<p><strong>4&ndash;5 Best answers</strong></p>
+								<p>You've thought about the consequences of these decisions and been smart. You have a good idea of how to save your money.</p>
+								<hr>
+								<p><strong>2&ndash;3 Best answers</strong></p>
+								<p>You have made some good decisions but there are some tricky ones here. You may want to review the answers to get some more feedback.</p>
+								<hr>
+								<p><strong>0&ndash;1 Best answers</strong></p>
+								<p>Read through the feedback again and see if you can rethink your answers to some of these questions. You may find it tricky to stick with some of the suggestions &ndash; is this something you can work on?</p>
+							</feedback-reveal>
+							<!-- ACTIVITY END -->
+
+							<p>When you are considering any purchase, try to take a moment and ask yourself: "Do I need it?", "Can I afford it?" and "Can I find It cheaper elsewhere?"</p>
+							<p>If you feel that you may be prone to overspending, see the <em>'Useful links'</em> pod for links to further resources.</p>
+
+						</page-content-main>
+
+						<page-content-sidebar>
+
+							<!-- STUDENT SAY START -->
+                            <pod variant="e" has-modal="true">
+								<pod-heading>Students say</pod-heading>
+								<pod-content></pod-content>
+								<!-- pop-up pod content -->
+								<pod-modal-heading>Students say</pod-modal-heading>
+								<pod-modal-content>
+									<instructional-text><p>Watch the video below to see students share their tips for saving money while studying.</p></instructional-text>
+									<accessible-text><p>Continue on to hear from students about sharing tips for saving money while studying.</p></accessible-text>
+									<!-- VIDEO START -->
+									<media type="video">
+										<media-video
+											video-src="https://player.vimeo.com/external/428491465.hd.mp4?s=006b92184ba4ffe60b5eb48491206433fba874ec&profile_id=175"
+											captions-src="https://courses.epigeum.com/materials/platform/440/course_files/media/video/lco_1_40_vid1_captions.vtt"
+											transcript-src="https://courses.epigeum.com/materials/platform/440/course_files/media/video/lco_1_40_vid1_transcript.vtt">
+										</media-video>
+									</media>
+									<!-- VIDEO END -->
+								</pod-modal-content>
+							</pod>
+							<!-- STUDENTS SAY END -->
+
+							<!-- USEFUL LINKS START -->
+                            <pod variant="b" has-modal="true">
+								<pod-heading>Useful links</pod-heading>
+								<pod-content></pod-content>
+								<!-- pop-up pod content -->
+								<pod-modal-heading>Useful links</pod-modal-heading>
+								<pod-modal-content>
+									<hosted-link id="BWLW_AUS_lco_1_40_2">
+										<p>If you feel that you may be prone to overspending, check out this article on <a href="https://www.money.com.au/how-to-spend-less" target="_blank">how to reduce your spending and save money every day</a>.</p>
+									</hosted-link>
+								</pod-modal-content>
+							</pod>
+							<!-- USEFUL LINKS END -->
+
+						</page-content-sidebar>
+					</page-row>
+					
+				</page-container>
+			</base-container>
+		</div> <!-- END content wrapper -->
+
+		<!-- scripts -->
+		<script src="https://courses.epigeum.com/materials/platform/440/course_files/js/vendor.min.js"></script>
+		<script src="https://courses.epigeum.com/materials/platform/440/course_files/js/vue-components.min.js"></script>
+		<script>
+			new Vue({
+			  el: "#app",
+			  data: {},
+			  mounted: function () {
+				var core = document.createElement('script');
+				core.src = "https://courses.epigeum.com/materials/platform/440/course_files/js/core.min.js";
+				document.getElementsByTagName('head')[0].appendChild(core);
+
+				var project = document.createElement('script');
+				project.src = "https://courses.epigeum.com/materials/platform/440/course_files/js/project.min.js";
+				document.getElementsByTagName('head')[0].appendChild(project);
+			  }
+			});
+		</script>
+
+	</body>
+</html>

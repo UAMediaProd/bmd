@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<!--
+ * Project   : Being Well, Living Well (BWLW_AUS)
+ * Version   : 1.0.0
+ * Release   : Tue Jul 21 2020 15:19:45 GMT+0100 (British Summer Time)
+ * Copyright : Oxford University Press / Epigeum
+-->
+
+<html data-programme="Being Well, Living Well" data-course="Spending Well">
+
+	<head>
+		<title>Module Summary</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/440/course_files/css/project.min.css">
+		<link id="basic-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/440/course_files/css/print.min.css" disabled>
+		<link id="summary-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/440/course_files/css/print_interactive.min.css">
+	</head>
+
+	<body>
+	  
+		<div id="app" v-cloak>
+			<base-container
+				screen-id="lco_1_60"
+				current-module = "Module 3: Living costs"
+				page-title = "Module Summary"
+				screen-time = "3"
+				screen-time-period = "mins">
+
+				<page-container>
+
+					<page-row>
+						<page-content-main>
+
+							<p>We've covered a lot of information in this module, from accommodation options, through to managing bills, and funding opportunities for students.</p>
+
+							<instructional-text><p>Click 'Next' to build up a summary of the topics covered in this module.</p></instructional-text>
+							<accessible-text><p>Continue on for a summary of the topics covered in this module.</p></accessible-text>
+
+							<!-- ACTIVITY START -->
+							<checklist>
+								<check-item>Accommodation options &ndash; what suits your lifestyle and budget best?</check-item>
+								<check-item>Renting for the first time &ndash; getting to grips with the jargon</check-item>
+								<check-item>Accommodation costs &ndash; the total cost of renting</check-item>
+								<check-item>Different ways of managing bills</check-item>
+								<check-item>Strategies for dealing with problems with bills</check-item>
+								<check-item>Budgeting for your daily expenses</check-item>
+								<check-item>Making smart purchasing decisions</check-item>
+								<check-item>Exploring all your funding and income options</check-item>
+								<check-item>Making up a shortfall between income and expenditure.</check-item>
+							</checklist>
+							<!-- ACTIVITY END -->
+
+							<p>Take a moment to refresh your understanding of the learning, and look back over any topics you might like to review.</p>
+							
+						</page-content-main>
+					</page-row>					
+					
+				</page-container>
+			</base-container>
+		</div> <!-- END content wrapper -->
+
+		<!-- scripts -->
+		<script src="https://courses.epigeum.com/materials/platform/440/course_files/js/vendor.min.js"></script>
+		<script src="https://courses.epigeum.com/materials/platform/440/course_files/js/vue-components.min.js"></script>
+		<script>
+			new Vue({
+			  el: "#app",
+			  data: {},
+			  mounted: function () {
+				var core = document.createElement('script');
+				core.src = "https://courses.epigeum.com/materials/platform/440/course_files/js/core.min.js";
+				document.getElementsByTagName('head')[0].appendChild(core);
+
+				var project = document.createElement('script');
+				project.src = "https://courses.epigeum.com/materials/platform/440/course_files/js/project.min.js";
+				document.getElementsByTagName('head')[0].appendChild(project);
+			  }
+			});
+		</script>
+
+	</body>
+</html>

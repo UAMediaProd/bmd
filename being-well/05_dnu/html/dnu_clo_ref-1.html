@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<!--
+ * Project   : Being Well, Living Well (BWLW_AUS)
+ * Version   : 1.0.0
+ * Release   : Tue Jul 21 2020 15:19:45 GMT+0100 (British Summer Time)
+ * Copyright : Oxford University Press / Epigeum
+-->
+
+<html data-programme="Being Well, Living Well" data-course="Living Well">
+
+	<head>
+		<title>References</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="../css/project.min.css">
+		<link id="basic-print" rel="stylesheet" type="text/css" href="../css/print.min.css" disabled>
+		<link id="summary-print" rel="stylesheet" type="text/css" href="../css/print_interactive.min.css">
+	</head>
+
+	<body>
+	  
+		<div id="app" v-cloak>
+			<base-container
+				screen-id="dnu_clo_ref"
+				current-module = "Module 5: Eating well"
+				page-title = "References"
+				screen-time = "5"
+				screen-time-period = "mins">
+
+				<page-container>
+					
+					<page-row>						
+						<page-content-wide>
+
+							<hosted-link id="BWLW_AUS_dnu_clo_ref">
+								
+								<p><strong>National Health and Medical Research Council</strong> (2013) Australian dietary guidelines. Canberra: NHMRC; 2013. Available online: <a href="https://www.eatforhealth.gov.au/guidelines/australian-dietary-guidelines-1-5" target="_blank">https://www.eatforhealth.gov.au/guidelines/australian-dietary-guidelines-1-5</a> [accessed July 17, 2020].</p>
+								<p><strong>Masento, N., Golightly, M., Field, D., Butler, L. & Van Reekum, C.</strong> (2014) Effects of hydration status on cognitive performance and mood. <em>British Journal of Nutrition</em>, <strong>111</strong>(10), pp. 1841&ndash;1852. doi:10.1017/S0007114513004455</p>
+								<p><strong>Armstrong, L. & Johnson, E.</strong> (2018) Water intake, water balance, and the elusive daily water requirement. <em>Nutrients</em>, <strong>10</strong>(12), p.1928. doi:10.3390/nu10121928</p>
+								<p><strong>Wattick, R., Hagedorn, R. & Olfert, M.</strong> (2018) Relationship between Diet and Mental Health in a Young Adult Appalachian College Population. <em>Nutrients</em>, <strong>10</strong>(8), p.957. doi: 10.3390/nu10080957 </p>
+								<p><strong>Mills, S., White, M., Brown, H. <em>et al.</em></strong> (2017) Health and social determinants and outcomes of home cooking: A systematic review of observational studies. <em>Appetite</em>, <strong>111</strong>, pp. 116&ndash;134. doi:10.106/j.appet.2016.12.022</p>
+
+							</hosted-link>
+							
+						</page-content-wide>
+					</page-row>
+					
+				</page-container>
+			</base-container>
+		</div> <!-- END content wrapper -->
+
+		<!-- scripts -->
+		<script src="../js/vendor.min.js"></script>
+		<script src="../js/vue-components.min.js"></script>
+		<script>
+			new Vue({
+			  el: "#app",
+			  data: {},
+			  mounted: function () {
+				var core = document.createElement('script');
+				core.src = "../js/core.min.js";
+				document.getElementsByTagName('head')[0].appendChild(core);
+
+				var project = document.createElement('script');
+				project.src = "../js/project.min.js";
+				document.getElementsByTagName('head')[0].appendChild(project);
+			  }
+			});
+		</script>
+
+	</body>
+</html>

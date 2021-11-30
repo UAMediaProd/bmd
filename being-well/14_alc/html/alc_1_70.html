@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<!--
+ * Project   : Being Well, Living Well (BWLW_AUS)
+ * Version   : 1.0.0
+ * Release   : Tue Jul 21 2020 15:19:45 GMT+0100 (British Summer Time)
+ * Copyright : Oxford University Press / Epigeum
+-->
+
+<html data-programme="Being Well, Living Well" data-course="Staying Safe">
+
+	<head>
+		<title>Action plan</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/436/course_files/css/project.min.css">
+		<link id="basic-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/436/course_files/css/print.min.css" disabled>
+		<link id="summary-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/436/course_files/css/print_interactive.min.css">
+	</head>
+
+	<body>
+
+		<div id="app" v-cloak>
+			<base-container 
+				screen-id="alc_1_70" 
+				current-module="Module 4: Alcohol" 
+				page-title="Action plan"
+				screen-time="5" 
+				screen-time-period="mins">
+
+				<page-container>
+
+					<page-row>
+						<page-content-sidebar>
+                            
+                            <!-- OPTIONAL COURSE EVALUATION START -->
+							<pod variant="q" has-modal="true">
+								<pod-heading>Module evaluation</pod-heading> <!-- pod title -->
+								<pod-content></pod-content>
+								<!-- pop-up pod content -->
+								<pod-modal-heading>Module evaluation (optional)</pod-modal-heading>
+								<pod-modal-content>
+									<p><a href="https://www.epigeum.com/downloads/hosted_content/BWLW_AUS/survey/bwlw_aus_survey.html" target="_blank">Click here</a> to help develop and improve this course by providing some brief feedback (anonymously, of course). Please note that completing this survey is entirely optional. However, your input would be very welcome.</p>
+								</pod-modal-content>
+							</pod>
+							<!-- OPTIONAL COURSE EVALUATION END -->
+                            
+                        </page-content-sidebar>
+						
+						<page-content-main>
+
+							<p>Think about everything you have learnt in this module, and take a moment to reflect on your relationship with alcohol.</p>
+
+							<instructional-text>
+								<p>Make a list of the ways you could mitigate the risks associated with drinking alcohol. If you don't drink, you may choose to make a list of ways to help someone you know develop a healthier relationship with alcohol. We have given you some examples &ndash; if they are not relevant to you, you can delete them by clicking on the cross. Then write your first point and click on the 'Plus' symbol to reveal the next space. You can include up to six points. If you want to stop before you reach six, just click 'Plus' to make sure your last entry is recorded.</p>
+							</instructional-text>
+
+						</page-content-main>
+					</page-row>
+
+					<page-row>
+						<page-content-main>
+
+							<accessible-text><p>Make a list of the ways you could mitigate the risks associated with drinking alcohol and then consider our feedback. If you don't drink, you may choose to think of ways to help someone you know develop a healthier relationship with alcohol.</p> </p></accessible-text>
+
+							<!-- ACTIVITY START -->
+							<shopping-list max-num-items="6">
+								<shopping-list-item allow-delete="true">I will drink a glass of water in between alcoholic drinks.</shopping-list-item>
+    							<shopping-list-item allow-delete="true">I will plan for things to do socially that do not involve alcohol.</shopping-list-item>
+    							<shopping-list-item allow-delete="true">I will think about how I behave when I'm drinking, and if it positively or negatively influences my interactions.</shopping-list-item>
+							</shopping-list>
+							<!-- ACCESSIBLE START -->
+							<accessible-block>
+								<p>Some examples to start your list could include:</p>
+								<ul>
+									<li>I will drink a glass of water in between alcoholic drinks.</li>
+									<li>I will plan for things to do socially that do not involve alcohol.</li>
+									<li>I will think about how I behave when I'm drinking, and if it positively or negatively influences my interactions. </li>
+								</ul>
+							</accessible-block>
+							<!-- ACCESSIBLE END -->
+							<!-- ACTIVITY END -->
+
+						</page-content-main>
+					</page-row>
+
+					<page-row>
+						<page-content-main>
+
+							<p>You may only want to change a few things, or you may feel there's a lot to work on. Feel free to come back and update the checklist again at a different point in your student journey, or if you feel your relationship with alcohol may have shifted. We hope it helps to improve your wellbeing.</p>
+
+						</page-content-main>
+					</page-row>
+
+				</page-container>
+			</base-container>
+		</div> <!-- END content wrapper -->
+
+		<!-- scripts -->
+		<script src="https://courses.epigeum.com/materials/platform/436/course_files/js/vendor.min.js"></script>
+		<script src="https://courses.epigeum.com/materials/platform/436/course_files/js/vue-components.min.js"></script>
+		<script>
+			new Vue({
+				el: "#app",
+				data: {},
+				mounted: function () {
+					var core = document.createElement('script');
+					core.src = "https://courses.epigeum.com/materials/platform/436/course_files/js/core.min.js";
+					document.getElementsByTagName('head')[0].appendChild(core);
+
+					var project = document.createElement('script');
+					project.src = "https://courses.epigeum.com/materials/platform/436/course_files/js/project.min.js";
+					document.getElementsByTagName('head')[0].appendChild(project);
+				}
+			});
+		</script>
+
+	</body>
+
+</html>

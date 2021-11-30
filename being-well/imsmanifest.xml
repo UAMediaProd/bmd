@@ -1,0 +1,1489 @@
+<manifest
+	xsi:schemaLocation="http://www.imsglobal.org/xsd/imscc/imscp_v1p1 imscp_v1p2_localised.xsd 
+						http://ltsc.ieee.org/xsd/LOM domainProfile_1/lomLoose_localised.xsd 
+						http://ltsc.ieee.org/xsd/imscc/LOM domainProfile_2/lomLoose_localised.xsd" 
+	identifier="MANIFEST-64EC3C2139B651B8E3935D334758B349" 
+	version="" 
+	xmlns="http://www.imsglobal.org/xsd/imscc/imscp_v1p1" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:lom="http://ltsc.ieee.org/xsd/LOM" 
+	xmlns:lomcc="http://ltsc.ieee.org/xsd/imscc/LOM" 
+	xmlns:voc="http://ltsc.ieee.org/xsd/LOM/vocab" 
+	xmlns:sco="http://www.imsglobal.org/xsd/imscp_v1p1">
+	<metadata>
+		<schema>IMS Common Cartridge</schema>
+		<schemaversion>1.0.0</schemaversion>
+		<lomcc:lom>
+			<lomcc:general>
+				<lomcc:title>
+					<lomcc:string language="en-US">Epigeum: Being Well, Living Well</lomcc:string>
+				</lomcc:title>
+				<lomcc:language>en</lomcc:language>
+				<lomcc:description>
+					<lomcc:string language="en-US">A course from the Epigeum Being Well, Living Well Programme - Your student journey</lomcc:string>
+				</lomcc:description>
+				<lomcc:keyword>
+					<lomcc:string language="en-US">A course from the Epigeum Being Well, Living Well Programme - Your student journey</lomcc:string>
+				</lomcc:keyword>
+				<lomcc:keyword>
+					<lomcc:string language="en-US">A course from the Epigeum Being Well, Living Well Programme - Your student journey</lomcc:string>
+				</lomcc:keyword>
+				<lomcc:keyword>
+					<lomcc:string language="en-US">A course from the Epigeum Being Well, Living Well Programme - Your student journey</lomcc:string>
+				</lomcc:keyword>
+			</lomcc:general>
+			<lomcc:lifeCycle>
+				<lomcc:contribute>
+					<lomcc:role>
+						<lomcc:value>author</lomcc:value>
+					</lomcc:role>
+					<lomcc:entity>
+						<![CDATA[
+BEGIN:VCARD
+END:VCARD
+						]]>
+					</lomcc:entity>
+				</lomcc:contribute>
+			</lomcc:lifeCycle>
+			<lomcc:rights>
+				<lomcc:copyrightAndOtherRestrictions>
+					<lomcc:value>yes</lomcc:value> 
+				</lomcc:copyrightAndOtherRestrictions>
+				<lomcc:description>
+					<lomcc:string>A course from the Epigeum Being Well, Living Well Programme - Your student journey</lomcc:string> 
+				</lomcc:description>
+			</lomcc:rights>
+		</lomcc:lom>		
+	</metadata>
+  <organizations>
+    <organization identifier="ORG-142C9143B6BA079B3CE8040A18455C72" structure="rooted-hierarchy">
+      <title>Your student journey</title>
+	  <item identifier="bwlw_01">
+	  <item identifier="bwlw_01_cc">
+	  <title>Your student journey</title>
+      <item identifier="ITEM-BF5D51ABCE374660B87D1B0C0195FB13">
+        <title>Orientation</title>
+        <item identifier="ITEM-0776B0F68AB0F700A27CB6A28B7EA850" identifierref="RES-088B97B51455EF02B3A6B54D8327FEED">
+          <title>Living well</title>
+        </item>
+        <item identifier="ITEM-E3A569F2DE5145956112DE611BB9BAEF" identifierref="RES-B1750566A914A92643DD4BB288DE05D4">
+          <title>Welcome</title>
+        </item>
+      </item>
+      <item identifier="ITEM-BBEE97F34A5F6188989B8E3D1D3D3FA2">
+        <title>Module 1: Your student journey</title>
+        <item identifier="ITEM-82791825BCE237823E473F5F37845805" identifierref="RES-714AF259CBB03803C1C4AD7F39F9CCA4">
+          <title>Where are you on your student journey?</title>
+        </item>
+        <item identifier="ITEM-3EECC715AC91782C002D01E2F178EB5D" identifierref="RES-45698E75F1191B89A3F560139E95BAAA">
+          <title>Adapting to changes</title>
+        </item>
+        <item identifier="ITEM-090E56F0172FAD537A176E19ABF73A96" identifierref="RES-0A1E2D7DA042A5E87967D8DE3FCEE29B">
+          <title>Making yourself at home</title>
+        </item>
+        <item identifier="ITEM-E3C97EB5B76CA77B44628AE417F23A43" identifierref="RES-68FF751237BF16C579AF55F0FE001569">
+          <title>Finding your belonging</title>
+        </item>
+        <item identifier="ITEM-33BFD86E94DFC2C00AC636D7D23F3557" identifierref="RES-87723BAB0CC90940C2DA73A38A785FC2">
+          <title>Celebrating your identity</title>
+        </item>
+        <item identifier="ITEM-69E6681F1777D614D711C2F752D904B4" identifierref="RES-4282B6A815C456C02FF67734AA40DF6B">
+          <title>Finding your voice and listening to others</title>
+        </item>
+        <item identifier="ITEM-48904B53FABF41B88D55811680AA83C3" identifierref="RES-0B5C1C66FC267AC0C2AE650D4165099F">
+          <title>Forming communities</title>
+        </item>
+        <item identifier="ITEM-9CB438BEB5D0C6CFE2304A1F0993F0D8" identifierref="RES-4C66FE6A3B6A6D7029C6EB61DF4E2100">
+          <title>Module summary</title>
+        </item>
+        <item identifier="ITEM-7A3915C01487342B23128FCB819A4E9E" identifierref="RES-C3D3F76970C185F03B7B7441839BF273">
+          <title>Action plan</title>
+        </item>
+      </item>
+      <item identifier="ITEM-EA5D90CD5F05F01592ADB10A23EFCDF9">
+        <title>Closing</title>
+        <item identifier="ITEM-F27C247FF454B1037FBB2E5DB26B36B6" identifierref="RES-F90C12D8AC06D1DD88DE11CEE54BDA6E">
+          <title>Resource bank</title>
+        </item>
+        <item identifier="ITEM-E4B2036E5D9C36731E13ABB92C841C57" identifierref="RES-6449F9C0E218429DE5310531F172265B">
+          <title>References</title>
+        </item>
+      </item>
+	  </item>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-669CF15CB126E95703623D109453EB01" type="webcontent" href="01_ysj/css/fonts/bootstrap/glyphicons-halflings-regular.eot">
+      <file href="01_ysj/css/fonts/bootstrap/glyphicons-halflings-regular.eot" />
+    </resource>
+    <resource identifier="RES-1D04C8793CA091AA7C89AE547A5B1E70" type="webcontent" href="01_ysj/css/fonts/bootstrap/glyphicons-halflings-regular.svg">
+      <file href="01_ysj/css/fonts/bootstrap/glyphicons-halflings-regular.svg" />
+    </resource>
+    <resource identifier="RES-CC3B2BE7813FE61CE6DCF649975EFFC3" type="webcontent" href="01_ysj/css/fonts/bootstrap/glyphicons-halflings-regular.ttf">
+      <file href="01_ysj/css/fonts/bootstrap/glyphicons-halflings-regular.ttf" />
+    </resource>
+    <resource identifier="RES-98A73220DD431605D497AB64B8ABBA5A" type="webcontent" href="01_ysj/css/fonts/bootstrap/glyphicons-halflings-regular.woff">
+      <file href="01_ysj/css/fonts/bootstrap/glyphicons-halflings-regular.woff" />
+    </resource>
+    <resource identifier="RES-6886C0052307C967A0B77B56C4BE23B0" type="webcontent" href="01_ysj/css/fonts/bootstrap/glyphicons-halflings-regular.woff2">
+      <file href="01_ysj/css/fonts/bootstrap/glyphicons-halflings-regular.woff2" />
+    </resource>
+    <resource identifier="RES-7C54F1B70DA78982151C89C116872408" type="webcontent" href="01_ysj/css/fonts/evolventa/evolventa-bold-webfont.eot">
+      <file href="01_ysj/css/fonts/evolventa/evolventa-bold-webfont.eot" />
+    </resource>
+    <resource identifier="RES-645C4A28EAC891FF894F6FAD6B6384DD" type="webcontent" href="01_ysj/css/fonts/evolventa/evolventa-bold-webfont.svg">
+      <file href="01_ysj/css/fonts/evolventa/evolventa-bold-webfont.svg" />
+    </resource>
+    <resource identifier="RES-002F8B1F4F32877DDB9797D5A53A528E" type="webcontent" href="01_ysj/css/fonts/evolventa/evolventa-bold-webfont.ttf">
+      <file href="01_ysj/css/fonts/evolventa/evolventa-bold-webfont.ttf" />
+    </resource>
+    <resource identifier="RES-029BFCE1AA9494E0AB3E530663C033E0" type="webcontent" href="01_ysj/css/fonts/evolventa/evolventa-bold-webfont.woff">
+      <file href="01_ysj/css/fonts/evolventa/evolventa-bold-webfont.woff" />
+    </resource>
+    <resource identifier="RES-95F2FD99BA09581D1D763CE24C1ED930" type="webcontent" href="01_ysj/css/fonts/evolventa/evolventa-bold-webfont.woff2">
+      <file href="01_ysj/css/fonts/evolventa/evolventa-bold-webfont.woff2" />
+    </resource>
+    <resource identifier="RES-ABF380F37FE511C42DF38D1F8A1C81E7" type="webcontent" href="01_ysj/css/fonts/evolventa/evolventa-oblique-webfont.eot">
+      <file href="01_ysj/css/fonts/evolventa/evolventa-oblique-webfont.eot" />
+    </resource>
+    <resource identifier="RES-32DF2469EDB047971CE39B943A8262D8" type="webcontent" href="01_ysj/css/fonts/evolventa/evolventa-oblique-webfont.svg">
+      <file href="01_ysj/css/fonts/evolventa/evolventa-oblique-webfont.svg" />
+    </resource>
+    <resource identifier="RES-5461B0E03F609237F3337312F9B7889F" type="webcontent" href="01_ysj/css/fonts/evolventa/evolventa-oblique-webfont.ttf">
+      <file href="01_ysj/css/fonts/evolventa/evolventa-oblique-webfont.ttf" />
+    </resource>
+    <resource identifier="RES-83D4791FDADBF942393BF6D3FDABCA0F" type="webcontent" href="01_ysj/css/fonts/evolventa/evolventa-oblique-webfont.woff">
+      <file href="01_ysj/css/fonts/evolventa/evolventa-oblique-webfont.woff" />
+    </resource>
+    <resource identifier="RES-1AF2993D2BD69F8D2F39CC6503B0A5E3" type="webcontent" href="01_ysj/css/fonts/evolventa/evolventa-oblique-webfont.woff2">
+      <file href="01_ysj/css/fonts/evolventa/evolventa-oblique-webfont.woff2" />
+    </resource>
+    <resource identifier="RES-BC1E3EAF57C65189411ECC5318C6D719" type="webcontent" href="01_ysj/css/fonts/evolventa/evolventa-regular-webfont.eot">
+      <file href="01_ysj/css/fonts/evolventa/evolventa-regular-webfont.eot" />
+    </resource>
+    <resource identifier="RES-4910BEF991563AB36F2BBF61EFBA3873" type="webcontent" href="01_ysj/css/fonts/evolventa/evolventa-regular-webfont.svg">
+      <file href="01_ysj/css/fonts/evolventa/evolventa-regular-webfont.svg" />
+    </resource>
+    <resource identifier="RES-E239FA677A3B4DACE13A0EAC1546B203" type="webcontent" href="01_ysj/css/fonts/evolventa/evolventa-regular-webfont.ttf">
+      <file href="01_ysj/css/fonts/evolventa/evolventa-regular-webfont.ttf" />
+    </resource>
+    <resource identifier="RES-9160E720229B9BAD2DC2D7D623CFFF67" type="webcontent" href="01_ysj/css/fonts/evolventa/evolventa-regular-webfont.woff">
+      <file href="01_ysj/css/fonts/evolventa/evolventa-regular-webfont.woff" />
+    </resource>
+    <resource identifier="RES-4B69A3DA1CF4ECBFE891049E0184C17B" type="webcontent" href="01_ysj/css/fonts/evolventa/evolventa-regular-webfont.woff2">
+      <file href="01_ysj/css/fonts/evolventa/evolventa-regular-webfont.woff2" />
+    </resource>
+    <resource identifier="RES-43734C45CAF66D5EA293B973B88E9A6B" type="webcontent" href="01_ysj/css/fonts/source-sans-pro/sourcesanspro-bold-webfont.eot">
+      <file href="01_ysj/css/fonts/source-sans-pro/sourcesanspro-bold-webfont.eot" />
+    </resource>
+    <resource identifier="RES-43DFA2A98C3A63BC7BB0BF919CECA5EB" type="webcontent" href="01_ysj/css/fonts/source-sans-pro/sourcesanspro-bold-webfont.svg">
+      <file href="01_ysj/css/fonts/source-sans-pro/sourcesanspro-bold-webfont.svg" />
+    </resource>
+    <resource identifier="RES-00455824F1C05144AB786FB26F034560" type="webcontent" href="01_ysj/css/fonts/source-sans-pro/sourcesanspro-bold-webfont.ttf">
+      <file href="01_ysj/css/fonts/source-sans-pro/sourcesanspro-bold-webfont.ttf" />
+    </resource>
+    <resource identifier="RES-0F1199FC5599962D0BD59CA58E617B5D" type="webcontent" href="01_ysj/css/fonts/source-sans-pro/sourcesanspro-bold-webfont.woff">
+      <file href="01_ysj/css/fonts/source-sans-pro/sourcesanspro-bold-webfont.woff" />
+    </resource>
+    <resource identifier="RES-93A3AC9352ED34C46830AA6DE9FA4917" type="webcontent" href="01_ysj/css/fonts/source-sans-pro/sourcesanspro-bold-webfont.woff2">
+      <file href="01_ysj/css/fonts/source-sans-pro/sourcesanspro-bold-webfont.woff2" />
+    </resource>
+    <resource identifier="RES-1B2E0D69743ABC4D1EDCC288DCE9D1FF" type="webcontent" href="01_ysj/css/fonts/source-sans-pro/sourcesanspro-regular-webfont.eot">
+      <file href="01_ysj/css/fonts/source-sans-pro/sourcesanspro-regular-webfont.eot" />
+    </resource>
+    <resource identifier="RES-D87A24B9BD8EC95991DBB6E1F12466E2" type="webcontent" href="01_ysj/css/fonts/source-sans-pro/sourcesanspro-regular-webfont.svg">
+      <file href="01_ysj/css/fonts/source-sans-pro/sourcesanspro-regular-webfont.svg" />
+    </resource>
+    <resource identifier="RES-C1F66F333361AFFF8F7019B541BEF20A" type="webcontent" href="01_ysj/css/fonts/source-sans-pro/sourcesanspro-regular-webfont.ttf">
+      <file href="01_ysj/css/fonts/source-sans-pro/sourcesanspro-regular-webfont.ttf" />
+    </resource>
+    <resource identifier="RES-B8B9A0CBF4DD7EF09C4DA481DC8CE7D2" type="webcontent" href="01_ysj/css/fonts/source-sans-pro/sourcesanspro-regular-webfont.woff">
+      <file href="01_ysj/css/fonts/source-sans-pro/sourcesanspro-regular-webfont.woff" />
+    </resource>
+    <resource identifier="RES-740B4AA25DCD26616D7549A2A790ECE7" type="webcontent" href="01_ysj/css/fonts/source-sans-pro/sourcesanspro-regular-webfont.woff2">
+      <file href="01_ysj/css/fonts/source-sans-pro/sourcesanspro-regular-webfont.woff2" />
+    </resource>
+    <resource identifier="RES-7B43C1DCD050B3BD0434523553FA642A" type="webcontent" href="01_ysj/css/print.min.css">
+      <file href="01_ysj/css/print.min.css" />
+    </resource>
+    <resource identifier="RES-55957677E48ECEB8A58D21F317AD682C" type="webcontent" href="01_ysj/css/print_interactive.min.css">
+      <file href="01_ysj/css/print_interactive.min.css" />
+    </resource>
+    <resource identifier="RES-3B1386225A932B262FD63896B3515453" type="webcontent" href="01_ysj/css/project.min.css">
+      <file href="01_ysj/css/project.min.css" />
+    </resource>
+    <resource identifier="RES-CB1633228FFA745F0BAFD5E0A4A12974" type="webcontent" href="01_ysj/html/template.html">
+      <file href="01_ysj/html/template.html" />
+      <file href="01_ysj/css/project.min.css" />
+    </resource>
+    <resource identifier="RES-714AF259CBB03803C1C4AD7F39F9CCA4" type="webcontent" href="01_ysj/html/ysj_1_10.html">
+      <file href="01_ysj/html/ysj_1_10.html" />
+      <file href="01_ysj/css/project.min.css" />
+    </resource>
+    <resource identifier="RES-45698E75F1191B89A3F560139E95BAAA" type="webcontent" href="01_ysj/html/ysj_1_20.html">
+      <file href="01_ysj/html/ysj_1_20.html" />
+      <file href="01_ysj/css/project.min.css" />
+    </resource>
+    <resource identifier="RES-0A1E2D7DA042A5E87967D8DE3FCEE29B" type="webcontent" href="01_ysj/html/ysj_1_30.html">
+      <file href="01_ysj/html/ysj_1_30.html" />
+      <file href="01_ysj/css/project.min.css" />
+    </resource>
+    <resource identifier="RES-68FF751237BF16C579AF55F0FE001569" type="webcontent" href="01_ysj/html/ysj_1_40.html">
+      <file href="01_ysj/html/ysj_1_40.html" />
+      <file href="01_ysj/css/project.min.css" />
+    </resource>
+    <resource identifier="RES-87723BAB0CC90940C2DA73A38A785FC2" type="webcontent" href="01_ysj/html/ysj_1_45.html">
+      <file href="01_ysj/html/ysj_1_45.html" />
+      <file href="01_ysj/css/project.min.css" />
+    </resource>
+    <resource identifier="RES-4282B6A815C456C02FF67734AA40DF6B" type="webcontent" href="01_ysj/html/ysj_1_50.html">
+      <file href="01_ysj/html/ysj_1_50.html" />
+      <file href="01_ysj/css/project.min.css" />
+    </resource>
+    <resource identifier="RES-0B5C1C66FC267AC0C2AE650D4165099F" type="webcontent" href="01_ysj/html/ysj_1_60.html">
+      <file href="01_ysj/html/ysj_1_60.html" />
+      <file href="01_ysj/css/project.min.css" />
+    </resource>
+    <resource identifier="RES-4C66FE6A3B6A6D7029C6EB61DF4E2100" type="webcontent" href="01_ysj/html/ysj_1_70.html">
+      <file href="01_ysj/html/ysj_1_70.html" />
+      <file href="01_ysj/css/project.min.css" />
+    </resource>
+    <resource identifier="RES-C3D3F76970C185F03B7B7441839BF273" type="webcontent" href="01_ysj/html/ysj_1_80.html">
+      <file href="01_ysj/html/ysj_1_80.html" />
+      <file href="01_ysj/css/project.min.css" />
+    </resource>
+    <resource identifier="RES-F90C12D8AC06D1DD88DE11CEE54BDA6E" type="webcontent" href="01_ysj/html/ysj_clo_rb.html">
+      <file href="01_ysj/html/ysj_clo_rb.html" />
+      <file href="01_ysj/css/project.min.css" />
+    </resource>
+    <resource identifier="RES-6449F9C0E218429DE5310531F172265B" type="webcontent" href="01_ysj/html/ysj_clo_ref.html">
+      <file href="01_ysj/html/ysj_clo_ref.html" />
+      <file href="01_ysj/css/project.min.css" />
+    </resource>
+    <resource identifier="RES-088B97B51455EF02B3A6B54D8327FEED" type="webcontent" href="01_ysj/html/ysj_landing.html">
+      <file href="01_ysj/html/ysj_landing.html" />
+      <file href="01_ysj/css/project.min.css" />
+    </resource>
+    <resource identifier="RES-25360AE23E5639658027A2740320C4E5" type="webcontent" href="01_ysj/html/ysj_navigation.html">
+      <file href="01_ysj/html/ysj_navigation.html" />
+    </resource>
+    <resource identifier="RES-B1750566A914A92643DD4BB288DE05D4" type="webcontent" href="01_ysj/html/ysj_welcome.html">
+      <file href="01_ysj/html/ysj_welcome.html" />
+      <file href="01_ysj/css/project.min.css" />
+    </resource>
+    <resource identifier="RES-1F6A0CF2FD0AEC82178B40506C671211" type="webcontent" href="01_ysj/images/activity_images/course_specific/alc_1_10_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/alc_1_10_img1.png" />
+    </resource>
+    <resource identifier="RES-FDC97C4372BB3E529D7CE578EC12BEFB" type="webcontent" href="01_ysj/images/activity_images/course_specific/alc_1_10_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/alc_1_10_img2.png" />
+    </resource>
+    <resource identifier="RES-BB62D3C4573537FC546DED912F13CE82" type="webcontent" href="01_ysj/images/activity_images/course_specific/alc_1_10_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/alc_1_10_img3.png" />
+    </resource>
+    <resource identifier="RES-0C5957F8D766FC68597728108E0FC4D2" type="webcontent" href="01_ysj/images/activity_images/course_specific/alc_1_10_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/alc_1_10_img4.png" />
+    </resource>
+    <resource identifier="RES-337502E2B4F03114A6FF3BD28A6ED961" type="webcontent" href="01_ysj/images/activity_images/course_specific/alc_1_10_img4_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/alc_1_10_img4_aus.png" />
+    </resource>
+    <resource identifier="RES-BEB75640BE8C6140382C35920543D0EA" type="webcontent" href="01_ysj/images/activity_images/course_specific/alc_1_10_img5.png">
+      <file href="01_ysj/images/activity_images/course_specific/alc_1_10_img5.png" />
+    </resource>
+    <resource identifier="RES-85BC6B2883526CD7D0C7228B9620B2D8" type="webcontent" href="01_ysj/images/activity_images/course_specific/alc_1_10_img5_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/alc_1_10_img5_aus.png" />
+    </resource>
+    <resource identifier="RES-4EA260171C5A19A271836CF41C950923" type="webcontent" href="01_ysj/images/activity_images/course_specific/alc_1_20_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/alc_1_20_img1.png" />
+    </resource>
+    <resource identifier="RES-60DA7A4F62D532D663C52FE7B1BCA443" type="webcontent" href="01_ysj/images/activity_images/course_specific/alc_1_20_img10.png">
+      <file href="01_ysj/images/activity_images/course_specific/alc_1_20_img10.png" />
+    </resource>
+    <resource identifier="RES-EB309E9CB1990F8C5967CC1EBA65CD13" type="webcontent" href="01_ysj/images/activity_images/course_specific/alc_1_20_img11.png">
+      <file href="01_ysj/images/activity_images/course_specific/alc_1_20_img11.png" />
+    </resource>
+    <resource identifier="RES-B51E19D77798459BD4AEB243CB074C7E" type="webcontent" href="01_ysj/images/activity_images/course_specific/alc_1_20_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/alc_1_20_img2.png" />
+    </resource>
+    <resource identifier="RES-8E6CD55566EB062C8130AF3344C09627" type="webcontent" href="01_ysj/images/activity_images/course_specific/alc_1_20_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/alc_1_20_img3.png" />
+    </resource>
+    <resource identifier="RES-7F20FE7EB450CB4D596023C83DFEDAC2" type="webcontent" href="01_ysj/images/activity_images/course_specific/alc_1_20_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/alc_1_20_img4.png" />
+    </resource>
+    <resource identifier="RES-30EAF367D655376D7FFF7DF20E0D27A8" type="webcontent" href="01_ysj/images/activity_images/course_specific/alc_1_20_img5.png">
+      <file href="01_ysj/images/activity_images/course_specific/alc_1_20_img5.png" />
+    </resource>
+    <resource identifier="RES-095012463A335F89DAE69D4BE84DCE41" type="webcontent" href="01_ysj/images/activity_images/course_specific/alc_1_20_img6.png">
+      <file href="01_ysj/images/activity_images/course_specific/alc_1_20_img6.png" />
+    </resource>
+    <resource identifier="RES-54335923DB169C90B8B6C6DE4354256B" type="webcontent" href="01_ysj/images/activity_images/course_specific/alc_1_20_img7.png">
+      <file href="01_ysj/images/activity_images/course_specific/alc_1_20_img7.png" />
+    </resource>
+    <resource identifier="RES-E936B1EB5E0F00E4E29E760FE01E7007" type="webcontent" href="01_ysj/images/activity_images/course_specific/alc_1_20_img8.png">
+      <file href="01_ysj/images/activity_images/course_specific/alc_1_20_img8.png" />
+    </resource>
+    <resource identifier="RES-7FF07BAD2F26D1A1EEE5FD73D007CDAD" type="webcontent" href="01_ysj/images/activity_images/course_specific/alc_1_20_img9.png">
+      <file href="01_ysj/images/activity_images/course_specific/alc_1_20_img9.png" />
+    </resource>
+    <resource identifier="RES-F242B68D6A76BCFF0A45E28112858359" type="webcontent" href="01_ysj/images/activity_images/course_specific/alc_1_20_img_2.png">
+      <file href="01_ysj/images/activity_images/course_specific/alc_1_20_img_2.png" />
+    </resource>
+    <resource identifier="RES-49E3C0BC7CE6057B6539783B3E18EC4D" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_10_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_10_img1.png" />
+    </resource>
+    <resource identifier="RES-7F85899808D48E42CB7D4985BB048B12" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_10_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_10_img2.png" />
+    </resource>
+    <resource identifier="RES-07B17AC6E040395CDDB23FE46664C6BB" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_10_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_10_img3.png" />
+    </resource>
+    <resource identifier="RES-0FAF5C95CFD70B82564E2E26323BE912" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_10_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_10_img4.png" />
+    </resource>
+    <resource identifier="RES-597519C532CBECC53541F90458A00EF0" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_10_img4_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_10_img4_aus.png" />
+    </resource>
+    <resource identifier="RES-BD065EBA3156B1EB68150551F2A3E2F1" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_10__img4_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_10__img4_aus.png" />
+    </resource>
+    <resource identifier="RES-922F9069642916E0E9B251F80D6B544C" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_20_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_20_img1.png" />
+    </resource>
+    <resource identifier="RES-10E494592B9C0261B24FBE4F736BC005" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_20_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_20_img2.png" />
+    </resource>
+    <resource identifier="RES-CF2EDDED72C95D5F14C18F7CFBA18112" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_20_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_20_img3.png" />
+    </resource>
+    <resource identifier="RES-6D423ED2D4E3BE3D45E76BD8AA87DF80" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_30_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_30_img1.png" />
+    </resource>
+    <resource identifier="RES-297E63C0880584FE7F451F7AA1F94C4E" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_30_img1b.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_30_img1b.png" />
+    </resource>
+    <resource identifier="RES-42BD5C7663CE9A43E7E79655A83AE31A" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_30_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_30_img2.png" />
+    </resource>
+    <resource identifier="RES-27327F1C3C53EFF4B3F61653834CB76D" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_30_img2b.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_30_img2b.png" />
+    </resource>
+    <resource identifier="RES-74E11695884D41B454227ED945B418F0" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_30_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_30_img3.png" />
+    </resource>
+    <resource identifier="RES-0FD377B88C78721A0273BB2EE8F95B15" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_30_img3b.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_30_img3b.png" />
+    </resource>
+    <resource identifier="RES-5CAE2F111C866879741FC91DA11EA900" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_30_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_30_img4.png" />
+    </resource>
+    <resource identifier="RES-42B785E5A1E81A16AFFB05430BC3E2A2" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_30_img4b.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_30_img4b.png" />
+    </resource>
+    <resource identifier="RES-3B77BB40654DE33449ADC93D8692BE18" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_50_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_50_img1.png" />
+    </resource>
+    <resource identifier="RES-53471269D039D02D10F538A3F030127D" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_50_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_50_img2.png" />
+    </resource>
+    <resource identifier="RES-32FE49CE600B67741016056BEAE146C9" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_50_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_50_img3.png" />
+    </resource>
+    <resource identifier="RES-D60A8075FABF79FA6337B7FCE9B718D8" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_50_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_50_img4.png" />
+    </resource>
+    <resource identifier="RES-4C6DAE7061B41DC5A16C2B2237022E43" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_50_img5.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_50_img5.png" />
+    </resource>
+    <resource identifier="RES-0E1B5C863D191D518073283153E2918E" type="webcontent" href="01_ysj/images/activity_images/course_specific/bac_1_50_img6.png">
+      <file href="01_ysj/images/activity_images/course_specific/bac_1_50_img6.png" />
+    </resource>
+    <resource identifier="RES-F503F74AFBA9AAB3029EE99801B3F47C" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_20_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_20_img1.png" />
+    </resource>
+    <resource identifier="RES-6826E6FEDE61D1D81D1E58EFB5650465" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_20_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_20_img2.png" />
+    </resource>
+    <resource identifier="RES-C018795493B734A8AEF2071AFC8D3118" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_20_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_20_img3.png" />
+    </resource>
+    <resource identifier="RES-722B41085C18FF2944BA54BBACC543FF" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_20_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_20_img4.png" />
+    </resource>
+    <resource identifier="RES-7E5ED1D79FE1F4FEB9F8ACCD81D835B7" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_30_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_30_img1.png" />
+    </resource>
+    <resource identifier="RES-BDDA06A78627934D1E78A0505978854F" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_30_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_30_img2.png" />
+    </resource>
+    <resource identifier="RES-78C7247D9E0D8C02D37A69CC53C15469" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_30_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_30_img3.png" />
+    </resource>
+    <resource identifier="RES-4EFFC72151929FB705490430154A69AE" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_40_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_40_img1.png" />
+    </resource>
+    <resource identifier="RES-D0D8CFB923AD9E5CCA509CC799097C5C" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_40_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_40_img2.png" />
+    </resource>
+    <resource identifier="RES-BFB25C75C45405CEE33E9D3E597BF895" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_40_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_40_img3.png" />
+    </resource>
+    <resource identifier="RES-CA1FCBAC5BC87DE4FC5887B36EA62FB6" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_40_img3_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_40_img3_aus.png" />
+    </resource>
+    <resource identifier="RES-998070E479C59B4AAD150F3331F7DD6A" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_50_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_50_img1.png" />
+    </resource>
+    <resource identifier="RES-327D0F336FC5520FA545F5583E627E15" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_50_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_50_img2.png" />
+    </resource>
+    <resource identifier="RES-4D003E63470E2E4EE34FF142FB55D8BE" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_50_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_50_img3.png" />
+    </resource>
+    <resource identifier="RES-A99EBCE44CB0ABFBE4DE5A952B7F93D6" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_50_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_50_img4.png" />
+    </resource>
+    <resource identifier="RES-B99127AE3B8C357484EA3BAF6D83CA19" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_aubergine.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_aubergine.png" />
+    </resource>
+    <resource identifier="RES-AD551D4893B855C31E199C6F01686D84" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_brown-rice.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_brown-rice.png" />
+    </resource>
+    <resource identifier="RES-9CEF8E4CB1A5C9C6D0077E1E58179CC9" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_cauliflower.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_cauliflower.png" />
+    </resource>
+    <resource identifier="RES-628FB7F82CD528D09E6750DFF62E1C1B" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_chicken-thigh.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_chicken-thigh.png" />
+    </resource>
+    <resource identifier="RES-653D95330FC9672EEA967624384D5F6A" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_chickpeas.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_chickpeas.png" />
+    </resource>
+    <resource identifier="RES-C444E488975B85DCB5BC6B1B0E09DE06" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_chopped-tomatoes.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_chopped-tomatoes.png" />
+    </resource>
+    <resource identifier="RES-D9898CC69C6AD74CEB477C66198CCEA6" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_coconut-milk.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_coconut-milk.png" />
+    </resource>
+    <resource identifier="RES-E379CD5782A7466EEC70D24461477371" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_courgette.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_courgette.png" />
+    </resource>
+    <resource identifier="RES-8B2DDE065068B83ED4FDFBAC0A0359B9" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_curry-paste.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_curry-paste.png" />
+    </resource>
+    <resource identifier="RES-C980955B6CA7F3A8B7FFF440272CDEC6" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_curry-powder.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_curry-powder.png" />
+    </resource>
+    <resource identifier="RES-E342718C625DED1DD8E0C16AA8E557BE" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_egg.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_egg.png" />
+    </resource>
+    <resource identifier="RES-648BBC4EFFBD81169B5ACB72F269FEFC" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_garlic.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_garlic.png" />
+    </resource>
+    <resource identifier="RES-9E6EB0B386F122F76B594A3846CC3D22" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_grated-cheese.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_grated-cheese.png" />
+    </resource>
+    <resource identifier="RES-970B5335BC69ECF72F205D26A2EA26EE" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_greek-yoghurt.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_greek-yoghurt.png" />
+    </resource>
+    <resource identifier="RES-060BB107CB746CA114BE26E26972B689" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_img1.png" />
+    </resource>
+    <resource identifier="RES-B17430C3B14B07DDD3F44DF60280249A" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_img1_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_img1_aus.png" />
+    </resource>
+    <resource identifier="RES-C03F7779F85E470141CC292AFEA57D84" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_img2.png" />
+    </resource>
+    <resource identifier="RES-1A94975C98723217BAEE2B661CDF9CEB" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_img3.png" />
+    </resource>
+    <resource identifier="RES-8EF020ADDC618F1723AF03235C5CC45F" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_large-tomato.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_large-tomato.png" />
+    </resource>
+    <resource identifier="RES-8B252A28208FF62F9ECAFC0DC4CB4DFA" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_mixed-frozen-veg.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_mixed-frozen-veg.png" />
+    </resource>
+    <resource identifier="RES-CB0B06B298A8EAB85897911A4E6B1DC6" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_mozzarella-cheese.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_mozzarella-cheese.png" />
+    </resource>
+    <resource identifier="RES-892BFEF61F22BB35D8A450F3FEA40E91" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_mushrooms.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_mushrooms.png" />
+    </resource>
+    <resource identifier="RES-6540D4662BBE867D9BC0A5689B5256B2" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_naan-bread.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_naan-bread.png" />
+    </resource>
+    <resource identifier="RES-9E3D81928402D19C3C635979CEF7B8B1" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_olive-oil.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_olive-oil.png" />
+    </resource>
+    <resource identifier="RES-267D2BEAAB56BD24CFED1A9ABD4F8B97" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_olives.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_olives.png" />
+    </resource>
+    <resource identifier="RES-81FFCF3F8DCACE47C7120DDC758BBB08" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_onion-one-quarter.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_onion-one-quarter.png" />
+    </resource>
+    <resource identifier="RES-735F88E20246BB07AC4D72399CB38541" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_pesto.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_pesto.png" />
+    </resource>
+    <resource identifier="RES-3F35FE18CD769C35D4045A7A66EDABD5" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_pineapple-slices.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_pineapple-slices.png" />
+    </resource>
+    <resource identifier="RES-D693C8E225BB20264E1D057DEF1AC158" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_pizza-base.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_pizza-base.png" />
+    </resource>
+    <resource identifier="RES-9F9B0F4FB1DEE43F2318A217B3A6D7E0" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_red-lentils.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_red-lentils.png" />
+    </resource>
+    <resource identifier="RES-474411853DD7F62F3AB4B57E76C1079C" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_red-onion-one-quarter.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_red-onion-one-quarter.png" />
+    </resource>
+    <resource identifier="RES-08DA0292AD5CB3F9A69EE6ECA9E2580E" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_red-pepper.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_red-pepper.png" />
+    </resource>
+    <resource identifier="RES-3E55D0E8A18C46F916C30263299CC371" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_sliced-ham.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_sliced-ham.png" />
+    </resource>
+    <resource identifier="RES-E828E3D8F018E74F513939F8B98676E2" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_spinach.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_spinach.png" />
+    </resource>
+    <resource identifier="RES-006A20EE371B4DEC92D34E04B700F090" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_stock-cube.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_stock-cube.png" />
+    </resource>
+    <resource identifier="RES-C8D8EA74302C36CC652D6B486614D1DE" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_sweet-potatoes.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_sweet-potatoes.png" />
+    </resource>
+    <resource identifier="RES-A57568CA9AE70AAFF48892AF0566F9FC" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_toast.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_toast.png" />
+    </resource>
+    <resource identifier="RES-8730C83B3941623DE9E7900DB4960FD6" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_tofu-pieces.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_tofu-pieces.png" />
+    </resource>
+    <resource identifier="RES-2BC90792CC2FC5601E3F421B48E05581" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_tomato-passata.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_tomato-passata.png" />
+    </resource>
+    <resource identifier="RES-7CF23468FB208AA49F83AA5A737457D7" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_tomato-puree.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_tomato-puree.png" />
+    </resource>
+    <resource identifier="RES-0CEEE5AD2C9191F3E51914E7CC6A745D" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_tumeric.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_tumeric.png" />
+    </resource>
+    <resource identifier="RES-3022EB6546B9EB8E921D81203A5B1D85" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_tuna.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_tuna.png" />
+    </resource>
+    <resource identifier="RES-4164C478D511DD29D686F7EBE551B205" type="webcontent" href="01_ysj/images/activity_images/course_specific/dnu_1_60_wholemeal-pitta-bread.png">
+      <file href="01_ysj/images/activity_images/course_specific/dnu_1_60_wholemeal-pitta-bread.png" />
+    </resource>
+    <resource identifier="RES-102AB5C9F90CFB69EEFE706395A97894" type="webcontent" href="01_ysj/images/activity_images/course_specific/dru_1_10_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/dru_1_10_img1.png" />
+    </resource>
+    <resource identifier="RES-06ECDCBD03316AF390B3396AB5318BA9" type="webcontent" href="01_ysj/images/activity_images/course_specific/dru_1_10_img1_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/dru_1_10_img1_aus.png" />
+    </resource>
+    <resource identifier="RES-9C943769F43A2E128F2FF764AFF52177" type="webcontent" href="01_ysj/images/activity_images/course_specific/dru_1_10_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/dru_1_10_img2.png" />
+    </resource>
+    <resource identifier="RES-7DEED5582F26582CA8BA6C0B470D002C" type="webcontent" href="01_ysj/images/activity_images/course_specific/dru_1_10_img2_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/dru_1_10_img2_aus.png" />
+    </resource>
+    <resource identifier="RES-8EAAE21E2732BBC03674718693C6CF2B" type="webcontent" href="01_ysj/images/activity_images/course_specific/dru_1_10_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/dru_1_10_img3.png" />
+    </resource>
+    <resource identifier="RES-43339BBB49B4B0872F38269FBD2602E0" type="webcontent" href="01_ysj/images/activity_images/course_specific/dru_1_10_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/dru_1_10_img4.png" />
+    </resource>
+    <resource identifier="RES-D93318D3E7BF07D383A68E0AE1DA4317" type="webcontent" href="01_ysj/images/activity_images/course_specific/dru_1_50_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/dru_1_50_img1.png" />
+    </resource>
+    <resource identifier="RES-D4955F328F649782D224095A711C28D6" type="webcontent" href="01_ysj/images/activity_images/course_specific/dru_1_50_img1_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/dru_1_50_img1_aus.png" />
+    </resource>
+    <resource identifier="RES-E015E1E7924C55CF0B875682E83995E0" type="webcontent" href="01_ysj/images/activity_images/course_specific/dru_1_50_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/dru_1_50_img2.png" />
+    </resource>
+    <resource identifier="RES-3326E849AC2BD6CD25B2E893E15CAC26" type="webcontent" href="01_ysj/images/activity_images/course_specific/dru_1_50_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/dru_1_50_img3.png" />
+    </resource>
+    <resource identifier="RES-1C06304D2E212EBB972311710E4D3C1E" type="webcontent" href="01_ysj/images/activity_images/course_specific/dru_1_50_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/dru_1_50_img4.png" />
+    </resource>
+    <resource identifier="RES-92D1702A5C150C6EEE25A111FABA1E00" type="webcontent" href="01_ysj/images/activity_images/course_specific/dru_1_50_img5.png">
+      <file href="01_ysj/images/activity_images/course_specific/dru_1_50_img5.png" />
+    </resource>
+    <resource identifier="RES-E8BCEF7FBD7743BA0C275AE6E2D23460" type="webcontent" href="01_ysj/images/activity_images/course_specific/faw_1_20_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/faw_1_20_img1.png" />
+    </resource>
+    <resource identifier="RES-EC2C7B320C4A0EBD69D7769548978D51" type="webcontent" href="01_ysj/images/activity_images/course_specific/faw_1_20_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/faw_1_20_img2.png" />
+    </resource>
+    <resource identifier="RES-FB6A6DE2DE75A52DC9B2A4BDA60EF904" type="webcontent" href="01_ysj/images/activity_images/course_specific/faw_1_20_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/faw_1_20_img3.png" />
+    </resource>
+    <resource identifier="RES-8F73419D208B139A63081BB931B4B69E" type="webcontent" href="01_ysj/images/activity_images/course_specific/faw_1_30_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/faw_1_30_img1.png" />
+    </resource>
+    <resource identifier="RES-44A8082FA8AA8BF80D62C873C95405F3" type="webcontent" href="01_ysj/images/activity_images/course_specific/faw_1_40_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/faw_1_40_img1.png" />
+    </resource>
+    <resource identifier="RES-5871D41F8FDD993FB7249CD6D2D0939D" type="webcontent" href="01_ysj/images/activity_images/course_specific/faw_1_40_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/faw_1_40_img2.png" />
+    </resource>
+    <resource identifier="RES-991E781BE86EEE01E5492F0183D86759" type="webcontent" href="01_ysj/images/activity_images/course_specific/faw_1_40_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/faw_1_40_img3.png" />
+    </resource>
+    <resource identifier="RES-A65CBAF9A4431CA411D72E8CA1B7B6EC" type="webcontent" href="01_ysj/images/activity_images/course_specific/faw_1_40_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/faw_1_40_img4.png" />
+    </resource>
+    <resource identifier="RES-D163BB59AA42E291D710D6BDD636C423" type="webcontent" href="01_ysj/images/activity_images/course_specific/faw_1_40_img5.png">
+      <file href="01_ysj/images/activity_images/course_specific/faw_1_40_img5.png" />
+    </resource>
+    <resource identifier="RES-B743F908A76FA7C31D75BE8CEDCB4938" type="webcontent" href="01_ysj/images/activity_images/course_specific/faw_1_50_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/faw_1_50_img1.png" />
+    </resource>
+    <resource identifier="RES-EA28E40B0A03E5CE5D62D78843A00889" type="webcontent" href="01_ysj/images/activity_images/course_specific/faw_1_50_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/faw_1_50_img2.png" />
+    </resource>
+    <resource identifier="RES-4ABACFD2E091ED67B3F22898FF4A6904" type="webcontent" href="01_ysj/images/activity_images/course_specific/faw_1_50_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/faw_1_50_img3.png" />
+    </resource>
+    <resource identifier="RES-7E314D80D9C978EE9DCBA71B382528AC" type="webcontent" href="01_ysj/images/activity_images/course_specific/faw_1_50_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/faw_1_50_img4.png" />
+    </resource>
+    <resource identifier="RES-B61A1045AA81EF02F62B49DC912600BD" type="webcontent" href="01_ysj/images/activity_images/course_specific/hre_1_40_5.png">
+      <file href="01_ysj/images/activity_images/course_specific/hre_1_40_5.png" />
+    </resource>
+    <resource identifier="RES-DC243C6CC89BDA1EE5F48FA7378E901B" type="webcontent" href="01_ysj/images/activity_images/course_specific/hre_1_40_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/hre_1_40_img1.png" />
+    </resource>
+    <resource identifier="RES-E40AD17302A3E3B27799FC5AD75F2D3B" type="webcontent" href="01_ysj/images/activity_images/course_specific/hre_1_40_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/hre_1_40_img2.png" />
+    </resource>
+    <resource identifier="RES-A8188DD5AD7A58283E584EB1E29B2E3B" type="webcontent" href="01_ysj/images/activity_images/course_specific/hre_1_40_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/hre_1_40_img3.png" />
+    </resource>
+    <resource identifier="RES-5119DD33D2219DC48BA812BBB993FCC2" type="webcontent" href="01_ysj/images/activity_images/course_specific/hre_1_40_img3_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/hre_1_40_img3_aus.png" />
+    </resource>
+    <resource identifier="RES-5BD1C449BDFDF717B6A99695FB1D30D1" type="webcontent" href="01_ysj/images/activity_images/course_specific/hre_1_40_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/hre_1_40_img4.png" />
+    </resource>
+    <resource identifier="RES-1B9A1E4ACAD10FEDB429E786CD57F0A1" type="webcontent" href="01_ysj/images/activity_images/course_specific/hre_1_40_img5.png">
+      <file href="01_ysj/images/activity_images/course_specific/hre_1_40_img5.png" />
+    </resource>
+    <resource identifier="RES-6D1C1C97F18F0FAF61820AD09268D87F" type="webcontent" href="01_ysj/images/activity_images/course_specific/hre_1_40_img6.png">
+      <file href="01_ysj/images/activity_images/course_specific/hre_1_40_img6.png" />
+    </resource>
+    <resource identifier="RES-36A9F5F948B945F999016BD10A07576C" type="webcontent" href="01_ysj/images/activity_images/course_specific/hre_1_40_img7.png">
+      <file href="01_ysj/images/activity_images/course_specific/hre_1_40_img7.png" />
+    </resource>
+    <resource identifier="RES-FD45DB1D7C91477BA6CF1EFFFF8E8D5E" type="webcontent" href="01_ysj/images/activity_images/course_specific/hre_1_40_img8.png">
+      <file href="01_ysj/images/activity_images/course_specific/hre_1_40_img8.png" />
+    </resource>
+    <resource identifier="RES-2CDBAB744C008DCA3E3FC82F1C056198" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_10_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_10_img1.png" />
+    </resource>
+    <resource identifier="RES-00704AAABF7E158FB7EFA5600DA942E1" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_30.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_30.png" />
+    </resource>
+    <resource identifier="RES-B72D6D17EA36CDF47050FD7E8B0FA871" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_30_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_30_img1.png" />
+    </resource>
+    <resource identifier="RES-94706EBB8597E9E3CF771D6489DAB92B" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_30_img1_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_30_img1_aus.png" />
+    </resource>
+    <resource identifier="RES-6A6145097FC9C415DB23C87BBBEB03A5" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_30_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_30_img2.png" />
+    </resource>
+    <resource identifier="RES-7B9CC33E2DF321811D8342DF7D39E290" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_30_img2_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_30_img2_aus.png" />
+    </resource>
+    <resource identifier="RES-F2E7364B4ABF52DBD2F0BEBC74597626" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_30_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_30_img3.png" />
+    </resource>
+    <resource identifier="RES-20E7CABF500266F5D1AF85B21E91B3A7" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_30_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_30_img4.png" />
+    </resource>
+    <resource identifier="RES-D626A63425AB17B09B1BE1454F5A4079" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_30_img4_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_30_img4_aus.png" />
+    </resource>
+    <resource identifier="RES-733D1C1C9DEAABA820FE63FE2EC81BD1" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_30_img5.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_30_img5.png" />
+    </resource>
+    <resource identifier="RES-68574A74C9E0450F0A8C98BA9DEACD9F" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_30_img5_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_30_img5_aus.png" />
+    </resource>
+    <resource identifier="RES-53F33FE69EAEAE2565AABF2BD156A8A7" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_30_img6.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_30_img6.png" />
+    </resource>
+    <resource identifier="RES-C81FDAB791389B1DE8A08990E80B3898" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_30_img6_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_30_img6_aus.png" />
+    </resource>
+    <resource identifier="RES-01BC823119F03369A156B7D5D08F32BF" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_30_img7.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_30_img7.png" />
+    </resource>
+    <resource identifier="RES-2D520D7432034E3205B19B22480BC94A" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_30_img8.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_30_img8.png" />
+    </resource>
+    <resource identifier="RES-3EBB41976E844002C95E686C35306BC2" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_30_img8_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_30_img8_aus.png" />
+    </resource>
+    <resource identifier="RES-E399837C086CCDDE9C16ABF44A6C617C" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_30_img9.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_30_img9.png" />
+    </resource>
+    <resource identifier="RES-B1716AED59E3B614F78F6E6411ABDF3C" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_40_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_40_img1.png" />
+    </resource>
+    <resource identifier="RES-C99049B00D945988239637ECA8843E61" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_40_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_40_img2.png" />
+    </resource>
+    <resource identifier="RES-33B7DA4B41F5BA5889C7AE67E927364E" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_40_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_40_img3.png" />
+    </resource>
+    <resource identifier="RES-92C5813315A6A266747610C2533CC7F1" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_40_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_40_img4.png" />
+    </resource>
+    <resource identifier="RES-4A309B57190D8F62467DB7C016AA5168" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_40_img5.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_40_img5.png" />
+    </resource>
+    <resource identifier="RES-4CE568EAEEF8A5112A0DC110D61C6278" type="webcontent" href="01_ysj/images/activity_images/course_specific/lco_1_50_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/lco_1_50_img1.png" />
+    </resource>
+    <resource identifier="RES-B9EBE677E77E2587503FE361A89E5CB7" type="webcontent" href="01_ysj/images/activity_images/course_specific/nge_1_10_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/nge_1_10_img1.png" />
+    </resource>
+    <resource identifier="RES-F0DD59AF71161270DA9709AC5A15B33E" type="webcontent" href="01_ysj/images/activity_images/course_specific/nge_1_10_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/nge_1_10_img2.png" />
+    </resource>
+    <resource identifier="RES-31292C5E72D477D49AE4D8F18EE1916C" type="webcontent" href="01_ysj/images/activity_images/course_specific/nge_1_10_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/nge_1_10_img3.png" />
+    </resource>
+    <resource identifier="RES-FCD6C327DB909743FD837FEFD5D5619C" type="webcontent" href="01_ysj/images/activity_images/course_specific/nge_1_10_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/nge_1_10_img4.png" />
+    </resource>
+    <resource identifier="RES-560992EA538C8332B151EF1A11D1CC97" type="webcontent" href="01_ysj/images/activity_images/course_specific/nge_1_30_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/nge_1_30_img1.png" />
+    </resource>
+    <resource identifier="RES-FE72AC5352C2E05078615FB5319576E8" type="webcontent" href="01_ysj/images/activity_images/course_specific/nge_1_30_img10.png">
+      <file href="01_ysj/images/activity_images/course_specific/nge_1_30_img10.png" />
+    </resource>
+    <resource identifier="RES-A23A982B1EB6F6B0346ECC5BB7AD27F3" type="webcontent" href="01_ysj/images/activity_images/course_specific/nge_1_30_img10_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/nge_1_30_img10_aus.png" />
+    </resource>
+    <resource identifier="RES-F01C5FBF20A11E4238F6A052A1A7054C" type="webcontent" href="01_ysj/images/activity_images/course_specific/nge_1_30_img11.png">
+      <file href="01_ysj/images/activity_images/course_specific/nge_1_30_img11.png" />
+    </resource>
+    <resource identifier="RES-844E61907947D85D5A78DEAC49040D22" type="webcontent" href="01_ysj/images/activity_images/course_specific/nge_1_30_img12.png">
+      <file href="01_ysj/images/activity_images/course_specific/nge_1_30_img12.png" />
+    </resource>
+    <resource identifier="RES-2FB3EFC650A49192877A31865F99508F" type="webcontent" href="01_ysj/images/activity_images/course_specific/nge_1_30_img1a.png">
+      <file href="01_ysj/images/activity_images/course_specific/nge_1_30_img1a.png" />
+    </resource>
+    <resource identifier="RES-DB3E900689F5512F63A5C21431E6EFAD" type="webcontent" href="01_ysj/images/activity_images/course_specific/nge_1_30_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/nge_1_30_img2.png" />
+    </resource>
+    <resource identifier="RES-CD9AD3F003ADBB8E4DE7C5384C1513B4" type="webcontent" href="01_ysj/images/activity_images/course_specific/nge_1_30_img2_aus.jpg">
+      <file href="01_ysj/images/activity_images/course_specific/nge_1_30_img2_aus.jpg" />
+    </resource>
+    <resource identifier="RES-3B66C6C442E67FB5564A8A6B7E7EF37A" type="webcontent" href="01_ysj/images/activity_images/course_specific/nge_1_30_img2_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/nge_1_30_img2_aus.png" />
+    </resource>
+    <resource identifier="RES-3F87F09FD9CA6D72C3E208262CB29309" type="webcontent" href="01_ysj/images/activity_images/course_specific/nge_1_30_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/nge_1_30_img3.png" />
+    </resource>
+    <resource identifier="RES-CA5A151824180169B44B56605AA14045" type="webcontent" href="01_ysj/images/activity_images/course_specific/nge_1_30_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/nge_1_30_img4.png" />
+    </resource>
+    <resource identifier="RES-DA8E96CEF2FC23F6D73AF7128F06C9CF" type="webcontent" href="01_ysj/images/activity_images/course_specific/nge_1_30_img4a.png">
+      <file href="01_ysj/images/activity_images/course_specific/nge_1_30_img4a.png" />
+    </resource>
+    <resource identifier="RES-41ADE53188D50BDB47BA47F8585EE96C" type="webcontent" href="01_ysj/images/activity_images/course_specific/nge_1_30_img5.png">
+      <file href="01_ysj/images/activity_images/course_specific/nge_1_30_img5.png" />
+    </resource>
+    <resource identifier="RES-D9DF8FECEA337FD4860BE5ABFC144C92" type="webcontent" href="01_ysj/images/activity_images/course_specific/nge_1_30_img6.png">
+      <file href="01_ysj/images/activity_images/course_specific/nge_1_30_img6.png" />
+    </resource>
+    <resource identifier="RES-1C41FC04A1632D7875E1444F04F05C25" type="webcontent" href="01_ysj/images/activity_images/course_specific/nge_1_30_img7.png">
+      <file href="01_ysj/images/activity_images/course_specific/nge_1_30_img7.png" />
+    </resource>
+    <resource identifier="RES-2AD7CDCBED64743D7BA37ED6C2E99DDD" type="webcontent" href="01_ysj/images/activity_images/course_specific/nge_1_30_img7a.png">
+      <file href="01_ysj/images/activity_images/course_specific/nge_1_30_img7a.png" />
+    </resource>
+    <resource identifier="RES-5CA7A412A655A0920AC2F475C323A521" type="webcontent" href="01_ysj/images/activity_images/course_specific/nge_1_30_img8.png">
+      <file href="01_ysj/images/activity_images/course_specific/nge_1_30_img8.png" />
+    </resource>
+    <resource identifier="RES-10B53F3D6F6DE96CFC8B8C6768EC2353" type="webcontent" href="01_ysj/images/activity_images/course_specific/nge_1_30_img9.png">
+      <file href="01_ysj/images/activity_images/course_specific/nge_1_30_img9.png" />
+    </resource>
+    <resource identifier="RES-41AB63B1304B1F7D20399FE5C36BBE3D" type="webcontent" href="01_ysj/images/activity_images/course_specific/ons_1_40_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/ons_1_40_img1.png" />
+    </resource>
+    <resource identifier="RES-829BF576AE92B357F7A57E42950AD281" type="webcontent" href="01_ysj/images/activity_images/course_specific/pgw_1_10_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/pgw_1_10_img1.png" />
+    </resource>
+    <resource identifier="RES-2432F457470B34356AA73A8C0DFC1DDD" type="webcontent" href="01_ysj/images/activity_images/course_specific/pgw_1_20_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/pgw_1_20_img1.png" />
+    </resource>
+    <resource identifier="RES-597FCF841339CA5B82B1C823915290B3" type="webcontent" href="01_ysj/images/activity_images/course_specific/pgw_1_20_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/pgw_1_20_img2.png" />
+    </resource>
+    <resource identifier="RES-07175DE7AFA697CCD3B925272FBB7F4C" type="webcontent" href="01_ysj/images/activity_images/course_specific/pgw_1_20_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/pgw_1_20_img3.png" />
+    </resource>
+    <resource identifier="RES-33709CBA487B43007421C609F0845F2E" type="webcontent" href="01_ysj/images/activity_images/course_specific/pgw_1_30_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/pgw_1_30_img1.png" />
+    </resource>
+    <resource identifier="RES-60CCC42AEAFA370B412BB38EA53C87EE" type="webcontent" href="01_ysj/images/activity_images/course_specific/pgw_1_30_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/pgw_1_30_img2.png" />
+    </resource>
+    <resource identifier="RES-D626A0B1BABBF6303DA8E4172ED60221" type="webcontent" href="01_ysj/images/activity_images/course_specific/pgw_1_30_img2_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/pgw_1_30_img2_aus.png" />
+    </resource>
+    <resource identifier="RES-1E3195288895A79136AE8691BDB914F3" type="webcontent" href="01_ysj/images/activity_images/course_specific/pgw_1_30_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/pgw_1_30_img3.png" />
+    </resource>
+    <resource identifier="RES-C80512EA4B21490696730C9977BBCD3E" type="webcontent" href="01_ysj/images/activity_images/course_specific/pgw_1_30_img3_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/pgw_1_30_img3_aus.png" />
+    </resource>
+    <resource identifier="RES-B82257D315D8B30C5195BA078E271AAD" type="webcontent" href="01_ysj/images/activity_images/course_specific/pgw_1_40_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/pgw_1_40_img1.png" />
+    </resource>
+    <resource identifier="RES-1F940C0D8AE319DB2A846223D554A83C" type="webcontent" href="01_ysj/images/activity_images/course_specific/pgw_1_40_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/pgw_1_40_img2.png" />
+    </resource>
+    <resource identifier="RES-71A5F1543B87814976272990679432B6" type="webcontent" href="01_ysj/images/activity_images/course_specific/pgw_1_40_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/pgw_1_40_img3.png" />
+    </resource>
+    <resource identifier="RES-1E5A4A0D115A80A5FD7FB33D35BE722F" type="webcontent" href="01_ysj/images/activity_images/course_specific/sad_1_20_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/sad_1_20_img1.png" />
+    </resource>
+    <resource identifier="RES-1B5866D6359055F23A4D3105C710CF23" type="webcontent" href="01_ysj/images/activity_images/course_specific/sad_1_20_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/sad_1_20_img2.png" />
+    </resource>
+    <resource identifier="RES-C8EC7A175736C6BA6822E28BC28BED16" type="webcontent" href="01_ysj/images/activity_images/course_specific/sad_1_20_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/sad_1_20_img3.png" />
+    </resource>
+    <resource identifier="RES-52EC790C51FC139EE14CC4282A13637E" type="webcontent" href="01_ysj/images/activity_images/course_specific/sad_1_20_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/sad_1_20_img4.png" />
+    </resource>
+    <resource identifier="RES-9B3FF23160CD51FCC2D0492AE149EF84" type="webcontent" href="01_ysj/images/activity_images/course_specific/sad_1_20_img5.png">
+      <file href="01_ysj/images/activity_images/course_specific/sad_1_20_img5.png" />
+    </resource>
+    <resource identifier="RES-38737D83AD9FCAC34F522E0DE615CBF2" type="webcontent" href="01_ysj/images/activity_images/course_specific/sad_1_20_img6.png">
+      <file href="01_ysj/images/activity_images/course_specific/sad_1_20_img6.png" />
+    </resource>
+    <resource identifier="RES-600FF454AE475D20906AD12477FC599B" type="webcontent" href="01_ysj/images/activity_images/course_specific/sad_1_30_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/sad_1_30_img1.png" />
+    </resource>
+    <resource identifier="RES-5A44250F492ED4525AC4A5E2E7D8AC33" type="webcontent" href="01_ysj/images/activity_images/course_specific/sad_1_50_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/sad_1_50_img1.png" />
+    </resource>
+    <resource identifier="RES-B4499E06CDC12522F785AF4D2E0B1D60" type="webcontent" href="01_ysj/images/activity_images/course_specific/sad_1_50_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/sad_1_50_img2.png" />
+    </resource>
+    <resource identifier="RES-A9065911D8E919AC9A2A646395E2E3C7" type="webcontent" href="01_ysj/images/activity_images/course_specific/sad_1_60_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/sad_1_60_img1.png" />
+    </resource>
+    <resource identifier="RES-BCD60E5D0B4D77A8E40ABC7F98BE516B" type="webcontent" href="01_ysj/images/activity_images/course_specific/sad_1_60_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/sad_1_60_img2.png" />
+    </resource>
+    <resource identifier="RES-0D58758A07A3689CEA36FEE436852DF5" type="webcontent" href="01_ysj/images/activity_images/course_specific/sad_1_60_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/sad_1_60_img3.png" />
+    </resource>
+    <resource identifier="RES-59E26D9D939E15C0F3825690DF0A97A7" type="webcontent" href="01_ysj/images/activity_images/course_specific/sad_1_60_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/sad_1_60_img4.png" />
+    </resource>
+    <resource identifier="RES-2ED08CA1B810CBFE09095CEBACC5046D" type="webcontent" href="01_ysj/images/activity_images/course_specific/sad_1_60_img5.png">
+      <file href="01_ysj/images/activity_images/course_specific/sad_1_60_img5.png" />
+    </resource>
+    <resource identifier="RES-0D11CBAEF0BA1621FD60622A9E4E0534" type="webcontent" href="01_ysj/images/activity_images/course_specific/sad_1_60_img6.png">
+      <file href="01_ysj/images/activity_images/course_specific/sad_1_60_img6.png" />
+    </resource>
+    <resource identifier="RES-16381EE1D10529EB7ADD7810D7C8BB06" type="webcontent" href="01_ysj/images/activity_images/course_specific/sec_1_20_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/sec_1_20_img1.png" />
+    </resource>
+    <resource identifier="RES-DDA0A4D05AE59A1F27A06460AA5258D8" type="webcontent" href="01_ysj/images/activity_images/course_specific/sec_1_20_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/sec_1_20_img2.png" />
+    </resource>
+    <resource identifier="RES-470C21A4C2F139722B494B1B6C1BC92E" type="webcontent" href="01_ysj/images/activity_images/course_specific/sec_1_20_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/sec_1_20_img3.png" />
+    </resource>
+    <resource identifier="RES-619A4E31FAFD25A60DEC36B68731C09F" type="webcontent" href="01_ysj/images/activity_images/course_specific/sec_1_20_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/sec_1_20_img4.png" />
+    </resource>
+    <resource identifier="RES-FA5E5EF97D72F81F92C9B51B270A3953" type="webcontent" href="01_ysj/images/activity_images/course_specific/sec_1_50_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/sec_1_50_img1.png" />
+    </resource>
+    <resource identifier="RES-555BF4FEB533986B281BE6157F125C36" type="webcontent" href="01_ysj/images/activity_images/course_specific/sec_1_50_img10.png">
+      <file href="01_ysj/images/activity_images/course_specific/sec_1_50_img10.png" />
+    </resource>
+    <resource identifier="RES-5793911394060FE7770D79E8412CC2B0" type="webcontent" href="01_ysj/images/activity_images/course_specific/sec_1_50_img11.png">
+      <file href="01_ysj/images/activity_images/course_specific/sec_1_50_img11.png" />
+    </resource>
+    <resource identifier="RES-F251C4B20738A804532B7BA0DAC9E438" type="webcontent" href="01_ysj/images/activity_images/course_specific/sec_1_50_img12.png">
+      <file href="01_ysj/images/activity_images/course_specific/sec_1_50_img12.png" />
+    </resource>
+    <resource identifier="RES-F8A33AB46A44D0DAEC1B3B83947F63CC" type="webcontent" href="01_ysj/images/activity_images/course_specific/sec_1_50_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/sec_1_50_img2.png" />
+    </resource>
+    <resource identifier="RES-08AF50F9584E33E23D736C18910F52F1" type="webcontent" href="01_ysj/images/activity_images/course_specific/sec_1_50_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/sec_1_50_img3.png" />
+    </resource>
+    <resource identifier="RES-8C2BC975067A44BD08ADDD7D7E2FB530" type="webcontent" href="01_ysj/images/activity_images/course_specific/sec_1_50_img3_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/sec_1_50_img3_aus.png" />
+    </resource>
+    <resource identifier="RES-5562FBDBE6B85B8D6BF75292C820BE4B" type="webcontent" href="01_ysj/images/activity_images/course_specific/sec_1_50_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/sec_1_50_img4.png" />
+    </resource>
+    <resource identifier="RES-C48B7FF10BDEAEA52686FAE76B7AECAE" type="webcontent" href="01_ysj/images/activity_images/course_specific/sec_1_50_img5.png">
+      <file href="01_ysj/images/activity_images/course_specific/sec_1_50_img5.png" />
+    </resource>
+    <resource identifier="RES-33E659E42FA74E933304071DD7055D8C" type="webcontent" href="01_ysj/images/activity_images/course_specific/sec_1_50_img6.png">
+      <file href="01_ysj/images/activity_images/course_specific/sec_1_50_img6.png" />
+    </resource>
+    <resource identifier="RES-0E7C89204A45CE1D735C504CEBB8FCE5" type="webcontent" href="01_ysj/images/activity_images/course_specific/sec_1_50_img7.png">
+      <file href="01_ysj/images/activity_images/course_specific/sec_1_50_img7.png" />
+    </resource>
+    <resource identifier="RES-15C8DA4BDDC7BE2E9D7FE86105BEE66A" type="webcontent" href="01_ysj/images/activity_images/course_specific/sec_1_50_img8.png">
+      <file href="01_ysj/images/activity_images/course_specific/sec_1_50_img8.png" />
+    </resource>
+    <resource identifier="RES-380108D77694BEBDC83148DBE2E22FA2" type="webcontent" href="01_ysj/images/activity_images/course_specific/sec_1_50_img8_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/sec_1_50_img8_aus.png" />
+    </resource>
+    <resource identifier="RES-8771E88B3D22A9FE0F19775C6FAA99EF" type="webcontent" href="01_ysj/images/activity_images/course_specific/sec_1_50_img9.png">
+      <file href="01_ysj/images/activity_images/course_specific/sec_1_50_img9.png" />
+    </resource>
+    <resource identifier="RES-A1389DA3104F091505E071A6DADDA984" type="webcontent" href="01_ysj/images/activity_images/course_specific/sec_1_90_backpack.png">
+      <file href="01_ysj/images/activity_images/course_specific/sec_1_90_backpack.png" />
+    </resource>
+    <resource identifier="RES-D1BC54F93F496AAD3F6CE470BF33A8FB" type="webcontent" href="01_ysj/images/activity_images/course_specific/slb_1_10_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/slb_1_10_img1.png" />
+    </resource>
+    <resource identifier="RES-22A2D0BF9531E8AAB815F7E4DFD80FDC" type="webcontent" href="01_ysj/images/activity_images/course_specific/slb_1_20_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/slb_1_20_img1.png" />
+    </resource>
+    <resource identifier="RES-8D25F28C91761034B538F7F0B9B5F2D6" type="webcontent" href="01_ysj/images/activity_images/course_specific/slb_1_20_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/slb_1_20_img2.png" />
+    </resource>
+    <resource identifier="RES-6502CA7E0FF13F715B278B11AE27978B" type="webcontent" href="01_ysj/images/activity_images/course_specific/slb_1_20_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/slb_1_20_img3.png" />
+    </resource>
+    <resource identifier="RES-9A774142B7B57829C21486D696D6B419" type="webcontent" href="01_ysj/images/activity_images/course_specific/slb_1_30_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/slb_1_30_img1.png" />
+    </resource>
+    <resource identifier="RES-A47984CC055D8C3145FBB1BE5DFC8157" type="webcontent" href="01_ysj/images/activity_images/course_specific/slb_1_30_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/slb_1_30_img2.png" />
+    </resource>
+    <resource identifier="RES-3B5CCFE4D4FDC363F5CBD623FBCECF88" type="webcontent" href="01_ysj/images/activity_images/course_specific/slb_1_30_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/slb_1_30_img3.png" />
+    </resource>
+    <resource identifier="RES-9BDB0F5CA2E71C11057B68A60767255F" type="webcontent" href="01_ysj/images/activity_images/course_specific/slb_1_30_img3_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/slb_1_30_img3_aus.png" />
+    </resource>
+    <resource identifier="RES-BD4AF001390B5B397C7E2399F0DBBB11" type="webcontent" href="01_ysj/images/activity_images/course_specific/slb_1_30_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/slb_1_30_img4.png" />
+    </resource>
+    <resource identifier="RES-96F2AE587346A9B617AA99DC0C8B7E42" type="webcontent" href="01_ysj/images/activity_images/course_specific/slb_1_30_img5.png">
+      <file href="01_ysj/images/activity_images/course_specific/slb_1_30_img5.png" />
+    </resource>
+    <resource identifier="RES-12480A057875B705929B4A56119037BF" type="webcontent" href="01_ysj/images/activity_images/course_specific/slb_1_30_img5_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/slb_1_30_img5_aus.png" />
+    </resource>
+    <resource identifier="RES-998131E560B0036C2D4418B6B3EB697A" type="webcontent" href="01_ysj/images/activity_images/course_specific/slb_1_30_img6.png">
+      <file href="01_ysj/images/activity_images/course_specific/slb_1_30_img6.png" />
+    </resource>
+    <resource identifier="RES-7136DF1A5BD93FC813A71605067A03DE" type="webcontent" href="01_ysj/images/activity_images/course_specific/slb_1_30_img6_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/slb_1_30_img6_aus.png" />
+    </resource>
+    <resource identifier="RES-8EAA74CA335DD78C925C6AC544AD7300" type="webcontent" href="01_ysj/images/activity_images/course_specific/slb_1_40_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/slb_1_40_img1.png" />
+    </resource>
+    <resource identifier="RES-5C5A93A324E1C0F2464B4B2473377867" type="webcontent" href="01_ysj/images/activity_images/course_specific/slb_1_40_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/slb_1_40_img2.png" />
+    </resource>
+    <resource identifier="RES-CFFDC041771109943A52E9038FFB0187" type="webcontent" href="01_ysj/images/activity_images/course_specific/slb_1_40_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/slb_1_40_img3.png" />
+    </resource>
+    <resource identifier="RES-54A846A486D96C0D82B57C95BADEF35D" type="webcontent" href="01_ysj/images/activity_images/course_specific/slb_1_40_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/slb_1_40_img4.png" />
+    </resource>
+    <resource identifier="RES-2290F448F3FFD5287C93B42D294DDEB0" type="webcontent" href="01_ysj/images/activity_images/course_specific/slb_1_40_img5.png">
+      <file href="01_ysj/images/activity_images/course_specific/slb_1_40_img5.png" />
+    </resource>
+    <resource identifier="RES-0AD3735EF6AA9E03CCED33E68FE6607E" type="webcontent" href="01_ysj/images/activity_images/course_specific/slb_1_40_img6.png">
+      <file href="01_ysj/images/activity_images/course_specific/slb_1_40_img6.png" />
+    </resource>
+    <resource identifier="RES-2245138E0DBEC129ECBFA3BFFBDDA64D" type="webcontent" href="01_ysj/images/activity_images/course_specific/slb_1_60_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/slb_1_60_img1.png" />
+    </resource>
+    <resource identifier="RES-3BA88DEA8A790C8528A3D0486F5D1626" type="webcontent" href="01_ysj/images/activity_images/course_specific/sst_1_10_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/sst_1_10_img1.png" />
+    </resource>
+    <resource identifier="RES-B81F5BED892BB9B06AFA4AFC7D2AFBA2" type="webcontent" href="01_ysj/images/activity_images/course_specific/sst_1_10_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/sst_1_10_img2.png" />
+    </resource>
+    <resource identifier="RES-ED0D0B68AAEECCAB97BED431166318F1" type="webcontent" href="01_ysj/images/activity_images/course_specific/sst_1_10_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/sst_1_10_img3.png" />
+    </resource>
+    <resource identifier="RES-55EC385C01753F600863DCB44C4A8865" type="webcontent" href="01_ysj/images/activity_images/course_specific/stw_1_10_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/stw_1_10_img1.png" />
+    </resource>
+    <resource identifier="RES-8265DF58E7DB7271706E03A7A714E4C1" type="webcontent" href="01_ysj/images/activity_images/course_specific/stw_1_10_img1_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/stw_1_10_img1_aus.png" />
+    </resource>
+    <resource identifier="RES-63223E622C977247236514DC88E35E55" type="webcontent" href="01_ysj/images/activity_images/course_specific/stw_1_10_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/stw_1_10_img2.png" />
+    </resource>
+    <resource identifier="RES-3286B8237D7A18214D298306605E7B99" type="webcontent" href="01_ysj/images/activity_images/course_specific/stw_1_10_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/stw_1_10_img3.png" />
+    </resource>
+    <resource identifier="RES-937393111268086EAB3A963B6884D52B" type="webcontent" href="01_ysj/images/activity_images/course_specific/stw_1_10_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/stw_1_10_img4.png" />
+    </resource>
+    <resource identifier="RES-7022DA623A8C5BDCA2E5323D12226AC9" type="webcontent" href="01_ysj/images/activity_images/course_specific/stw_1_10_img4_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/stw_1_10_img4_aus.png" />
+    </resource>
+    <resource identifier="RES-B11B53A21EE8C8CCEAC035A66F563C1D" type="webcontent" href="01_ysj/images/activity_images/course_specific/stw_1_10_img5.png">
+      <file href="01_ysj/images/activity_images/course_specific/stw_1_10_img5.png" />
+    </resource>
+    <resource identifier="RES-7B2D62B75541BECEE259F955AA485CA4" type="webcontent" href="01_ysj/images/activity_images/course_specific/stw_1_10_img6.png">
+      <file href="01_ysj/images/activity_images/course_specific/stw_1_10_img6.png" />
+    </resource>
+    <resource identifier="RES-8DA815029B7DD614A7514CA21CB799D2" type="webcontent" href="01_ysj/images/activity_images/course_specific/stw_1_20_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/stw_1_20_img1.png" />
+    </resource>
+    <resource identifier="RES-0904389F620EAA8B6180C66CC4EDA99D" type="webcontent" href="01_ysj/images/activity_images/course_specific/stw_1_40_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/stw_1_40_img1.png" />
+    </resource>
+    <resource identifier="RES-86E66C74DB1691C911CDB04C113A0B0B" type="webcontent" href="01_ysj/images/activity_images/course_specific/stw_1_40_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/stw_1_40_img2.png" />
+    </resource>
+    <resource identifier="RES-09C803DF3D449A070CDD5E8059259515" type="webcontent" href="01_ysj/images/activity_images/course_specific/stw_1_40_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/stw_1_40_img3.png" />
+    </resource>
+    <resource identifier="RES-C62A63B59C391E545A42D81E235657E0" type="webcontent" href="01_ysj/images/activity_images/course_specific/stw_1_40_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/stw_1_40_img4.png" />
+    </resource>
+    <resource identifier="RES-54FB4C207782549958741D897F691A4F" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_20_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_20_img1.png" />
+    </resource>
+    <resource identifier="RES-F91BD1D1A6B5C9E8F94BFFA518B6050A" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_20_img1_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_20_img1_aus.png" />
+    </resource>
+    <resource identifier="RES-DD8A021C6292B72B7893B562E2A87701" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_20_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_20_img2.png" />
+    </resource>
+    <resource identifier="RES-39DB2B2325F1BCA0D8656F5621EA8EBA" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_20_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_20_img3.png" />
+    </resource>
+    <resource identifier="RES-E013B9010E104D1B95A2343193BDD5B9" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_20_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_20_img4.png" />
+    </resource>
+    <resource identifier="RES-2759982DDED323E4239C480048D7891D" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_20_img5.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_20_img5.png" />
+    </resource>
+    <resource identifier="RES-2D0819C0506EFAEE9975D424E8820173" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_20_img6.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_20_img6.png" />
+    </resource>
+    <resource identifier="RES-D8B682453CC2195144F79F65D0C291BB" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_20_img7.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_20_img7.png" />
+    </resource>
+    <resource identifier="RES-20218E105786EAEE06C7E5F8C9E35D48" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_20_img8.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_20_img8.png" />
+    </resource>
+    <resource identifier="RES-2934E422C6021B67A5D5D62BAA3D3ADF" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_40_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_40_aus.png" />
+    </resource>
+    <resource identifier="RES-8FF235FC12F4C226A3B9D357B95976DD" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_40_img06.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_40_img06.png" />
+    </resource>
+    <resource identifier="RES-76A569DD363CD4EF3C8FDB64D90D84ED" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_40_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_40_img1.png" />
+    </resource>
+    <resource identifier="RES-B2917D2F7EBF37571CD51BA41E2D6ACF" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_40_img10.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_40_img10.png" />
+    </resource>
+    <resource identifier="RES-D3A547F29FF0C96E1273929AAA932DA2" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_40_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_40_img2.png" />
+    </resource>
+    <resource identifier="RES-3A0B20E2B6F14D9EC919CCA06080D70D" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_40_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_40_img3.png" />
+    </resource>
+    <resource identifier="RES-9D0410A6744CC0CAF8976333C9754669" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_40_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_40_img4.png" />
+    </resource>
+    <resource identifier="RES-C860C1F62EC631487562C4327D3A52AB" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_40_img5.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_40_img5.png" />
+    </resource>
+    <resource identifier="RES-2245358E39692CC0D5D00503C7683ACF" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_40_img6.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_40_img6.png" />
+    </resource>
+    <resource identifier="RES-EF8C2B11EBA5BD0BDCF7922279B81175" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_40_img6_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_40_img6_aus.png" />
+    </resource>
+    <resource identifier="RES-9692676232F424AB4F776C936C43FD75" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_40_img7.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_40_img7.png" />
+    </resource>
+    <resource identifier="RES-E098475076557CC08FE526AF45626125" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_40_img8.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_40_img8.png" />
+    </resource>
+    <resource identifier="RES-BE08DD139278050F3471F54EAB3396E0" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_40_img9.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_40_img9.png" />
+    </resource>
+    <resource identifier="RES-B0FD7DEA338D947C3A89479ABD13F390" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_50_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_50_img1.png" />
+    </resource>
+    <resource identifier="RES-BA34672FDC12CA39C590E4F35F0FBE84" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_50_img1a.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_50_img1a.png" />
+    </resource>
+    <resource identifier="RES-F7CBCA1BC7A2E449A6BD75DDC1A3C222" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_50_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_50_img2.png" />
+    </resource>
+    <resource identifier="RES-772B2F5355EDFED4A8C80CFA96C4709E" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_50_img2a.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_50_img2a.png" />
+    </resource>
+    <resource identifier="RES-954A2C33E496327397AD16CEBFCA4091" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_50_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_50_img3.png" />
+    </resource>
+    <resource identifier="RES-BBA6154A6DF9EFEFD77721AAB38B8B97" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_50_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_50_img4.png" />
+    </resource>
+    <resource identifier="RES-9A7EC79D4BCA68EEACE568A847A80AD7" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_50_img5.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_50_img5.png" />
+    </resource>
+    <resource identifier="RES-57D51C6C49E4F8CA9D723B2648D568C6" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_1_50_img6.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_1_50_img6.png" />
+    </resource>
+    <resource identifier="RES-56309E7059BDC72A3F1A46F2619CB101" type="webcontent" href="01_ysj/images/activity_images/course_specific/sxh_3_40_img6_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/sxh_3_40_img6_aus.png" />
+    </resource>
+    <resource identifier="RES-032679040B8792D03E242CC048DE201A" type="webcontent" href="01_ysj/images/activity_images/course_specific/ucf_1_20_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/ucf_1_20_img1.png" />
+    </resource>
+    <resource identifier="RES-3C84E93390876CAA45BEE80ACC76614D" type="webcontent" href="01_ysj/images/activity_images/course_specific/ucf_1_20_img1_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/ucf_1_20_img1_aus.png" />
+    </resource>
+    <resource identifier="RES-47BE302040B2E641931B82A1CAA19615" type="webcontent" href="01_ysj/images/activity_images/course_specific/ucf_1_20_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/ucf_1_20_img2.png" />
+    </resource>
+    <resource identifier="RES-68B5E8F54BEA1D8981D327EC6E50FE05" type="webcontent" href="01_ysj/images/activity_images/course_specific/ucf_1_20_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/ucf_1_20_img3.png" />
+    </resource>
+    <resource identifier="RES-0D4663B4142C086D7DC4FA3996A4C295" type="webcontent" href="01_ysj/images/activity_images/course_specific/ucf_1_40_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/ucf_1_40_img1.png" />
+    </resource>
+    <resource identifier="RES-0716648A367C6729259B2E1B5788D3D6" type="webcontent" href="01_ysj/images/activity_images/course_specific/ucf_1_40_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/ucf_1_40_img2.png" />
+    </resource>
+    <resource identifier="RES-2A9CE8E880B9DE71AA153AD60BAA4834" type="webcontent" href="01_ysj/images/activity_images/course_specific/ucf_1_40_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/ucf_1_40_img3.png" />
+    </resource>
+    <resource identifier="RES-63CBB91AEE1F2F21A0C1266D1847C160" type="webcontent" href="01_ysj/images/activity_images/course_specific/ucf_1_40_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/ucf_1_40_img4.png" />
+    </resource>
+    <resource identifier="RES-4DA9987D720EABF79378AE101BD7A6F6" type="webcontent" href="01_ysj/images/activity_images/course_specific/ucf_1_40_img5.png">
+      <file href="01_ysj/images/activity_images/course_specific/ucf_1_40_img5.png" />
+    </resource>
+    <resource identifier="RES-5C257544BF84D76E660B8102B2F7F5FA" type="webcontent" href="01_ysj/images/activity_images/course_specific/ucf_1_40_img6.png">
+      <file href="01_ysj/images/activity_images/course_specific/ucf_1_40_img6.png" />
+    </resource>
+    <resource identifier="RES-4D2D4F789D181200B64B9E5EF233A933" type="webcontent" href="01_ysj/images/activity_images/course_specific/ucf_1_40_img7.png">
+      <file href="01_ysj/images/activity_images/course_specific/ucf_1_40_img7.png" />
+    </resource>
+    <resource identifier="RES-7488B2774CF94A2B308A8EE46F1C91A0" type="webcontent" href="01_ysj/images/activity_images/course_specific/ucf_1_40_img8.png">
+      <file href="01_ysj/images/activity_images/course_specific/ucf_1_40_img8.png" />
+    </resource>
+    <resource identifier="RES-81DC6BB00C924C2DDEF190A62FB5B31B" type="webcontent" href="01_ysj/images/activity_images/course_specific/ucf_1_50_img1_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/ucf_1_50_img1_aus.png" />
+    </resource>
+    <resource identifier="RES-2AC9908D87F475E5A2E0ECDCC06B9D6F" type="webcontent" href="01_ysj/images/activity_images/course_specific/ucf_1_50_img2_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/ucf_1_50_img2_aus.png" />
+    </resource>
+    <resource identifier="RES-5397109D581539EA25DC29ABCFF5A97F" type="webcontent" href="01_ysj/images/activity_images/course_specific/ucf_1_50_img3_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/ucf_1_50_img3_aus.png" />
+    </resource>
+    <resource identifier="RES-AFDF0C2ACDF2B907C0710794FE2DB5D6" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_20_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_20_img1.png" />
+    </resource>
+    <resource identifier="RES-DB8E318CA7247090BC5A029D665E99A1" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_20_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_20_img2.png" />
+    </resource>
+    <resource identifier="RES-5DF5C0892AEB0DB676524F0068A04106" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_20_img2_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_20_img2_aus.png" />
+    </resource>
+    <resource identifier="RES-1C4001DDB11E3A61D536F8466260F91F" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_20_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_20_img3.png" />
+    </resource>
+    <resource identifier="RES-EBB548CAD4A22C644836BC81E0A4ED49" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_20_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_20_img4.png" />
+    </resource>
+    <resource identifier="RES-30CB64D0423507232B4F68BD31C24A66" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_20_img5.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_20_img5.png" />
+    </resource>
+    <resource identifier="RES-723018CDBC941101857B82DB785C2099" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_20_img6.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_20_img6.png" />
+    </resource>
+    <resource identifier="RES-866FC41E0B8ED45DBBAF6B2C717526DD" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_30_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_30_img1.png" />
+    </resource>
+    <resource identifier="RES-52237148EEB5C2D00B19C826E76C2CBA" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_30_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_30_img2.png" />
+    </resource>
+    <resource identifier="RES-2EBF5CB1E868BF794E9259C6AC48F181" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_30_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_30_img3.png" />
+    </resource>
+    <resource identifier="RES-ECFB5362E007DC9AC4A0CCA285CFD7E7" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_30_img3_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_30_img3_aus.png" />
+    </resource>
+    <resource identifier="RES-E2DBD0AC8298C56CADDA3D13CF51ABFE" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_30_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_30_img4.png" />
+    </resource>
+    <resource identifier="RES-B6BEACE0CED1FCE93FAA5DC7AA16C566" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_30_img4_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_30_img4_aus.png" />
+    </resource>
+    <resource identifier="RES-B3B33A06B88FC0CB7C8BE7108F15C5B7" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_40_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_40_img1.png" />
+    </resource>
+    <resource identifier="RES-5FDF4BFAF4686E5AF8834ABE2CA13570" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_40_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_40_img2.png" />
+    </resource>
+    <resource identifier="RES-67CCDE114D498523811E434FFFB994FA" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_40_img2_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_40_img2_aus.png" />
+    </resource>
+    <resource identifier="RES-8DC45A1374424C769A9039A313C6F136" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_40_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_40_img3.png" />
+    </resource>
+    <resource identifier="RES-F1232114659E201CD22C9D956AAEF51C" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_40_img4.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_40_img4.png" />
+    </resource>
+    <resource identifier="RES-3A0B85820B558A21D4E79E81676E69B7" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_40_img5.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_40_img5.png" />
+    </resource>
+    <resource identifier="RES-2900C87AB891E10E89750F4C3E703180" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_60_img1.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_60_img1.png" />
+    </resource>
+    <resource identifier="RES-14A37ED9961C358A27A0C298E9D5E318" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_60_img1_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_60_img1_aus.png" />
+    </resource>
+    <resource identifier="RES-EC3F0436296B0B0B1FA36612C667D738" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_60_img2.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_60_img2.png" />
+    </resource>
+    <resource identifier="RES-0736EA92BE22D7B237ABA701F010BAEC" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_60_img2_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_60_img2_aus.png" />
+    </resource>
+    <resource identifier="RES-35387C559064B68638A91C3DAC4F602C" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_60_img3.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_60_img3.png" />
+    </resource>
+    <resource identifier="RES-929FAB25DB669298A0FAE4069C6E2ED3" type="webcontent" href="01_ysj/images/activity_images/course_specific/ysj_1_60_img3_aus.png">
+      <file href="01_ysj/images/activity_images/course_specific/ysj_1_60_img3_aus.png" />
+    </resource>
+    <resource identifier="RES-07A5069E6AF17716C4EA752143326661" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/AdamRidgeway.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/AdamRidgeway.jpg" />
+    </resource>
+    <resource identifier="RES-6EC274DE275270D20E02D0345F221BF9" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/AndrewHill.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/AndrewHill.jpg" />
+    </resource>
+    <resource identifier="RES-5EAF315E10B908714132C73034BDD168" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/AndrewReeves.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/AndrewReeves.jpg" />
+    </resource>
+    <resource identifier="RES-44A324C27D2639A29D6A866E1E76C31D" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/AndyPhippen.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/AndyPhippen.jpg" />
+    </resource>
+    <resource identifier="RES-CAEA53166E353C4963B853A7DAF22DF9" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/DawnDarlaston-Jones.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/DawnDarlaston-Jones.jpg" />
+    </resource>
+    <resource identifier="RES-66B220C02B1E54625D30CEB6D06C98A7" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/DeniseMeyer.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/DeniseMeyer.jpg" />
+    </resource>
+    <resource identifier="RES-8BC651700C89F898B48D2A5CC971C370" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/DominiqueThompson.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/DominiqueThompson.jpg" />
+    </resource>
+    <resource identifier="RES-52A9B346A5874B99BFEDF393FEF69148" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/EmmaBond.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/EmmaBond.jpg" />
+    </resource>
+    <resource identifier="RES-FE926BDE8B7CD2FE10009A4506447D35" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/FionaDenney.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/FionaDenney.jpg" />
+    </resource>
+    <resource identifier="RES-4E52509454360520B78842382EB2EEF4" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/GarethFurber.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/GarethFurber.jpg" />
+    </resource>
+    <resource identifier="RES-2AF9AEB5FD5926F14C441751BC6506BA" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/GedminteMikulenaite.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/GedminteMikulenaite.jpg" />
+    </resource>
+    <resource identifier="RES-7A1B43B75EE13698CADE30B3B53424AE" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/HelenLaity.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/HelenLaity.jpg" />
+    </resource>
+    <resource identifier="RES-C832F29B0DA264FE8821E20B1E9BD505" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/IsabelFox.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/IsabelFox.jpg" />
+    </resource>
+    <resource identifier="RES-EF1BF340165ECAF2649DD01B1B79096A" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/IvanEzquerra-Romano.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/IvanEzquerra-Romano.jpg" />
+    </resource>
+    <resource identifier="RES-FABB6367A658A11E9AC1DE00259F3F4F" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/JasonArday.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/JasonArday.jpg" />
+    </resource>
+    <resource identifier="RES-152C67C710825E9CBD397C319E692199" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/JohnAllan.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/JohnAllan.jpg" />
+    </resource>
+    <resource identifier="RES-6E92C93A943B6EDF923BDB24314F2F2B" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/KathrynLynch.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/KathrynLynch.jpg" />
+    </resource>
+    <resource identifier="RES-C2A67894106EED018B75084CC89BF069" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/LouiseBourchier.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/LouiseBourchier.jpg" />
+    </resource>
+    <resource identifier="RES-CCD857E2E360D879EC605C3FAB27638E" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/LouiseMeredith.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/LouiseMeredith.jpg" />
+    </resource>
+    <resource identifier="RES-A22A6B77547836E2F2DE4140C44B6F0D" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/MollieDollinger.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/MollieDollinger.jpg" />
+    </resource>
+    <resource identifier="RES-B9E91E8623930F211A53849F38BE82A5" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/NicolaBarden.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/NicolaBarden.jpg" />
+    </resource>
+    <resource identifier="RES-1FB71AA52D711687D93196412D76DC20" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/NicolaReavley.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/NicolaReavley.jpg" />
+    </resource>
+    <resource identifier="RES-FC0A65F4482C58F29D0AFA6B49C4A127" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/NicoleLee.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/NicoleLee.jpg" />
+    </resource>
+    <resource identifier="RES-E0040716F4042A8D33F9239842F932E4" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/NicStreatfield.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/NicStreatfield.jpg" />
+    </resource>
+    <resource identifier="RES-77CFE54288D54FE0192960415E34FE67" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/NightlineAssociation.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/NightlineAssociation.jpg" />
+    </resource>
+    <resource identifier="RES-E53CFBDE38286F39C4CBAF2EAB706ADC" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/PaulMeades.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/PaulMeades.jpg" />
+    </resource>
+    <resource identifier="RES-2625909A36D6B594ABE953E77690FCD4" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/TetyanaRocks.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/TetyanaRocks.jpg" />
+    </resource>
+    <resource identifier="RES-387A7F1029DC7F0113A5F70A57BECC42" type="webcontent" href="01_ysj/images/activity_images/global/author_photos/WilmaA.jpg">
+      <file href="01_ysj/images/activity_images/global/author_photos/WilmaA.jpg" />
+    </resource>
+    <resource identifier="RES-AD52469DA3332F9D274DB902E3CE7504" type="webcontent" href="01_ysj/images/icons/feeling/instructional-icon.png">
+      <file href="01_ysj/images/icons/feeling/instructional-icon.png" />
+    </resource>
+    <resource identifier="RES-68636A3A17B5671F32CEFE4F99BDD3B9" type="webcontent" href="01_ysj/images/icons/living/instructional-icon.png">
+      <file href="01_ysj/images/icons/living/instructional-icon.png" />
+    </resource>
+    <resource identifier="RES-C14E96436F4951EAD7392B971E3A2003" type="webcontent" href="01_ysj/images/icons/pod_icons/dl_icon.png">
+      <file href="01_ysj/images/icons/pod_icons/dl_icon.png" />
+    </resource>
+    <resource identifier="RES-A3E15C1ADC91A897C3B44774B4CB20B6" type="webcontent" href="01_ysj/images/icons/pod_icons/iw_icon.png">
+      <file href="01_ysj/images/icons/pod_icons/iw_icon.png" />
+    </resource>
+    <resource identifier="RES-7704258C23F573337A0F403B52A43D79" type="webcontent" href="01_ysj/images/icons/pod_icons/oe_icon.png">
+      <file href="01_ysj/images/icons/pod_icons/oe_icon.png" />
+    </resource>
+    <resource identifier="RES-AD0DB46D27A6EBC8351FD8D3D013B7D7" type="webcontent" href="01_ysj/images/icons/pod_icons/ps_icon.png">
+      <file href="01_ysj/images/icons/pod_icons/ps_icon.png" />
+    </resource>
+    <resource identifier="RES-4460CDA2A33D2373716E475F6025952E" type="webcontent" href="01_ysj/images/icons/pod_icons/sh_icon.png">
+      <file href="01_ysj/images/icons/pod_icons/sh_icon.png" />
+    </resource>
+    <resource identifier="RES-39BE8389EE8C91FDD0252A7DE327BFAC" type="webcontent" href="01_ysj/images/icons/pod_icons/sh_icon2.png">
+      <file href="01_ysj/images/icons/pod_icons/sh_icon2.png" />
+    </resource>
+    <resource identifier="RES-B3CEFF44FADB4CFDC7A09495C7DB0C31" type="webcontent" href="01_ysj/images/icons/pod_icons/ss_icon.png">
+      <file href="01_ysj/images/icons/pod_icons/ss_icon.png" />
+    </resource>
+    <resource identifier="RES-71B5AC5AA619F62DEE59DDC86A70505B" type="webcontent" href="01_ysj/images/icons/pod_icons/ul_icon.png">
+      <file href="01_ysj/images/icons/pod_icons/ul_icon.png" />
+    </resource>
+    <resource identifier="RES-E6FD4DA5397648C339A6B8B27D2B87E4" type="webcontent" href="01_ysj/images/icons/pod_icons/yc_icon.png">
+      <file href="01_ysj/images/icons/pod_icons/yc_icon.png" />
+    </resource>
+    <resource identifier="RES-C47AED374A354E32C63980F5D7CFDB8F" type="webcontent" href="01_ysj/images/icons/safe/instructional-icon.png">
+      <file href="01_ysj/images/icons/safe/instructional-icon.png" />
+    </resource>
+    <resource identifier="RES-9AB8F9A7E8D21D16B51D805ECB55A0FC" type="webcontent" href="01_ysj/images/icons/spending/instructional-icon.png">
+      <file href="01_ysj/images/icons/spending/instructional-icon.png" />
+    </resource>
+    <resource identifier="RES-807BAEAE14BF56BC00D820B0816129CE" type="webcontent" href="01_ysj/images/icons/instructional-icon.png">
+      <file href="01_ysj/images/icons/instructional-icon.png" />
+    </resource>
+    <resource identifier="RES-6805C0944C730C37599603F253E3001A" type="webcontent" href="01_ysj/images/page_images/course_specific/dnu_1_60_img1.png">
+      <file href="01_ysj/images/page_images/course_specific/dnu_1_60_img1.png" />
+    </resource>
+    <resource identifier="RES-13F8C50550D80CB1A4B6EA1BB82C7297" type="webcontent" href="01_ysj/images/page_images/course_specific/dnu_1_60_img1_aus.png">
+      <file href="01_ysj/images/page_images/course_specific/dnu_1_60_img1_aus.png" />
+    </resource>
+    <resource identifier="RES-E206BBAB14900D5C93581F74DF3E0BCE" type="webcontent" href="01_ysj/images/page_images/course_specific/dnu_1_60_img2.png">
+      <file href="01_ysj/images/page_images/course_specific/dnu_1_60_img2.png" />
+    </resource>
+    <resource identifier="RES-B4F7FF9AEB0B5366928A21E03701BE14" type="webcontent" href="01_ysj/images/page_images/course_specific/dnu_1_60_img3.png">
+      <file href="01_ysj/images/page_images/course_specific/dnu_1_60_img3.png" />
+    </resource>
+    <resource identifier="RES-D2884C93EB35E169751E23ED4B7FB991" type="webcontent" href="01_ysj/images/page_images/course_specific/dnu_1_60_img4.png">
+      <file href="01_ysj/images/page_images/course_specific/dnu_1_60_img4.png" />
+    </resource>
+    <resource identifier="RES-57F59E44C6549CB8DC4A5BAFD7547A69" type="webcontent" href="01_ysj/images/page_images/course_specific/dnu_1_60_takeaways.png">
+      <file href="01_ysj/images/page_images/course_specific/dnu_1_60_takeaways.png" />
+    </resource>
+    <resource identifier="RES-82B1DE578EF7935FD5C78991BA0E320B" type="webcontent" href="01_ysj/images/page_images/course_specific/dnu_1_60_takeaways_aus.png">
+      <file href="01_ysj/images/page_images/course_specific/dnu_1_60_takeaways_aus.png" />
+    </resource>
+    <resource identifier="RES-A542F9E1D43D8D3D30F40388DADED514" type="webcontent" href="01_ysj/images/page_images/course_specific/dru_1_60_img1.png">
+      <file href="01_ysj/images/page_images/course_specific/dru_1_60_img1.png" />
+    </resource>
+    <resource identifier="RES-C9069D5354530D9F633BDB657CD92D5C" type="webcontent" href="01_ysj/images/page_images/course_specific/hre_1_20_img1.png">
+      <file href="01_ysj/images/page_images/course_specific/hre_1_20_img1.png" />
+    </resource>
+    <resource identifier="RES-D3C501A7E1F467A25E0100B29B102467" type="webcontent" href="01_ysj/images/page_images/course_specific/sst_1_30_img1.png">
+      <file href="01_ysj/images/page_images/course_specific/sst_1_30_img1.png" />
+    </resource>
+    <resource identifier="RES-DDF7DBD04B086D6D6103D924D771654B" type="webcontent" href="01_ysj/images/page_images/global/feeling-banner-image.png">
+      <file href="01_ysj/images/page_images/global/feeling-banner-image.png" />
+    </resource>
+    <resource identifier="RES-B032E8D7754C1CD55E01B296176CA39C" type="webcontent" href="01_ysj/images/page_images/global/feeling-welcome-image.png">
+      <file href="01_ysj/images/page_images/global/feeling-welcome-image.png" />
+    </resource>
+    <resource identifier="RES-2D987C02FA2D7F2ADB20D4BCB01EF3CB" type="webcontent" href="01_ysj/images/page_images/global/living-banner-image.png">
+      <file href="01_ysj/images/page_images/global/living-banner-image.png" />
+    </resource>
+    <resource identifier="RES-42070456669B09F7AE5D1AE3B3964B8F" type="webcontent" href="01_ysj/images/page_images/global/living-welcome-image.png">
+      <file href="01_ysj/images/page_images/global/living-welcome-image.png" />
+    </resource>
+    <resource identifier="RES-5021A56FC50B07AAF31851EDDA4770D6" type="webcontent" href="01_ysj/images/page_images/global/safe-banner-image.png">
+      <file href="01_ysj/images/page_images/global/safe-banner-image.png" />
+    </resource>
+    <resource identifier="RES-41AF57BBDB43493665438AC1137E5BD0" type="webcontent" href="01_ysj/images/page_images/global/safe-welcome-image.png">
+      <file href="01_ysj/images/page_images/global/safe-welcome-image.png" />
+    </resource>
+    <resource identifier="RES-F06FC5311445001E5F70DFCBCD37B376" type="webcontent" href="01_ysj/images/page_images/global/spending-banner-image.png">
+      <file href="01_ysj/images/page_images/global/spending-banner-image.png" />
+    </resource>
+    <resource identifier="RES-CD16407D2BC5A3F58C3095820FB8C59F" type="webcontent" href="01_ysj/images/page_images/global/spending-welcome-image.png">
+      <file href="01_ysj/images/page_images/global/spending-welcome-image.png" />
+    </resource>
+    <resource identifier="RES-A23406B00BED5097830886B68BBC2D78" type="webcontent" href="01_ysj/js/core.min.js">
+      <file href="01_ysj/js/core.min.js" />
+    </resource>
+    <resource identifier="RES-9757CF2889689CA562AB1D1B739A4B39" type="webcontent" href="01_ysj/js/project.min.js">
+      <file href="01_ysj/js/project.min.js" />
+    </resource>
+    <resource identifier="RES-A210678F08C5B1648F5BDE4757C0511C" type="webcontent" href="01_ysj/js/vendor.min.js">
+      <file href="01_ysj/js/vendor.min.js" />
+    </resource>
+    <resource identifier="RES-ABDB9C58D956B255E3FD9AB5D1C2B3B6" type="webcontent" href="01_ysj/js/vue-components.min.js">
+      <file href="01_ysj/js/vue-components.min.js" />
+    </resource>
+    <resource identifier="RES-5B4C5EEF6C2D9ED63347E45BA39C3112" type="webcontent" href="01_ysj/media/documents/bwlw_aus_glossary.pdf">
+      <file href="01_ysj/media/documents/bwlw_aus_glossary.pdf" />
+    </resource>
+    <resource identifier="RES-AEAB344701729EB578E9A0B5E643D335" type="webcontent" href="01_ysj/media/video/ysj_1_10_vid1_captions.vtt">
+      <file href="01_ysj/media/video/ysj_1_10_vid1_captions.vtt" />
+    </resource>
+    <resource identifier="RES-3AB43155B69726FC1695ED3C6E1B59EE" type="webcontent" href="01_ysj/media/video/ysj_1_10_vid1_poster.png">
+      <file href="01_ysj/media/video/ysj_1_10_vid1_poster.png" />
+    </resource>
+    <resource identifier="RES-F7C4D05DF8F17C4D795E311F1D8F32F1" type="webcontent" href="01_ysj/media/video/ysj_1_10_vid1_transcript.vtt">
+      <file href="01_ysj/media/video/ysj_1_10_vid1_transcript.vtt" />
+    </resource>
+    <resource identifier="RES-CA5B7BD7B51341E68AF5F96F34CB1D53" type="webcontent" href="01_ysj/media/credits_and_acknowledgements.pdf">
+      <file href="01_ysj/media/credits_and_acknowledgements.pdf" />
+    </resource>
+    <resource identifier="RES-B784917523B23AA5CCBF6BC032FCF8F3" type="webcontent" href="01_ysj/index_01_ysj.html">
+      <file href="01_ysj/index_01_ysj.html" />
+    </resource>
+  </resources>
+</manifest>
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<!--
+ * Project   : Being Well, Living Well (BWLW_AUS)
+ * Version   : 1.0.0
+ * Release   : Tue Jul 21 2020 15:19:45 GMT+0100 (British Summer Time)
+ * Copyright : Oxford University Press / Epigeum
+-->
+
+<html data-programme="Being Well, Living Well" data-course="Staying Safe">
+
+	<head>
+		<title>Strand 3: Staying Safe</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/433/course_files/css/project.min.css">
+		<link id="basic-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/433/course_files/css/print.min.css" disabled>
+		<link id="summary-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/433/course_files/css/print_interactive.min.css">
+	</head>
+
+	<body>
+	  
+		<div id="app" v-cloak>
+			<base-container
+				screen-id="safe_landing"
+				current-module = "Being Well, Living Well"
+				page-title = "Staying Safe"
+				screen-time = "1"
+				screen-time-period = "min">
+
+				<img class="banner-image" src="https://courses.epigeum.com/materials/platform/433/course_files/images/page_images/global/safe-banner-image.png"/>
+
+				<page-container>
+
+					<page-row>						
+						<page-content-main>
+							
+							<p>This module on <strong>online safety</strong> is part of the  <em>Staying Safe</em> strand.</p>
+							<p>Modules in this strand present practical, non-judgemental advice to help you make healthy and informed decisions about alcohol and drug use; to deal with relationship issues, including respect and resolving conflicts, and sexual health issues; and to learn how to stay safe online.</p>
+							<p>Once you have completed this module, you might like to try one of these:</p>
+
+							<ul>
+								<li><em>Heathy relationships</em></li>
+								<li><em>Sexual health</em></li>
+								<li><em>Alcohol</em></li>
+								<li><em>Drugs</em></li>
+							</ul>
+
+						</page-content-main>
+					</page-row>
+					
+				</page-container>
+			</base-container>
+		</div> <!-- END content wrapper -->
+
+		<!-- scripts -->
+		<script src="https://courses.epigeum.com/materials/platform/433/course_files/js/vendor.min.js"></script>
+		<script src="https://courses.epigeum.com/materials/platform/433/course_files/js/vue-components.min.js"></script>
+		<script>
+			new Vue({
+			  el: "#app",
+			  data: {},
+			  mounted: function () {
+				var core = document.createElement('script');
+				core.src = "https://courses.epigeum.com/materials/platform/433/course_files/js/core.min.js";
+				document.getElementsByTagName('head')[0].appendChild(core);
+
+				var project = document.createElement('script');
+				project.src = "https://courses.epigeum.com/materials/platform/433/course_files/js/project.min.js";
+				document.getElementsByTagName('head')[0].appendChild(project);
+			  }
+			});
+		</script>
+
+	</body>
+</html>

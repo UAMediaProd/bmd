@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<!--
+ * Project   : Being Well, Living Well (BWLW_AUS)
+ * Version   : 1.0.0
+ * Release   : Tue Jul 21 2020 15:19:45 GMT+0100 (British Summer Time)
+ * Copyright : Oxford University Press / Epigeum
+-->
+
+<html data-programme="Being Well, Living Well" data-course="Feeling Well">
+
+	<head>
+		<title>Action plan</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/430/course_files/css/project.min.css">
+		<link id="basic-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/430/course_files/css/print.min.css" disabled>
+		<link id="summary-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/430/course_files/css/print_interactive.min.css">
+	</head>
+
+	<body>
+
+		<div id="app" v-cloak>
+			<base-container
+				screen-id="nge_1_60"
+				current-module="Module 2: Am I good enough?"
+				page-title="Action plan"
+				screen-time="4"
+				screen-time-period="mins">
+
+				<page-container>
+
+					<page-row>
+						<page-content-sidebar>
+                            
+                            <!-- OPTIONAL COURSE EVALUATION START -->
+							<pod variant="q" has-modal="true">
+								<pod-heading>Module evaluation</pod-heading> <!-- pod title -->
+								<pod-content></pod-content>
+								<!-- pop-up pod content -->
+								<pod-modal-heading>Module evaluation (optional)</pod-modal-heading>
+								<pod-modal-content>
+									<p><a href="https://www.epigeum.com/downloads/hosted_content/BWLW_AUS/survey/bwlw_aus_survey.html" target="_blank">Click here</a> to help develop and improve this course by providing some brief feedback (anonymously, of course). Please note that completing this survey is entirely optional. However, your input would be very welcome.</p>
+								</pod-modal-content>
+							</pod>
+							<!-- OPTIONAL COURSE EVALUATION END -->
+                            
+                        </page-content-sidebar>
+						
+						<page-content-main>
+
+							<p>This screen offers the opportunity to create an action plan to help deal with any issues caused by your experience of perfectionism.</p>
+
+							<instructional-text>
+								<p>Make a list of strategies that you can use to avoid being too perfectionistic, and think about sources of support. We've added the first two for you. Write your first point and then click on the 'Plus' symbol to reveal the next space. You can add up to six additional points. If you write fewer than six points you must click on the 'Plus' symbol to ensure that your text is captured in the summary. Then click for some feedback.</p>
+							</instructional-text>
+							<instructional-text-accessible><p>Make a list of strategies that you can use to avoid being too perfectionistic, and think about sources of support. For example, you might want to put the telephone number of student services at your university in your phonebook, or make time in the week to do something relaxing or fun that is not related to university work and is not about competition. Then continue for feedback.</p></instructional-text-accessible>
+							<accessible-text><p>&nbsp;</p></accessible-text>
+
+						</page-content-main>
+					</page-row>
+
+					<page-row>
+						<page-content-main>
+
+							<!-- ACTIVITY START -->
+							<shopping-list max-num-items="6">
+								<shopping-list-item allow-delete="true">Put the telephone number of counselling services at your university in your phonebook. You may never need it, but it will be good to have it to hand for you or your friends if you do. 
+								</shopping-list-item>
+								<shopping-list-item allow-delete="true">Make some time in the week to do something relaxing or fun that is not related to university work and is not about competition. Make it a regular thing and something you can look forward to, e.g. going to the cinema on Thursday evenings.
+								</shopping-list-item>
+								<shopping-list-summary-footer>
+									<h4>Feedback:</h4>
+									<p>Learning to be less perfectionistic is possible, but it takes time and effort. Think about the strategies we have covered in this module. Which ones do you think will work for you? Are there any others you can think of? There are no right or wrong ways to manage perfectionism, and you will find what works best for you!</p>
+								</shopping-list-summary-footer>
+							</shopping-list>
+							<!--feedback -->
+							<feedback-reveal>
+								<p>Learning to be less perfectionistic is possible, but it takes time and effort. Think about the strategies we have covered in this module. Which ones do you think will work for you? Are there any others you can think of? There are no right or wrong ways to manage perfectionism, and you will find what works best for you!</p>
+							</feedback-reveal>
+							<!-- ACTIVITY END -->
+
+						</page-content-main>
+					</page-row>
+
+				</page-container>
+			</base-container>
+		</div> <!-- END content wrapper -->
+
+		<!-- scripts -->
+		<script src="https://courses.epigeum.com/materials/platform/430/course_files/js/vendor.min.js"></script>
+		<script src="https://courses.epigeum.com/materials/platform/430/course_files/js/vue-components.min.js"></script>
+		<script>
+			new Vue({
+				el: "#app",
+				data: {},
+				mounted: function () {
+					var core = document.createElement('script');
+					core.src = "https://courses.epigeum.com/materials/platform/430/course_files/js/core.min.js";
+					document.getElementsByTagName('head')[0].appendChild(core);
+
+					var project = document.createElement('script');
+					project.src = "https://courses.epigeum.com/materials/platform/430/course_files/js/project.min.js";
+					document.getElementsByTagName('head')[0].appendChild(project);
+				}
+			});
+		</script>
+
+	</body>
+
+</html>

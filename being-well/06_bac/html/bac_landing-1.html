@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<!--
+ * Project   : Being Well, Living Well (BWLW_AUS)
+ * Version   : 1.0.0
+ * Release   : Tue Jul 21 2020 15:19:45 GMT+0100 (British Summer Time)
+ * Copyright : Oxford University Press / Epigeum
+-->
+
+<html data-programme="Being Well, Living Well" data-course="Living Well">
+
+	<head>
+		<title>Strand 1: Living Well</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/428/course_files/css/project.min.css">
+		<link id="basic-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/428/course_files/css/print.min.css" disabled>
+		<link id="summary-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/428/course_files/css/print_interactive.min.css">
+	</head>
+
+	<body>
+	  
+		<div id="app" v-cloak>
+			<base-container
+				screen-id="living_landing"
+				current-module = "Being Well, Living Well"
+				page-title = "Living Well"
+				screen-time = "1"
+				screen-time-period = "min">
+
+				<img class="banner-image" src="https://courses.epigeum.com/materials/platform/428/course_files/images/page_images/global/living-banner-image.png"/>
+
+				<page-container>
+
+					<page-row>						
+						<page-content-main>
+							
+							<p>This module on <strong>being active</strong> is part of the <em>Living Well</em> strand.</p>
+							<p>Modules in this strand look at essential wellbeing strategies to support successful study and a healthy lifestyle at university, touching on the transitions through university, good study behaviours and maintaining physical wellbeing. You will learn how to recognise problem areas and identify practical strategies and tools for dealing with them.</p>
+							<p>Once you have completed this module, you might like to try one of these:</p>
+							<ul>
+								<li><em>Your student journey</em></li>
+								<li><em>Study-life balance</em></li>
+								<li><em>Studying well</em></li>
+								<li><em>Postgraduate research student wellbeing</em></li>
+								<li><em>Eating well</em></li>
+							</ul>
+
+						</page-content-main>
+					</page-row>
+					
+				</page-container>
+			</base-container>
+		</div> <!-- END content wrapper -->
+
+		<!-- scripts -->
+		<script src="https://courses.epigeum.com/materials/platform/428/course_files/js/vendor.min.js"></script>
+		<script src="https://courses.epigeum.com/materials/platform/428/course_files/js/vue-components.min.js"></script>
+		<script>
+			new Vue({
+			  el: "#app",
+			  data: {},
+			  mounted: function () {
+				var core = document.createElement('script');
+				core.src = "https://courses.epigeum.com/materials/platform/428/course_files/js/core.min.js";
+				document.getElementsByTagName('head')[0].appendChild(core);
+
+				var project = document.createElement('script');
+				project.src = "https://courses.epigeum.com/materials/platform/428/course_files/js/project.min.js";
+				document.getElementsByTagName('head')[0].appendChild(project);
+			  }
+			});
+		</script>
+
+	</body>
+</html>

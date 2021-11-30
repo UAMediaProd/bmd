@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+
+<!--
+ * Project   : Being Well, Living Well (BWLW_AUS)
+ * Version   : 1.0.0
+ * Release   : Tue Jul 21 2020 15:19:45 GMT+0100 (British Summer Time)
+ * Copyright : Oxford University Press / Epigeum
+-->
+
+<html data-programme="Being Well, Living Well" data-course="Living Well">
+
+	<head>
+		<title>Understanding your current wellbeing</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/426/course_files/css/project.min.css">
+		<link id="basic-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/426/course_files/css/print.min.css" disabled>
+		<link id="summary-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/426/course_files/css/print_interactive.min.css">
+
+		<!-- include for bespoke chartjs research timeline -->
+		<script src="https://unpkg.com/chart.js@2.9.3/dist/Chart.min.js"></script>
+		<script src="https://unpkg.com/vue-chartjs@3.5.0/dist/vue-chartjs.min.js"></script>
+	</head>
+
+	<body>
+	  
+		<div id="app" v-cloak>
+			<base-container
+				screen-id="pgw_1_10"
+				current-module = "Module 4: Postgraduate research student wellbeing"
+				page-title = "Understanding your current wellbeing"
+				screen-time = "3"
+				screen-time-period = "mins">
+
+				<page-container>
+					
+					<page-row>
+						<page-content-sidebar>
+
+							<!-- DOWNLOAD START -->
+							<pod variant="d" has-modal="true">
+								<pod-heading>Glossary</pod-heading>
+								<pod-content></pod-content>
+								<!-- pop-up pod content -->
+								<pod-modal-heading>Glossary</pod-modal-heading>
+								<pod-modal-content>
+									<p>Download a <a href="https://courses.epigeum.com/materials/platform/426/course_files/media/documents/bwlw_aus_glossary.pdf" target="_blank">glossary</a> of terms used in this programme.</p>
+								</pod-modal-content>
+							</pod>
+							<!-- DOWNLOAD END -->
+
+						</page-content-sidebar>
+						
+						<page-content-main>
+
+							<p>Welcome to this module on postgraduate research student wellbeing.  Doing postgraduate research is a wonderful opportunity to study a subject you love in depth, meet other people doing the same thing and produce work that contributes to the existing body of knowledge.  It is completely normal, given these opportunities and responsibilities, to sometimes feel overwhelmed and to have doubts along your academic journey. It can be a time of great stress, and this topic helps you to identify the issues or concerns you may currently have with regards to your own wellbeing. The materials will also help you to explore specific tools to improve your own wellbeing while studying for a Master's or PhD.</p>
+
+							<instructional-text><p>You will be presented with a series of statements relating to your general sense of wellbeing. For each statement, select the button for the appropriate rating to indicate the extent to which you agree with the statement.</p></instructional-text>
+							<instructional-text-accessible><p>Consider the statements relating to your general sense of wellbeing. Select the option that most closely reflects the extent to which you agree with the statement. Then continue on for feedback.</p></instructional-text-accessible>
+
+							<!-- ACTIVITY START -->
+							<activity-summary id="pgw_1_10" class="pgw_1_10" show-in-accessible-version="false">
+								<div class="activity-body">
+									<div class="desktop-headings">
+										<p class="desktop-heading desktop-heading-statement">Statement</p>
+										<p class="desktop-heading">Good</p>
+										<p class="desktop-heading">Could be better</p>
+										<p class="desktop-heading">Not good</p>
+									</div>
+									<div class="statement-row odd">
+										<p class="statement-text">What are your energy levels like?</p>
+										<div class="radio-wrappers">
+											<div class="radio-wrapper">
+												<input id="radio-1" type="radio" name="group-1" value="1" class="tick-radio-btn good">
+												<label for="radio-1" tab-index="0"><span class="label-text">Good</span></label>
+											</div>
+											<div class="radio-wrapper">
+												<input id="radio-2" type="radio" name="group-1" value="2" class="tick-radio-btn could-be-better">
+												<label for="radio-2" tab-index="0"><span class="label-text">Could be better</span></label>
+											</div>
+											<div class="radio-wrapper">
+												<input id="radio-3" type="radio" name="group-1" value="3" class="tick-radio-btn not-good">
+												<label for="radio-3"><span class="label-text">Not good</span></label>
+											</div>
+										</div>
+									</div>
+									<div class="statement-row even">
+										<p class="statement-text">What is your physical fitness like?</p>
+										<div class="radio-wrappers">
+											<div class="radio-wrapper">
+												<input id="radio-4" type="radio" name="group-2" value="1" class="tick-radio-btn good">
+												<label for="radio-4" tab-index="0"><span class="label-text">Good</span></label>
+											</div>
+											<div class="radio-wrapper">
+												<input id="radio-5" type="radio" name="group-2" value="2" class="tick-radio-btn could-be-better">
+												<label for="radio-5" tab-index="0"><span class="label-text">Could be better</span></label>
+											</div>
+											<div class="radio-wrapper">
+												<input id="radio-6" type="radio" name="group-2" value="3" class="tick-radio-btn not-good">
+												<label for="radio-6"><span class="label-text">Not good</span></label>
+											</div>
+										</div>
+									</div>
+									<div class="statement-row odd">
+										<p class="statement-text">How do you rate your social interactions with family and/or close friends?</p>
+										<div class="radio-wrappers">
+											<div class="radio-wrapper">
+												<input id="radio-7" type="radio" name="group-3" value="1" class="tick-radio-btn good">
+												<label for="radio-7" tab-index="0"><span class="label-text">Good</span></label>
+											</div>
+											<div class="radio-wrapper">
+												<input id="radio-8" type="radio" name="group-3" value="2" class="tick-radio-btn could-be-better">
+												<label for="radio-8" tab-index="0"><span class="label-text">Could be better</span></label>
+											</div>
+											<div class="radio-wrapper">
+												<input id="radio-9" type="radio" name="group-3" value="3" class="tick-radio-btn not-good">
+												<label for="radio-9"><span class="label-text">Not good</span></label>
+											</div>
+										</div>
+									</div>
+									<div class="statement-row even">
+										<p class="statement-text">How would you rate your ability to practise mindfulness?</p>
+										<div class="radio-wrappers">
+											<div class="radio-wrapper">
+												<input id="radio-10" type="radio" name="group-4" value="1" class="tick-radio-btn good">
+												<label for="radio-10" tab-index="0"><span class="label-text">Good</span></label>
+											</div>
+											<div class="radio-wrapper">
+												<input id="radio-11" type="radio" name="group-4" value="2" class="tick-radio-btn could-be-better">
+												<label for="radio-11" tab-index="0"><span class="label-text">Could be better</span></label>
+											</div>
+											<div class="radio-wrapper">
+												<input id="radio-12" type="radio" name="group-4" value="3" class="tick-radio-btn not-good">
+												<label for="radio-12"><span class="label-text">Not good</span></label>
+											</div>
+										</div>
+									</div>
+									<div class="statement-row odd">
+										<p class="statement-text">How well do you sleep?</p>
+										<div class="radio-wrappers">
+											<div class="radio-wrapper">
+												<input id="radio-13" type="radio" name="group-5" value="1" class="tick-radio-btn good">
+												<label for="radio-13" tab-index="0"><span class="label-text">Good</span></label>
+											</div>
+											<div class="radio-wrapper">
+												<input id="radio-14" type="radio" name="group-5" value="2" class="tick-radio-btn could-be-better">
+												<label for="radio-14" tab-index="0"><span class="label-text">Could be better</span></label>
+											</div>
+											<div class="radio-wrapper">
+												<input id="radio-15" type="radio" name="group-5" value="3" class="tick-radio-btn not-good">
+												<label for="radio-15"><span class="label-text">Not good</span></label>
+											</div>
+										</div>
+									</div>
+									<div class="statement-row even">
+										<p class="statement-text">How good is your diet? (e.g. do you regularly eat balanced meals?)</p>
+										<div class="radio-wrappers">
+											<div class="radio-wrapper">
+												<input id="radio-16" type="radio" name="group-6" value="1" class="tick-radio-btn good">
+												<label for="radio-16" tab-index="0"><span class="label-text">Good</span></label>
+											</div>
+											<div class="radio-wrapper">
+												<input id="radio-17" type="radio" name="group-6" value="2" class="tick-radio-btn could-be-better">
+												<label for="radio-17" tab-index="0"><span class="label-text">Could be better</span></label>
+											</div>
+											<div class="radio-wrapper">
+												<input id="radio-18" type="radio" name="group-6" value="3" class="tick-radio-btn not-good">
+												<label for="radio-18"><span class="label-text">Not good</span></label>
+											</div>
+										</div>
+									</div>
+									<div class="statement-row odd">
+										<p class="statement-text">How do you rate the level of support you get from family and/or close friends?</p>
+										<div class="radio-wrappers">
+											<div class="radio-wrapper">
+												<input id="radio-19" type="radio" name="group-7" value="1" class="tick-radio-btn good">
+												<label for="radio-19" tab-index="0"><span class="label-text">Good</span></label>
+											</div>
+											<div class="radio-wrapper">
+												<input id="radio-20" type="radio" name="group-7" value="2" class="tick-radio-btn could-be-better">
+												<label for="radio-20" tab-index="0"><span class="label-text">Could be better</span></label>
+											</div>
+											<div class="radio-wrapper">
+												<input id="radio-21" type="radio" name="group-7" value="3" class="tick-radio-btn not-good">
+												<label for="radio-21"><span class="label-text">Not good</span></label>
+											</div>
+										</div>
+									</div>
+									<div class="statement-row even">
+										<p class="statement-text">How would you rate your general mood?</p>
+										<div class="radio-wrappers">
+											<div class="radio-wrapper">
+												<input id="radio-22" type="radio" name="group-8" value="1" class="tick-radio-btn good">
+												<label for="radio-22" tab-index="0"><span class="label-text">Good</span></label>
+											</div>
+											<div class="radio-wrapper">
+												<input id="radio-23" type="radio" name="group-8" value="2" class="tick-radio-btn could-be-better">
+												<label for="radio-23" tab-index="0"><span class="label-text">Could be better</span></label>
+											</div>
+											<div class="radio-wrapper">
+												<input id="radio-24" type="radio" name="group-8" value="3" class="tick-radio-btn not-good">
+												<label for="radio-24"><span class="label-text">Not good</span></label>
+											</div>
+										</div>
+									</div>
+									<div class="statement-row odd">
+										<p class="statement-text">What is your overall work/life balance like?</p>
+										<div class="radio-wrappers">
+											<div class="radio-wrapper">
+												<input id="radio-25" type="radio" name="group-9" value="1" class="tick-radio-btn good">
+												<label for="radio-25" tab-index="0"><span class="label-text">Good</span></label>
+											</div>
+											<div class="radio-wrapper">
+												<input id="radio-26" type="radio" name="group-9" value="2" class="tick-radio-btn could-be-better">
+												<label for="radio-26" tab-index="0"><span class="label-text">Could be better</span></label>
+											</div>
+											<div class="radio-wrapper">
+												<input id="radio-27" type="radio" name="group-9" value="3" class="tick-radio-btn not-good">
+												<label for="radio-27"><span class="label-text">Not good</span></label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</activity-summary>
+							<interactive-text>
+								<!-- feedback -->
+								<feedback-reveal>
+									<p>Based on your answers, what areas do you think you might need to work on?</p>
+									<p>Nearly everyone has some area of their life that could see some improvement. It's important not to take on too many things at the same time though, so try to prioritise the aspect that most needs attention right now. You can develop this further when we get to the <em>Action plan</em> screen at the end of the module.</p>
+									<p>A number of these topics are explored further in other modules in the <em>Being Well, Living Well</em> programme. For example, if you would like to improve your diet you could look at the <em>Eating well</em> module for advice; for information on sleeping better see the Study-life balance module; and for ideas on improving your physical fitness, see the module titled: <em>Being active</em>.</p>
+								</feedback-reveal>
+							</interactive-text>
+							<!-- ACCESSIBLE START -->
+							<accessible-block>
+								<h4>Statement 1 of 9:</h4>
+								<p>What are your energy levels like?</p>
+								<ul>
+									<li>Good</li>
+									<li>Could be better</li>
+									<li>Not good</li>
+								</ul>
+								<hr>
+								<h4>Statement 2 of 9:</h4>
+								<p>What is your physical fitness like?</p>
+								<ul>
+									<li>Good</li>
+									<li>Could be better</li>
+									<li>Not good</li>
+								</ul>
+								<hr>
+								<h4>Statement 3 of 9:</h4>
+								<p>How do you rate your social interactions with family and/or close friends?</p>
+								<ul>
+									<li>Good</li>
+									<li>Could be better</li>
+									<li>Not good</li>
+								</ul>
+								<hr>
+								<h4>Statement 4 of 9:</h4>
+								<p>How would you rate your ability to practise mindfulness?</p>
+								<ul>
+									<li>Good</li>
+									<li>Could be better</li>
+									<li>Not good</li>
+								</ul>
+								<hr>
+								<h4>Statement 5 of 9:</h4>
+								<p>How well do you sleep?</p>
+								<ul>
+									<li>Good</li>
+									<li>Could be better</li>
+									<li>Not good</li>
+								</ul>
+								<hr>
+								<h4>Statement 6 of 9:</h4>
+								<p>How good is your diet? (e.g. do you regularly eat balanced, nutritious meals?)</p>
+								<ul>
+									<li>Good</li>
+									<li>Could be better</li>
+									<li>Not good</li>
+								</ul>
+								<hr>
+								<h4>Statement 7 of 9:</h4>
+								<p>How do you rate the level of support you get from family and/or close friends?</p>
+								<ul>
+									<li>Good</li>
+									<li>Could be better</li>
+									<li>Not good</li>
+								</ul>
+								<hr>
+								<h4>Statement 8 of 9:</h4>
+								<p>How would you rate your general mood?</p>
+								<ul>
+									<li>Good</li>
+									<li>Could be better</li>
+									<li>Not good</li>
+								</ul>
+								<hr>
+								<h4>Statement 9 of 9:</h4>
+								<p>What is your overall work/life balance like?</p>
+								<ul>
+									<li>Good</li>
+									<li>Could be better</li>
+									<li>Not good</li>
+								</ul>
+								<hr>
+								<h4>Overall feedback:</h4>
+								<p>Based on your answers, what areas do you think you might need to work on?</p>
+								<p>Nearly everyone has some area of their life that could see some improvement. It's important not to take on too many things at the same time though, so try to prioritise the aspect that most needs attention right now. You can develop this further when we get to the <em>Action plan</em> screen at the end of the module.</p>
+								<p>A number of these topics are explored further in other modules in the <em>Being Well, Living Well</em> programme. For example, if you would like to improve your diet you could look at the <em>Eating well</em> module for advice; for information on sleeping better see the Study-life balance module; and for ideas on improving your physical fitness, see the module titled: <em>Being active</em>.</p>
+							</accessible-block>
+							<!-- ACCESSIBLE END -->
+							<!-- ACTIVITY END -->
+
+						</page-content-main>
+					</page-row>
+
+					<page-row>
+						<page-content-sidebar>
+
+							<!-- PEER SUPPORT START -->
+							<pod variant="a" has-modal="true">
+								<pod-heading>Peer support</pod-heading>
+								<pod-content></pod-content>
+								<!-- pop-up pod content -->
+								<pod-modal-heading>Peer support</pod-modal-heading>
+								<pod-modal-content>
+									<p>If you feel comfortable doing so, reach out to fellow students and ask them to talk to you about how they felt when they were midway through their research project. What strategies did they employ to help them through the 'mid-point blues'?</p>
+								</pod-modal-content>
+							</pod>
+							<!-- PEER SUPPORT END -->
+
+							<!-- USEFUL LINKS START -->
+							<pod variant="b" has-modal="true">
+								<pod-heading>Useful links</pod-heading>
+								<pod-content></pod-content>
+								<!-- pop-up pod content -->
+								<pod-modal-heading>Useful links</pod-modal-heading>
+								<pod-modal-content>
+									<hosted-link id="BWLW_AUS_pgw_1_10">
+										<p>Online communities such as the <a href="https://www.blackdoginstitute.org.au/" target="_blank">Black Dog Institute</a> and <a href="https://www.beyondblue.org.au/" target="_blank">Beyond Blue</a> offer support for those experiencing anxiety or depression.</p>
+									</hosted-link>
+								</pod-modal-content>
+							</pod>
+							<!-- USEFUL LINKS END -->
+
+						</page-content-sidebar>
+
+						<page-content-main>
+
+							<p>Try to think about how your research project might be affecting your mood, and make some plans for the journey still ahead. It is very common for postgraduate research students to find that their studies involve a rollercoaster of emotions as they progress, and many specifically encounter '<glossary content="A common experience after the excitement of the first year has worn off and the end point of the doctorate seems to be so far away. This is a very common occurrence and is experienced by lots of doctoral students.">mid-point blues</glossary>' and feel very demotivated after the initial excitement of starting their postgraduate studies has worn off.</p>
+
+							<instructional-text><p>Draft a timeline of your research project, and map your mood against it. Click on the milestone labels and customise them to reflect your experience (e.g. submission of proposal, research phase, first draft, etc), and ask yourself: how did/do you feel at each stage? Then for each milestone, assign your mood as 'good', 'neutral' or 'low' by clicking on the pinpoint for the relevant emotion. If you are just starting out on your project, think about what your journey could look like and try to predict how you will feel at key stages along the way.</p></instructional-text>
+
+						</page-content-main>
+					</page-row>
+
+					<page-row>
+						<page-content-wide>
+
+							<instructional-text-accessible>
+								<p>Draft a timeline of your research project that includes the key milestones (e.g. submission of proposal, research phase, first draft, etc.). Reflect how you felt/feel at each stage and assign your mood as 'good', 'neutral' or 'low' at the milestones. If you are just starting out on your project, think about what your journey could look like and try to predict how you will feel at key stages along the way. Use the sample graph provided as a guide.</p>
+								<p>When you have finished drafting your timeline, continue on for feedback.</p>
+							</instructional-text-accessible>
+
+							<!-- ACTIVITY START -->
+							<!-- special bespoke -->
+							<span v-pre class="remove-accessible">
+								<div id="pgw_1_10_chart">
+									<research-timeline></research-timeline>
+									<modal-view-summary v-if="hasSummaryContent" :id="id">
+										<p>Your mood during your research project was as follows:</p>
+										<ul>
+											<li v-for="entry in moodMap">
+												{{entry.label}} : {{entry.value}}
+											</li>
+										</ul>
+									</modal-view-summary>
+									<button
+										aria-expanded="true"
+										v-if="hasSummaryContent"
+										class="btn btn-default pull-right"
+										data-toggle="modal"
+										:data-target="'#' + id"
+										:data-target-id="id">
+										View summary
+									</button>
+								</div>
+							</span>
+							<!-- ACCESSIBLE START -->
+							<accessible-block>
+								<img src="https://courses.epigeum.com/materials/platform/426/course_files/images/activity_images/course_specific/pgw_1_10_img1.png" class="img-responsive" />
+							</accessible-block>
+							<!-- ACCESSIBLE END -->
+							<!-- feedback -->
+							<feedback-reveal>
+								<accessible-text><h4>Feedback:</h4></accessible-text>
+								<p>If you find you are having significant and sustained dips in mood then please do seek professional help from your GP or university support services. Online services such as the Black Dog Institute can also be really helpful (see the <em>'Useful links'</em> pod).</p>
+							</feedback-reveal>
+							<!-- ACTIVITY END -->
+
+						</page-content-wide>
+					</page-row>
+
+					<page-row>
+						<page-content-main>
+
+							<p>Being a postgraduate research student can be unexpectedly more challenging than being an undergraduate, and it is certainly far from a straightforward journey! However, this doesn't mean that you can't be in control of your health and wellbeing. You've just taken the first, important steps to identify any areas that you need to focus on in order to bring balance to your life.</p>
+
+						</page-content-main>
+
+						<page-content-sidebar>
+
+							<!-- STUDENT SAY START -->
+                            <pod variant="e" has-modal="true">
+								<pod-heading>Students say</pod-heading>
+								<pod-content></pod-content>
+								<!-- pop-up pod content -->
+								<pod-modal-heading>Students say</pod-modal-heading>
+								<pod-modal-content>
+									<pod-quote><p>I really enjoyed my time as a PhD student &ndash; it was the first opportunity I'd ever had to focus on a piece of research that I was passionate about and really wanted to do. That said, it was pretty challenging learning how to juggle a massive project and all the other aspects of life! I reached out to other PhD students early on in my degree and found them a really good source of information and support &ndash; particularly those who were further on than me.</p></pod-quote>
+									<p class="text-note"><em>Patrick, 27</em></p>
+									<hr>
+									<pod-quote><p>I was incredibly excited to start my PhD in Biochemistry. I really thought that I was going to change the world! I had sponsorship from a charity but there was a lot of pressure to finish within three years, which I found tough. The worst part, though, was midway through, when my results were not showing what I wanted them to and I felt like I wasn't going anywhere. Apparently it's really common to feel like this at the mid-point but no one told me until I was past it! I found it really helpful to meet with my fellow PhD students in the bar every Wednesday evening and have a bit of a whinge. I don't know what I would have done without them!</p></pod-quote>
+									<p class="text-note"><em>Fazar, 36</em></p>
+								</pod-modal-content>
+							</pod>
+							<!-- STUDENTS SAY END -->
+
+						</page-content-sidebar>
+					</page-row>
+					
+				</page-container>
+			</base-container>
+		</div> <!-- END content wrapper -->
+
+		<!-- scripts -->
+		<script src="https://courses.epigeum.com/materials/platform/426/course_files/js/vendor.min.js"></script>
+		<script src="https://courses.epigeum.com/materials/platform/426/course_files/js/vue-components.min.js"></script>
+		<script>
+			new Vue({
+			  el: "#app",
+			  data: {},
+			  mounted: function () {
+				var core = document.createElement('script');
+				core.src = "https://courses.epigeum.com/materials/platform/426/course_files/js/core.min.js";
+				document.getElementsByTagName('head')[0].appendChild(core);
+
+				var project = document.createElement('script');
+				project.src = "https://courses.epigeum.com/materials/platform/426/course_files/js/project.min.js";
+				document.getElementsByTagName('head')[0].appendChild(project);
+			  }
+			});
+		</script>
+
+	</body>
+</html>

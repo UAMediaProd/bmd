@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<!--
+ * Project   : Being Well, Living Well (BWLW_AUS)
+ * Version   : 1.0.0
+ * Release   : Tue Jul 21 2020 15:19:45 GMT+0100 (British Summer Time)
+ * Copyright : Oxford University Press / Epigeum
+-->
+
+<html data-programme="Being Well, Living Well" data-course="Staying Safe">
+
+	<head>
+		<title>Module summary</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/433/course_files/css/project.min.css">
+		<link id="basic-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/433/course_files/css/print.min.css" disabled>
+		<link id="summary-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/433/course_files/css/print_interactive.min.css">
+	</head>
+
+	<body>
+
+		<div id="app" v-cloak>
+			<base-container
+				screen-id="ons_1_80"
+				current-module="Module 1: Online safety"
+				page-title="Module summary"
+				screen-time="3"
+				screen-time-period="mins">
+
+				<page-container>
+
+					<page-row>
+						<page-content-main>
+
+							<p>Now that you have completed this module, think about the key steps you can take to stay safe online.</p>
+
+							<instructional-text><p>Click 'Next' to build up a checklist of key points from the module.</p></instructional-text>
+							<accessible-text><p>Continue on for a checklist of key points from the module.</p></accessible-text>
+
+						</page-content-main>
+					</page-row>
+
+					<page-row>
+						<page-content-main>
+
+							<!-- ACTIVITY START -->
+							<checklist>
+								<check-item>It is important to think about how much time we are spending online and what we are doing in balance with other activities in our lives</check-item>
+								<check-item>It is really important to think about using privacy settings, using secure sites to buy things, and using passwords to protect our information</check-item>
+								<check-item>We should think carefully about how we use technology in our everyday relationships, especially intimate ones</check-item>
+								<check-item>If you are worried about the way people behave toward you online, remember you can respond proactively by either blocking them or reporting the behaviour</check-item>
+								<check-item>We should always be vigilant about any emails we receive, what links we click on, and any personal information we share</check-item>
+								<check-item>Images that are posted or shared online without consent can be very upsetting, and in some cases, illegal. These should be reported</check-item>
+								<check-item>It is not acceptable to hide behind freedom of speech when making hateful comments about protected characteristics. Such posts can be reported and in extreme cases someone could end up with a criminal record.</check-item>
+							</checklist>
+							<!-- ACTIVITY END -->
+
+						</page-content-main>
+					</page-row>
+
+				</page-container>
+			</base-container>
+		</div> <!-- END content wrapper -->
+
+		<!-- scripts -->
+		<script src="https://courses.epigeum.com/materials/platform/433/course_files/js/vendor.min.js"></script>
+		<script src="https://courses.epigeum.com/materials/platform/433/course_files/js/vue-components.min.js"></script>
+		<script>
+			new Vue({
+				el: "#app",
+				data: {},
+				mounted: function () {
+					var core = document.createElement('script');
+					core.src = "https://courses.epigeum.com/materials/platform/433/course_files/js/core.min.js";
+					document.getElementsByTagName('head')[0].appendChild(core);
+
+					var project = document.createElement('script');
+					project.src = "https://courses.epigeum.com/materials/platform/433/course_files/js/project.min.js";
+					document.getElementsByTagName('head')[0].appendChild(project);
+				}
+			});
+		</script>
+
+	</body>
+
+</html>

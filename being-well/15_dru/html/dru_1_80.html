@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<!--
+ * Project   : Being Well, Living Well (BWLW_AUS)
+ * Version   : 1.0.0
+ * Release   : Tue Jul 21 2020 15:19:45 GMT+0100 (British Summer Time)
+ * Copyright : Oxford University Press / Epigeum
+-->
+
+<html data-programme="Being Well, Living Well" data-course="Staying Safe">
+
+	<head>
+		<title>Action plan</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/437/course_files/css/project.min.css">
+		<link id="basic-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/437/course_files/css/print.min.css" disabled>
+		<link id="summary-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/437/course_files/css/print_interactive.min.css">
+	</head>
+
+	<body>
+
+		<div id="app" v-cloak>
+			<base-container 
+				screen-id="dru_1_80" 
+				current-module="Module 5: Drugs " 
+				page-title="Action plan"
+				screen-time="5"
+				screen-time-period="mins">
+
+				<page-container>
+
+					<page-row>
+						<page-content-sidebar>
+                            
+                            <!-- OPTIONAL COURSE EVALUATION START -->
+							<pod variant="q" has-modal="true">
+								<pod-heading>Module evaluation</pod-heading> <!-- pod title -->
+								<pod-content></pod-content>
+								<!-- pop-up pod content -->
+								<pod-modal-heading>Module evaluation (optional)</pod-modal-heading>
+								<pod-modal-content>
+									<p><a href="https://www.epigeum.com/downloads/hosted_content/BWLW_AUS/survey/bwlw_aus_survey.html" target="_blank">Click here</a> to help develop and improve this course by providing some brief feedback (anonymously, of course). Please note that completing this survey is entirely optional. However, your input would be very welcome.</p>
+								</pod-modal-content>
+							</pod>
+							<!-- OPTIONAL COURSE EVALUATION END -->
+                            
+                        </page-content-sidebar>
+						
+						<page-content-main>
+
+							<p>After everything that we have learnt about psychoactive drugs, we now have the opportunity to
+								reflect on how to minimise harm when dealing with recreational drug use.</p>
+
+							<instructional-text>
+								<p>Click 'Next' to build up a list of ideas to help minimise the harm if you, or a friend,
+									consumes drugs. Then respond to the question.</p>
+							</instructional-text>
+							<instructional-text-accessible><p>Continue on for a list of ideas to help minimise the harm if you, or a friend, consumes drugs. Then consider the question.</p></instructional-text-accessible>
+
+						</page-content-main>
+					</page-row>
+
+					<page-row>
+						<page-content-main>
+
+							<!-- ACTIVITY START -->
+							<checklist>
+								<check-item><strong>Mindset:</strong> Consider your mood and feelings before deciding whether to take a drug</check-item>
+								<check-item><strong>Setting:</strong> Think about the physical space where you or your friends will be under the influence of drugs</check-item>
+								<check-item><strong>Research:</strong> Investigate the possible effects of the drug so you are prepared</check-item>
+								<check-item><strong>Combinations:</strong> Consider the interaction of any drugs you plan to mix or may already have in your system</check-item>
+								<check-item><strong>Expectations:</strong> If you plan to take a drug, what do you think you will feel and get out of it?</check-item>
+								<check-item><strong>Motivations:</strong> Why are you considering taking psychoactive drugs? Do you feel comfortable with the decision?</check-item>
+								<check-item><strong>Alternatives:</strong> There are often other ways to have the experience you are looking for without using drugs &ndash; have you considered these?</check-item>
+								<check-item><strong>Help:</strong> Reassure yourself that you know how to get help if you or a friend has a bad experience while taking drugs</check-item>
+								<check-item><strong>Frequency:</strong> Think about how often you are taking psychoactive drugs and if you may be developing dependency</check-item>
+								<check-item><strong>Honesty:</strong> Are you honest and transparent about your drug-taking habits with friends and family?</check-item>
+								<check-item><strong>Risk:</strong> Have you thought about the potential risk factors of taking the drug, and the short- and long-term health concerns?</check-item>
+							</checklist>
+							<interactive-text>
+								<text-entry>
+									<p>Which of these prompts was most relevant to you? How will you implement a harm reduction approach that is most relevant to your situation?</p>
+								</text-entry>
+							</interactive-text>
+							<!-- ACCESSIBLE START -->
+							<accessible-block>
+								<h4>Question:</h4>
+								<p>Which of these prompts was most relevant to you? How will you implement a harm reduction approach that is most relevant to your situation?</p>
+							</accessible-block>
+							<!-- ACCESSIBLE END -->
+							<!-- ACTIVITY END -->
+
+						</page-content-main>
+					</page-row>
+
+					<page-row>
+						<page-content-main>
+
+							<p>We have covered a lot about psychoactive drugs in this module, from the biology to the social aspects of recreational drug use. The best way to avoid harm is not to consume psychoactive drugs. However, we hope that you are now better equipped to minimise the harm of recreational drugs if you, or your friends, choose to use them.</p>
+
+						</page-content-main>
+					</page-row>
+
+				</page-container>
+			</base-container>
+		</div> <!-- END content wrapper -->
+
+		<!-- scripts -->
+		<script src="https://courses.epigeum.com/materials/platform/437/course_files/js/vendor.min.js"></script>
+		<script src="https://courses.epigeum.com/materials/platform/437/course_files/js/vue-components.min.js"></script>
+		<script>
+			new Vue({
+				el: "#app",
+				data: {},
+				mounted: function () {
+					var core = document.createElement('script');
+					core.src = "https://courses.epigeum.com/materials/platform/437/course_files/js/core.min.js";
+					document.getElementsByTagName('head')[0].appendChild(core);
+
+					var project = document.createElement('script');
+					project.src = "https://courses.epigeum.com/materials/platform/437/course_files/js/project.min.js";
+					document.getElementsByTagName('head')[0].appendChild(project);
+				}
+			});
+		</script>
+
+	</body>
+
+</html>

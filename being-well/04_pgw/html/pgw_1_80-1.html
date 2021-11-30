@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<!--
+ * Project   : Being Well, Living Well (BWLW_AUS)
+ * Version   : 1.0.0
+ * Release   : Tue Jul 21 2020 15:19:45 GMT+0100 (British Summer Time)
+ * Copyright : Oxford University Press / Epigeum
+-->
+
+<html data-programme="Being Well, Living Well" data-course="Living Well">
+
+	<head>
+		<title>Module summary</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/426/course_files/css/project.min.css">
+		<link id="basic-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/426/course_files/css/print.min.css" disabled>
+		<link id="summary-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/426/course_files/css/print_interactive.min.css">
+	</head>
+
+	<body>
+	  
+		<div id="app" v-cloak>
+			<base-container
+				screen-id="pgw_1_80"
+				current-module = "Module 4: Postgraduate research student wellbeing"
+				page-title = "Module summary"
+				screen-time = "3"
+				screen-time-period = "mins">
+
+				<page-container>
+					
+					<page-row>
+						<page-content-main>
+
+							<p>This module has covered a lot of information about the postgraduate research student journey, and you have hopefully gained some ideas about how you can improve your experience.</p>
+
+							<instructional-text><p>Click to build up a list of key learning from the module.</p></instructional-text>
+							<accessible-text><p>Continue on for a list of key learning from the module.</p></accessible-text>
+
+							<!-- ACTIVITY START -->
+							<checklist>
+								<check-item>It is common for students to feel a rollercoaster of emotions during their studies, and there will be periods of heightened stress and anxiety around deadlines. These will pass!</check-item>
+								<check-item>Postgraduate students experience many demands on their time, and it is important to try to find a balance between studies and home life so you don't feel overstretched</check-item>
+								<check-item>Imposter syndrome is incredibly common amongst postgraduate students, and sharing experiences with others can help you to realise you are not alone</check-item>
+								<check-item>There can be barriers that make it more difficult to form social connections during postgraduate study, but these relationships are beneficial for your sense of wellbeing and can help you to achieve study success</check-item>
+								<check-item>The research student-supervisor relationship can be complex, and it is important that you feel empowered and supported by these interactions. There are codes of conduct in place and steps you can take if you feel you cannot work well with your supervisor</check-item>
+								<check-item>Whilst postgraduate research can feel isolating on occasions, there are communities of students around you and you can all support each other when you find you are struggling. Just having a coffee with a fellow student can be a great way of not feeling so isolated</check-item>
+								<check-item>Don't forget that you need to take care of your physical and mental health and wellbeing as a priority &ndash; eating well, exercising regularly, having positive social interactions and doing things unrelated to your research will all help. And you'll find you'll be more productive and motivated for your research as a result!</check-item>
+							</checklist>
+							<!-- ACTIVITY END -->
+
+						</page-content-main>
+					</page-row>
+					
+				</page-container>
+			</base-container>
+		</div> <!-- END content wrapper -->
+
+		<!-- scripts -->
+		<script src="https://courses.epigeum.com/materials/platform/426/course_files/js/vendor.min.js"></script>
+		<script src="https://courses.epigeum.com/materials/platform/426/course_files/js/vue-components.min.js"></script>
+		<script>
+			new Vue({
+			  el: "#app",
+			  data: {},
+			  mounted: function () {
+				var core = document.createElement('script');
+				core.src = "https://courses.epigeum.com/materials/platform/426/course_files/js/core.min.js";
+				document.getElementsByTagName('head')[0].appendChild(core);
+
+				var project = document.createElement('script');
+				project.src = "https://courses.epigeum.com/materials/platform/426/course_files/js/project.min.js";
+				document.getElementsByTagName('head')[0].appendChild(project);
+			  }
+			});
+		</script>
+
+	</body>
+</html>

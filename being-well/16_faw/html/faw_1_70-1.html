@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<!--
+ * Project   : Being Well, Living Well (BWLW_AUS)
+ * Version   : 1.0.0
+ * Release   : Tue Jul 21 2020 15:19:45 GMT+0100 (British Summer Time)
+ * Copyright : Oxford University Press / Epigeum
+-->
+
+<html data-programme="Being Well, Living Well" data-course="Spending Well">
+
+	<head>
+		<title>Module summary</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/438/course_files/css/project.min.css">
+		<link id="basic-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/438/course_files/css/print.min.css" disabled>
+		<link id="summary-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/438/course_files/css/print_interactive.min.css">
+	</head>
+
+	<body>
+	  
+		<div id="app" v-cloak>
+			<base-container
+				screen-id="faw_1_70"
+				current-module = "Module 1: Financial awareness"
+				page-title = "Module summary"
+				screen-time = "4"
+				screen-time-period = "mins">
+
+				<page-container>
+					
+					<page-row>						
+						<page-content-main>
+
+							<p>This module has covered a wide range of issues, from understanding some of the key finance terminology, to creating a budget, and looking at ways that you can save money, and yourself from potential financial fraud.</p>
+							
+							<instructional-text><p>Click to build up a checklist of key information from the module.</p></instructional-text>
+							<accessible-text><p>Continue on for a checklist of key information from the module.</p></accessible-text>
+
+							<!-- ACTIVITY START -->
+							<checklist>
+								<check-item>As a student you will have a lot of financial considerations to keep track off. Simple steps such as creating a budget and keeping track of loan repayments can make things much less stressful.</check-item>
+								<check-item>Before applying for any type of loan, make sure you have all necessarily information to hand and be aware that the details you provide will be checked.</check-item>
+								<check-item>It is important to maintain a good credit score if you plan to take out any type of loan, from a phone contract to a mortgage.</check-item>
+								<check-item>Create a budget to keep track of spending and maintain an overview of your finances.</check-item>
+								<check-item>Think about if there is anything you could do to cut back on your spending, or make small changes to your spending habits to help your money go further.</check-item>
+								<check-item>Take steps to make online banking safer and protect your personal details from being stolen.</check-item>
+							</checklist>
+							<!-- ACTIVITY END -->
+
+						</page-content-main>
+					</page-row>
+					
+				</page-container>
+			</base-container>
+		</div> <!-- END content wrapper -->
+
+		<!-- scripts -->
+		<script src="https://courses.epigeum.com/materials/platform/438/course_files/js/vendor.min.js"></script>
+		<script src="https://courses.epigeum.com/materials/platform/438/course_files/js/vue-components.min.js"></script>
+		<script>
+			new Vue({
+			  el: "#app",
+			  data: {},
+			  mounted: function () {
+				var core = document.createElement('script');
+				core.src = "https://courses.epigeum.com/materials/platform/438/course_files/js/core.min.js";
+				document.getElementsByTagName('head')[0].appendChild(core);
+
+				var project = document.createElement('script');
+				project.src = "https://courses.epigeum.com/materials/platform/438/course_files/js/project.min.js";
+				document.getElementsByTagName('head')[0].appendChild(project);
+			  }
+			});
+		</script>
+
+	</body>
+</html>

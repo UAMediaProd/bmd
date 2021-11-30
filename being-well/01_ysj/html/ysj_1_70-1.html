@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<!--
+ * Project   : Being Well, Living Well (BWLW_AUS)
+ * Version   : 1.0.0
+ * Release   : Tue Jul 21 2020 15:19:45 GMT+0100 (British Summer Time)
+ * Copyright : Oxford University Press / Epigeum
+-->
+
+<html data-programme="Being Well, Living Well" data-course="Living Well">
+
+	<head>
+		<title>Summary</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/423/course_files/css/project.min.css">
+		<link id="basic-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/423/course_files/css/print.min.css" disabled>
+		<link id="summary-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/423/course_files/css/print_interactive.min.css">
+	</head>
+
+	<body>
+
+		<div id="app" v-cloak>
+			<base-container 
+				screen-id="ysj_1_70" 
+				current-module="Module 1: Your student journey" 
+				page-title="Module Summary" 
+				screen-time="5"
+				screen-time-period="mins">
+
+				<page-container>
+
+					<page-row>
+						<page-content-main>
+
+							<p>We have covered a lot of ground in this module, from the different and evolving emotions you
+								may experience during your time as a student, to the importance of resolving conflict in a
+								respectful and constructive way. Here is a reminder of the key topics we have covered.</p>
+
+							<instructional-text>
+								<p>Click 'Next' to build a list of the key learning.</p>
+							</instructional-text>
+							<instructional-text-accessible><p>Continue for a list of the key learning.</p></instructional-text-accessible>
+
+						</page-content-main>
+					</page-row>
+
+					<page-row>
+						<page-content-main>
+
+							<!-- ACTIVITY START -->
+							<checklist>
+								<check-item>Being a student involves an exciting transformative journey &ndash; there will be emotional and practical challenges at each step</check-item>
+								<check-item>You can help yourself to manage changes by developing supportive environments and routines</check-item>
+								<check-item>Identify what is important to you and use this as a compass to find your way in new situations</check-item>
+								<check-item>Approach new people and situations with curiosity, empathy and openness</check-item>
+								<check-item>Stay in touch with your own feelings and needs, and be ready to communicate them</check-item>
+								<check-item>Seek out connections and communities to reinforce and extend your identity and sense of belonging.</check-item>
+							</checklist>
+							<!-- ACTIVITY END -->
+
+						</page-content-main>
+					</page-row>
+
+				</page-container>
+			</base-container>
+		</div> <!-- END content wrapper -->
+
+		<!-- scripts -->
+		<script src="https://courses.epigeum.com/materials/platform/423/course_files/js/vendor.min.js"></script>
+		<script src="https://courses.epigeum.com/materials/platform/423/course_files/js/vue-components.min.js"></script>
+		<script>
+			new Vue({
+				el: "#app",
+				data: {},
+				mounted: function () {
+					var core = document.createElement('script');
+					core.src = "https://courses.epigeum.com/materials/platform/423/course_files/js/core.min.js";
+					document.getElementsByTagName('head')[0].appendChild(core);
+
+					var project = document.createElement('script');
+					project.src = "https://courses.epigeum.com/materials/platform/423/course_files/js/project.min.js";
+					document.getElementsByTagName('head')[0].appendChild(project);
+				}
+			});
+		</script>
+
+	</body>
+
+</html>

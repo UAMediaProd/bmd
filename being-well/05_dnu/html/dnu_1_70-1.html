@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<!--
+ * Project   : Being Well, Living Well (BWLW_AUS)
+ * Version   : 1.0.0
+ * Release   : Tue Jul 21 2020 15:19:45 GMT+0100 (British Summer Time)
+ * Copyright : Oxford University Press / Epigeum
+-->
+
+<html data-programme="Being Well, Living Well" data-course="Living Well">
+
+	<head>
+		<title>Healthy attitudes to food</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="../css/project.min.css">
+		<link id="basic-print" rel="stylesheet" type="text/css" href="../css/print.min.css" disabled>
+		<link id="summary-print" rel="stylesheet" type="text/css" href="../css/print_interactive.min.css">
+	</head>
+
+	<body>
+	  
+		<div id="app" v-cloak>
+			<base-container
+				screen-id="dnu_1_70"
+				current-module = "Module 5: Eating well"
+				page-title = "Healthy attitudes to food"
+				screen-time = "4"
+				screen-time-period = "mins">
+
+				<page-container>
+					
+					<page-row>						
+						<page-content-main>
+
+							<p>As we have discovered, eating healthily is important. However, healthy attitudes to eating are important as well. The term 'healthy attitudes' means that eating and food are just one part of life. Food is not an obsession or something that worries you all the time. It means that:</p>
+
+							<text-block>
+								<ul>
+									<li>You treat food and eating as something enjoyable </li>
+									<li>Your food intake varies, and you may eat less on some days and more on others</li>
+									<li>You don't have strict rules or judgements around food or cut out foods or food groups (unless for a specific reason, e.g. intolerance, religious, cultural or ethical reasons)</li>
+									<li>You don't track your food intake obsessively</li>
+									<li>You don't diet in a way that is compulsive or regularly skip meals </li>
+									<li>You enjoy some foods more than others just because you prefer the taste.</li>
+								</ul>
+							</text-block>
+
+							<p>How would you describe your attitude to food?</p>
+
+							<instructional-text><p>Reflect on your relationship with food by responding to each of the questions.</p></instructional-text>
+
+						</page-content-main>
+					</page-row>
+
+					<page-row>
+						<page-content-main>
+
+							<instructional-text-accessible><p>Consider your relationship with food, then reflect on the four questions and think about your responses.</p></instructional-text-accessible>
+							
+							<!-- ACTIVITY START -->
+							<process summary="true" variant="text-entry">
+								<process-page>
+									<text-entry>Choose a few words to describe your usual relationship with food. For example, what does food signify for you? Is it fuel for the body? When and how do you usually eat? Is it when you're hungry?</text-entry>
+								</process-page>
+								<process-page>
+									<text-entry><p>Do you have any rules or restrictions around food?</p></text-entry>
+								</process-page>
+								<process-page>
+									<text-entry><p>Do you use food to control how you feel?</p></text-entry>
+								</process-page>
+								<process-page>
+									<text-entry><p>Do you have overwhelming concerns about your weight or body shape?</p></text-entry>
+								</process-page>
+							</process>
+							<!-- ACTIVITY END -->
+
+							<p>Thinking that you, a friend or a loved one may have serious issues with food, or disordered eating (e.g. restricting food intake, regularly overeating, having unrealistic or obsessive food rules), is challenging. However, it is important to discuss your concerns with someone you trust. If you are unsure who to turn to, your GP is a good place to start. There are also many online or telephone support services available, if this feels more comfortable. Talking about these issues is a first great step in the right direction (see the <em>'Your context'</em> pod for details). Help and support are available to you, no matter what you are going through.</p>
+
+						</page-content-main>
+
+						<page-content-sidebar>
+
+							<!-- YOUR CONTEXT START -->
+                            <pod variant="c" has-modal="true">
+								<pod-heading>Your context</pod-heading>
+								<pod-content></pod-content>
+								<!-- pop-up pod content -->
+								<pod-modal-heading>Your context</pod-modal-heading>
+								<pod-modal-content>
+									<p>If you think that you, a friend or a loved one may have serious issues with food, it's important to reach out for support. Consider contacting your university support services, your GP or the Butterfly Foundation national support line on <strong>1800 ED HOPE</strong>.</p>
+								</pod-modal-content>
+							</pod>
+							<!-- YOUR CONTEXT END -->
+
+						</page-content-sidebar>
+					</page-row>
+					
+				</page-container>
+			</base-container>
+		</div> <!-- END content wrapper -->
+
+		<!-- scripts -->
+		<script src="../js/vendor.min.js"></script>
+		<script src="../js/vue-components.min.js"></script>
+		<script>
+			new Vue({
+			  el: "#app",
+			  data: {},
+			  mounted: function () {
+				var core = document.createElement('script');
+				core.src = "../js/core.min.js";
+				document.getElementsByTagName('head')[0].appendChild(core);
+
+				var project = document.createElement('script');
+				project.src = "../js/project.min.js";
+				document.getElementsByTagName('head')[0].appendChild(project);
+			  }
+			});
+		</script>
+
+	</body>
+</html>

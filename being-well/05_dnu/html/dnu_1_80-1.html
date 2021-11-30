@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<!--
+ * Project   : Being Well, Living Well (BWLW_AUS)
+ * Version   : 1.0.0
+ * Release   : Tue Jul 21 2020 15:19:45 GMT+0100 (British Summer Time)
+ * Copyright : Oxford University Press / Epigeum
+-->
+
+<html data-programme="Being Well, Living Well" data-course="Living Well">
+
+	<head>
+		<title>Module summary</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="../css/project.min.css">
+		<link id="basic-print" rel="stylesheet" type="text/css" href="../css/print.min.css" disabled>
+		<link id="summary-print" rel="stylesheet" type="text/css" href="../css/print_interactive.min.css">
+	</head>
+
+	<body>
+	  
+		<div id="app" v-cloak>
+			<base-container
+				screen-id="dnu_1_80"
+				current-module = "Module 5: Eating well"
+				page-title = "Module summary"
+				screen-time = "5"
+				screen-time-period = "mins">
+
+				<page-container>
+					
+					<page-row>						
+						<page-content-main>
+
+							<p>This module has explored a wide range of ideas about diet and nutrition, and their relationship to your physical and mental wellbeing, as well as your academic performance. Take a moment to refresh your understanding of the learning.</p>
+
+							<instructional-text><p>Click 'Next' to build up a list of key points from this module.</p></instructional-text>
+							<accessible-text><p>Continue on for a list of key points from this module.</p></accessible-text>
+
+							<!-- ACTIVITY START -->
+							<checklist>
+								<check-item>Eating well means eating a wide variety of foods from all food groups</check-item>
+								<check-item>Eat regularly: aim to have three main meals and a few snacks every day</check-item>
+								<check-item>Keep hydrated by drinking plenty of water and avoid energy and soft drinks</check-item>
+								<check-item>Eat plenty of vegetables, fruit, wholegrains, legumes, nuts and seeds</check-item>
+								<check-item>Try not to overindulge in food with low nutritional value, such as highly processed 'fast' food</check-item>
+								<check-item>If you are concerned about your eating attitudes, it's important to seek help from someone you trust</check-item>
+								<check-item>Spend a few minutes each week to plan your meals and grocery shopping</check-item>
+								<check-item>Learn to put together a few simple nutritious dishes and snacks, and enjoy eating with others!</check-item>
+								<check-item>Our diet is associated with our wellbeing, so being well means eating well.</check-item>
+							</checklist>
+							<!-- ACTIVITY END -->
+							
+						</page-content-main>
+					</page-row>
+
+				</page-container>
+			</base-container>
+		</div> <!-- END content wrapper -->
+
+		<!-- scripts -->
+		<script src="../js/vendor.min.js"></script>
+		<script src="../js/vue-components.min.js"></script>
+		<script>
+			new Vue({
+			  el: "#app",
+			  data: {},
+			  mounted: function () {
+				var core = document.createElement('script');
+				core.src = "../js/core.min.js";
+				document.getElementsByTagName('head')[0].appendChild(core);
+
+				var project = document.createElement('script');
+				project.src = "../js/project.min.js";
+				document.getElementsByTagName('head')[0].appendChild(project);
+			  }
+			});
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<!--
+ * Project   : Being Well, Living Well (BWLW_AUS)
+ * Version   : 1.0.0
+ * Release   : Tue Jul 21 2020 15:19:45 GMT+0100 (British Summer Time)
+ * Copyright : Oxford University Press / Epigeum
+-->
+
+<html data-programme="Being Well, Living Well" data-course="Feeling Well">
+
+	<head>
+		<title>Action plan</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/431/course_files/css/project.min.css">
+		<link id="basic-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/431/course_files/css/print.min.css" disabled>
+		<link id="summary-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/431/course_files/css/print_interactive.min.css">
+	</head>
+
+	<body>
+	  
+		<div id="app" v-cloak>
+			<base-container
+				screen-id="sad_1_80"
+				current-module = "Module 3: Stress, anxiety and depression"
+				page-title = "Action plan"
+				screen-time = "5"
+				screen-time-period = "mins">
+
+				<page-container>
+					
+					<page-row>
+						<page-content-sidebar>
+                            
+                            <!-- OPTIONAL COURSE EVALUATION START -->
+							<pod variant="q" has-modal="true">
+								<pod-heading>Module evaluation</pod-heading> <!-- pod title -->
+								<pod-content></pod-content>
+								<!-- pop-up pod content -->
+								<pod-modal-heading>Module evaluation (optional)</pod-modal-heading>
+								<pod-modal-content>
+									<p><a href="https://www.epigeum.com/downloads/hosted_content/BWLW_AUS/survey/bwlw_aus_survey.html" target="_blank">Click here</a> to help develop and improve this course by providing some brief feedback (anonymously, of course). Please note that completing this survey is entirely optional. However, your input would be very welcome.</p>
+								</pod-modal-content>
+							</pod>
+							<!-- OPTIONAL COURSE EVALUATION END -->
+                            
+                        </page-content-sidebar>
+						
+						<page-content-main>
+							
+							<p>Being proactive about looking after yourself is one of the best things you can do to make stressful situations feel less overwhelming, minimise feelings of anxiety and help to manage your mood.</p>
+							<p>Using some of the ideas that you have read about as a starting point, think about what activities, actions or adjustments to your daily routine might help to improve your sense of wellbeing at university. Then really try to work them into your everyday life.</p>
+							
+							<instructional-text><p>A few ideas have already been added to the list &ndash; if they are not relevant to you, you can delete them by clicking on the cross. Then write your first point and click on the 'Plus' symbol to reveal the next space. You can add up to six points of your own. If you write fewer than six points you must click on the 'Plus' symbol to ensure that your text is captured in the summary.</p></instructional-text>
+							
+							<!-- ACTIVITY START -->
+							<shopping-list max-num-items="6" count-initial-items="false">
+								<shopping-list-item allow-delete="true">Try to be active each day, even just walking to the shop</shopping-list-item>
+								<shopping-list-item allow-delete="true">Set small goals, like going to a lecture, or reading one chapter</shopping-list-item>
+							</shopping-list>
+							<!-- ACCESSIBLE START -->
+							<accessible-text><p>For example, you might want to try to be active each day or set yourself small goals, like going to a lecture or reading one chapter.</p></accessible-text>
+							<!-- ACCESSIBLE END -->
+							<!-- ACTIVITY END -->
+							
+						</page-content-main>
+					</page-row>
+					
+				</page-container>
+			</base-container>
+		</div> <!-- END content wrapper -->
+
+		<!-- scripts -->
+		<script src="https://courses.epigeum.com/materials/platform/431/course_files/js/vendor.min.js"></script>
+		<script src="https://courses.epigeum.com/materials/platform/431/course_files/js/vue-components.min.js"></script>
+		<script>
+			new Vue({
+			  el: "#app",
+			  data: {},
+			  mounted: function () {
+				var core = document.createElement('script');
+				core.src = "https://courses.epigeum.com/materials/platform/431/course_files/js/core.min.js";
+				document.getElementsByTagName('head')[0].appendChild(core);
+
+				var project = document.createElement('script');
+				project.src = "https://courses.epigeum.com/materials/platform/431/course_files/js/project.min.js";
+				document.getElementsByTagName('head')[0].appendChild(project);
+			  }
+			});
+		</script>
+
+	</body>
+</html>

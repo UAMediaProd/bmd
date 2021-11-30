@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<!--
+ * Project   : Being Well, Living Well (BWLW_AUS)
+ * Version   : 1.0.0
+ * Release   : Tue Jul 21 2020 15:19:45 GMT+0100 (British Summer Time)
+ * Copyright : Oxford University Press / Epigeum
+-->
+
+<html data-programme="Being Well, Living Well" data-course="Living Well">
+
+	<head>
+		<title>Action plan</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/425/course_files/css/project.min.css">
+		<link id="basic-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/425/course_files/css/print.min.css" disabled>
+		<link id="summary-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/425/course_files/css/print_interactive.min.css">
+	</head>
+
+	<body>
+
+		<div id="app" v-cloak>
+			<base-container
+				screen-id="stw_1_70"
+				current-module="Module 3: Studying well"
+				page-title="Action plan"
+				screen-time="3"
+				screen-time-period="mins">
+
+				<page-container>
+
+					<page-row>
+						<page-content-sidebar>
+                            
+                            <!-- OPTIONAL COURSE EVALUATION START -->
+							<pod variant="q" has-modal="true">
+								<pod-heading>Module evaluation</pod-heading> <!-- pod title -->
+								<pod-content></pod-content>
+								<!-- pop-up pod content -->
+								<pod-modal-heading>Module evaluation (optional)</pod-modal-heading>
+								<pod-modal-content>
+									<p><a href="https://www.epigeum.com/downloads/hosted_content/BWLW_AUS/survey/bwlw_aus_survey.html" target="_blank">Click here</a> to help develop and improve this course by providing some brief feedback (anonymously, of course). Please note that completing this survey is entirely optional. However, your input would be very welcome.</p>
+								</pod-modal-content>
+							</pod>
+							<!-- OPTIONAL COURSE EVALUATION END -->
+                            
+                        </page-content-sidebar>
+						
+						<page-content-main>
+
+							<p>Thinking about what we've covered in the module, identify some ideas for successful study
+								that you might like to explore, and how you can integrate them into your own routine.</p>
+
+							<instructional-text>
+								<p>Make a list of the study techniques or strategies that you might like to try. Write the
+									first point and then click on the 'Plus' symbol to reveal the next space. You can add up
+									to six points. If you write fewer than six points you must click on the 'Plus' symbol to
+									ensure that your text is captured in the summary. Then click for some feedback.</p>
+							</instructional-text>
+							<instructional-text-accessible><p>List up to five study techniques or strategies that you might like to try. For example, you might want to try working in time blocks of 40 minutes and take regular breaks, or give yourself time to relax and ensure that you're getting enough sleep.</p></instructional-text-accessible>
+							<br>
+
+							<!-- ACTIVITY START -->
+							<shopping-list max-num-items="6">
+								<shopping-list-item allow-delete="true">I will try working in time blocks of 40 minutes and take regular breaks</shopping-list-item>
+								<shopping-list-item allow-delete="true">I will  give myself time to relax and ensure I'm getting enough sleep</shopping-list-item>
+								<shopping-list-item allow-delete="true">I will try to do some exercise every day, even if it is just getting off the bus a stop early</shopping-list-item>
+								<shopping-list-summary-footer>
+									<h4>Feedback:</h4>
+									<p>Use your list to help plan your day-to-day routines. Aim to take time to review it regularly so that you can make any necessary changes in the light of your experience, or changing circumstances</p>
+								</shopping-list-summary-footer>
+							</shopping-list>
+							<feedback-reveal>
+								<p>Use your list to help plan your day-to-day routines. Aim to take time to review it regularly so that you can make any necessary changes in the light of your experience or changing circumstances.</p>
+							</feedback-reveal>
+							<!-- ACTIVITY END -->
+
+						</page-content-main>
+					</page-row>
+
+				</page-container>
+			</base-container>
+		</div> <!-- END content wrapper -->
+
+		<!-- scripts -->
+		<script src="https://courses.epigeum.com/materials/platform/425/course_files/js/vendor.min.js"></script>
+		<script src="https://courses.epigeum.com/materials/platform/425/course_files/js/vue-components.min.js"></script>
+		<script>
+			new Vue({
+				el: "#app",
+				data: {},
+				mounted: function () {
+					var core = document.createElement('script');
+					core.src = "https://courses.epigeum.com/materials/platform/425/course_files/js/core.min.js";
+					document.getElementsByTagName('head')[0].appendChild(core);
+
+					var project = document.createElement('script');
+					project.src = "https://courses.epigeum.com/materials/platform/425/course_files/js/project.min.js";
+					document.getElementsByTagName('head')[0].appendChild(project);
+				}
+			});
+		</script>
+
+	</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<!--
+ * Project   : Being Well, Living Well (BWLW_AUS)
+ * Version   : 1.0.0
+ * Release   : Tue Jul 21 2020 15:19:45 GMT+0100 (British Summer Time)
+ * Copyright : Oxford University Press / Epigeum
+-->
+
+<html data-programme="Being Well, Living Well" data-course="Living Well">
+
+	<head>
+		<title>Module summary</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/424/course_files/css/project.min.css">
+		<link id="basic-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/424/course_files/css/print.min.css" disabled>
+		<link id="summary-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/424/course_files/css/print_interactive.min.css">
+	</head>
+
+	<body>
+	  
+		<div id="app" v-cloak>
+			<base-container
+				screen-id="slb_1_70"
+				current-module = "Module 2: Study-life balance "
+				page-title = "Module summary"
+				screen-time = "3"
+				screen-time-period = "mins">
+
+				<page-container>
+					
+					<page-row>
+						<page-content-main>
+
+							<p>Hopefully this module has given you some useful tips and strategies for working towards a better study-life balance. Let's take a moment to review some central take-away points.</p>
+
+							<accessible-text><p>Continue for a list of key ideas from the module.</p></accessible-text>
+							<instructional-text><p>Click to build up a list of key ideas from the module.</p></instructional-text>
+
+							<!-- ACTIVITY START -->
+							<checklist>
+								<check-item>University life is busy, so prioritising and planning your time is crucial for managing to get things done while also leading a balanced lifestyle</check-item>
+								<check-item>Expect some trial and error as you find out more about how to manage the demands of each new stage in the student journey. There is no such thing as the perfect study-life balance</check-item>
+								<check-item>Think about your priorities as a whole, and this includes paying attention to your academic, personal and social life</check-item>
+								<check-item>Being able to be assertive is a helpful skill for life, practise it where you can!</check-item>
+								<check-item>Find your places to belong in the university community, and give time to them</check-item>
+								<check-item>Sleep is an essential restorative for the body and mind. Do all you can to improve the quality of your sleep.</check-item>
+							</checklist>
+							<!--ACITIVITY END-->
+
+						</page-content-main>
+					</page-row>
+					
+				</page-container>
+			</base-container>
+		</div> <!-- END content wrapper -->
+
+		<!-- scripts -->
+		<script src="https://courses.epigeum.com/materials/platform/424/course_files/js/vendor.min.js"></script>
+		<script src="https://courses.epigeum.com/materials/platform/424/course_files/js/vue-components.min.js"></script>
+		<script>
+			new Vue({
+			  el: "#app",
+			  data: {},
+			  mounted: function () {
+				var core = document.createElement('script');
+				core.src = "https://courses.epigeum.com/materials/platform/424/course_files/js/core.min.js";
+				document.getElementsByTagName('head')[0].appendChild(core);
+
+				var project = document.createElement('script');
+				project.src = "https://courses.epigeum.com/materials/platform/424/course_files/js/project.min.js";
+				document.getElementsByTagName('head')[0].appendChild(project);
+			  }
+			});
+		</script>
+
+	</body>
+</html>

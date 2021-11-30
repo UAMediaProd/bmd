@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<!--
+ * Project   : Being Well, Living Well (BWLW_AUS)
+ * Version   : 1.0.0
+ * Release   : Tue Jul 21 2020 15:19:45 GMT+0100 (British Summer Time)
+ * Copyright : Oxford University Press / Epigeum
+-->
+
+<html data-programme="Being Well, Living Well" data-course="Feeling Well">
+
+	<head>
+		<title>Action plan</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/429/course_files/css/project.min.css">
+		<link id="basic-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/429/course_files/css/print.min.css" disabled>
+		<link id="summary-print" rel="stylesheet" type="text/css" href="https://courses.epigeum.com/materials/platform/429/course_files/css/print_interactive.min.css">
+	</head>
+
+	<body>
+
+		<div id="app" v-cloak>
+			<base-container
+				screen-id="sec_1_90"
+				current-module="Module 1: Confidence, self-esteem and resilience"
+				page-title="Action plan"
+				screen-time="3"
+				screen-time-period="mins">
+
+				<page-container>
+
+					<page-row>
+						<page-content-sidebar>
+                            
+                            <!-- OPTIONAL COURSE EVALUATION START -->
+							<pod variant="q" has-modal="true">
+								<pod-heading>Module evaluation</pod-heading> <!-- pod title -->
+								<pod-content></pod-content>
+								<!-- pop-up pod content -->
+								<pod-modal-heading>Module evaluation (optional)</pod-modal-heading>
+								<pod-modal-content>
+									<p><a href="https://www.epigeum.com/downloads/hosted_content/BWLW_AUS/survey/bwlw_aus_survey.html" target="_blank">Click here</a> to help develop and improve this course by providing some brief feedback (anonymously, of course). Please note that completing this survey is entirely optional. However, your input would be very welcome.</p>
+								</pod-modal-content>
+							</pod>
+							<!-- OPTIONAL COURSE EVALUATION END -->
+                            
+                        </page-content-sidebar>
+						
+						<page-content-main>
+
+							<p>Think of the people, places, strategies, thought processes and behaviours that have helped you in the past to increase your confidence, build up your self-esteem, and bounce back when things go wrong. If you are struggling to recognise these, ask yourself:</p>
+
+							<text-block>
+								<ul>
+									<li><strong>What actions have helped me before?</strong></li>
+									<li><strong>Who has helped me before?</strong></li>
+									<li><strong>In what environments do I feel stronger?</strong></li>
+								</ul>
+							</text-block>
+
+							<p>Having completed this module you may also have some new ideas about what might help you in
+								the future.</p>
+
+							<instructional-text>
+								<img src="https://courses.epigeum.com/materials/platform/429/course_files/images/activity_images/course_specific/sec_1_90_backpack.png">
+								<p>Fill the 'NATs survival kit' with useful activities or strategies to help you build your
+									sense of confidence, self-esteem and resilience. Write the first point and then click on
+									the 'Plus' symbol to add it to the survival kit and reveal the next space. <br>You can add
+									up to six points. If you write fewer than six points you must <br>click on the 'Plus' symbol
+									to ensure that your text is captured in the <br>summary. Print off the checklist to refer
+									to when you need it.</p>
+							</instructional-text>
+							<instructional-text-accessible><p>Build your own 'NATs survival kit' by creating a list of useful activities or strategies to help you build your sense of confidence, self-esteem and resilience. For example, you might want to spend more time in places where you feel truly comfortable or prioritise spending time with people that make you feel good about yourself.</p></instructional-text-accessible>
+
+							<!-- ACTIVITY START -->
+							<shopping-list max-num-items="6">
+								<shopping-list-item allow-delete="true">List the times I have overcome a challenge to help me realise I am more capable than I may think</shopping-list-item>
+								<shopping-list-item allow-delete="true">Spend more time in places I feel truly comfortable</shopping-list-item>
+								<shopping-list-item allow-delete="true">Prioritise spending time with people that make me feel good about myself</shopping-list-item>
+							</shopping-list>
+							<!-- ACTIVITY END -->
+
+							<p>Remember that our confidence, self-esteem and resilience fluctuate dependent on circumstances. While utilising the helpful strategies will not change this variation, it should help you to feel some sense of control that, whatever happens, you have some deliberate, purposeful things to do to help you manage.</p>
+
+						</page-content-main>
+					</page-row>
+
+				</page-container>
+			</base-container>
+		</div> <!-- END content wrapper -->
+
+		<!-- scripts -->
+		<script src="https://courses.epigeum.com/materials/platform/429/course_files/js/vendor.min.js"></script>
+		<script src="https://courses.epigeum.com/materials/platform/429/course_files/js/vue-components.min.js"></script>
+		<script>
+			new Vue({
+				el: "#app",
+				data: {},
+				mounted: function () {
+					var core = document.createElement('script');
+					core.src = "https://courses.epigeum.com/materials/platform/429/course_files/js/core.min.js";
+					document.getElementsByTagName('head')[0].appendChild(core);
+
+					var project = document.createElement('script');
+					project.src = "https://courses.epigeum.com/materials/platform/429/course_files/js/project.min.js";
+					document.getElementsByTagName('head')[0].appendChild(project);
+				}
+			});
+		</script>
+
+	</body>
+
+</html>

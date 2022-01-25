@@ -347,6 +347,10 @@ TEXT STYLES
 	color:var(--rocc_secondary);
 }
 
+/* Canvas Assignment List */
+.accessible-toggler {
+	color:white!important;
+}
 
 /* Canvas Module List */
 

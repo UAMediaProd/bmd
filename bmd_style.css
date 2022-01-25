@@ -348,7 +348,7 @@ TEXT STYLES
 }
 
 /* Canvas Assignment List */
-.accessible-toggler {
+.accessible-toggler, .accessible-toggler:hover, .accessible-toggler:focus {
 	color:white!important;
 }
 

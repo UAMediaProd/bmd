@@ -347,8 +347,8 @@ TEXT STYLES
 	color:var(--rocc_secondary);
 }
 
-/* Canvas Assignment List */
-.accessible-toggler, .accessible-toggler:hover, .accessible-toggler:focus {
+/* Canvas Assignment and Quiz Lists */
+.accessible-toggler, .accessible-toggler:hover, .accessible-toggler:focus, .item-group-condensed .ig-header h2 {
 	color:white!important;
 }
 

@@ -27,18 +27,18 @@ TEXT STYLES
 
 @font-face {
   font-family: 'MADE Evolve Sans';
-  src: url(https://myuni.adelaide.edu.au/files/9468315/download?download_frd=1);
+  src: url(https://uamediaprod.github.io/bmd/fonts/made_evolve_sans_regular.woff);
 }
 
 @font-face {
   font-family: 'MADE Evolve Sans';
-  src: url(https://myuni.adelaide.edu.au/files/9469031/download?download_frd=1);
+  src: url(https://uamediaprod.github.io/bmd/fonts/made_evolve_sans_medium.woff);
 	font-weight: 500;
 }
 
 @font-face {
   font-family: 'MADE Evolve Sans';
-  src: url(https://myuni.adelaide.edu.au/files/9455688/download?download_frd=1);
+  src: url(https://uamediaprod.github.io/bmd/fonts/made_evolve_sans_bold.woff);
 	font-weight: bold;
 }
 

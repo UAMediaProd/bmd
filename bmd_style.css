@@ -92,7 +92,7 @@ TEXT STYLES
 
 .kl_wrapper h3 {
   	color: var(--rocc_primary);
-  	font-size: 1.6rem;
+  	font-size: 1.59375rem;
 	line-height: 2rem;
 	margin-bottom: 5px;
   	font-weight: bold;
@@ -107,7 +107,7 @@ TEXT STYLES
 .kl_wrapper h4 {
   	color: var(--rocc_primary);
 	font-weight: 500; 
-  	font-size: 1.3rem;
+  	font-size: 1.3125rem;
   	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif;
 	margin: 0px;
   	padding: 0 !important;
@@ -201,7 +201,7 @@ TEXT STYLES
 
 .kl_wrapper .rocc_major_header h2 {
 	color: white;
-	font-size: 1.8rem;
+	font-size: 1.8125rem;
 	font-weight: normal;
 	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif;
 	display:block;
@@ -217,7 +217,7 @@ TEXT STYLES
 	.kl_wrapper .rocc_major_header_icon {padding:1.25rem 1.25rem 0 1.25rem;}
 	.kl_wrapper .rocc_major_header h1 {
 	color: white;
-	font-size: 1.8rem;
+	font-size: 1.8125rem;
 	font-weight: bold;
 	line-height: 2.3rem;
 	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif;
@@ -336,7 +336,7 @@ TEXT STYLES
 
 .kl_wrapper .tutor_info h3 {
 	font-weight:400;
-	font-size:1.3rem;
+	font-size:1.3125rem;
 	margin:15px 0 0 0;
 }
 
@@ -958,7 +958,7 @@ CALL OUT/ SECTION STYLES
 }
 
 .kl_wrapper .rocc_page_link_box h3 {
-	font-size: 1.6rem;
+	font-size: 1.59375rem;
 	font-weight: bold;
 }
 .kl_wrapper .rocc_page_link_box .rocc_tertiary_button_container {
@@ -1455,7 +1455,7 @@ a.nav_list {
 .kl_wrapper .rocc_shadowcard h2 {
 	color: var(--rocc_primary);
 	margin: 0 0 1.2rem 0;;
-	line-height: 1.8rem;
+	line-height: 1.8125rem;
 }
 
 .kl_wrapper .rocc_shadowcard h3 {

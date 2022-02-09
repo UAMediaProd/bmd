@@ -502,6 +502,12 @@ div.module-item-title span[title="Clinical Practice"]:before {
 	background-repeat: no-repeat;
 }
 
+.requirements_message .pill {
+background: var(--rocc_secondary);
+color: white;
+border: 0!important;
+box-shadow: none;
+}
 
 /* Custom lists */
 .kl_wrapper ul {

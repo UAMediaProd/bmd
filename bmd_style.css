@@ -1037,7 +1037,7 @@ BUTTON STYLES
   font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif;
   border: solid var(--rocc_secondary) 5px;
   padding: 10px 25px;
-  margin: 11px 0 0 1.875rem;
+  margin-top: 11px;
   text-align: center;
   text-decoration: none !important;
   display: inline-block;
@@ -1045,8 +1045,7 @@ BUTTON STYLES
 }
 
 .kl_wrapper a.rocc_feature_header_button:hover {
-	transform: scale(1.05);
-	background-color: var(--rocc_secondary);
+	background-color: var(--rocc_secondary_light);
 	border: solid #9DD8CA 5px;
 }
 

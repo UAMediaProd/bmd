@@ -1512,7 +1512,7 @@ a.nav_list {
 
 /* Fix Cidilabs interface */
 
-#kl_tools_wrapper .ui-state-active a, #kl_tools_wrapper .ui-progressbar .ui-widget-header a, #kl_tools_wrapper .ui-state-active a:link, #kl_tools_wrapper .ui-state-active a:visited {
+#kl_tools_accordion h4.ui-accordion-header a {
 	color: var(--rocc_primary)!important;
 }
 

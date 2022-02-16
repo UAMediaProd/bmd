@@ -1516,6 +1516,10 @@ a.nav_list {
 	color: var(--rocc_primary)!important;
 }
 
+.kl_wrapper #kl_tools_wrapper .ui-accordion-header a:hover {
+	color:white!important;
+}
+
 
 /* Roadmap styling */
 

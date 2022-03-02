@@ -1074,7 +1074,7 @@ BUTTON STYLES
 
 .kl_wrapper .rocc_secondary_button_container p, .kl_wrapper .rocc_blue_button_container p {margin:0}
 
-.kl_wrapper .rocc_secondary_button_container a:hover, .kl_wrapper .rocc_blue_button_container a:hover, .rocc_secondary_button_container_download a:hover{
+.kl_wrapper .rocc_secondary_button_container a:hover, .kl_wrapper .rocc_secondary_button_container span:hover, .kl_wrapper .rocc_blue_button_container a:hover, .kl_wrapper .rocc_blue_button_container span:hover, .rocc_secondary_button_container_download a:hover{
   background-color: var(--rocc_secondary_light);
 	color: white !important;
 }

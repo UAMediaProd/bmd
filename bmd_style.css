@@ -386,6 +386,7 @@ line-height: 24px;
 	font-size: 1.15rem; 
 	font-weight: normal!important;
 	color: var(--rocc_primary);
+	padding-left:12px;
 }
 
 .ig-list .indent_2 .ig-row a.ig-title, .ig-list .indent_2 .ig-row .locked_title {

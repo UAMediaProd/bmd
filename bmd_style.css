@@ -1507,7 +1507,8 @@ a.nav_list {
 
 .kl_progress_icons li.kl_current a, .kl_progress_icons li a:hover, .kl_progress_icons li.kl_current a:hover {color:white!important;}
 
-.kl_progress_icons li a, .kl_progress_icons li.kl_current a {background: var(--rocc_primary)!important;border:0!important;color:white;box-shadow:none;}
+.kl_progress_icons li a {background: var(--rocc_primary)!important;border:0!important;color:white;box-shadow:none;}
+.kl_progress_icons li.kl_current a {background: var(--rocc_secondary_light)!important;border:0!important;color:white;box-shadow:none;}
 .kl_progress_icons li.kl_complete a {background: var(--rocc_secondary_light)!important;}
 
 /* Image processing */

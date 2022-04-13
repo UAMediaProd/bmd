@@ -1503,8 +1503,6 @@ a.nav_list {
 
 .kl_progress_icons li.kl_complete a {background-color: blue!important;}
 
-.kl_progress_icons:before {content:"Module Navigation";margin:0 0 20px 0!important;display:block;font-weight:bold;font-family:"MADE Evolve Sans",Arial,Helvetica,sans-serif;}
-
 .kl_progress_icons li .kl_colored_bar {border:0!important;background:#dfdfdf!important;}
 
 .kl_progress_icons li.kl_current a, .kl_progress_icons li a:hover, .kl_progress_icons li.kl_current a:hover {color:white!important;}

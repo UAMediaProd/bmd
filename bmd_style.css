@@ -401,6 +401,9 @@ line-height: 24px;
 	color: var(--rocc_secondary);
 }
 
+/* Remove the annoying square brackets on load */
+.ig-details {display:none;}
+
 div.module-item-title span[title="Science and Scholarship"], div.module-item-title span[title="Practical"] {
 	padding: 10px 32px;
 	color: var(--domain_ss_color)!important;

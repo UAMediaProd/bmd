@@ -1286,7 +1286,7 @@ text-decoration:none;
 
 
 
-/* Program Level Naviation Styling */
+/* Program Level Navigation Styling */
 
 .kl_wrapper .rocc_nav_group .bs-col-md, .kl_wrapper .rocc_nav_group .bs-col-md-4 {
   padding-left:5px;
@@ -1350,6 +1350,19 @@ text-decoration:none;
 
 
 /*----Navigation Bar----*/
+
+.mce-content-body.kl_has_style:not(.kl_mce_view_app) .kl_module_progress_bar, .mce-content-body.kl_has_style:not(.kl_mce_view_app) .kl_module_progress_icons, .kl_progress-bar, .kl_progress_icons li.kl_complete .kl_colored_bar, .kl_progress_icons li.kl_current .kl_colored_bar {background-color: #a2a2a2!important;}
+
+.kl_progress_icons li.kl_complete a {background-color: blue!important;}
+
+.kl_progress_icons li .kl_colored_bar {border:0!important;background:#dfdfdf!important;}
+
+.kl_progress_icons li.kl_current a, .kl_progress_icons li a:hover, .kl_progress_icons li.kl_current a:hover {color:white!important;}
+
+.kl_progress_icons li a {background: var(--rocc_primary)!important;border:0!important;color:white;box-shadow:none;}
+.kl_progress_icons li.kl_current a {background: var(--domain_hs_color)!important;border:0!important;color:white;box-shadow:none;}
+.kl_progress_icons li.kl_complete a {background: var(--rocc_secondary_light)!important;}
+
 
 .kl_basic_navlist {
   max-width: none;
@@ -1504,20 +1517,7 @@ a.nav_list {
 	color: var(--domain_pl_color);
 }
 
-
-/* Module Progress Bar Styling */
-.mce-content-body.kl_has_style:not(.kl_mce_view_app) .kl_module_progress_bar, .mce-content-body.kl_has_style:not(.kl_mce_view_app) .kl_module_progress_icons, .kl_progress-bar, .kl_progress_icons li.kl_complete .kl_colored_bar, .kl_progress_icons li.kl_current .kl_colored_bar {background-color: #a2a2a2!important;}
-
-.kl_progress_icons li.kl_complete a {background-color: blue!important;}
-
-.kl_progress_icons li .kl_colored_bar {border:0!important;background:#dfdfdf!important;}
-
-.kl_progress_icons li.kl_current a, .kl_progress_icons li a:hover, .kl_progress_icons li.kl_current a:hover {color:white!important;}
-
-.kl_progress_icons li a {background: var(--rocc_primary)!important;border:0!important;color:white;box-shadow:none;}
-.kl_progress_icons li.kl_current a {background: var(--rocc_secondary_light)!important;border:0!important;color:white;box-shadow:none;}
-.kl_progress_icons li.kl_complete a {background: var(--rocc_secondary_light)!important;}
-
+	
 /* Image processing */
 
 .kl_wrapper .rocc_crisp img {

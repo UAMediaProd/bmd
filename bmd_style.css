@@ -1373,7 +1373,8 @@ text-decoration:none;
 
 .kl_progress_icons li {
 	height:2rem;
-	min-width:2rem;	
+	min-width:2rem;
+}
 
 .kl_basic_navlist a, .kl_basic_navlist a:not(.btn):not(.Button):not(.ui-button):not([role='button']), .kl_basic_navlist a.external:hover span {
 	text-decoration:none!important;

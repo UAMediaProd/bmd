@@ -1351,7 +1351,7 @@ text-decoration:none;
 
 /*----Navigation Bar----*/
 
-.mce-content-body.kl_has_style:not(.kl_mce_view_app) .kl_module_progress_bar, .mce-content-body.kl_has_style:not(.kl_mce_view_app) .kl_module_progress_icons, .kl_progress-bar, .kl_progress_icons li.kl_complete .kl_colored_bar, .kl_progress_icons li.kl_current .kl_colored_bar {background-color: #a2a2a2!important;}
+.mce-content-body.kl_has_style:not(.kl_mce_view_app) .kl_module_progress_bar, .mce-content-body.kl_has_style:not(.kl_mce_view_app) .kl_module_progress_icons, .kl_progress-bar, .kl_progress_icons li.kl_complete .kl_colored_bar, .kl_progress_icons li.kl_current .kl_colored_bar {background-color: none!important;}
 
 .kl_progress_icons li.kl_complete a {background-color: blue!important;}
 

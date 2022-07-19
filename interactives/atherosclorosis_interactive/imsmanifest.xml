@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="_65xsbWdDgmJ_course_id" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+      <general>
+        <title>
+          <langstring xml:lang="x-none">atherosclorosis_interactive</langstring>
+        </title>
+      </general>
+      <lifecycle>
+        <version>
+          <langstring xml:lang="x-none">1</langstring>
+        </version>
+        <status>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">Final</langstring>
+          </value>
+        </status>
+      </lifecycle>
+      <metametadata>
+        <metadatascheme>ADL SCORM 1.2</metadatascheme>
+      </metametadata>
+      <educational>
+        <typicallearningtime>
+          <datetime>PT0H0M0S</datetime>
+        </typicallearningtime>
+      </educational>
+      <rights>
+        <cost>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </cost>
+        <copyrightandotherrestrictions>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </copyrightandotherrestrictions>
+      </rights>
+    </lom>
+  </metadata>
+  <organizations default="atherosclorosis_interactive_ORG">
+    <organization identifier="atherosclorosis_interactive_ORG">
+      <title>atherosclorosis_interactive</title>
+      <item identifier="Synaptic_Transmission_Interactive_SCO" isvisible="true" identifierref="__65xsbWdDgmJ_course_id_RES">
+        <title>atherosclorosis_interactive</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="__65xsbWdDgmJ_course_id_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
+      <file href="story_content/thumbnail.jpg" />
+      <file href="mobile/5w1RgPtqcNv_80_DX1500_DY1500_CX1275_CY850.png" />
+      <file href="story_content/video_6jTHF2CJnCH_22_48_750x500.mp4" />
+      <file href="mobile/poster_6YVe2X15ymv_video_6jTHF2CJnCH_22_48_750x500.jpg" />
+      <file href="story_content/video_67vPcKPULN0_22_48_750x500.mp4" />
+      <file href="mobile/poster_6b5m0iSxw4i_video_67vPcKPULN0_22_48_750x500.jpg" />
+      <file href="story_content/video_6ogAXVaWnte_22_48_750x500.mp4" />
+      <file href="mobile/poster_6ly87ptc445_video_6ogAXVaWnte_22_48_750x500.jpg" />
+      <file href="story_content/video_6DjHjKNf0aZ_22_48_750x500.mp4" />
+      <file href="mobile/poster_5a8RAJagEGP_video_6DjHjKNf0aZ_22_48_750x500.jpg" />
+      <file href="story_content/video_607JcU8DaSE_22_48_750x500.mp4" />
+      <file href="mobile/poster_5jX9C8QpJU1_video_607JcU8DaSE_22_48_750x500.jpg" />
+      <file href="story_content/video_6gteJ2LAWXY_22_48_750x500.mp4" />
+      <file href="mobile/poster_65NOJ7WACpS_video_6gteJ2LAWXY_22_48_750x500.jpg" />
+      <file href="story_content/video_6MAzbGCW3V4_22_48_750x500.mp4" />
+      <file href="mobile/poster_6dUv0d2AMht_video_6MAzbGCW3V4_22_48_750x500.jpg" />
+      <file href="story_content/video_5hQY6lBd4Mm_22_48_750x500.mp4" />
+      <file href="mobile/poster_5yKYjl47Dum_video_5hQY6lBd4Mm_22_48_750x500.jpg" />
+      <file href="story_content/video_5XIZY9JvWat_22_48_750x500.mp4" />
+      <file href="mobile/poster_6KGQKs3L4Tv_video_5XIZY9JvWat_22_48_750x500.jpg" />
+      <file href="story_content/video_5d1mFyaWEUI_22_48_750x500.mp4" />
+      <file href="mobile/poster_6N71CR6pLxj_video_5d1mFyaWEUI_22_48_750x500.jpg" />
+      <file href="story_content/video_5a8PDIGhUci_22_48_750x500.mp4" />
+      <file href="mobile/poster_6i2RaiNsnzX_video_5a8PDIGhUci_22_48_750x500.jpg" />
+      <file href="meta.xml" />
+      <file href="story_content/user.js" />
+      <file href="mobile/Shape6f0ukYZeDlo.png" />
+      <file href="mobile/txt__default_6McRpnkcv0Z.png" />
+      <file href="mobile/txt__default_6rH8SFdr0NH.png" />
+      <file href="mobile/txt__default_6O71L9n5c9w.png" />
+      <file href="mobile/Shape67gdggMaqtq.png" />
+      <file href="mobile/Shape6BXawKnaRxF.png" />
+      <file href="mobile/Shape61iysbmZzIl.png" />
+      <file href="mobile/txt__default_6f5dsgfJIul.png" />
+      <file href="mobile/Shape6XkpbweiZFF.png" />
+      <file href="mobile/txt__default_5WBOBLaDymA.png" />
+      <file href="mobile/Shape6pY1EJHtel6.png" />
+      <file href="mobile/txt__default_6C3QTBcvMwy.png" />
+      <file href="mobile/txt__default_6Om8MdLdzmn.png" />
+      <file href="mobile/Shape6YoSKJeCURJ.png" />
+      <file href="mobile/Shape5VmWYLQY7A9.png" />
+      <file href="mobile/txt__default_5VpYOL8XwQA.png" />
+      <file href="mobile/Shape5tBnJuSlgUD.png" />
+      <file href="mobile/txt__default_5eSddf5NAw0.png" />
+      <file href="mobile/txt__default_5pn4C6xcQjp.png" />
+      <file href="mobile/Shape6eNjPmcp7q6.png" />
+      <file href="mobile/Shape63qZe3CRgRr.png" />
+      <file href="mobile/Shape6gydLzWuUM3.png" />
+      <file href="mobile/Shape6N1YN7kF22P.png" />
+      <file href="mobile/Shape6m81ktAntpE.png" />
+      <file href="html5/data/css/output.min.css" />
+      <file href="html5/data/js/5cn78AXzJYo.js" />
+      <file href="html5/data/js/5rtYACHwXob.js" />
+      <file href="html5/data/js/5snhAcX4gkb.js" />
+      <file href="html5/data/js/5sV8qE5mevR.js" />
+      <file href="html5/data/js/5ulKY23JJtp.js" />
+      <file href="html5/data/js/5VdqvJ5UyyJ.js" />
+      <file href="html5/data/js/5wOxxyiTGyl.js" />
+      <file href="html5/data/js/5YBmyDNfNU0.js" />
+      <file href="html5/data/js/63cK8iZkBvf.js" />
+      <file href="html5/data/js/6AiWXJkTQqL.js" />
+      <file href="html5/data/js/6BrhbnuKs0c.js" />
+      <file href="html5/data/js/6ek4Z0n4QQj.js" />
+      <file href="html5/data/js/6GmxjlEKEXl.js" />
+      <file href="html5/data/js/data.js" />
+      <file href="html5/data/js/frame.js" />
+      <file href="html5/data/js/paths.js" />
+      <file href="html5/lib/scripts/bootstrapper.min.js" />
+      <file href="html5/lib/scripts/frame.desktop.min.js" />
+      <file href="html5/lib/scripts/frame.mobile.min.js" />
+      <file href="html5/lib/scripts/slides.min.js" />
+      <file href="html5/lib/stylesheets/desktop.min.css" />
+      <file href="html5/lib/stylesheets/mobile.min.css" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+      <file href="analytics-frame.html" />
+      <file href="story.html" />
+      <file href="index_lms.html" />
+      <file href="lms/AICCComm.html" />
+      <file href="lms/blank.html" />
+      <file href="lms/browsersniff.js" />
+      <file href="lms/goodbye.html" />
+      <file href="lms/LICENSE.txt" />
+      <file href="lms/scormdriver.js" />
+    </resource>
+  </resources>
+</manifest>

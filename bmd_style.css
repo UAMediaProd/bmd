@@ -355,7 +355,7 @@ TEXT STYLES
 /* Canvas Module List */
 
 /* Put course titles at top of module list */
-.context_module:before {content:'Foundations of Medicine';text-transform:uppercase;font-size:18px;font-weight:bold;margin-bottom:14px;display:inline-block;color:var(--rocc_primary)}
+.context_module:before {text-transform:uppercase;font-size:18px;font-weight:bold;margin-bottom:14px;display:inline-block;color:var(--rocc_primary)}
 #context_module_536170:before {content:'Foundations of Medicine'}
 #context_module_561018:before {content:'Medical Studies 1'}
 #context_module_567636:before {content:'Medical Studies 2A'}

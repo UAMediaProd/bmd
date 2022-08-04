@@ -318,7 +318,7 @@ TEXT STYLES
 	padding-left:0;
 }
 
-.kl_wrapper .tutor_card img {max-width:120px;} /* this helps with mobile devices */
+.kl_wrapper .tutor_card img {max-width:120px;margin-bottom:11px;} /* this helps with mobile devices */
 
 .kl_wrapper .tutor_info {
 	border-bottom: solid 3px var(--rocc_secondary);

@@ -1528,6 +1528,11 @@ a.nav_list {
 	color: var(--domain_pl_color);
 }
 
+
+/* Fix accordion tabs styling */
+
+.kl_panels_expander_open a:hover {color:white!important;}
+
 	
 /* Image processing */
 

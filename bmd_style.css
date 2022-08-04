@@ -1035,6 +1035,7 @@ CALL OUT/ SECTION STYLES
 	margin:0 0 1rem;
 	padding-right:15px;
 	border-right: 3px solid var(--rocc_secondary);
+	max-width:190px!important; /* fix for mobiles */
 }
 
 /*----

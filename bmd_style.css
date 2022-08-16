@@ -1437,6 +1437,15 @@ a.nav_list {
 	width:100%!important;
 }
 
+.kl_wrapper .rocc_video_container_16_9 {
+	aspect-ratio:16 / 9;
+}
+
+.kl_wrapper .rocc_video_container_16-9 iframe {
+	width:100%!important;
+	height:100%!important;
+}
+
 
 
 /*----Domain Cards----*/

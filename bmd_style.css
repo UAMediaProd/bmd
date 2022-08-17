@@ -1455,6 +1455,14 @@ a.nav_list {
 }
 
 
+/* Lecture slides link in accordions */
+.kl_wrapper .ui-accordion .rocc_video_container_16_9 p {
+	margin: 0;
+	text-align: right;
+	padding: 0 10px 0 0;
+}
+
+
 
 /*----Domain Cards----*/
 
@@ -1515,7 +1523,7 @@ a.nav_list {
 
 /* Fix accordion tabs styling */
 
-.kl_panels_expander_open a:hover {color:white!important;}
+.ui-accordion-header a:hover {color:white!important;}
 
 	
 /* Image processing */

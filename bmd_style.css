@@ -1523,7 +1523,7 @@ a.nav_list {
 
 /* Fix accordion tabs styling */
 
-.ui-accordion-header a:hover {color:white!important;}
+.ui-accordion-header.ui-state-active a:hover {color:white!important;}
 
 	
 /* Image processing */

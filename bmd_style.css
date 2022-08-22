@@ -1456,7 +1456,7 @@ a.nav_list {
 
 
 /* Lecture slides link in accordions */
-.kl_wrapper .ui-accordion .rocc_video_container_16_9 p {
+.kl_wrapper .ui-accordion p.rocc-accordion-slides {
 	margin: 0;
 	text-align: right;
 	padding: 0 10px 0 0;

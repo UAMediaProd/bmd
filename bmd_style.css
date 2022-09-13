@@ -1340,6 +1340,7 @@ text-decoration:none;
 .kl_progress_icons li.kl_current a {background: var(--rocc_secondary_light)!important;border:0!important;color:white;box-shadow:none;}
 .kl_progress_icons li.kl_complete a {background: grey!important;}
 
+.kl_progress_icons ol {margin: 0 0 4px 0!important;}
 
 .kl_basic_navlist {
   max-width: none;

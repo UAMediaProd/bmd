@@ -105,18 +105,24 @@ TEXT STYLES
 	margin: 0px 0px 6px;}
 
 .kl_wrapper h4 {
-  	color: var(--rocc_primary);
-	font-weight: 500; 
-  	font-size: 1.3125rem;
-  	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif;
+  	color: var(--rocc_primary)!important;
+	font-weight: 500!important; 
+  	font-size: 1.3125rem!important;
+  	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif!important;
 	margin: 0px;
   	padding: 0 !important;
   	border: none !important; 
   	background-color: transparent!important;
-
 }
 
-.kl_wrapper h5 {
+.kl_wrapper h4 a {
+  	color: var(--rocc_secondary);
+	font-weight: 800;
+	font-size:1.4rem;
+  	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif!important;
+}
+
+.kl_wrapper h5, .kl_wrapper h5 a {
   	color: #7D8388;
 	font-weight: bold; 
   	font-size: 1.1rem;
@@ -124,6 +130,12 @@ TEXT STYLES
 	margin: 0px;
 
 }
+
+
+/* Override the external link icons that Canvas starting including as of mid-2022. A bit broad in scope but hard to target more specifically. */
+
+.kl_wrapper a span img {display:none;}
+
 
 /* Removes default white background from h3s */
 

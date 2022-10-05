@@ -19,6 +19,9 @@ COLOR STYLES #1676c4
 	--domain_hs_color: #F06669;
 	--domain_ss_color: #90BD6D;
 	--domain_pl_color: #8D6DAF;
+	--fbyHH-fontFamily: 'MADE Evolve Sans', "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+	--fbyHH-color: var(--rocc_secondary)!important;
+	--fbyHH-fontWeight: 800!important;
 }
 
 /*----
@@ -105,24 +108,18 @@ TEXT STYLES
 	margin: 0px 0px 6px;}
 
 .kl_wrapper h4 {
-  	color: var(--rocc_primary)!important;
-	font-weight: 500!important; 
-  	font-size: 1.3125rem!important;
-  	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif!important;
+  	color: var(--rocc_primary);
+	font-weight: 500; 
+  	font-size: 1.3125rem;
+  	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif;
 	margin: 0px;
   	padding: 0 !important;
   	border: none !important; 
   	background-color: transparent!important;
+
 }
 
-.kl_wrapper h4 a {
-  	color: var(--rocc_secondary);
-	font-weight: 800;
-	font-size:1.4rem;
-  	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif!important;
-}
-
-.kl_wrapper h5, .kl_wrapper h5 a {
+.kl_wrapper h5 {
   	color: #7D8388;
 	font-weight: bold; 
   	font-size: 1.1rem;
@@ -354,7 +351,7 @@ TEXT STYLES
 	margin:15px 0 0 0;
 }
 
-.kl_wrapper .tutor_info h4 {
+.kl_wrapper .tutor_info h4 a {
 	font-size:1.4rem;
 	line-height:1.5rem;
 	font-weight:700;

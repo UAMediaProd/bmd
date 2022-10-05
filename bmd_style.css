@@ -21,7 +21,7 @@ COLOR STYLES #1676c4
 	--domain_pl_color: #8D6DAF;
 	--fbyHH-fontFamily: 'MADE Evolve Sans', "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif!important;
 	--fbyHH-color: var(--rocc_secondary)!important;
-	--fbyHH-fontWeight: 800!important;
+	--fbyHH-fontWeight: inherit!important;
 }
 
 /*----

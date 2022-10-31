@@ -1559,7 +1559,7 @@ a.nav_list {
 
 
 /* Adjust tinymce when editing pages */
-.tox iframe {max-width:885px!important;}
+#tinymce * {max-width:885px!important;}
 
 
 /* Roadmap styling */

@@ -30,18 +30,18 @@ TEXT STYLES
 
 @font-face {
   font-family: 'MADE Evolve Sans';
-  src: url(https://uamediaprod.github.io/bmd/fonts/made_evolve_sans_regular.woff);
+  src: url(https://mediaproduction.adelaide.edu.au/bmd/fonts/made_evolve_sans_regular.woff);
 }
 
 @font-face {
   font-family: 'MADE Evolve Sans';
-  src: url(https://uamediaprod.github.io/bmd/fonts/made_evolve_sans_medium.woff);
+  src: url(https://mediaproduction.adelaide.edu.au/bmd/fonts/made_evolve_sans_medium.woff);
 	font-weight: 500;
 }
 
 @font-face {
   font-family: 'MADE Evolve Sans';
-  src: url(https://uamediaprod.github.io/bmd/fonts/made_evolve_sans_bold.woff);
+  src: url(https://mediaproduction.adelaide.edu.au/bmd/fonts/made_evolve_sans_bold.woff);
 	font-weight: bold;
 }
 

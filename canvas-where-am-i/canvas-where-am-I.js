@@ -160,7 +160,7 @@
                         var moduleTileContent = document.createElement("div");
                         moduleTileContent.className = "ou-ModuleCard__header_content";
                        
-                        /*if(showItemLinks && module.items.length > 0) {
+                        if(showItemLinks && module.items.length > 0) {
                             //don't add drop-down if not showItemLinks or if no items in Module
                             var moduleTileActions = document.createElement("div");
                             moduleTileActions.className = "ou-drop-down-arrow";

@@ -132,9 +132,9 @@ TEXT STYLES
 }
 
 
-/* Override the external link icons that Canvas starting including as of mid-2022. A bit broad in scope but hard to target more specifically. */
+/* Override the external link icons that Canvas starting including as of mid-2022. */
 
-.kl_wrapper a span img {display:none;}
+.external_link_icon {display:none;}
 
 
 /* Removes default white background from h3s */

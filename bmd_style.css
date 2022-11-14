@@ -1487,6 +1487,8 @@ a.nav_list {
 	padding:1.875rem 1.875rem 1.875rem 1.875rem;
 }
 
+.kl_wrapper .rocc_connectioncard_topper {background:var(--rocc_primary);color:white;font-size:14px;padding: 5px 17px!important;}
+
 .kl_wrapper .rocc_shadowcard i {
 	font-size: 6.5em;
 	line-height: 200px;

@@ -1828,6 +1828,10 @@ li.ou-progress-item a.active {
 li.ou-progress-item a.active:hover {
     background-color: var(--ic-brand-primary-darkened-15);
 }
+
+.list-view a.active {
+	color:var(--rocc_secondary);
+	
 /********************************************************************************
  * END - Styles for progress icons buttons and bar
 *********************************************************************************/

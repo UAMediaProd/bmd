@@ -134,7 +134,7 @@ TEXT STYLES
 
 /* Breadcrumb styling */
 
-#breadcrumbs li, #breadcrumbs li a {color:lightgrey;}
+#breadcrumbs li, #breadcrumbs li a {color:grey;}
 
 
 /* Override the external link icons that Canvas starting including as of mid-2022. */

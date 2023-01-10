@@ -1711,9 +1711,10 @@ a.ou-section-link-sub.active:focus{
     outline-offset:.0625rem;
     outline-color:var(--ic-link-color)
 }
-a.ou-section-link-sub.active:hover,a.ou-section-link-sub a.active:focus{
+/* a.ou-section-link-sub.active:hover,a.ou-section-link-sub a.active:focus{
     background-color:var(--ic-brand-primary)
-}
+}*/
+
 /********************************************************************************
  * END - Styles for sub-modules in lh navigation
 *********************************************************************************/

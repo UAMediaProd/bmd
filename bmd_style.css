@@ -1342,6 +1342,9 @@ text-decoration:none;
 
 
 /*----Navigation Bar----*/
+/*--Note: Nav bar is hidden for now as it has been replaced by Canvas Where Am I--*/
+
+.kl_colored_bar {display:none;}
 
 .mce-content-body.kl_has_style:not(.kl_mce_view_app) .kl_module_progress_bar, .mce-content-body.kl_has_style:not(.kl_mce_view_app) .kl_module_progress_icons, .kl_progress-bar, .kl_progress_icons li.kl_complete .kl_colored_bar, .kl_progress_icons li.kl_current .kl_colored_bar {background-color: none!important;}
 

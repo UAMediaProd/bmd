@@ -132,6 +132,11 @@ TEXT STYLES
 }
 
 
+/* Breadcrumb styling */
+
+#breadcrumbs li, #breadcrumbs li a {color:lightgrey;}
+
+
 /* Override the external link icons that Canvas starting including as of mid-2022. */
 
 .external_link_icon {display:none;}

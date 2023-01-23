@@ -1063,7 +1063,7 @@ BUTTON STYLES
 	color: white;
 	font-size: 1rem;
 	font-weight: bold;
-	background-color: var(--rocc_secondary) ;
+	background-color: var(--rocc_secondary)!important ;
 	border: none;
 	padding: 10px 20px;
 	text-decoration: none !important;

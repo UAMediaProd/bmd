@@ -1501,11 +1501,11 @@ a.nav_list {
 
 .kl_wrapper .rocc_connectioncard_topper {background:var(--rocc_primary);color:white;font-size:14px;padding: 5px 17px!important;}
 
-.kl_wrapper .rocc_connectioncard_topper iframe.lti-embed {
+.kl_wrapper .rocc_connectioncard_wrapper iframe.lti-embed {
 	aspect-ratio:16 / 9;
 }
 
-.kl_wrapper .rocc_connectioncard_topper iframe.lti-embed {
+.kl_wrapper .rocc_connectioncard_wrapper iframe.lti-embed {
 	width:100%!important;
 	height:100%!important;
 	min-height:208px;

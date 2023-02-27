@@ -137,9 +137,9 @@ TEXT STYLES
 #breadcrumbs li, #breadcrumbs li a {color:grey;}
 
 
-/* Override the external link icons that Canvas starting including as of mid-2022. */
+/* Override the icons that Canvas starting including as of mid-2022. */
 
-.external_link_icon {display:none!important;}
+.external_link_icon, .file_download_btn {display:none!important;}
 
 
 /* Removes default white background from h3s */

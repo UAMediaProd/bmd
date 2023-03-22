@@ -1691,7 +1691,7 @@ a.nav_list {
 /* Big Lightbox (for posters etc) */
 .ui-dialog:has(div):has(#kl_popup_1_content_rocc_zoom) {width: 90%!important;left:5%;}
 #kl_popup_1_content_rocc_zoom {width:100%!important;max-width:100%!important;padding:0;}
-
+#kl_popup_1_content_rocc_zoom img {margin:0 auto!important;display:inline-block!important;}
 
 /********************************************************************************
  * START - Styles for sub-modules in lh navigation

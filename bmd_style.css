@@ -1691,7 +1691,7 @@ a.nav_list {
 /* Big Lightbox (for posters etc) */
 .ui-dialog:has(div):has([id*="_content_rocc_zoom"]) {width: 90%!important;left:5%;}
 [id*="_content_rocc_zoom"] {width:100%!important;max-width:100%!important;padding:0!important;}
-[id*="_content_rocc_zoom"] img {margin:0 auto!important;display:block!important;}
+[id*="_content_rocc_zoom"] img {margin:0 auto!important;display:block!important;max-height:90vh;}
 a.kl_modal_trigger {display:inline-block;height:100%;margin-top:3px;} /* Fix Firefox link outline on click */
 
 

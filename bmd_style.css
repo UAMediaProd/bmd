@@ -1699,6 +1699,10 @@ a.nav_list {
 a.kl_modal_trigger {display:inline-block;height:100%;margin-top:3px;} /* Fix Firefox link outline on click */
 
 
+/* Timing estimates (e.g. for Weekly Overview pages) */
+.timing-estimates {color:#737373;}
+
+
 /********************************************************************************
  * START - Styles for sub-modules in lh navigation
 *********************************************************************************/

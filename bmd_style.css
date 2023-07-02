@@ -382,13 +382,15 @@ TEXT STYLES
 #context_module_536170:before {content:'Foundations of Medicine (2022)'}
 #context_module_561018:before {content:'Medical Studies 1 (2022)'}
 #context_module_567636:before {content:'Medical Studies 2A (SHELL)'}
-#context_module_589982:before {content:'Medical Studies 2A'}
+#context_module_589982:before {content:'Medical Studies 2A (2023)'}
 #context_module_503321:before {content:'BMS Program Course'}
 #context_module_572167:before {content:'Medical Studies 2B (SHELL)'}
 #context_module_578837:before {content:'Foundations of Medicine (2023)'}
 #context_module_581257:before {content:'Medical Studies 3 (SHELL)'}
 #context_module_581259:before {content:'Transition to Clinical Studies (SHELL)'}
 #context_module_581258:before {content:'Research Proposal and Critical Appraisal (SHELL)'}
+#context_module_608324:before {content:'Medical Studies 2B (2023)'}
+#context_module_600847:before {content:'Medical Studies 1 (2023)'}
 
 .context_module {
 	font-family: 'MADE Evolve Sans', sans-serif;

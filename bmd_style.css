@@ -517,6 +517,65 @@ border: 0!important;
 box-shadow: none;
 }
 
+
+/* Module List Hashtag-driven Icons */
+div.module-item-title a[title~="#SS"]:after {
+	content:'';
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-colour.svg');
+	background-size: 20px 29px;
+	height: 20px;
+	width: 90px;
+	padding-top: 5px;
+	/* left: 30px; */
+	position: absolute;
+	margin-left: -78px;
+	background-repeat: no-repeat;
+	background-color: white!important;
+}
+
+div.module-item-title a[title~="#HS"]:after {
+	content:'';
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/hs-colour.svg');
+	background-size: 20px 29px;
+	height: 20px;
+	width: 90px;
+	padding-top: 5px;
+	/* left: 30px; */
+	position: absolute;
+	margin-left: -78px;
+	background-repeat: no-repeat;
+	background-color: white!important;
+}
+
+div.module-item-title a[title~="#PL"]:after {
+	content:'';
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/pl-colour.svg');
+	background-size: 20px 29px;
+	height: 20px;
+	width: 90px;
+	padding-top: 5px;
+	/* left: 30px; */
+	position: absolute;
+	margin-left: -78px;
+	background-repeat: no-repeat;
+	background-color: white!important;
+}
+
+div.module-item-title a[title~="#CP"]:after {
+	content:'';
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-colour.svg');
+	background-size: 20px 29px;
+	height: 20px;
+	width: 90px;
+	padding-top: 5px;
+	/* left: 30px; */
+	position: absolute;
+	margin-left: -78px;
+	background-repeat: no-repeat;
+	background-color: white!important;
+}
+
+
 /* Custom lists */
 .kl_wrapper ul {
 	padding-bottom: 1.2rem;

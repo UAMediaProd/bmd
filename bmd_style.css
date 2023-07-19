@@ -526,9 +526,8 @@ div.module-item-title a[title~="#SS"]:after {
 	height: 20px;
 	width: 90px;
 	padding-top: 5px;
-	/* left: 30px; */
 	position: absolute;
-	margin-left: -78px;
+	margin-left: -36px;
 	background-repeat: no-repeat;
 	background-color: white!important;
 }
@@ -540,9 +539,8 @@ div.module-item-title a[title~="#HS"]:after {
 	height: 20px;
 	width: 90px;
 	padding-top: 5px;
-	/* left: 30px; */
 	position: absolute;
-	margin-left: -78px;
+	margin-left: -36px;
 	background-repeat: no-repeat;
 	background-color: white!important;
 }
@@ -554,9 +552,8 @@ div.module-item-title a[title~="#PL"]:after {
 	height: 20px;
 	width: 90px;
 	padding-top: 5px;
-	/* left: 30px; */
 	position: absolute;
-	margin-left: -78px;
+	margin-left: -36px;
 	background-repeat: no-repeat;
 	background-color: white!important;
 }
@@ -568,9 +565,8 @@ div.module-item-title a[title~="#CP"]:after {
 	height: 20px;
 	width: 90px;
 	padding-top: 5px;
-	/* left: 30px; */
 	position: absolute;
-	margin-left: -78px;
+	margin-left: -36px;
 	background-repeat: no-repeat;
 	background-color: white!important;
 }

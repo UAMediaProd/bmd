@@ -518,7 +518,7 @@ box-shadow: none;
 }
 
 
-/* Module List Hashtag-driven Icons */
+/* Module List Hashtag-driven Icons - order must always go #SS #CP #HS #PL */
 div.module-item-title a[title~="#SS"]:after {
 	content:'';
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-colour.svg');
@@ -575,9 +575,23 @@ div.module-item-title a[title~="#CP"]:after {
 	background-color: white!important;
 }
 
-div.module-item-title a[title~="#PL #CP"]:after, div.module-item-title a[title~="#CP #PL"]:after {
+div.module-item-title a[title~="#CP"][title~="#PL"]:after {
 	content:'';
-	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/pl-cp-colour.svg');
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-pl-colour.svg');
+	background-size: 20px 29px;
+	height: 20px;
+	width: 90px;
+	padding-top: 5px;
+	position: absolute;
+	margin-top: -3px;
+	margin-left: -36px;
+	background-repeat: no-repeat;
+	background-color: white!important;
+}
+
+div.module-item-title a[title~="#SS"][title~="#CP"]:after {
+	content:'';
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-cp-colour.svg');
 	background-size: 20px 29px;
 	height: 20px;
 	width: 90px;

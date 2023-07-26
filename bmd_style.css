@@ -597,7 +597,7 @@ div.module-item-title a[title~="#CP"][title~="#PL"]:after {
 	background-size: 54px 29px;
 	height: 28px;
 	width: 90px;
-	margin-left:77px;
+	margin-left:-77px;
 }
 
 div.module-item-title a[title~="#HS"][title~="#PL"]:after {

@@ -520,17 +520,6 @@ box-shadow: none;
 
 /* Module List Hashtag-driven Icons - order priority is #SS #CP #HS #PL */
 
-/* Hide the icons on smaller module list widths */
-.ig-row {
-	container-type:inline-size;
-}
-
-@container (max-width:635px) {
-	div.module-item-title a:after {
-	display:none;
-	}
-}
-
 div.module-item-title a:after { 
 	content:'';
 	padding-top: 5px;

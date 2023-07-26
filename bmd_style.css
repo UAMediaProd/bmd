@@ -538,9 +538,10 @@ div.module-item-title a[title~="#SS"]:after {
 
 div.module-item-title a[title~="#HS"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/hs-colour.svg');
-	background-size: 27px 29px;
+	background-size: 30px 29px;
 	height: 28px;
 	width: 90px;
+	margin-left:-37px;
 }
 
 div.module-item-title a[title~="#PL"]:after {
@@ -548,6 +549,7 @@ div.module-item-title a[title~="#PL"]:after {
 	background-size: 27px 29px;
 	height: 28px;
 	width: 90px;
+	margin-left:-34px;
 }
 
 div.module-item-title a[title~="#CP"]:after {
@@ -555,6 +557,7 @@ div.module-item-title a[title~="#CP"]:after {
 	background-size: 27px 29px;
 	height: 26px;
 	width: 90px;
+	margin-left:-38px;
 }
 
 div.module-item-title a[title~="#SS"][title~="#CP"]:after {
@@ -562,13 +565,15 @@ div.module-item-title a[title~="#SS"][title~="#CP"]:after {
 	background-size: 57px 29px;
 	height: 28px;
 	width: 90px;
+	margin-left: -79px;
 }
 
 div.module-item-title a[title~="#SS"][title~="#HS"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-hs-colour.svg');
-	background-size: 57px 29px;
+	background-size: 58px 29px;
 	height: 28px;
 	width: 90px;
+	margin-left: -79px;
 }
 
 div.module-item-title a[title~="#SS"][title~="#PL"]:after {
@@ -576,6 +581,7 @@ div.module-item-title a[title~="#SS"][title~="#PL"]:after {
 	background-size: 57px 29px;
 	height: 28px;
 	width: 90px;
+	margin-left: -75px;
 }
 
 div.module-item-title a[title~="#CP"][title~="#HS"]:after {
@@ -583,6 +589,7 @@ div.module-item-title a[title~="#CP"][title~="#HS"]:after {
 	background-size: 57px 29px;
 	height: 28px;
 	width: 90px;
+	margin-left: -80px;
 }
 
 div.module-item-title a[title~="#CP"][title~="#PL"]:after {
@@ -590,6 +597,7 @@ div.module-item-title a[title~="#CP"][title~="#PL"]:after {
 	background-size: 54px 29px;
 	height: 28px;
 	width: 90px;
+	margin-left:77px;
 }
 
 div.module-item-title a[title~="#HS"][title~="#PL"]:after {
@@ -597,31 +605,32 @@ div.module-item-title a[title~="#HS"][title~="#PL"]:after {
 	background-size: 57px 29px;
 	height: 28px;
 	width: 90px;
+	margin-left:-76px;
 }
 
 div.module-item-title a[title~="#SS"][title~="#CP"][title~="#HS"]:after {
-	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-cp-colour.svg');
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-cp-hs-colour.svg');
 	background-size: 57px 29px;
 	height: 28px;
 	width: 90px;
 }
 
 div.module-item-title a[title~="#SS"][title~="#HS"][title~="#PL"]:after {
-	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-hs-colour.svg');
-	background-size: 57px 29px;
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-hs-pl-colour.svg');
+	background-size: 55px 29px;
 	height: 28px;
 	width: 90px;
 }
 
 div.module-item-title a[title~="#SS"][title~="#CP"][title~="#PL"]:after {
-	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-cp-colour.svg');
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-cp-pl-colour.svg');
 	background-size: 57px 29px;
 	height: 28px;
 	width: 90px;
 }
 
 div.module-item-title a[title~="#CP"][title~="#HS"][title~="#PL"]:after {
-	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-hs-colour.svg');
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-hs-pl-colour.svg');
 	background-size: 57px 29px;
 	height: 28px;
 	width: 90px;
@@ -632,6 +641,7 @@ div.module-item-title a[title~="#ALL"]:after {
 	background-size: 123px 29px;
 	height: 28px;
 	width: 140px;
+	margin-left: -45px;
 }
 
 /* Remove module list hover highlight to stop the icons looking weird with their white backgrounds */

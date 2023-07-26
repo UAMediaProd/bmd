@@ -603,6 +603,19 @@ div.module-item-title a[title~="#SS"][title~="#CP"]:after {
 	background-color: white!important;
 }
 
+div.module-item-title a[title~="#ALL"]:after {
+	content:'';
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/all-colour.svg');
+	background-size: 20px 29px;
+	height: 20px;
+	width: 90px;
+	padding-top: 5px;
+	position: absolute;
+	margin-top: -3px;
+	margin-left: -36px;
+	background-repeat: no-repeat;
+	background-color: white!important;
+}
 
 /* Custom lists */
 .kl_wrapper ul {

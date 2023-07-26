@@ -578,13 +578,13 @@ div.module-item-title a[title~="#CP"]:after {
 div.module-item-title a[title~="#CP"][title~="#PL"]:after {
 	content:'';
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-pl-colour.svg');
-	background-size: 20px 29px;
+	background-size: 41px 29px;
 	height: 20px;
 	width: 90px;
 	padding-top: 5px;
 	position: absolute;
 	margin-top: -3px;
-	margin-left: -36px;
+	margin-left: -77px;
 	background-repeat: no-repeat;
 	background-color: white!important;
 }

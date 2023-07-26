@@ -610,23 +610,26 @@ div.module-item-title a[title~="#HS"][title~="#PL"]:after {
 
 div.module-item-title a[title~="#SS"][title~="#CP"][title~="#HS"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-cp-hs-colour.svg');
-	background-size: 57px 29px;
+	background-size: 97px 29px;
 	height: 28px;
-	width: 90px;
+	width: 130px;
+	margin-left: -122px;
 }
 
 div.module-item-title a[title~="#SS"][title~="#HS"][title~="#PL"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-hs-pl-colour.svg');
-	background-size: 55px 29px;
+	background-size: 97px 29px;
 	height: 28px;
 	width: 90px;
+	margin-left: -118px;
 }
 
 div.module-item-title a[title~="#SS"][title~="#CP"][title~="#PL"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-cp-pl-colour.svg');
-	background-size: 57px 29px;
+	background-size: 97px 29px;
 	height: 28px;
-	width: 90px;
+	width: 130px;
+	margin-left: -118px;
 }
 
 div.module-item-title a[title~="#CP"][title~="#HS"][title~="#PL"]:after {

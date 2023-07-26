@@ -519,102 +519,119 @@ box-shadow: none;
 
 
 /* Module List Hashtag-driven Icons - order priority is #SS #CP #HS #PL */
-div.module-item-title a[title~="#SS"]:after {
+div.module-item-title a:after { 
 	content:'';
+	padding-top: 5px;
+	position: absolute;
+	margin-top: -3px;
+	margin-left: -36px;
+	background-repeat: no-repeat;
+	background-color: white!important;
+}
+
+div.module-item-title a[title~="#SS"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-colour.svg');
 	background-size: 27px 29px;
 	height: 28px;
 	width: 90px;
-	padding-top: 5px;
-	position: absolute;
-	margin-top: -3px;
-	margin-left: -36px;
-	background-repeat: no-repeat;
-	background-color: white!important;
 }
 
 div.module-item-title a[title~="#HS"]:after {
-	content:'';
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/hs-colour.svg');
 	background-size: 27px 29px;
 	height: 28px;
 	width: 90px;
-	padding-top: 5px;
-	position: absolute;
-	margin-top: -3px;
-	margin-left: -37px;
-	background-repeat: no-repeat;
-	background-color: white!important;
 }
 
 div.module-item-title a[title~="#PL"]:after {
-	content:'';
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/pl-colour.svg');
 	background-size: 27px 29px;
 	height: 28px;
 	width: 90px;
-	padding-top: 5px;
-	position: absolute;
-	margin-top: -3px;
-	margin-left: -36px;
-	background-repeat: no-repeat;
-	background-color: white!important;
 }
 
 div.module-item-title a[title~="#CP"]:after {
-	content:'';
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-colour.svg');
 	background-size: 27px 29px;
 	height: 26px;
 	width: 90px;
-	padding-top: 5px;
-	position: absolute;
-	margin-top: -3px;
-	margin-left: -39px;
-	background-repeat: no-repeat;
-	background-color: white!important;
-}
-
-div.module-item-title a[title~="#CP"][title~="#PL"]:after {
-	content:'';
-	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-pl-colour.svg');
-	background-size: 54px 29px;
-	height: 28px;
-	width: 90px;
-	padding-top: 5px;
-	position: absolute;
-	margin-top: -3px;
-	margin-left: -77px;
-	background-repeat: no-repeat;
-	background-color: white!important;
 }
 
 div.module-item-title a[title~="#SS"][title~="#CP"]:after {
-	content:'';
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-cp-colour.svg');
 	background-size: 57px 29px;
 	height: 28px;
 	width: 90px;
-	padding-top: 5px;
-	position: absolute;
-	margin-top: -3px;
-	margin-left: -80px;
-	background-repeat: no-repeat;
-	background-color: white!important;
+}
+
+div.module-item-title a[title~="#SS"][title~="#HS"]:after {
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-hs-colour.svg');
+	background-size: 57px 29px;
+	height: 28px;
+	width: 90px;
+}
+
+div.module-item-title a[title~="#SS"][title~="#PL"]:after {
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-pl-colour.svg');
+	background-size: 57px 29px;
+	height: 28px;
+	width: 90px;
+}
+
+div.module-item-title a[title~="#CP"][title~="#HS"]:after {
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-hs-colour.svg');
+	background-size: 57px 29px;
+	height: 28px;
+	width: 90px;
+}
+
+div.module-item-title a[title~="#CP"][title~="#PL"]:after {
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-pl-colour.svg');
+	background-size: 54px 29px;
+	height: 28px;
+	width: 90px;
+}
+
+div.module-item-title a[title~="#HS"][title~="#PL"]:after {
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/hs-pl-colour.svg');
+	background-size: 57px 29px;
+	height: 28px;
+	width: 90px;
+}
+
+div.module-item-title a[title~="#SS"][title~="#CP"][title~="#HS"]:after {
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-cp-colour.svg');
+	background-size: 57px 29px;
+	height: 28px;
+	width: 90px;
+}
+
+div.module-item-title a[title~="#SS"][title~="#HS"][title~="#PL"]:after {
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-hs-colour.svg');
+	background-size: 57px 29px;
+	height: 28px;
+	width: 90px;
+}
+
+div.module-item-title a[title~="#SS"][title~="#CP"][title~="#PL"]:after {
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-cp-colour.svg');
+	background-size: 57px 29px;
+	height: 28px;
+	width: 90px;
+}
+
+div.module-item-title a[title~="#CP"][title~="#HS"][title~="#PL"]:after {
+	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-hs-colour.svg');
+	background-size: 57px 29px;
+	height: 28px;
+	width: 90px;
 }
 
 div.module-item-title a[title~="#ALL"]:after {
-	content:'';
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/all-colour.svg');
 	background-size: 123px 29px;
 	height: 28px;
 	width: 140px;
-	padding-top: 5px;
-	position: absolute;
-	margin-top: -3px;
-	margin-left: -46px;
-	background-repeat: no-repeat;
-	background-color: white!important;
 }
 
 /* Remove module list hover highlight to stop the icons looking weird with their white backgrounds */

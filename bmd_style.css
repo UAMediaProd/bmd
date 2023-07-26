@@ -592,13 +592,13 @@ div.module-item-title a[title~="#CP"][title~="#PL"]:after {
 div.module-item-title a[title~="#SS"][title~="#CP"]:after {
 	content:'';
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-cp-colour.svg');
-	background-size: 20px 29px;
+	background-size: 42px 29px;
 	height: 20px;
 	width: 90px;
 	padding-top: 5px;
 	position: absolute;
 	margin-top: -3px;
-	margin-left: -36px;
+	margin-left: -80px;
 	background-repeat: no-repeat;
 	background-color: white!important;
 }
@@ -606,16 +606,20 @@ div.module-item-title a[title~="#SS"][title~="#CP"]:after {
 div.module-item-title a[title~="#ALL"]:after {
 	content:'';
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/all-colour.svg');
-	background-size: 20px 29px;
+	background-size: 95px 29px;
 	height: 20px;
-	width: 90px;
+	width: 100px;
 	padding-top: 5px;
 	position: absolute;
 	margin-top: -3px;
-	margin-left: -36px;
+	margin-left: -46px;
 	background-repeat: no-repeat;
 	background-color: white!important;
 }
+
+/* Remove module list hover highlight to stop the icons looking weird with their white backgrounds */
+.ig-list .ig-row:hover {background-color:white!important;}
+
 
 /* Custom lists */
 .kl_wrapper ul {

@@ -518,7 +518,7 @@ box-shadow: none;
 }
 
 
-/* Module List Hashtag-driven Icons - order must always go #SS #CP #HS #PL */
+/* Module List Hashtag-driven Icons - order priority is #SS #CP #HS #PL */
 div.module-item-title a[title~="#SS"]:after {
 	content:'';
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-colour.svg');
@@ -565,7 +565,7 @@ div.module-item-title a[title~="#CP"]:after {
 	content:'';
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-colour.svg');
 	background-size: 27px 29px;
-	height: 20px;
+	height: 26px;
 	width: 90px;
 	padding-top: 5px;
 	position: absolute;
@@ -578,7 +578,7 @@ div.module-item-title a[title~="#CP"]:after {
 div.module-item-title a[title~="#CP"][title~="#PL"]:after {
 	content:'';
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-pl-colour.svg');
-	background-size: 41px 29px;
+	background-size: 54px 29px;
 	height: 28px;
 	width: 90px;
 	padding-top: 5px;
@@ -592,7 +592,7 @@ div.module-item-title a[title~="#CP"][title~="#PL"]:after {
 div.module-item-title a[title~="#SS"][title~="#CP"]:after {
 	content:'';
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-cp-colour.svg');
-	background-size: 71px 29px;
+	background-size: 57px 29px;
 	height: 28px;
 	width: 90px;
 	padding-top: 5px;

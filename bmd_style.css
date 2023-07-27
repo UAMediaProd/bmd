@@ -535,14 +535,14 @@ div.module-item-title a[title*="#SS"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-colour.svg');
 	background-size: 27px 29px;
 	width: 36px;
-	margin-left:-35px;
+	margin-left:-36px;
 }
 
 div.module-item-title a[title*="#HS"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/hs-colour.svg');
 	background-size: 30px 29px;
 	width: 37px;
-	margin-left:-35px;
+	margin-left:-37px;
 }
 
 div.module-item-title a[title*="#PL"]:after {
@@ -556,7 +556,7 @@ div.module-item-title a[title*="#CP"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-colour.svg');
 	background-size: 27px 29px;
 	width: 39px;
-	margin-left:-35px;
+	margin-left:-38px;
 }
 
 div.module-item-title a[title*="#SS"][title*="#CP"]:after {
@@ -626,14 +626,14 @@ div.module-item-title a[title*="#CP"][title*="#HS"][title*="#PL"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-hs-pl-colour.svg');
 	background-size: 97px 29px;
 	width: 114px;
-	margin-left: -108px;
+	margin-left: -109px;
 }
 
 div.module-item-title a[title*="#SS"][title*="#CP"][title*="#HS"][title*="#PL"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/all-colour.svg');
 	background-size: 123px 29px;
-	width: 125px;
-	margin-left: -45px;
+	width: 146px;
+	margin-left: -145px;
 }
 
 /* Remove module list hover highlight to stop the icons looking weird with their white backgrounds */

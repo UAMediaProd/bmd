@@ -535,70 +535,70 @@ div.module-item-title a[title*="#SS"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-colour.svg');
 	background-size: 27px 29px;
 	width: 42px;
-	margin-left:-39px;
+	margin-left:-35px;
 }
 
 div.module-item-title a[title*="#HS"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/hs-colour.svg');
 	background-size: 30px 29px;
 	width: 42px;
-	margin-left:-39px;
+	margin-left:-35px;
 }
 
 div.module-item-title a[title*="#PL"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/pl-colour.svg');
 	background-size: 27px 29px;
 	width: 42px;
-	margin-left:-39px;
+	margin-left:-35px;
 }
 
 div.module-item-title a[title*="#CP"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-colour.svg');
 	background-size: 27px 29px;
 	width: 42px;
-	margin-left:-39px;
+	margin-left:-35px;
 }
 
 div.module-item-title a[title*="#SS"][title*="#CP"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-cp-colour.svg');
 	background-size: 57px 29px;
 	width: 80px;
-	margin-left: -77px;
+	margin-left: -75px;
 }
 
 div.module-item-title a[title*="#SS"][title*="#HS"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-hs-colour.svg');
 	background-size: 58px 29px;
 	width: 80px;
-	margin-left: -77px;
+	margin-left: -75px;
 }
 
 div.module-item-title a[title*="#SS"][title*="#PL"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-pl-colour.svg');
 	background-size: 57px 29px;
 	width: 80px;
-	margin-left: -77px;
+	margin-left: -71px;
 }
 
 div.module-item-title a[title*="#CP"][title*="#HS"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-hs-colour.svg');
 	background-size: 57px 29px;
 	width: 80px;
-	margin-left: -77px;
+	margin-left: -75px;
 }
 
 div.module-item-title a[title*="#CP"][title*="#PL"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-pl-colour.svg');
 	background-size: 54px 29px;
 	width: 80px;
-	margin-left:-77px;
+	margin-left:-75px;
 }
 
 div.module-item-title a[title*="#HS"][title*="#PL"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/hs-pl-colour.svg');
 	background-size: 57px 29px;
 	width: 80px;
-	margin-left:-77px;
+	margin-left:-75px;
 }
 
 div.module-item-title a[title*="#SS"][title*="#CP"][title*="#HS"]:after {
@@ -612,21 +612,21 @@ div.module-item-title a[title*="#SS"][title*="#HS"][title*="#PL"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-hs-pl-colour.svg');
 	background-size: 97px 29px;
 	width: 140px;
-	margin-left: -114px;
+	margin-left: -108px;
 }
 
 div.module-item-title a[title*="#SS"][title*="#CP"][title*="#PL"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-cp-pl-colour.svg');
 	background-size: 97px 29px;
 	width: 140px;
-	margin-left: -114px;
+	margin-left: -108px;
 }
 
 div.module-item-title a[title*="#CP"][title*="#HS"][title*="#PL"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-hs-pl-colour.svg');
 	background-size: 97px 29px;
 	width: 140px;
-	margin-left: -114px;
+	margin-left: -108px;
 }
 
 div.module-item-title a[title*="#ALL"]:after {

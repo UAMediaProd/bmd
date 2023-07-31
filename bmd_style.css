@@ -405,7 +405,7 @@ TEXT STYLES
 
 .ig-header {
 	background:var(--rocc_primary)!important;
-	padding:12px 6px 8px!important;
+	padding:12px 14px 8px 8px !important;
 }
 
 .ig-header .name {
@@ -419,8 +419,11 @@ TEXT STYLES
 }
 
 .ig-header .ig-header-title {
-line-height: 24px;
+	line-height: 24px;
+	padding-left:30px;
 }
+
+.ig-header i {margin-left:-20px;}
 
 .ig-list .indent_0 .ig-row a.ig-title, .ig-list .indent_0 .ig-row .locked_title {
 	font-size: 1.25rem; 
@@ -444,6 +447,9 @@ line-height: 24px;
 	font-size: 1rem;
 	color: var(--rocc_secondary);
 }
+
+
+
 
 /* Mobile optimisations */
 .ig-header-title {white-space:normal;} /* Fixes titles not wrapping on small screens */

@@ -195,13 +195,11 @@ TEXT STYLES
 	background: var(--rocc_primary);
 }
 
-
-
 @media only screen and (min-width:761px) {
 	.kl_wrapper .rocc_major_header img {max-width:2.375rem!important;float:right;margin: 0 0 0 10px;}
 	.kl_wrapper .rocc_major_header_icon {
-		padding: 1.75rem;
-		display: flex;
+	padding: 1.75rem;
+	display: flex;
     	align-items: flex-end;
     	justify-content: flex-end;}
 	
@@ -282,8 +280,8 @@ TEXT STYLES
 @media only screen and (min-width:761px) {
 	.kl_wrapper .rocc_page_title img {max-width:2.375rem!important;float:right;margin: 0 0 0 10px;}
 	.kl_wrapper .rocc_page_title_icon {
-		padding:0 0.25rem 0.625rem 1.25rem;
-		display: flex;
+	padding:0 0.25rem 0.625rem 1.25rem;
+	display: flex;
     	align-items: flex-end;
     	justify-content: flex-end;}
 	
@@ -292,39 +290,45 @@ TEXT STYLES
 	line-height: 2.916rem;
 	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif;
 	color: var(--rocc_secondary);
-    font-weight: bold;
-    border-bottom: none!important;
+    	font-weight: bold;
+    	border-bottom: none!important;
 	margin-top: 0;
 }
 
 .kl_wrapper .rocc_page_title h2 {
 	color: var(--rocc_primary);
 	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif;
-    border-bottom: none !important;
+    	border-bottom: none !important;
 	margin-bottom:0;
 }
 }
 
 @media only screen and (max-width:760px) {
 	.kl_wrapper .rocc_page_title img {max-width:2rem!important;margin: 0 10px 0 0;}
-	.kl_wrapper .rocc_page_title_icon {
-		padding:1.25rem 0;
-	}
+	.kl_wrapper .rocc_page_title_icon {padding:1.25rem 0;}
 	.kl_wrapper .rocc_page_title h1 {
 	font-size: 2.5rem;
 	line-height: 2.916rem;
 	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif;
 	color: var(--rocc_secondary);
-    font-weight: bold;
-    border-bottom: none!important;
+    	font-weight: bold;
+    	border-bottom: none!important;
 	margin: 0;
+}
+
+.kl_wrapper .rocc_page_title h1 {
+	font-size: 1.8125rem;
+	font-weight: bold;
+	line-height: 2.3rem;
 }
 
 .kl_wrapper .rocc_page_title h2 {
 	color: var(--rocc_primary);
 	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif;
-    border-bottom: none !important;
+    	border-bottom: none !important;
 	margin: 0;
+	font-size:1.2rem;
+	line-height:1.5rem;
 }
 }
 

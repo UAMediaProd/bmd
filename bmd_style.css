@@ -439,6 +439,15 @@ line-height: 24px;
 	color: var(--rocc_secondary);
 }
 
+/* Mobile optimisations */
+.ig-header-title {white-space:normal;} /* Fixes titles not wrapping on small screens */
+@media only screen and (max-width:600px) {
+	.context_module_item.indent_2 .type_icon {padding-left:2px;}
+	.context_module_item.indent_1 .type_icon {padding-left:0;}
+	.ig-list .indent_1 .ig-row a.ig-title, .ig-list .indent_1 .ig-row .locked_title {padding-left:0;}
+}
+
+
 /* Remove the annoying square brackets on load */
 .ig-details__item:after {display:none;}
 

@@ -313,6 +313,7 @@ TEXT STYLES
 	color: var(--rocc_secondary);
     	font-weight: bold;
     	border-bottom: none!important;
+	margin-bottom:5px;
 	margin: 0;
 }
 

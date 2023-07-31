@@ -452,7 +452,7 @@ TEXT STYLES
 
 
 /* Mobile optimisations */
-.ig-header-title {white-space:normal;} /* Fixes titles not wrapping on small screens */
+.ig-header-title, .ig-header-title .ellipsis {white-space:normal;} /* Fixes titles not wrapping on small screens */
 @media only screen and (max-width:600px) {
 	.context_module_item.indent_2 .type_icon {padding-left:2px;}
 	.context_module_item.indent_1 .type_icon {padding-left:0;}

@@ -779,7 +779,8 @@ div.module-item-title a[title*="#SS"][title*="#CP"][title*="#HS"][title*="#PL"]:
 
 
 /*----Content Positions----*/
-.kl_wrapper_parent {
+/* Set page width (two selectors to cater for Cidilabs variations) */
+.kl_wrapper_parent, #wiki_page_show .show-content {
 	max-width: 850px;
 	margin: auto;
 }

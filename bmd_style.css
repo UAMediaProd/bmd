@@ -1605,6 +1605,12 @@ a.nav_list {
 }
 
 
+/*----Nav bar made 'sticky'----*/
+/* Currently targeting only SHELL MS3 course. To apply to all courses, remove the context-course ID */
+.context-course_68401 #module_navigation_target {position:sticky;bottom:0;}
+
+
+
 /*----Video Styling ----*/
 
 .kl_wrapper element.style {

@@ -658,6 +658,9 @@ div.module-item-title a[title*="#SS"][title*="#CP"][title*="#HS"][title*="#PL"]:
 	margin-left: -145px;
 }
 
+/* Put the margin back on module titles */
+.ig-list .icon-drag-handle {margin:0!important;}
+	
 /* Remove module list hover highlight to stop the icons looking weird with their white backgrounds */
 .ig-list .ig-row:hover {background-color:white!important;}
 

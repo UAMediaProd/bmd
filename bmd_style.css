@@ -1780,6 +1780,10 @@ a.nav_list {
     margin: 0 auto;
 }
 
+.rocc_roadmap_unit_colour0 {
+	border: 16px solid var(--rocc_primary)!important;
+}
+
 .rocc_roadmap_unit_colour1 {
 	border: 16px solid var(--domain_cp_color)!important;
 }

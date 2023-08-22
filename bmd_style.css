@@ -85,7 +85,7 @@ TEXT STYLES
 
 /* Body text heading styles */
 
-.kl_wrapper h2, .dp_wrapper h2 {
+.kl_wrapper h2, .dp-wrapper h2 {
  	color: var(--rocc_primary);
   	font-size: 2rem;
 	line-height: 2.4rem;
@@ -96,7 +96,7 @@ TEXT STYLES
   	border-bottom: none !important;
 }
 
-.kl_wrapper h3, .dp_wrapper h3 {
+.kl_wrapper h3, .dp-wrapper h3 {
   	color: var(--rocc_primary);
   	font-size: 1.59375rem;
 	line-height: 2rem;
@@ -110,7 +110,7 @@ TEXT STYLES
 #kl_wrapper_3.kl_box_left_1 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_2 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_3 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left h3:not(.ui-state-default) {
 	margin: 0px 0px 6px;}
 
-.kl_wrapper h4, .dp_wrapper h4 {
+.kl_wrapper h4, .dp-wrapper h4 {
   	color: var(--rocc_primary);
 	font-weight: 500; 
   	font-size: 1.3125rem;
@@ -122,7 +122,7 @@ TEXT STYLES
 
 }
 
-.kl_wrapper h5, .dp_wrapper h5 {
+.kl_wrapper h5, .dp-wrapper h5 {
   	color: #7D8388;
 	font-weight: bold; 
   	font-size: 1.1rem;

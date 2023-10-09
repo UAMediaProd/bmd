@@ -2040,7 +2040,7 @@ li.ou-progress-item a.active:hover {
 
 /* Updates since 09-10-23 - to allow easy reconciliation with new stylesheet created by Breeze for new cidilabs */
 .kl_wrapper .rocc_major_header.rocc_ahs_header img {
-max-width: 11.38rem!important;
+max-width: 11.43rem!important;
 float: right;
 margin: -1.75rem;
 width: calc(100% + 6.75rem);

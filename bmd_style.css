@@ -2030,6 +2030,7 @@ li.ou-progress-item a.active:hover {
 
 .list-view a.active {
 	color:var(--rocc_secondary);
+}
 	
 /********************************************************************************
  * END - Styles for progress icons buttons and bar

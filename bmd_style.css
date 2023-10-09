@@ -2035,3 +2035,19 @@ li.ou-progress-item a.active:hover {
  * END - Styles for progress icons buttons and bar
 *********************************************************************************/
 
+
+
+/* Updates since 09-10-23 - to allow easy reconciliation with new stylesheet created by Breeze for new cidilabs */
+.kl_wrapper .rocc_major_header.rocc_ahs_header img {
+max-width: 11.38rem!important;
+float: right;
+margin: -1.75rem;
+width: calc(100% + 6.75rem);
+}
+
+.rocc_ahs_banner_sml {display:none;}
+
+@media only screen and (max-width:768px) {
+	.rocc_ahs_banner_big {display:none;}
+	.rocc_ahs_banner_sml {display:inherit;}
+}

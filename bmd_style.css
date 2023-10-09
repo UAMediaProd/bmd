@@ -2050,10 +2050,10 @@ width: calc(100% + 6.75rem);
 
 @media only screen and (max-width:1050px) {
 	.kl_wrapper .rocc_major_header.rocc_ahs_header .rocc_ahs_banner_big {display:none;}
-	.kl_wrapper .rocc_major_header.rocc_ahs_header .rocc_ahs_banner_sml {display:inherit;max-width:150px;}
+	.kl_wrapper .rocc_major_header.rocc_ahs_header .rocc_ahs_banner_sml {display:inherit;max-width:150px!important;}
 }
 
 @media only screen and (max-width:768px) {
 	.kl_wrapper .rocc_major_header.rocc_ahs_header .rocc_ahs_banner_big {display:none;}
-	.kl_wrapper .rocc_major_header.rocc_ahs_header .rocc_ahs_banner_sml {display:inherit;max-width:90px;}
+	.kl_wrapper .rocc_major_header.rocc_ahs_header .rocc_ahs_banner_sml {display:inherit;max-width:90px!important;margin:-1.2rem;}
 }

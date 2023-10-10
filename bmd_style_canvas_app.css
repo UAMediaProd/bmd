@@ -1173,3 +1173,23 @@ div[id*="kl_custom_block"], div[id*="kl_content_block_sub"], div[id*="kl_panel_b
 
 #kl_wrapper_3 .kl_custom_accordion.ui-accordion .ui-accordion-header a, #kl_wrapper_3 .kl_panels_accordion.ui-accordion .ui-accordion-header a, #kl_wrapper_3 .kl_panels_expander.ui-accordion .ui-accordion-header a, .kl_custom_accordion.ui-accordion .ui-accordion-header a, .kl_panels_accordion.ui-accordion .ui-accordion-header a, .kl_panels_expander.ui-accordion .ui-accordion-header a {color:var(--rocc_primary);}
 }
+
+
+/* Updates since 09-10-23 - to allow easy reconciliation with new stylesheet created by Breeze for new cidilabs */
+.kl_wrapper .rocc_major_header.rocc_ahs_header img {
+max-width: 11.43rem!important;
+float: right;
+margin: -1.75rem;
+width: calc(100% + 6.75rem);
+}
+
+.kl_wrapper .rocc_major_header.rocc_ahs_header .rocc_ahs_banner_sml {display:none;}
+
+@media only screen and (max-width:1069px) {
+	.kl_wrapper .rocc_major_header.rocc_ahs_header .rocc_ahs_banner_big {display:none;}
+	.kl_wrapper .rocc_major_header.rocc_ahs_header .rocc_ahs_banner_sml {display:inherit;max-width:150px!important;}
+}
+
+@media only screen and (max-width:768px) {
+	.kl_wrapper .rocc_major_header.rocc_ahs_header .rocc_ahs_banner_big {display:none;}
+	.kl_wrapper .rocc_major_header.rocc_ahs_header .rocc_ahs_banner_sml {display:inherit;max-width:90px!important;margin:-1.2rem;}

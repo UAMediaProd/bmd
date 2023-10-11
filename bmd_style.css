@@ -1644,13 +1644,15 @@ a.nav_list {
 }
 
 
+/* Make videos full height in the new Cidilabs embed wrapper */
+.dp-embed-wrapper {height:100%!important;}
+
 /* Lecture slides link in accordions */
 .kl_wrapper .ui-accordion p.rocc-accordion-slides {
 	margin: 0;
 	text-align: right;
 	padding: 0 10px 0 0;
 }
-
 
 
 /*----Domain Cards----*/

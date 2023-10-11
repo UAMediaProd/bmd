@@ -337,6 +337,27 @@ TEXT STYLES
 }
 
 
+/* Adelaide Health Simulation styled headers */
+
+.kl_wrapper .rocc_major_header.rocc_ahs_header img, .dp-wrapper .rocc_major_header.rocc_ahs_header img {
+max-width: 11.43rem!important;
+float: right;
+margin: -1.75rem;
+width: calc(100% + 6.75rem);
+}
+
+.kl_wrapper .rocc_major_header.rocc_ahs_header .rocc_ahs_banner_sml, .dp-wrapper .rocc_major_header.rocc_ahs_header .rocc_ahs_banner_sml {display:none;}
+
+@media only screen and (max-width:1069px) {
+	.kl_wrapper .rocc_major_header.rocc_ahs_header .rocc_ahs_banner_big, .dp-wrapper .rocc_major_header.rocc_ahs_header .rocc_ahs_banner_big {display:none;}
+	.kl_wrapper .rocc_major_header.rocc_ahs_header .rocc_ahs_banner_sml, .dp-wrapper .rocc_major_header.rocc_ahs_header .rocc_ahs_banner_sml {display:inherit;max-width:150px!important;}
+}
+
+@media only screen and (max-width:768px) {
+	.kl_wrapper .rocc_major_header.rocc_ahs_header .rocc_ahs_banner_big, .dp-wrapper .rocc_major_header.rocc_ahs_header .rocc_ahs_banner_big {display:none;}
+	.kl_wrapper .rocc_major_header.rocc_ahs_header .rocc_ahs_banner_sml, .dp-wrapper .rocc_major_header.rocc_ahs_header .rocc_ahs_banner_sml {display:inherit;max-width:90px!important;margin:-1.2rem;}
+}
+
 
 /* Tutor "about" heading styles */
 

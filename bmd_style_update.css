@@ -107,8 +107,10 @@ TEXT STYLES
   	border: none !important; 
 }
 
-***#kl_wrapper_3.kl_box_left_1 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_2 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_3 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left h3:not(.ui-state-default) {
+/ATTN START Not yet updated for new Cidilabs - unable to find */
+#kl_wrapper_3.kl_box_left_1 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_2 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_3 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left h3:not(.ui-state-default) {
 	margin: 0px 0px 6px;}
+/ATTN END Not yet updated for new Cidilabs - unable to find */
 
 .kl_wrapper h4, .dp-wrapper h4 {
   	color: var(--rocc_primary);
@@ -142,11 +144,12 @@ TEXT STYLES
 .external_link_icon, .file_download_btn {display:none!important;}
 
 
+/ATTN START Not yet updated for new Cidilabs - unable to find */
 /* Removes default white background from h3s */
-
-***#kl_wrapper_3.kl_box_left_1 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_2 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_3 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left h3:not(.ui-state-default) {
+#kl_wrapper_3.kl_box_left_1 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_2 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_3 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left h3:not(.ui-state-default) {
 	background-color:transparent;
 }
+/ATTN END Not yet updated for new Cidilabs - unable to find */
 
 
 /* Hides default Canvas page titles */
@@ -735,14 +738,14 @@ div.module-item-title a[title*="#SS"][title*="#CP"][title*="#HS"][title*="#PL"]:
   list-style: none;
 }
 
-***.kl_wrapper div[id*="kl_custom_block"] > ol.rocc_custom_counter > li, .dp-wrapper div[id*="kl_custom_block"] > ol.rocc_custom_counter > li {
+.kl_wrapper div[id*="kl_custom_block"] > ol.rocc_custom_counter > li, .dp-wrapper .dp-content-block ol.rocc_custom_counter > li {
   margin-bottom: 10px;
   padding-top: 10px;
   counter-increment: my-awesome-counter;
   position: relative;
 }
 
-.kl_wrapper div[id*="kl_custom_block"] > ol.rocc_custom_counter > li::before, .dp-wrapper div[id*="kl_custom_block"] > ol.rocc_custom_counter > li::before {
+.kl_wrapper div[id*="kl_custom_block"] > ol.rocc_custom_counter > li::before, .dp-wrapper .dp-content-block ol.rocc_custom_counter > li::before {
   content: counter(my-awesome-counter);
 	color: white;
   font-size: 90%;
@@ -758,7 +761,7 @@ div.module-item-title a[title*="#SS"][title*="#CP"][title*="#HS"][title*="#PL"]:
   border-radius: 50%;
   text-align: center;
   margin-top: 10px;
-}
+  }
 
 .kl_wrapper .rocc_custom_counter ul li:before, .dp-wrapper .rocc_custom_counter ul li:before {
 	content: none;
@@ -783,7 +786,7 @@ div.module-item-title a[title*="#SS"][title*="#CP"][title*="#HS"][title*="#PL"]:
 
 /*----Content Positions----*/
 /* Set page width (two selectors to cater for Cidilabs variations) */
-***.kl_wrapper_parent, #wiki_page_show .show-content {
+.kl_wrapper_parent, #wiki_page_show .show-content {
 	max-width: 850px;
 	margin: auto;
 }
@@ -791,7 +794,7 @@ div.module-item-title a[title*="#SS"][title*="#CP"][title*="#HS"][title*="#PL"]:
 .kl_wrapper .rocc_column-flow-3, .dp-wrapper .rocc_column-flow-3 {columns: 250px 3;padding: 0 11px;}
 .kl_wrapper .rocc_column-flow-2, .dp-wrapper .rocc_column-flow-2 {columns: 300px 2;padding: 0 11px;}
 
-***div[id*="kl_custom_block"], div[id*="kl_content_block_sub"], div[id*="kl_panel_block"] {
+div[id*="kl_custom_block"], div[id*="kl_content_block_sub"], div[id*="kl_panel_block"], .dp-content-block {
   margin: 0 0 3.5rem 0!important;
 }
 
@@ -924,10 +927,10 @@ figure {margin:0;}
 }
 
 
-***#kl_wrapper_3>div {overflow:auto!important;}
+#kl_wrapper_3>div, #dp-wrapper>div {overflow:auto!important;}
 
 
-/* Popovers */
+/* Popovers and Tooltips */
 
 .tippy-popper, .tippy-tooltip {will-change:initial!important;} /* removing will-change stops the text looking blurry */
 .tippy-tooltip.light-theme {box-shadow:none;background:#dadada;padding:18px;}
@@ -935,7 +938,7 @@ figure {margin:0;}
 .tippy-content ul {font-size:1rem!important;}
 .tippy-tooltip {max-width:550px;}
 
-***.kl_popover_trigger, .kl_tooltip_trigger, a.kl_popover_trigger, a.kl_tooltip_trigger {
+.kl_popover_trigger, .kl_tooltip_trigger, a.kl_popover_trigger, a.kl_tooltip_trigger, .dp-wrapper a.dp-tooltip-trigger, .dp-wrapper a.dp-popover-trigger {
 	color: var(--rocc_secondary);
 	border-bottom: 1px dashed;
 	border-top:none;
@@ -949,7 +952,7 @@ figure {margin:0;}
 
 /* "Quick Check" styles */
 
-***#kl_wrapper_3 .kl_quick_check p {font-size:inherit;}
+ATTN#kl_wrapper_3 .kl_quick_check p {font-size:inherit;}
 #kl_wrapper_3 .kl_quick_check {border:none;padding: 25px 46px;background: #e3ecf5;}
 #kl_wrapper_3 label {font-size:1rem;}
 #kl_wrapper_3 .kl_quick_check p {margin:0!important;}
@@ -1511,7 +1514,7 @@ text-decoration:none;
 }
 
 
-***/*----Navigation Bar----*/
+ATTN/*----Navigation Bar----*/
 /*--Note: Nav bar is hidden for now as it has been replaced by Canvas Where Am I--*/
 
 .kl_progress_icons {display:none;}
@@ -1548,7 +1551,7 @@ text-decoration:none;
 	width:100%;
 }
 
-***.kl_wrapper ul.kl_basic_navlist {
+ATTN.kl_wrapper ul.kl_basic_navlist {
 	padding:0;
 	font-weight:bold;
 }
@@ -1564,7 +1567,7 @@ text-decoration:none;
 	background:var(--rocc_secondary_light)!important;
 }
 
-***a.nav_list {
+ATTNa.nav_list {
 	color: white; 
 	text-decoration:none!important;
 }
@@ -1746,7 +1749,7 @@ text-decoration:none;
 
 /* Fix Cidilabs interface */
 
-***#kl_tools_accordion h4.ui-accordion-header a {
+ATTN#kl_tools_accordion h4.ui-accordion-header a {
 	color: var(--rocc_primary)!important;
 }
 
@@ -1875,6 +1878,7 @@ a.kl_modal_trigger {display:inline-block;height:100%;margin-top:3px;} /* Fix Fir
 /********************************************************************************
  * START - Styles for sub-modules in lh navigation
 *********************************************************************************/
+
 ul.ou-section-tabs-sub {
     list-style: none;
     margin: 0;
@@ -1915,6 +1919,7 @@ a.ou-section-link-sub.active:focus{
     background-color:var(--ic-brand-primary)
 }*/
 
+
 /********************************************************************************
  * END - Styles for sub-modules in lh navigation
 *********************************************************************************/
@@ -1923,6 +1928,7 @@ a.ou-section-link-sub.active:focus{
 /********************************************************************************
  * START - Styles for progress icons buttons and bar
 *********************************************************************************/
+
 
 .ou-ProgressBar {
   height: 15px;
@@ -2030,11 +2036,12 @@ li.ou-progress-item a.active:hover {
 }
 
 .list-view a.active {
-	color:var(--rocc_secondary);
-	
+	color:var(--rocc_secondary); }
+
 /********************************************************************************
  * END - Styles for progress icons buttons and bar
 *********************************************************************************/
+
 @charset "utf-8";
 /* CSS Document */
 

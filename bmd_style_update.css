@@ -107,10 +107,10 @@ TEXT STYLES
   	border: none !important; 
 }
 
-/ATTN START Not yet updated for new Cidilabs - unable to find */
+/* START Not yet updated for new Cidilabs - unable to find */
 #kl_wrapper_3.kl_box_left_1 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_2 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_3 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left h3:not(.ui-state-default) {
 	margin: 0px 0px 6px;}
-/ATTN END Not yet updated for new Cidilabs - unable to find */
+/* END Not yet updated for new Cidilabs - unable to find */
 
 .kl_wrapper h4, .dp-wrapper h4 {
   	color: var(--rocc_primary);
@@ -144,12 +144,12 @@ TEXT STYLES
 .external_link_icon, .file_download_btn {display:none!important;}
 
 
-/ATTN START Not yet updated for new Cidilabs - unable to find */
+/* START Not yet updated for new Cidilabs - unable to find */
 /* Removes default white background from h3s */
 #kl_wrapper_3.kl_box_left_1 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_2 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_3 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left h3:not(.ui-state-default) {
 	background-color:transparent;
 }
-/ATTN END Not yet updated for new Cidilabs - unable to find */
+/* END Not yet updated for new Cidilabs - unable to find */
 
 
 /* Hides default Canvas page titles */
@@ -952,13 +952,12 @@ figure {margin:0;}
 
 /* "Quick Check" styles */
 
-ATTN#kl_wrapper_3 .kl_quick_check p {font-size:inherit;}
-#kl_wrapper_3 .kl_quick_check {border:none;padding: 25px 46px;background: #e3ecf5;}
-#kl_wrapper_3 label {font-size:1rem;}
-#kl_wrapper_3 .kl_quick_check p {margin:0!important;}
-#kl_wrapper_3 .kl_quick_check_answer {margin-bottom: 12px;}
-#kl_wrapper_3 .kl_quick_check .kl_quick_check_field {margin: 3px 10px 10px 0!important;}
-#kl_wrapper_3 .kl_quick_check h3 {display:none;}
+#kl_wrapper_3 .kl_quick_check p, .dp-wrapper .dp-qc p {font-size:inherit;margin:0!important;}
+#kl_wrapper_3 .kl_quick_check, .dp-wrapper .dp-qc {border:none;padding:46px;background:var(--rocc_tertiary_light);}
+#kl_wrapper_3 label, .dp-wrapper label, .dp-wrapper .dp-qc-content {font-size:1rem;}
+#kl_wrapper_3 .kl_quick_check_answer, .dp-wrapper .dp-qc .dp-qc-answer {margin-bottom: 12px;}
+#kl_wrapper_3 .kl_quick_check .kl_quick_check_field, .dp-wrapper .dp-qc .qp-qc-field {margin: 3px 10px 10px 0!important;}
+#kl_wrapper_3 .kl_quick_check h3, .dp-wrapper .dp-qc h3 {display:none;}
 
 
 
@@ -1514,8 +1513,8 @@ text-decoration:none;
 }
 
 
-ATTN/*----Navigation Bar----*/
-/*--Note: Nav bar is hidden for now as it has been replaced by Canvas Where Am I--*/
+/*----Navigation Bar----*/
+/*--Note: Nav bar is hidden for now as it has been replaced by Canvas Where Am I. The styles for it have not been updated to work with the new Cidilabs Tools--*/
 
 .kl_progress_icons {display:none;}
 
@@ -1551,7 +1550,7 @@ ATTN/*----Navigation Bar----*/
 	width:100%;
 }
 
-ATTN.kl_wrapper ul.kl_basic_navlist {
+.kl_wrapper ul.kl_basic_navlist {
 	padding:0;
 	font-weight:bold;
 }
@@ -1567,7 +1566,7 @@ ATTN.kl_wrapper ul.kl_basic_navlist {
 	background:var(--rocc_secondary_light)!important;
 }
 
-ATTNa.nav_list {
+a.nav_list {
 	color: white; 
 	text-decoration:none!important;
 }
@@ -1749,7 +1748,7 @@ ATTNa.nav_list {
 
 /* Fix Cidilabs interface */
 
-ATTN#kl_tools_accordion h4.ui-accordion-header a {
+#kl_tools_accordion h4.ui-accordion-header a {
 	color: var(--rocc_primary)!important;
 }
 

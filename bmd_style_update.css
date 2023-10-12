@@ -1903,6 +1903,12 @@ a.kl_modal_trigger {display:inline-block;height:100%;margin-top:3px;} /* Fix Fir
 .timing-estimates {color:#737373;}
 
 
+/* Cidilabs Tabs */
+.dp-wrapper .nav-tabs {margin-bottom:-2px;}
+.dp-wrapper .nav-tabs .nav-link {background:#efefef;}
+
+
+
 /********************************************************************************
  * START - Styles for sub-modules in lh navigation
 *********************************************************************************/

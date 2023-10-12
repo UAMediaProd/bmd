@@ -804,6 +804,8 @@ div.module-item-title a[title*="#SS"][title*="#CP"][title*="#HS"][title*="#PL"]:
 	font-weight: bold;
 }
 
+.dp-wrapper ol, .dp-wrapper ul, .dp-wrapper dl {margin-bottom:6px!important;}
+
 
 /*----Content Positions----*/
 /* Set page width (two selectors to cater for Cidilabs variations) */

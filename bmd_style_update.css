@@ -205,6 +205,8 @@ TEXT STYLES
 	display: flex;
     	align-items: flex-end;
     	justify-content: flex-end;}
+
+	.dp-wrapper .rocc_major_header_icon {flex-direction:row;}
 	
 	.kl_wrapper .rocc_major_header h1, .dp-wrapper .rocc_major_header h1 {
 	color: white;

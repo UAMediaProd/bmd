@@ -816,10 +816,8 @@ div.module-item-title a[title*="#SS"][title*="#CP"][title*="#HS"][title*="#PL"]:
 .kl_wrapper .rocc_column-flow-2, .dp-wrapper .rocc_column-flow-2 {columns: 300px 2;padding: 0 11px;}
 
 div[id*="kl_custom_block"], div[id*="kl_content_block_sub"], div[id*="kl_panel_block"], .dp-content-block {
-  margin: 0 0 3.5rem 0!important;
+  margin-bottom: calc(3.5rem - 0.5em)!important; /* the minus 0.5em removes the new Cidilabs extra padding without making the video blocks get scrollbars */
 }
-
-.dp-wrapper .dp-content-block {padding-bottom:0;}
 
 .kl_wrapper .rocc_no_padding_left, .dp-wrapper .rocc_no_padding_left {padding-left:0!important;}
 .kl_wrapper .rocc_no_padding_right, .dp-wrapper .rocc_no_padding_right  {padding-right:0!important;}

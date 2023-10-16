@@ -1799,7 +1799,7 @@ a.nav_list {
 
 /* Roadmap styling */
 
-.rocc_roadmap .bs-container {
+.rocc_roadmap .bs-container, .dp-content-block .rocc_roadmap {
 	max-width:554px;	
 }
 

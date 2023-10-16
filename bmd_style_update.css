@@ -200,6 +200,7 @@ TEXT STYLES
 
 .kl_wrapper .rocc_major_header, .dp-wrapper .rocc_major_header {
 	background: var(--rocc_primary);
+	padding:0;
 }
 
 @media only screen and (min-width:761px) {

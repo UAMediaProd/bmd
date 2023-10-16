@@ -1819,7 +1819,7 @@ a.nav_list {
     margin: 0 auto;
 }
 
-.dp-content-block .rocc_roadmap_unit {padding:10%;}
+.dp-content-block .rocc_roadmap_unit {padding-top:10%;}
 
 .rocc_roadmap_unit_colour0 {
 	border: 16px solid var(--rocc_primary)!important;

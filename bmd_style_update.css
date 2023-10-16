@@ -144,6 +144,10 @@ TEXT STYLES
 .external_link_icon, .file_download_btn {display:none!important;}
 
 
+/* Override the 1100 max-width introduced by dp-wrapper-parent (new cidilabs) */
+#dp-wrapper, .dp-wrapper, .dp-wrapper-parent {max-width:initial;}
+
+
 /* START Not yet updated for new Cidilabs - unable to find */
 /* Removes default white background from h3s */
 #kl_wrapper_3.kl_box_left_1 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_2 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_3 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left h3:not(.ui-state-default) {

@@ -1634,13 +1634,13 @@ a.nav_list {
 /* Newer, more responsive video styling */
 
 .kl_wrapper .rocc_video_container_16_9 {
-	aspect-ratio:16 / 9;
+	aspect-ratio:16 / 10.1;
 }
 
 .kl_wrapper .rocc_video_container_16_9 iframe {
 	width:100%!important;
 	height:100%!important;
-	min-height:208px;
+	min-height:319px;
 }
 
 

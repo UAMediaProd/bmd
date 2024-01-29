@@ -452,7 +452,7 @@ width: calc(100% + 6.75rem);
 	color:white!important;
 }
 
-.icon-plus {margin:0 10px 0 0;}
+.ig-header i.icon-plus {margin:0 10px 0 0;}
 
 .ig-header .ig-header-title {
 	line-height: 24px;

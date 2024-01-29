@@ -428,6 +428,8 @@ TEXT STYLES
 
 .ig-header i {margin-left:-20px;}
 
+.icon-plus {margin:0 10px 0 0;}
+
 .ig-list .indent_0 .ig-row a.ig-title, .ig-list .indent_0 .ig-row .locked_title {
 	font-size: 1.25rem; 
 	color: var(--rocc_primary);}

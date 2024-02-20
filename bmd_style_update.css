@@ -843,7 +843,7 @@ div[id*="kl_custom_block"], div[id*="kl_content_block_sub"], div[id*="kl_panel_b
 /* Figure styling */
 figure {margin:0;}
 .dp-wrapper img {width: auto;}
-.dp-wrapper figure {display: inline-block;}
+.dp-wrapper figure {display: block;}
 
 /* Narrower-width centred box eg for divs */
 

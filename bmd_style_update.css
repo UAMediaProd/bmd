@@ -904,6 +904,9 @@ figure {margin:0;}
 .rocc_table {
     border-collapse: collapse;
 }
+.rocc_table td, .rocc_table th {
+    border: none;
+}
 
 .kl_wrapper .rocc_table tr:nth-child(odd), .dp-wrapper .rocc_table tr:nth-child(odd) {
 	background: #ecf1f4;

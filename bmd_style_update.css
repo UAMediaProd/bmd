@@ -496,6 +496,11 @@ width: calc(100% + 6.75rem);
 	.ic-Layout-contentMain {padding-left: 3px;padding-right:3px;}
 }
 
+/*Fix for weird glasses cropping in mobile header*/
+.mobile-header-hamburger, .mobile-header-student-view, .mobile-header-arrow, .mobile-header-title, .mobile-header-space {
+    padding: 10.6px;
+}
+
 
 /* Remove the annoying square brackets on load */
 .ig-details__item:after {display:none;}

@@ -1176,6 +1176,8 @@ div[id*="kl_custom_block"], div[id*="kl_content_block_sub"], div[id*="kl_panel_b
 #kl_wrapper_3 .kl_custom_accordion.ui-accordion .ui-accordion-header a, #kl_wrapper_3 .kl_panels_accordion.ui-accordion .ui-accordion-header a, #kl_wrapper_3 .kl_panels_expander.ui-accordion .ui-accordion-header a, .kl_custom_accordion.ui-accordion .ui-accordion-header a, .kl_panels_accordion.ui-accordion .ui-accordion-header a, .kl_panels_expander.ui-accordion .ui-accordion-header a {color:var(--rocc_primary);}
 }
 
+/*White background for images in dark mode*/
+.kl_wrapper img, .dp-wrapper img { background: white; }
 
 /* Updates since 09-10-23 - to allow easy reconciliation with new stylesheet created by Breeze for new cidilabs */
 .kl_wrapper .rocc_major_header.rocc_ahs_header img {

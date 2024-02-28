@@ -1166,6 +1166,8 @@ div[id*="kl_custom_block"], div[id*="kl_content_block_sub"], div[id*="kl_panel_b
 .kl_wrapper .rocc_call_out_bar_highlight {background:var(--rocc_call_out_highlight_dark);}
 
 .kl_wrapper a {color:var(--rocc_call_out_info_light);}
+	
+.kl_wrapper a span {color:var(--rocc_call_out_info_light);}
 
 .rocc_roadmap_details img {background:white;padding:3px;border-radius:20%;position:relative;top:10px;display:inline-block;}
 .rocc_roadmap_details p {line-height:100%!important;}

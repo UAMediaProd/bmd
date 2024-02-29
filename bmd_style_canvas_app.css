@@ -1210,21 +1210,21 @@ div[id*="kl_custom_block"], div[id*="kl_content_block_sub"], div[id*="kl_panel_b
 
 
 @media screen and (prefers-color-scheme: dark) {
-.kl_wrapper table h3, .kl_wrapper .rocc_page_title h2, .kl_wrapper .rocc_page_title h1, h4, .tutor_info span, .kl_wrapper h2, .kl_wrapper h3, .kl_wrapper .rocc_table  {
+.kl_wrapper table h3, .dp-wrapper table h3, .kl_wrapper .rocc_page_title h2, .dp-wrapper .rocc_page_title h2, .kl_wrapper .rocc_page_title h1, h4, .tutor_info span, .dp-wrapper .rocc_page_title h1, h4, .tutor_info span, .kl_wrapper h2, .tutor_info span, .dp-wrapper h2, .tutor_info span, .kl_wrapper h2, .dp-wrapper h2, .kl_wrapper h3, .dp-wrapper h3, .kl_wrapper .rocc_table, .dp-wrapper .rocc_table  {
 	color: white!important;
 }
 
-.kl_wrapper .rocc_page_link_box, .rocc_learning_outcomes {background-color:var(--rocc_primary)!important;}
+.kl_wrapper .rocc_page_link_box, .dp-wrapper .rocc_page_link_box, .rocc_learning_outcomes {background-color:var(--rocc_primary)!important;}
 
-.kl_wrapper .rocc_call_out_bar_info {background:var(--rocc_primary)!important;}
+.kl_wrapper .rocc_call_out_bar_info, .dp-wrapper .rocc_call_out_bar_info {background:var(--rocc_primary)!important;}
 
-.kl_wrapper .rocc_table tr:nth-child(odd) {	background: #3b3e40;}
+.kl_wrapper .rocc_table tr:nth-child(odd), .dp-wrapper .rocc_table tr:nth-child(odd) {	background: #3b3e40;}
 
-.kl_wrapper .rocc_call_out_bar_highlight {background:var(--rocc_call_out_highlight_dark);}
+.kl_wrapper .rocc_call_out_bar_highlight, .dp-wrapper .rocc_call_out_bar_highlight {background:var(--rocc_call_out_highlight_dark);}
 
-.kl_wrapper a {color:var(--rocc_call_out_info_light);}
+.kl_wrapper a, .dp-wrapper a  {color:var(--rocc_call_out_info_light);}
 	
-.kl_wrapper a span {color:var(--rocc_call_out_info_light);}
+.kl_wrapper a span, .dp-wrapper a span {color:var(--rocc_call_out_info_light);}
 
 .rocc_roadmap_details img {background:white;padding:3px;border-radius:20%;position:relative;top:10px;display:inline-block;}
 .rocc_roadmap_details p {line-height:100%!important;}

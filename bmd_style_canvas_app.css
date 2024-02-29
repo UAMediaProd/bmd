@@ -94,7 +94,8 @@ TEXT STYLES
   	border: none !important; 
 }
 
-#kl_wrapper_3.kl_box_left_1 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_2 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_3 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left h3:not(.ui-state-default) {
+#kl_wrapper_3.kl_box_left_1 h3:not(.ui-state-default), #dp_wrapper_3.kl_box_left_1 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_2 h3:not(.ui-state-default), #dp_wrapper_3.kl_box_left_2 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_3 h3:not(.ui-state-default), #dp_wrapper_3.kl_box_left_3 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left h3:not(.ui-state-default), #dp_wrapper_3.kl_box_left h3:not(.ui-state-default)
+{
 	margin: 0px 0px 6px;}
 
 .kl_wrapper h4, .dp-wrapper h4 {
@@ -158,7 +159,7 @@ TEXT STYLES
 
 
 
-.kl_wrapper .rocc_page_title img {max-width: 2.375rem!important;background: white;
+.kl_wrapper .rocc_page_title img, .dp-wrapper .rocc_page_title img {max-width: 2.375rem!important;background: white;
     padding: 2px;}
 
 .kl_wrapper .rocc_page_title h1, .dp-wrapper .rocc_page_title h1 {
@@ -198,7 +199,8 @@ TEXT STYLES
 
 /* Tutor "about" heading styles */
 
-.kl_wrapper .tutor_card .bs-col-md-2, .kl_wrapper .tutor_card .bs-col-md-3, .kl_wrapper .tutor_card .bs-col {
+.kl_wrapper .tutor_card .bs-col-md-2, .dp_wrapper .tutor_card .bs-col-md-2, .kl_wrapper .tutor_card .bs-col-md-3, .dp_wrapper .tutor_card .bs-col-md-3, .kl_wrapper .tutor_card .bs-col, .dp_wrapper .tutor_card .bs-col
+ {
 	padding-left:0;
 }
 

@@ -50,29 +50,29 @@ TEXT STYLES
 
 /* Fundamental font formatting */
 
-.kl_wrapper {
+.kl_wrapper, .dp-wrapper {
   	color: var(--rocc_primary);
   	font-size: 1rem;
   	font-weight: normal;
 	font-family: Arial, Helvetica, sans-serif;
 	line-height: 1.4rem;
 }
-.kl_wrapper p {
+.kl_wrapper p, .dp-wrapper p {
 	margin: 0px 0px 14px;
 }
 
-.kl_wrapper a {
+.kl_wrapper a, .dp-wrapper a {
 	color:var(--rocc_secondary);
 	text-decoration: underline;
 }
 
-.kl_wrapper a:hover {
+.kl_wrapper a:hover, .dp-wrapper a:hover {
 	color:var(--rocc_primary)!important;
 }
 
 /* Body text heading styles */
 
-.kl_wrapper h2 {
+.kl_wrapper, h2 .dp-wrapper h2 {
  	color: var(--rocc_primary);
   	font-size: 2rem;
 	line-height: 2.4rem;
@@ -83,7 +83,7 @@ TEXT STYLES
   	border-bottom: none !important;
 }
 
-.kl_wrapper h3 {
+.kl_wrapper h3, dp-wrapper h3 {
   	color: var(--rocc_primary);
   	font-size: 1.59375rem;
 	line-height: 2rem;
@@ -97,7 +97,7 @@ TEXT STYLES
 #kl_wrapper_3.kl_box_left_1 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_2 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_3 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left h3:not(.ui-state-default) {
 	margin: 0px 0px 6px;}
 
-.kl_wrapper h4 {
+.kl_wrapper h4, .dp-wrapper h4 {
   	color: var(--rocc_primary);
 	font-weight: 500; 
   	font-size: 1.3125rem;
@@ -109,7 +109,7 @@ TEXT STYLES
 
 }
 
-.kl_wrapper h5 {
+.kl_wrapper h5, .dp-wrapper h5 {
   	color: #000000;
 	font-weight: bold; 
   	font-size: 1.1rem;
@@ -121,14 +121,14 @@ TEXT STYLES
 
 
 
-.kl_wrapper .rocc_feature_header {
+.kl_wrapper .rocc_feature_header, .dp-wrapper .rocc_feature_header {
 	padding: 40px 20px;
 	background-color: var(--rocc_primary);
 	margin: 0px;
 	text-align: center;
 }
 
-.kl_wrapper .rocc_feature_header h1 {
+.kl_wrapper .rocc_feature_header h1, .dp-wrapper .rocc_feature_header h1  {
 	color: white;
 	font-size: 2.5rem;
 	font-weight: bold;
@@ -139,7 +139,7 @@ TEXT STYLES
 	margin-bottom: 30px;
 }
 
-.kl_wrapper .rocc_feature_header h2 {
+.kl_wrapper .rocc_feature_header h2, .dp-wrapper .rocc_feature_header h2 {
 	color: white;
 	font-size: 1.166rem;
 	font-weight: normal;
@@ -150,7 +150,7 @@ TEXT STYLES
 	text-transform: uppercase;
 }
 
-.kl_wrapper .rocc_feature_header p {
+.kl_wrapper .rocc_feature_header p, .dp-wrapper .rocc_feature_header p {
 	color: white;
 	padding: 0; }
 
@@ -161,7 +161,7 @@ TEXT STYLES
 .kl_wrapper .rocc_page_title img {max-width: 2.375rem!important;background: white;
     padding: 2px;}
 
-.kl_wrapper .rocc_page_title h1 {
+.kl_wrapper .rocc_page_title h1, .dp-wrapper .rocc_page_title h1 {
 	font-size: 1.8125rem;
 	font-weight: bold;
 	line-height: 2.3rem;
@@ -172,7 +172,7 @@ TEXT STYLES
 	margin:0 0 15px 0;
 }
 
-.kl_wrapper .rocc_page_title h2 {
+.kl_wrapper .rocc_page_title h2, .dp-wrapper .rocc_page_title h2 {
 	color: var(--rocc_primary);
 	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif;
     	border-bottom: none !important;
@@ -187,11 +187,11 @@ TEXT STYLES
 
 /* Headings for headers on standard content pages */
 
-.kl_wrapper .rocc_page_title {
+.kl_wrapper .rocc_page_title, .dp-wrapper .rocc_page_title  {
 	border-bottom: solid 3px var(--rocc_secondary)!important;
 }
 
-.kl_wrapper .rocc_page_title .bs-col-sm-9, .kl_wrapper .rocc_page_title .bs-col-sm-10, .kl_wrapper .rocc_page_title .bs-col-sm-11 {
+.kl_wrapper .rocc_page_title .bs-col-sm-9, .kl_wrapper .rocc_page_title .bs-col-sm-10, .kl_wrapper .rocc_page_title .bs-col-sm-11, .dp-wrapper .rocc_page_title .bs-col-sm-9, .dp-wrapper .rocc_page_title .bs-col-sm-10, .dp-wrapper .rocc_page_title .bs-col-sm-11 {
 	padding:0!important;
 }
 
@@ -202,31 +202,31 @@ TEXT STYLES
 	padding-left:0;
 }
 
-.kl_wrapper .tutor_card .rocc_vertical_align img {max-width:120px!important;margin-bottom:11px!important;} /* this helps with mobile devices */
+.kl_wrapper .tutor_card .rocc_vertical_align img, .dp-wrapper .tutor_card .rocc_vertical_align img  {max-width:120px!important;margin-bottom:11px!important;} /* this helps with mobile devices */
 
-.kl_wrapper .tutor_info {
+.kl_wrapper .tutor_info, .dp-wrapper .tutor_info {
 	border-bottom: solid 3px var(--rocc_secondary);
 	margin-top: auto;
 	margin-bottom: auto;
 }
 
-.kl_wrapper .tutor_info .bs-col-sm-4 {
+.kl_wrapper .tutor_info, .dp-wrapper .tutor_info { .bs-col-sm-4 {
 	margin-bottom:50px;
 }
 	
-.kl_wrapper .tutor_info h2, .tutor_info h4{
+.kl_wrapper .tutor_info h2, .tutor_info h4, .dp-wrapper .tutor_info h2, .tutor_info h4{
 	padding: 0;
 	margin-bottom: 5px;
 	line-height: 1.5rem;
 }
 
-.kl_wrapper .tutor_info h3 {
+.kl_wrapper .tutor_info h3, .dp-wrapper .tutor_info h3 {
 	font-weight:400;
 	font-size:1.3125rem;
 	margin:15px 0 0 0;
 }
 
-.kl_wrapper .tutor_info h4 {
+.kl_wrapper .tutor_info h4, .dp-wrapper .tutor_info h4 {
 	font-size:1.4rem;
 	line-height:1.5rem;
 	font-weight:700;
@@ -237,7 +237,7 @@ TEXT STYLES
 
 
 
-.kl_wrapper .tutor_card .rocc_vertical_align img {
+.kl_wrapper .tutor_card, .dp-wrapper .tutor_card.rocc_vertical_align img {
 max-width: 120px!important;
 margin-bottom: 11px!important;
 }
@@ -249,81 +249,81 @@ margin-bottom: 11px!important;
 
 
 /* Custom lists */
-.kl_wrapper ul {
+.kl_wrapper ul, .dp-wrapper ul {
 	padding-bottom: 1.2rem;
 }
 
-.kl_wrapper dd {
+.kl_wrapper dd, .dp-wrapper dd {
 	padding-bottom:.5rem;
 	padding-left: 1rem;
 }
 
 /* Learning outcomes */
 
-.kl_wrapper .rocc_learning_outcomes_title {
+.kl_wrapper .rocc_learning_outcomes_title, .dp-wrapper .rocc_learning_outcomes_title {
 	background-color: var(--rocc_secondary);
 	padding: 0.4375rem 1.25rem;
 }
 
-.kl_wrapper .rocc_learning_outcomes_title h2 {
+.kl_wrapper .rocc_learning_outcomes_title h2, .dp-wrapper .rocc_learning_outcomes_title h2 {
 	color: white;
     font-size: 25px;
     margin: 0!important;
 }
 
-.kl_wrapper .rocc_learning_outcomes {
+.kl_wrapper .rocc_learning_outcomes, .dp-wrapper .rocc_learning_outcomes {
 	background-color: var(--rocc_tertiary_light);
 	padding: 1rem 1.25rem;
 }
 
-.kl_wrapper .rocc_learning_outcomes h2{ 
+.kl_wrapper .rocc_learning_outcomes h2, .dp-wrapper .rocc_learning_outcomes h2{ 
 	padding: 1rem 1.5rem .5rem 1.5rem;
 }
-.kl_wrapper .rocc_learning_outcomes p {
+.kl_wrapper .rocc_learning_outcomes p, .dp-wrapper .rocc_learning_outcomes p {
 	margin: 0;
 }
 
-.kl_wrapper .rocc_learning_outcomes ul {
+.kl_wrapper .rocc_learning_outcomes ul, .dp-wrapper .rocc_learning_outcomes ul {
 	padding: 0.625rem 0.625rem 0.625rem 0;
 }
 
-.kl_wrapper .rocc_learning_outcomes ul li{
+.kl_wrapper .rocc_learning_outcomes ul li, .dp-wrapper .rocc_learning_outcomes ul li{
 	line-height: 1.5rem;
 }
 
-.kl_wrapper .rocc_learning_outcomes ul li::marker {
+.kl_wrapper .rocc_learning_outcomes ul li::marker, .dp-wrapper .rocc_learning_outcomes ul li::marker {
   color: var(--rocc_secondary);
 	font-size: 1.5rem;
 }
 
-.kl_wrapper .rocc_learning_outcomes ol {
+.kl_wrapper .rocc_learning_outcomes ol, .dp-wrapper .rocc_learning_outcomes ol {
 	padding: 0.625rem 0.625rem 0.625rem 2.5rem;
 }
 
-.kl_wrapper .rocc_learning_outcomes ol li{
+.kl_wrapper .rocc_learning_outcomes ol li, .dp-wrapper .rocc_learning_outcomes ol li{
 	line-height: 1.5rem;
 }
 
-.kl_wrapper .rocc_learning_outcomes ol li::marker {
+.kl_wrapper .rocc_learning_outcomes ol li::marker, .dp-wrapper .rocc_learning_outcomes ol li::marker {
   color: var(--rocc_secondary);
 	font-size: 1.1rem;
 	font-weight: bold;
 }
 
 /* Custom counter */
-.kl_wrapper .rocc_custom_counter {
+.kl_wrapper .rocc_custom_counter, .dp-wrapper .rocc_custom_counter {
   counter-reset: my-awesome-counter;
   list-style: none;
 }
 
-.kl_wrapper div[id*="kl_custom_block"] > ol.rocc_custom_counter > li {
+.kl_wrapper div[id*="kl_custom_block"] > ol.rocc_custom_counter > li, .dp-wrapper .dp-content-block ol.rocc_custom_counter > li {
   margin-bottom: 10px;
   padding-top: 10px;
   counter-increment: my-awesome-counter;
   position: relative;
 }
 
-.kl_wrapper div[id*="kl_custom_block"] > ol.rocc_custom_counter > li::before {
+.kl_wrapper div[id*="kl_custom_block"] > ol.rocc_custom_counter > li::before, .dp-wrapper .dp-content-block ol.rocc_custom_counter > li::before {
   content: counter(my-awesome-counter);
 	color: white;
   font-size: 90%;
@@ -341,38 +341,38 @@ margin-bottom: 11px!important;
   margin-top: 10px;
 }
 
-.kl_wrapper .rocc_custom_counter ul li:before {
+.kl_wrapper .rocc_custom_counter ul li:before, .dp-wrapper .rocc_custom_counter ul li:before {
 	content: none;
 }
 
-.kl_wrapper .rocc_custom_counter ul {
+.kl_wrapper .rocc_custom_counter ul, .dp-wrapper .rocc_custom_counter ul {
 	list-style-type: disc!important;
 }
 
-.kl_wrapper .rocc_custom_counter ul li {
+.kl_wrapper .rocc_custom_counter ul li, .dp-wrapper .rocc_custom_counter ul li {
 	margin: 0;
 	padding: 0;
 }
-.kl_wrapper .rocc_custom_counter p {
+.kl_wrapper .rocc_custom_counter p, .dp-wrapper .rocc_custom_counter p {
 	margin: 3px 0px 3px 0px;
 }
-.kl_wrapper .rocc_custom_counter h4 {
+.kl_wrapper .rocc_custom_counter h4, .dp-wrapper .rocc_custom_counter h4 {
 	font-size: 1.2rem;
 	font-weight: bold;
 }
 
-.kl_wrapper .rocc_blue_brick {
+.kl_wrapper .rocc_blue_brick, .dp-wrapper .rocc_blue_brick {
 	background-color: var(--rocc_primary);
 	padding: 10px 15px 10px 15px!important;
 	color: white;
 }
 
-.kl_wrapper .rocc_blue_brick h1, .kl_wrapper .rocc_blue_brick h2, .kl_wrapper.rocc_blue_brick h3, .kl_wrapper .rocc_blue_brick h4, .kl_wrapper .rocc_blue_brick h5, .rocc_blue_brick p {
+.kl_wrapper .rocc_blue_brick h1, .dp-wrapper .rocc_blue_brick h1, .kl_wrapper .rocc_blue_brick h2, .dp-wrapper .rocc_blue_brick h2, .kl_wrapper.rocc_blue_brick h3, .dp-wrapper.rocc_blue_brick h3, .kl_wrapper .rocc_blue_brick h4, .dp-wrapper .rocc_blue_brick h4, .kl_wrapper .rocc_blue_brick h5, .dp-wrapper .rocc_blue_brick h5, .rocc_blue_brick p {
 	color: white;
 }
 
 
-.kl_wrapper .rocc_link_out_box_button_tutor a:hover {
+.kl_wrapper .rocc_link_out_box_button_tutor a:hover, .dp-wrapper .rocc_link_out_box_button_tutor a:hover {
  	background-color: var(--rocc_secondary_light);
 	color: white!important;
 	text-decoration: none!important;
@@ -382,42 +382,55 @@ margin-bottom: 11px!important;
 
 /* Table formatting */
 
-.kl_wrapper .rocc_table {
+.kl_wrapper .rocc_table, .dp-wrapper .rocc_table {
 	border:0;
 	margin:15px 0;
 }
+.rocc_table {
+    border-collapse: collapse;
+}
+.rocc_table td, .rocc_table th {
+    border: none;
+}
 
-.kl_wrapper .rocc_table tr:nth-child(odd) {
+.kl_wrapper .rocc_table tr:nth-child(odd), .dp-wrapper .rocc_table tr:nth-child(odd) {
 	background: #ecf1f4;
 }
 
-.kl_wrapper .rocc_table th {
+.kl_wrapper .rocc_table th, .dp-wrapper .rocc_table th {
 	background:#C5DCE3;
 	text-align:left;
 	padding:10px!important;
 }
 
-.kl_wrapper .rocc_table td {
+.kl_wrapper .rocc_table td, .dp-wrapper .rocc_table td {
 	padding:10px!important;
 }
 
 /* More condensed table styling */
-.kl_wrapper .dense_table p {
+.kl_wrapper .dense_table p, .dp-wrapper .dense_table p {
 	margin:0;
 }
 
-.kl_wrapper .dense_table td {
+.kl_wrapper .dense_table td, .dp-wrapper .dense_table td {
 	padding:3px 10px!important;
+}
+
+
+@media only screen and (max-width:480px) {
+	.kl_wrapper .rocc_table, .dp-wrapper .rocc_table {
+		font-size:0.825rem;
+	}
 }
 
 /* Second table style */
 
-.kl_wrapper .rocc_table_fancy {
+.kl_wrapper .rocc_table_fancy, .dp-wrapper .rocc_table_fancy{
 	border:0;
 	margin:15px 0;
 }
 
-.kl_wrapper .rocc_table_fancy th {
+.kl_wrapper .rocc_table_fancy th, .dp-wrapper .rocc_table_fancy th{
 	background:#C5DCE3;
 	text-align:left;
 	padding:10px!important;
@@ -428,15 +441,24 @@ margin-bottom: 11px!important;
 	border-bottom: solid 3px var(--rocc_secondary);
 }
 
-.kl_wrapper .rocc_table_fancy td {
+.kl_wrapper .rocc_table_fancy td, .dp-wrapper .rocc_table_fancy td{
 	padding:7px!important;
 	border:1px solid grey;
 	text-align:center;
 }
 
-.kl_wrapper .rocc_table_fancy td p {
+.kl_wrapper .rocc_table_fancy td p, .dp-wrapper .rocc_table_fancy td p{
 	margin:0!important;
 }
+
+@media only screen and (max-width:480px) {
+	.kl_wrapper .rocc_table_fancy, .dp-wrapper .rocc_table_fancy {
+		font-size:0.825rem;
+	}
+}
+
+
+#kl_wrapper_3>div, #dp-wrapper>div {overflow:auto!important;}
 
 /* Call-out box (and call to action box eg lecture slides) */
 
@@ -462,17 +484,17 @@ margin-bottom: 11px!important;
 }
 
 /*Discussion Box*/
-.kl_wrapper .rocc_page_link_box {
+.kl_wrapper .rocc_page_link_box, .dp-wrapper .rocc_page_link_box {
 	background-color: var(--rocc_tertiary_light);
 	padding: 1rem .5rem;
 }
-.kl_wrapper .rocc_page_link_box h4 {
+.kl_wrapper .rocc_page_link_box h4, .dp-wrapper .rocc_page_link_box h4 {
 	font-weight: bold;
 	font-size: 1.2rem;
 	margin-bottom:17px;
 }
 	
-.kl_wrapper .rocc_page_link_box h4:after{
+.kl_wrapper .rocc_page_link_box h4:after, .dp-wrapper .rocc_page_link_box h4:after{
     content: "";
     position: relative;
     width: 15%;
@@ -484,12 +506,19 @@ margin-bottom: 11px!important;
     border-bottom: 3px solid var(--rocc_tertiary);
 }
 
-.kl_wrapper .rocc_page_link_box h3 {
+.kl_wrapper .rocc_page_link_box h3, .dp-wrapper .rocc_page_link_box h3 {
 	font-size: 1.59375rem;
 	font-weight: bold;
 }
-.kl_wrapper .rocc_page_link_box .rocc_tertiary_button_container {
+.kl_wrapper .rocc_page_link_box .rocc_tertiary_button_container, .dp-wrapper .rocc_page_link_box .rocc_tertiary_button_container {
 	align-content: right;
+}
+	
+@media only screen and (min-width:685px){
+	.kl_wrapper .rocc_page_link_box .rocc_tertiary_button_container, .dp-wrapper .rocc_page_link_box .rocc_tertiary_button_container {
+		align-content: left;
+		
+	}
 }
 
 /*----
@@ -498,13 +527,13 @@ BUTTON STYLES
 
 /*----Feature header buttons----*/
 
-.kl_wrapper .ui-icon, .kl_wrapper li.ui-icon  {
+.kl_wrapper .ui-icon, .kl_wrapper li.ui-icon, .dp-wrapper .ui-icon, .dp-wrapper li.ui-icon  {
 	width: 0;
 	height: 0;
 	background-image: none;
 }
 
-.kl_wrapper a.rocc_feature_header_button {
+.kl_wrapper a.rocc_feature_header_button, .dp-wrapper a.rocc_feature_header_button {
   color: white;
   font-size: 1.166rem;
   font-weight: bold;
@@ -518,7 +547,7 @@ BUTTON STYLES
   transition-duration: 0.4s;
 }
 
-.kl_wrapper a.rocc_feature_header_button:hover {
+.kl_wrapper a.rocc_feature_header_button:hover, .dp-wrapper a.rocc_feature_header_button:hover {
 	background-color: var(--rocc_secondary_light);
 	border: solid #9DD8CA 5px;
 }
@@ -526,7 +555,7 @@ BUTTON STYLES
 
 /* Secondary colour button ("blue" option for legacy support) */
 
-.kl_wrapper .rocc_secondary_button_container a, .kl_wrapper .rocc_blue_button_container a, .kl_wrapper .rocc_secondary_button_container_view a, .kl_wrapper .rocc_secondary_button_container_download a {
+.kl_wrapper .rocc_secondary_button_container a, .kl_wrapper .rocc_blue_button_container a, .kl_wrapper .rocc_secondary_button_container_view a, .kl_wrapper .rocc_secondary_button_container_download a, .dp-wrapper .rocc_secondary_button_container a, .dp-wrapper .rocc_blue_button_container a, .dp-wrapper .rocc_secondary_button_container_view a, .dp-wrapper .rocc_secondary_button_container_download a {
 	color: white;
 	font-size: 1rem;
 	font-weight: bold;
@@ -540,16 +569,17 @@ BUTTON STYLES
 	text-align:center;
 }
 
-.kl_wrapper .rocc_secondary_button_container p, .kl_wrapper .rocc_blue_button_container p {margin:0}
 
-.kl_wrapper .rocc_secondary_button_container a:hover, .kl_wrapper .rocc_blue_button_container a:hover, .rocc_secondary_button_container_download a:hover{
+.kl_wrapper .rocc_secondary_button_container p, .kl_wrapper .rocc_blue_button_container p, .dp-wrapper .rocc_secondary_button_container p, .dp-wrapper .rocc_blue_button_container p {margin:0}
+
+.kl_wrapper .rocc_secondary_button_container a:hover, .kl_wrapper .rocc_blue_button_container a:hover, .rocc_secondary_button_container_download a:hover, .dp-wrapper .rocc_secondary_button_container a:hover, .dp-wrapper .rocc_blue_button_container a:hover, .rocc_secondary_button_container_download a:hover{
   background-color: var(--rocc_secondary_light)!important;
 	color: white !important;
 }
 
 /* Tertiary colour button */
 
-.kl_wrapper .rocc_tertiary_button_container a {
+.kl_wrapper .rocc_tertiary_button_container a, .dp-wrapper .rocc_tertiary_button_container a {
 	color: white;
 	font-size: 1.2rem;
 	font-weight: bold;
@@ -563,9 +593,9 @@ BUTTON STYLES
 	min-width: 180px;
 }
 
-.kl_wrapper .rocc_tertiary_button_container p {margin:0}
+.kl_wrapper .rocc_tertiary_button_container p, .dp-wrapper .rocc_tertiary_button_container p {margin:0}
 
-.kl_wrapper .rocc_tertiary_button_container a:hover {
+.kl_wrapper .rocc_tertiary_button_container a:hover, .dp-wrapper .rocc_tertiary_button_container a:hover {
   background-color: var(--rocc_tertiary_dark);
 	color: white !important;
 }
@@ -573,7 +603,7 @@ BUTTON STYLES
 
 /* Highlight colour button */
 
-.kl_wrapper .rocc_highlight_button_container a {
+.kl_wrapper .rocc_highlight_button_container a, .dp-wrapper .rocc_highlight_button_container a {
 	font-size: 1rem;
 	background-color: var(--rocc_call_out_highlight) ;
 	border: none;
@@ -584,16 +614,16 @@ BUTTON STYLES
 	color:black;
 }
 
-.kl_wrapper .rocc_highlight_button_container p {margin:0}
+.kl_wrapper .rocc_highlight_button_container p, .dp-wrapper .rocc_highlight_button_container p {margin:0}
 
-.kl_wrapper .rocc_highlight_button_container a:hover {
+.kl_wrapper .rocc_highlight_button_container a:hover, .dp-wrapper .rocc_highlight_button_container a:hover {
   background-color: #f29353;	
 }
 
 
 /* Key colour button */
 
-.kl_wrapper .rocc_key_button_container a {
+.kl_wrapper .rocc_key_button_container a, .dp-wrapper .rocc_key_button_container a {
 	font-size: 1rem;
 	background-color: var(--rocc_call_out_key);
 	border: none;
@@ -604,15 +634,15 @@ BUTTON STYLES
 	color:white;
 }
 
-.kl_wrapper .rocc_key_button_container p {margin:0}
+.kl_wrapper .rocc_key_button_container p, .dp-wrapper .rocc_key_button_container p {margin:0}
 
-.kl_wrapper .rocc_key_button_container a:hover {
+.kl_wrapper .rocc_key_button_container a:hover, .dp-wrapper .rocc_key_button_container a:hover {
   background-color: #f05b5b;	
 }
 
 
 /* Grey button styling */
-.kl_wrapper .rocc_grey_button_container a, .kl_wrapper .rocc_grey_button_container_download a, .kl_wrapper .rocc_grey_button_container_view a, .kl_wrapper .rocc_video_container a {
+.kl_wrapper .rocc_grey_button_container a, .kl_wrapper .rocc_grey_button_container_download a, .kl_wrapper .rocc_grey_button_container_view a, .kl_wrapper .rocc_video_container a, .dp-wrapper .rocc_grey_button_container a, .dp-wrapper .rocc_grey_button_container_download a, .dp-wrapper .rocc_grey_button_container_view a, .dp-wrapper .rocc_video_container a {
 	color: var(--rocc_primary);
 	font-size: 1rem;
 	background-color: #EFEFEF;
@@ -624,38 +654,38 @@ BUTTON STYLES
 	margin: 0 3px 8px 0;
 }
 
-.kl_wrapper .rocc_grey_button_container a:hover, .kl_wrapper .rocc_video_container a:hover {
+.kl_wrapper .rocc_grey_button_container a:hover, .kl_wrapper .rocc_video_container a:hover, .dp-wrapper .rocc_grey_button_container a:hover, .dp-wrapper .rocc_video_container a:hover {
 	background-color: #D1D1D1 !important;
 }
 
-.kl_wrapper .rocc_grey_button_container_download a:before, .kl_wrapper .rocc_grey_button_container_view a:before, .kl_wrapper .rocc_action_box .rocc_secondary_button_container_view a:before, .kl_wrapper .rocc_action_box .rocc_blue_button_container_view a:before, .kl_wrapper .rocc_action_box .rocc_secondary_button_container_download a:before, .kl_wrapper .rocc_action_box .rocc_blue_button_container_download a:before {
+.kl_wrapper .rocc_grey_button_container_download a:before, .kl_wrapper .rocc_grey_button_container_view a:before, .kl_wrapper .rocc_action_box .rocc_secondary_button_container_view a:before, .kl_wrapper .rocc_action_box .rocc_blue_button_container_view a:before, .kl_wrapper .rocc_action_box .rocc_secondary_button_container_download a:before, .kl_wrapper .rocc_action_box .rocc_blue_button_container_download a:before, .dp-wrapper .rocc_grey_button_container_download a:before, .dp-wrapper .rocc_grey_button_container_view a:before, .dp-wrapper .rocc_action_box .rocc_secondary_button_container_view a:before, .dp-wrapper .rocc_action_box .rocc_blue_button_container_view a:before, .dp-wrapper .rocc_action_box .rocc_secondary_button_container_download a:before, .dp-wrapper .rocc_action_box .rocc_blue_button_container_download a:before {
 	font-family: 'Font Awesome 5 Free';
 	font-weight: 900;
 	margin-right: 8px;
 }
 
-.kl_wrapper .rocc_grey_button_container_download a:before, .kl_wrapper .rocc_action_box .rocc_secondary_button_container_download a:before, .kl_wrapper .rocc_action_box .rocc_blue_button_container_download a:before {
+.kl_wrapper .rocc_grey_button_container_download a:before, .kl_wrapper .rocc_action_box .rocc_secondary_button_container_download a:before, .kl_wrapper .rocc_action_box .rocc_blue_button_container_download a:before, .dp-wrapper .rocc_grey_button_container_download a:before, .dp-wrapper .rocc_action_box .rocc_secondary_button_container_download a:before, .dp-wrapper .rocc_action_box .rocc_blue_button_container_download a:before {
 	content: "\f358";
 }
 
-.kl_wrapper .rocc_grey_button_container_view a:before, .kl_wrapper .rocc_action_box .rocc_secondary_button_container_view a:before, .kl_wrapper .rocc_action_box .rocc_blue_button_container_view a:before {
+.kl_wrapper .rocc_grey_button_container_view a:before, .kl_wrapper .rocc_action_box .rocc_secondary_button_container_view a:before, .kl_wrapper .rocc_action_box .rocc_blue_button_container_view a:before, .dp-wrapper .rocc_grey_button_container_view a:before, .dp-wrapper .rocc_action_box .rocc_secondary_button_container_view a:before, .dp-wrapper .rocc_action_box .rocc_blue_button_container_view a:before {
 	content: "\f06e";
 }
 
 
 /* Module button styling */
 
-.kl_wrapper .rocc_module_group .bs-col-md, .kl_wrapper .rocc_module_group .bs-col-md-4 {
+.kl_wrapper .rocc_module_group .bs-col-md, .kl_wrapper .rocc_module_group .bs-col-md-4, .dp-wrapper .rocc_module_group .bs-col-md, .dp-wrapper .rocc_module_group .bs-col-md-4 {
   padding-left:5px;
   padding-right:5px;
 }
 
-.kl_wrapper .rocc_module_button_container {
+.kl_wrapper .rocc_module_button_container, .dp-wrapper .rocc_module_button_container {
 	height:100%;
 	padding:10px 0;
 }
 
-.kl_wrapper .rocc_module_button_heading {
+.kl_wrapper .rocc_module_button_heading, .dp-wrapper .rocc_module_button_heading {
 	background: #102535;
 	height: auto;
 	color: white;
@@ -663,11 +693,11 @@ BUTTON STYLES
 	font-weight: bold;
 }
 
-.kl_wrapper .rocc_module_button_content {
+.kl_wrapper .rocc_module_button_content, .dp-wrapper .rocc_module_button_content {
 	padding:10px;
 }
 
-.kl_wrapper .rocc_module_button {
+.kl_wrapper .rocc_module_button, .dp-wrapper .rocc_module_button {
 	color: var(--rocc_primary);
 	margin: 5px 0;
 	padding: 10px 10px 10px 10px;
@@ -679,11 +709,11 @@ BUTTON STYLES
 	border-width: 1.875rem 1px 1px 1px;
 }
 
-.kl_wrapper .rocc_module_button:hover {
+.kl_wrapper .rocc_module_button:hover, .dp-wrapper .rocc_module_button:hover {
 	border-color: var(--rocc_secondary) ;
 }
 
-.kl_wrapper .rocc_module_button_container h2 {
+.kl_wrapper .rocc_module_button_container h2, .dp-wrapper .rocc_module_button_container h2 {
 	color: var(--rocc_primary);
     	font-size: 1.5rem;
 	line-height:1.8rem;
@@ -691,17 +721,17 @@ BUTTON STYLES
 	padding-bottom: 5px;
 }
 
-.kl_wrapper .rocc_module_button_container h4 {
+.kl_wrapper .rocc_module_button_container h4, .dp-wrapper .rocc_module_button_container h4 {
   	font-size: 1rem;
 	line-height: 1.2rem;
 }
 
-.kl_wrapper .rocc_module_button p {
+.kl_wrapper .rocc_module_button p, .dp-wrapper .rocc_module_button p {
 	margin: 0px 0 7px 0 !important;
 }
 
 @media only screen and (max-width:1200px) {
-	.kl_wrapper .rocc_module_button {
+	.kl_wrapper .rocc_module_button, .dp-wrapper .rocc_module_button {
 	padding: 15px 10px 5px 10px;
  	border-width: 0.937rem 1px 1px 1px;
 	min-height:104px;
@@ -710,7 +740,7 @@ BUTTON STYLES
 
 
 /* Sets the span inside the a href to cover the whole button - could be simplified not they aren't animated? */
-.kl_wrapper .rocc_module_button span.coverlink {
+.kl_wrapper .rocc_module_button span.coverlink, .dp-wrapper .rocc_module_button span.coverlink {
   position:absolute; 
   width:100%;
   height:100%;
@@ -719,13 +749,13 @@ BUTTON STYLES
   z-index: 1;
 }
 
-.kl_wrapper .rocc_module_button span.coverlink a:hover {
+.kl_wrapper .rocc_module_button span.coverlink a:hover, .dp-wrapper .rocc_module_button span.coverlink a:hover {
 text-decoration:none;
 }
 
 /* Action box - secondary colour button ("blue" option for legacy support) */
 
-.kl_wrapper .rocc_action_box .rocc_secondary_button_container a, .kl_wrapper .rocc_action_box .rocc_blue_button_container a {
+.kl_wrapper .rocc_action_box .rocc_secondary_button_container a, .kl_wrapper .rocc_action_box .rocc_blue_button_container a, .dp-wrapper .rocc_action_box .rocc_secondary_button_container a, .dp-wrapper .rocc_action_box .rocc_blue_button_container a {
 	color: white;
 	font-size: 1.2rem;
 	background-color: var(--rocc_secondary) ;
@@ -738,12 +768,17 @@ text-decoration:none;
 	text-align:center;
 }
 
-.kl_wrapper .rocc_action_box .rocc_secondary_button_container p, .kl_wrapper .rocc_action_box .rocc_blue_button_container p {margin:0}
+.kl_wrapper .rocc_action_box .rocc_secondary_button_container p, .kl_wrapper .rocc_action_box .rocc_blue_button_container p, .dp-wrapper .rocc_action_box .rocc_secondary_button_container p, .dp-wrapper .rocc_action_box .rocc_blue_button_container p {margin:0}
 
-.kl_wrapper .rocc_action_box .rocc_secondary_button_container a:hover, .kl_wrapper .rocc_action_box .rocc_secondary_button_container a:hover, .rocc_blue_button_container a:hover {
+.kl_wrapper .rocc_action_box .rocc_secondary_button_container a:hover, .kl_wrapper .rocc_action_box .rocc_secondary_button_container a:hover, .rocc_blue_button_container a:hover, .dp-wrapper .rocc_action_box .rocc_secondary_button_container a:hover, .dp-wrapper .rocc_action_box .rocc_secondary_button_container a:hover, .rocc_blue_button_container a:hover {
   background-color: var(--rocc_secondary_light);
 	color: white !important;
 }
+
+@media only screen and (max-width:986px) {
+	.kl_wrapper .rocc_action_box .rocc_secondary_button_container, .dp-wrapper .rocc_action_box .rocc_secondary_button_container {margin-top:12px;text-align:left!important;}
+}
+
 
 /*----
 CALL OUT/ SECTION STYLES
@@ -751,22 +786,22 @@ CALL OUT/ SECTION STYLES
 
 /*Lt and Lecture Link boxes*/
 
-.kl_wrapper .rocc_link_out_box {
+.kl_wrapper .rocc_link_out_box, .dp-wrapper .rocc_link_out_box {
 	background-color: var(--rocc_primary);
 	padding: 26px 12px;
 }
 
-.kl_wrapper .rocc_link_out_box h2 {
+.kl_wrapper .rocc_link_out_box h2, .dp-wrapper .rocc_link_out_box h2 {
 	color: white;
 	margin-bottom: 1rem;
 }
 
-.kl_wrapper .rocc_link_out_box p {
+.kl_wrapper .rocc_link_out_box p, .dp-wrapper .rocc_link_out_box p {
 	color: white;
 	margin-top: 0px;
 }
 
-.kl_wrapper .rocc_link_out_box_button a {
+.kl_wrapper .rocc_link_out_box_button a, .dp-wrapper .rocc_link_out_box_button a {
 	color: white;
 	font-size: 1rem;
 	background-color: var(--rocc_call_out_key) ;
@@ -779,13 +814,13 @@ CALL OUT/ SECTION STYLES
 	margin-right: 4%;
 }
 
-.kl_wrapper .rocc_link_out_box_button a:hover {
+.kl_wrapper .rocc_link_out_box_button a:hover, .dp-wrapper .rocc_link_out_box_button a:hover {
  	background-color:#f05b5b;
 	color: white!important;
 	text-decoration: none!important;
 }
 
-.kl_wrapper .rocc_link_out_box_button_tutor a {
+.kl_wrapper .rocc_link_out_box_button_tutor a, .dp-wrapper .rocc_link_out_box_button_tutor a{
 	color: white;
 	font-size: 1rem;
 	background-color: var(--rocc_secondary) ;
@@ -802,14 +837,14 @@ CALL OUT/ SECTION STYLES
 
 /* Pull quote box */
 
-.kl_wrapper .rocc_pull_quote{
+.kl_wrapper .rocc_pull_quote, .dp-wrapper .rocc_pull_quote{
 	background: var(--rocc_primary);
 	color:white;
 	display: block;
 	padding: 5px 15px 5px 15px;
 }
 
-.kl_wrapper .rocc_quote_name{
+.kl_wrapper .rocc_quote_name, .dp-wrapper .rocc_quote_name{
 	text-align: right;
 	font-style: italic;
 	font-size: 0.833rem;
@@ -818,43 +853,43 @@ CALL OUT/ SECTION STYLES
 
 /* Call-out bar */
 
-.kl_wrapper .rocc_call_out_line {
+.kl_wrapper .rocc_call_out_line, .dp-wrapper .rocc_call_out_line {
 	border-left: 7px solid var(--rocc_secondary);
 	padding-left: 10px;
 }
 
-.kl_wrapper .rocc_call_out_bar_key {
+.kl_wrapper .rocc_call_out_bar_key, .dp-wrapper .rocc_call_out_bar_key {
 	border-left: 7px solid var(--rocc_call_out_key);
 	padding-left: 10px;
 	padding: 27px;
     background: var(--rocc_call_out_key_light);
 }
 
-.kl_wrapper .rocc_call_out_bar_key i {
+.kl_wrapper .rocc_call_out_bar_key i, .dp-wrapper .rocc_call_out_bar_key i{
 	color: var(--rocc_call_out_key);
 	font-size:1.5rem;
 }
 
-.kl_wrapper .rocc_call_out_bar_highlight {
+.kl_wrapper .rocc_call_out_bar_highlight, .dp-wrapper .rocc_call_out_bar_highlight{
 	border-left: 7px solid var(--rocc_call_out_highlight);
 	padding-left: 10px;
 	padding: 27px;
     background: var(--rocc_call_out_highlight_light);
 }
 
-.kl_wrapper .rocc_call_out_bar_highlight i {
+.kl_wrapper .rocc_call_out_bar_highlight i, .dp-wrapper .rocc_call_out_bar_highlight i{
 	color: var(--rocc_call_out_highlight);
 	font-size:1.5rem;
 }
 
-.kl_wrapper .rocc_call_out_bar_info {
+.kl_wrapper .rocc_call_out_bar_info, .dp-wrapper .rocc_call_out_bar_info{
 	border-left: 7px solid var(--rocc_call_out_info);
 	padding-left: 10px;
 	padding: 27px;
     background: var(--rocc_call_out_info_light);
 }
 
-.kl_wrapper .rocc_call_out_bar_info i {
+.kl_wrapper .rocc_call_out_bar_info i, .dp-wrapper .rocc_call_out_bar_info i{
 	color: var(--rocc_call_out_info);
 	font-size:1.5rem;
 }
@@ -864,39 +899,51 @@ CALL OUT/ SECTION STYLES
 
 /* Call-out box (and call to action box eg lecture slides) */
 
-.kl_wrapper .rocc_call_out_box, .kl_wrapper .rocc_action_box {
+.kl_wrapper .rocc_call_out_box,
+.dp-wrapper .rocc_call_out_box,
+.kl_wrapper .rocc_action_box,
+.dp-wrapper .rocc_action_box {
 	border: 4px solid var(--rocc_secondary);
 	padding: 15px 20px;
 }
 
-.kl_wrapper .rocc_call_out_box h3, .kl_wrapper .rocc_action_box h3 {
-	margin-top:0;
+.kl_wrapper .rocc_call_out_box h3,
+.dp-wrapper .rocc_call_out_box h3,
+.kl-wrapper .rocc_action_box h3,
+.dp-wrapper .rocc_action_box h3 {
+	margin-top: 0;
 }
 
-.kl_wrapper .rocc_call_out_box p:last-child, .kl_wrapper .rocc_action_box p:last-child {
-	margin-bottom:1px;
+.kl_wrapper .rocc_call_out_box p:last-child,
+.dp_wrapper .rocc_call_out_box p:last-child,
+.kl-wrapper .rocc_action_box p:last-child,
+.dp-wrapper .rocc_action_box p:last-child {
+	margin-bottom: 1px;
 }
 
-.kl_wrapper .rocc_call_out_box_center, .kl_wrapper .rocc_action_box_center {
+.kl_wrapper .rocc_call_out_box_center,
+.dp_wrapper .rocc_call_out_box_center,
+.kl-wrapper .rocc_action_box_center,
+.dp-wrapper .rocc_action_box_center {
 	border: 4px solid var(--rocc_secondary);
-	width:60%;
+	width: 60%;
 	padding: 5px 15px 5px 15px;
-	margin:1.25rem auto;
-	
+	margin: 1.25rem auto;
 }
+
 
 /*Discussion Box*/
-.kl_wrapper .rocc_page_link_box {
+.kl_wrapper .rocc_page_link_box, .dp-wrapper .rocc_page_link_box {
 	background-color: var(--rocc_tertiary_light);
 	padding: 1rem .5rem;
 }
-.kl_wrapper .rocc_page_link_box h4 {
+.kl_wrapper .rocc_page_link_box h4, .dp-wrapper .rocc_page_link_box h4 {
 	font-weight: bold;
 	font-size: 1.2rem;
 	margin-bottom:17px;
 }
 	
-.kl_wrapper .rocc_page_link_box h4:after{
+.kl_wrapper .rocc_page_link_box h4:after, .dp-wrapper .rocc_page_link_box h4:after{
     content: "";
     position: relative;
     width: 15%;
@@ -908,15 +955,20 @@ CALL OUT/ SECTION STYLES
     border-bottom: 3px solid var(--rocc_tertiary);
 }
 
-.kl_wrapper .rocc_page_link_box h3 {
+.kl_wrapper .rocc_page_link_box h3, .dp-wrapper .rocc_page_link_box h3 {
 	font-size: 1.59375rem;
 	font-weight: bold;
 }
-.kl_wrapper .rocc_page_link_box .rocc_tertiary_button_container {
+.kl_wrapper .rocc_page_link_box .rocc_tertiary_button_container, .dp-wrapper .rocc_page_link_box .rocc_tertiary_button_container {
 	align-content: right;
 }
-
-
+	
+@media only screen and (min-width:685px){
+	.kl_wrapper .rocc_page_link_box .rocc_tertiary_button_container, .dp-wrapper .rocc_page_link_box .rocc_tertiary_button_container {
+		align-content: left;
+		
+	}
+}
 
 /*----Content Positions----*/
 /* Set page width (two selectors to cater for Cidilabs variations) */
@@ -925,30 +977,34 @@ CALL OUT/ SECTION STYLES
 	margin: auto;
 }
 
-.kl_wrapper .rocc_column-flow-3 {columns: 250px 3;padding: 0 11px;}
-.kl_wrapper .rocc_column-flow-2 {columns: 300px 2;padding: 0 11px;}
+.kl_wrapper .rocc_column-flow-3, .dp-wrapper .rocc_column-flow-3 {columns: 250px 3;padding: 0 11px;}
+.kl_wrapper .rocc_column-flow-2, .dp-wrapper .rocc_column-flow-2 {columns: 300px 2;padding: 0 11px;}
 
 div[id*="kl_custom_block"], div[id*="kl_content_block_sub"], div[id*="kl_panel_block"] {
   margin: 0 0 3.5rem 0!important;
 }
 
-.kl_wrapper .rocc_no_padding_left {padding-left:0!important;}
-.kl_wrapper .rocc_no_padding_right {padding-right:0!important;}
+.dp-content-block {
+  margin-bottom: calc(3.5rem - 0.5em)!important; /* the minus 0.5em removes the new Cidilabs extra padding without making the video blocks get scrollbars */
+}
+
+.kl_wrapper .rocc_no_padding_left, .dp-wrapper .rocc_no_padding_left {padding-left:0!important;}
+.kl_wrapper .rocc_no_padding_right, .dp-wrapper .rocc_no_padding_right  {padding-right:0!important;}
 
 
 
 
 /* Major headings eg module intro header */
 
-.kl_wrapper .rocc_major_header {
+.kl_wrapper .rocc_major_header, .dp_wrapper .rocc_major_header  {
 	background: var(--rocc_primary);
 }
 
 
 	
-	.kl_wrapper .rocc_major_header img {max-width:2rem!important;margin: 0 10px 0 0;}
-	.kl_wrapper .rocc_major_header_icon {padding:1.25rem 1.25rem 0 1.25rem;}
-	.kl_wrapper .rocc_major_header h1 {
+	.kl_wrapper .rocc_major_header img, .dp-wrapper .rocc_major_header img {max-width:2rem!important;margin: 0 10px 0 0;}
+	.kl_wrapper .rocc_major_header_icon, .dp-wrapper .rocc_major_header_icon {padding:1.25rem 1.25rem 0 1.25rem;}
+	.kl_wrapper .rocc_major_header h1, .dp-wrapper .rocc_major_header h1 {
 	color: white;
 	font-size: 1.8125rem;
 	font-weight: bold;
@@ -960,7 +1016,7 @@ div[id*="kl_custom_block"], div[id*="kl_content_block_sub"], div[id*="kl_panel_b
 		margin: 0;
 }
 
-.kl_wrapper .rocc_major_header h2 {
+.kl_wrapper .rocc_major_header h2, .dp-wrapper .rocc_major_header h2 {
 	color: white;
 	font-size: 1.2rem;
 	line-height:1.5rem;
@@ -973,7 +1029,7 @@ div[id*="kl_custom_block"], div[id*="kl_content_block_sub"], div[id*="kl_panel_b
 	margin: 0;
 }
 
-.kl_wrapper .rocc_major_header .bs-col-sm-9, .kl_wrapper .rocc_major_header .bs-col-sm-10 {
+.kl_wrapper .rocc_major_header .bs-col-sm-9, .dp-wrapper .rocc_major_header .bs-col-sm-9, .kl_wrapper .rocc_major_header .bs-col-sm-10, .dp-wrapper .rocc_major_header .bs-col-sm-10 {
 	padding:0!important;
 }
 
@@ -1068,7 +1124,7 @@ div[id*="kl_custom_block"], div[id*="kl_content_block_sub"], div[id*="kl_panel_b
 
 /*----Domain Cards----*/
 
-.kl_wrapper .rocc_shadowcard, .kl_wrapper .rocc_connectioncard {
+.kl_wrapper .rocc_shadowcard, .kl_wrapper .rocc_connectioncard, .dp-wrapper .rocc_shadowcard, .dp-wrapper .rocc_connectioncard {
 	width: 98%;
 	-webkit-box-shadow: 1px 1px 3px 1px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
 	-moz-box-shadow:    1px 1px 3px 1px #ccc;  /* Firefox 3.5 - 3.6 */
@@ -1077,65 +1133,66 @@ div[id*="kl_custom_block"], div[id*="kl_content_block_sub"], div[id*="kl_panel_b
 	position:relative;
 }
 
-.kl_wrapper .rocc_shadowcard, .kl_wrapper .rocc_connectioncard_wrapper {
+.kl_wrapper .rocc_shadowcard, .kl_wrapper .rocc_connectioncard_wrapper, .dp-wrapper  .rocc_shadowcard, .dp-wrapper  .rocc_connectioncard_wrapper  {
 	padding:1.875rem 1.875rem 1.875rem 1.875rem;
 }
 
-.kl_wrapper .rocc_connectioncard_topper {background:var(--rocc_primary);color:white;font-size:14px;padding: 5px 17px!important;}
+.kl_wrapper .rocc_connectioncard_topper, .dp-wrapper .rocc_connectioncard_topper {background:var(--rocc_primary);color:white;font-size:14px;padding: 5px 17px!important;}
 
-.kl_wrapper .rocc_connectioncard_wrapper iframe.lti-embed {
+.kl_wrapper .rocc_connectioncard_wrapper iframe.lti-embed, .dp-wrapper .rocc_connectioncard_wrapper iframe.lti-embed {
 	aspect-ratio:16 / 9;
 }
 
-.kl_wrapper .rocc_connectioncard_wrapper iframe.lti-embed {
+.kl_wrapper .rocc_connectioncard_wrapper iframe.lti-embed, .dp-wrapper .rocc_connectioncard_wrapper iframe.lti-embed {
 	width:100%!important;
 	height:100%!important;
 	min-height:208px;
 }
 
-.kl_wrapper .rocc_shadowcard i {
+.kl_wrapper .rocc_shadowcard i, .dp-wrapper .rocc_shadowcard i {
 	font-size: 6.5em;
 	line-height: 200px;
 }
 
-.kl_wrapper .rocc_shadowcard h2 {
+.kl_wrapper .rocc_shadowcard h2, .dp-wrapper .rocc_shadowcard h2 {
 	color: var(--rocc_primary);
 	margin: 0 0 1.2rem 0;;
 	line-height: 1.8125rem;
 }
 
-.kl_wrapper .rocc_shadowcard h3 {
+.kl_wrapper .rocc_shadowcard h2, .dp-wrapper .rocc_shadowcard h2 {
 	margin: .4rem 0rem 0rem 0rem;
 }
 
-.kl_wrapper .rocc_shadowcard li {
+.kl_wrapper .rocc_shadowcard li, .dp-wrapper .rocc_shadowcard li {
 	margin:0 0 13px 0!important;
 }
 
-.kl_wrapper .rocc_shadowcard .domain_icon {
+.kl_wrapper .rocc_shadowcard .domain_icon, .dp-wrapper .rocc_shadowcard .domain_icon {
 	margin-bottom: 0;
 }
 
-.kl_wrapper .rocc_shadowcard .bs-col-xs-1 {
+.kl_wrapper .rocc_shadowcard .bs-col-xs-1, .dp-wrapper .rocc_shadowcard .bs-col-xs-1 {
 	 margin-bottom:4px;
 }
 
-.kl_wrapper .rocc_shadowcard .bs-col {
+.kl_wrapper .rocc_shadowcard .bs-col, .dp-wrapper .rocc_shadowcard .bs-col {
 	 padding:0;
 }
 
-.kl_wrapper .cp_domain h3 {
+.kl_wrapper .cp_domain h3, .dp-wrapper .cp_domain h3 {
 	color: var(--domain_cp_color);
 }
-.kl_wrapper .hs_domain h3 {
+.kl_wrapper .hs_domain h3, .dp-wrapper .hs_domain h3 {
 	color: var(--domain_hs_color);
 }
-.kl_wrapper .ss_domain h3 {
+.kl_wrapper .ss_domain h3, .dp-wrapper .ss_domain h3 {
 	color: var(--domain_ss_color);
 }
-.kl_wrapper .pl_domain h3 {
+.kl_wrapper .pl_domain h3, .dp-wrapper .pl_domain h3 {
 	color: var(--domain_pl_color);
 }
+
 
 
 /* Adjustments for Canvas App */

@@ -212,7 +212,7 @@ TEXT STYLES
 	margin-bottom: auto;
 }
 
-.kl_wrapper .tutor_info, .dp-wrapper .tutor_info { .bs-col-sm-4 {
+.kl_wrapper .tutor_info .bs-col-sm-4, .dp-wrapper .tutor_info .bs-col-sm-4 {
 	margin-bottom:50px;
 }
 	

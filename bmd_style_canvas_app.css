@@ -72,7 +72,7 @@ TEXT STYLES
 
 /* Body text heading styles */
 
-.kl_wrapper, h2 .dp-wrapper h2 {
+.kl_wrapper h2, .dp-wrapper h2 {
  	color: var(--rocc_primary);
   	font-size: 2rem;
 	line-height: 2.4rem;
@@ -83,7 +83,7 @@ TEXT STYLES
   	border-bottom: none !important;
 }
 
-.kl_wrapper h3, dp-wrapper h3 {
+.kl_wrapper h3, .dp-wrapper h3 {
   	color: var(--rocc_primary);
   	font-size: 1.59375rem;
 	line-height: 2rem;

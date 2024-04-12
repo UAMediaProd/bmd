@@ -1253,6 +1253,38 @@ CALL OUT/ SECTION STYLES
 	max-width:190px!important; /* fix for mobiles */
 }
 
+/* Articles*/
+
+/* Removes left padding from bootstrap columns */
+.kl_wrapper .bs-container .rocc_reading, .dp-wrapper .bs-container .rocc_article
+	padding-left: 0;
+}
+
+.kl_wrapper .rocc_article h3, .dp-wrapper .rocc_article h3
+	margin-top: 0;
+}
+
+.kl_wrapper .rocc_article h4, .dp-wrapper .rocc_article h4 {
+	font-size: 1rem;
+	margin: 0;
+}
+
+.kl_wrapper .rocc_article p, .dp-wrapper .rocc_article p {
+	margin-bottom: 1rem;
+}
+
+.kl_wrapper .rocc_right_line, .dp-wrapper .rocc_right_line {
+	border-right: 3px solid var(--rocc_secondary); /* I've just added this into the img so it is applied automatically. Leaving this here for now just in case -Simon */
+}
+	
+.kl_wrapper .rocc_article img, .dp-wrapper .rocc_article img {
+	margin:0 0 1rem;
+	padding-right:15px;
+	border-right: 3px solid var(--rocc_secondary);
+	max-width:190px!important; /* fix for mobiles */
+}
+
+
 /*----
 BUTTON STYLES
 ----*/

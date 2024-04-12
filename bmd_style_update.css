@@ -1265,13 +1265,14 @@ CALL OUT/ SECTION STYLES
 	border-right: 3px solid var(--rocc_secondary); /* I've just added this into the img so it is applied automatically. Leaving this here for now just in case -Simon */
 }
 	
-.kl_wrapper .rocc_article img,
-.dp-wrapper .rocc_article img {
+.kl_wrapper .bs-container .rocc_article img,
+.dp-wrapper .bs-container .rocc_article img {
   margin: 0 0 1rem;
   padding-right: 15px;
   border-right: 3px solid var(--rocc_secondary);
   max-width: 135px; /* Set the max width of the image to 135px */
 }
+
 
 }
 

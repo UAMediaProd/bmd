@@ -1255,33 +1255,53 @@ CALL OUT/ SECTION STYLES
 
 /* Articles*/
 
-/* Removes left padding from bootstrap columns */
-.kl_wrapper .bs-container .rocc_reading, .dp-wrapper .bs-container .rocc_article
-	padding-left: 0;
+.rocc_article .bs-row {
+  display: flex;
 }
 
-.kl_wrapper .rocc_article h3, .dp-wrapper .rocc_article h3
-	margin-top: 0;
+.rocc_article .bs-col-md-3,
+.rocc_article .bs-col-sm-4,
+.rocc_article .bs-col-sm {
+  padding: 0;
 }
 
-.kl_wrapper .rocc_article h4, .dp-wrapper .rocc_article h4 {
-	font-size: 1rem;
-	margin: 0;
+.rocc_article .bs-col-md-3 img {
+  margin-bottom: 2px;
 }
 
-.kl_wrapper .rocc_article p, .dp-wrapper .rocc_article p {
-	margin-bottom: 1rem;
+.rocc_article .bs-col-md-3 p {
+  margin-bottom: 15px;
 }
 
-.kl_wrapper .rocc_right_line, .dp-wrapper .rocc_right_line {
-	border-right: 3px solid var(--rocc_secondary); /* I've just added this into the img so it is applied automatically. Leaving this here for now just in case -Simon */
+.rocc_article .bs-col-sm h3 {
+  margin-bottom: 0;
+  margin-top: 0;
 }
-	
-.kl_wrapper .rocc_article img, .dp-wrapper .rocc_article img {
-	margin:0 0 1rem;
-	padding-right:15px;
-	border-right: 3px solid var(--rocc_secondary);
-	max-width:190px!important; /* fix for mobiles */
+
+.rocc_article .bs-col-sm h4 {
+  margin-top: 0;
+}
+
+.rocc_article .bs-col-sm p {
+  font-size: 12pt;
+}
+
+.rocc_article .rocc_grey_button_container {
+  display: inline-block;
+}
+
+.rocc_article .rocc_grey_button_container a {
+  text-decoration: none;
+  color: #888; /* or any other grey color */
+}
+
+.rocc_article .screenreader-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 

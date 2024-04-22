@@ -1603,7 +1603,7 @@ text-decoration:none;
 /*----Navigation Bar----*/
 /*--Note: Nav bar is hidden for now as it has been replaced by Canvas Where Am I. The styles for it have not been updated to work with the new Cidilabs Tools--*/
 
-.kl_progress_icons {display:none;}
+.kl_progress_icons, .dp-progress-icons {display:none;}
 
 .mce-content-body.kl_has_style:not(.kl_mce_view_app) .kl_module_progress_bar, .mce-content-body.kl_has_style:not(.kl_mce_view_app) .kl_module_progress_icons, .kl_progress-bar, .kl_progress_icons li.kl_complete .kl_colored_bar, .kl_progress_icons li.kl_current .kl_colored_bar {background-color: none!important;}
 
@@ -1724,7 +1724,7 @@ a.nav_list {
 /* Newer, more responsive video styling */
 
 .kl_wrapper .rocc_video_container_16_9, .dp-wrapper .rocc_video_container_16_9 {
-	aspect-ratio:16 / 10.1;
+	aspect-ratio:16 / 11.7;
 }
 
 .kl_wrapper .rocc_video_container_16_9 iframe, .dp-wrapper .rocc_video_container_16_9 iframe {
@@ -1975,7 +1975,8 @@ a.kl_modal_trigger {display:inline-block;height:100%;margin-top:3px;} /* Fix Fir
 .dp-wrapper .nav-tabs {margin-bottom:-2px;}
 .dp-wrapper .nav-tabs .nav-link {background:#efefef;color:#333333;}
 
-
+/* New Cidilabs layout fix */
+.dp-wrapper .row>* {padding-left:0;padding-right:0;}
 
 /********************************************************************************
  * START - Styles for sub-modules in lh navigation

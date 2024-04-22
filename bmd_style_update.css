@@ -1975,8 +1975,9 @@ a.kl_modal_trigger {display:inline-block;height:100%;margin-top:3px;} /* Fix Fir
 .dp-wrapper .nav-tabs {margin-bottom:-2px;}
 .dp-wrapper .nav-tabs .nav-link {background:#efefef;color:#333333;}
 
-/* New Cidilabs layout fix */
+/* New Cidilabs layout fixes */
 .dp-wrapper .row>* {padding-left:0;padding-right:0;}
+.dp-wrapper ol {margin-left:0;}
 
 /********************************************************************************
  * START - Styles for sub-modules in lh navigation

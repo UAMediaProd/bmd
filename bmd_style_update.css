@@ -270,7 +270,7 @@ TEXT STYLES
 	background: var(--rocc_primary);
 }
 
-.kl_wrapper .rocc_major_header .bs-col-sm-9, .kl_wrapper .rocc_major_header .bs-col-sm-10, .dp-wrapper .rocc_major_header .bs-col-sm-9, .dp-wrapper .rocc_major_header .bs-col-sm-10 {
+.kl_wrapper .rocc_major_header .bs-col-sm-8, .kl_wrapper .rocc_major_header .bs-col-sm-9, .kl_wrapper .rocc_major_header .bs-col-sm-10, .dp-wrapper .rocc_major_header .bs-col-sm-8, .dp-wrapper .rocc_major_header .bs-col-sm-9, .dp-wrapper .rocc_major_header .bs-col-sm-10 {
 	padding:0!important;
 }
 

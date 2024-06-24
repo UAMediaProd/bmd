@@ -415,7 +415,7 @@ width: calc(100% + 6.75rem);
 [name="IconMiniArrowDown"] {color:white!important;}
 
 /* Give the points some room */
-.points_possible_display, .js-score {margin-left:10px;}
+.ig-details .points_possible_display, .ig-details .js-score, .ig-details .modules {margin-right:10px;}
 
 /* Put course titles at top of module list */
 .context_module:before {text-transform:uppercase;font-size:18px;font-weight:bold;margin-bottom:14px;display:inline-block;color:var(--rocc_primary)}

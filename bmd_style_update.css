@@ -283,7 +283,7 @@ TEXT STYLES
 	border-bottom: solid 3px var(--rocc_secondary)!important;
 }
 
-.kl_wrapper .rocc_page_title .bs-col-sm-9, .kl_wrapper .rocc_page_title .bs-col-sm-10, .kl_wrapper .rocc_page_title .bs-col-sm-11, .dp-wrapper .rocc_page_title .bs-col-sm-9, .dp-wrapper .rocc_page_title .bs-col-sm-10, .dp-wrapper .rocc_page_title .bs-col-sm-11 {
+.kl_wrapper .rocc_page_title .bs-col-sm-8, .kl_wrapper .rocc_page_title .bs-col-sm-9, .kl_wrapper .rocc_page_title .bs-col-sm-10, .kl_wrapper .rocc_page_title .bs-col-sm-11, .dp-wrapper .rocc_page_title .bs-col-sm-8 .dp-wrapper .rocc_page_title .bs-col-sm-9, .dp-wrapper .rocc_page_title .bs-col-sm-10, .dp-wrapper .rocc_page_title .bs-col-sm-11 {
 	padding:0!important;
 }
 

@@ -505,12 +505,12 @@ width: calc(100% + 6.75rem);
 /* Remove the annoying square brackets on load */
 .ig-details__item:after {display:none;}
 
-div.module-item-title span[title="Science and Scholarship"], div.module-item-title span[title="Science and Scholarship (Nervous System)"], div.module-item-title span[title="Science and Scholarship (Musculoskeletal)"], div.module-item-title span[title="Science and Scholarship (Musculoskeletal System)"], div.module-item-title span[title="Practical"] {
+.module-item-title span[title="Science and Scholarship"], .module-item-title span[title="Science and Scholarship (Nervous System)"], .module-item-title span[title="Science and Scholarship (Musculoskeletal)"], .module-item-title span[title="Science and Scholarship (Musculoskeletal System)"], .module-item-title span[title="Practical"] {
 	padding: 10px 32px;
 	color: var(--domain_ss_color)!important;
 }
 
-div.module-item-title span[title="Science and Scholarship"]:before, div.module-item-title span[title="Science and Scholarship (Nervous System)"]:before, div.module-item-title span[title="Science and Scholarship (Musculoskeletal)"]:before, div.module-item-title span[title="Science and Scholarship (Musculoskeletal System)"]:before, div.module-item-title span[title="Practical"]:before {
+.module-item-title span[title="Science and Scholarship"]:before, .module-item-title span[title="Science and Scholarship (Nervous System)"]:before, .module-item-title span[title="Science and Scholarship (Musculoskeletal)"]:before, .module-item-title span[title="Science and Scholarship (Musculoskeletal System)"]:before, .module-item-title span[title="Practical"]:before {
 	content:'';
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-colour.svg');
 	background-size: 20px 29px;
@@ -522,12 +522,12 @@ div.module-item-title span[title="Science and Scholarship"]:before, div.module-i
 	background-repeat: no-repeat;
 }
 
-div.module-item-title span[title="Health and Society"] {
+.module-item-title span[title="Health and Society"] {
 	padding: 10px 32px;
 	color: var(--domain_hs_color)!important;
 }
 
-div.module-item-title span[title="Health and Society"]:before {
+.module-item-title span[title="Health and Society"]:before {
 	content:'';
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/hs-colour.svg');
 	background-size: 20px 29px;
@@ -539,12 +539,12 @@ div.module-item-title span[title="Health and Society"]:before {
 	background-repeat: no-repeat;
 }
 
-div.module-item-title span[title="Professionalism and Leadership"] {
+.module-item-title span[title="Professionalism and Leadership"] {
 	padding: 10px 32px;
 	color: var(--domain_pl_color)!important;
 }
 
-div.module-item-title span[title="Professionalism and Leadership"]:before {
+.module-item-title span[title="Professionalism and Leadership"]:before {
 	content:'';
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/pl-colour.svg');
 	background-size: 20px 29px;
@@ -556,12 +556,12 @@ div.module-item-title span[title="Professionalism and Leadership"]:before {
 	background-repeat: no-repeat;
 }
 
-div.module-item-title span[title="Clinical Practice"] {
+.module-item-title span[title="Clinical Practice"] {
 	padding: 10px 32px;
 	color: var(--domain_cp_color)!important;
 }
 
-div.module-item-title span[title="Clinical Practice"]:before {
+.module-item-title span[title="Clinical Practice"]:before {
 	content:'';
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-colour.svg');
 	background-size: 20px 29px;
@@ -583,7 +583,7 @@ box-shadow: none;
 
 /* Module List Hashtag-driven Icons - order priority is #SS #CP #HS #PL */
 
-div.module-item-title a:after { 
+.module-item-title a:after { 
 	content:'';
 	position: absolute;
 	margin-top: -3px;
@@ -594,105 +594,105 @@ div.module-item-title a:after {
 	background-origin: content-box;
 }
 
-div.module-item-title a[title*="#SS"]:after {
+.module-item-title a[title*="#SS"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-colour.svg');
 	background-size: 27px 29px;
 	width: 36px;
 	margin-left:-36px;
 }
 
-div.module-item-title a[title*="#HS"]:after {
+.module-item-title a[title*="#HS"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/hs-colour.svg');
 	background-size: 30px 29px;
 	width: 37px;
 	margin-left:-37px;
 }
 
-div.module-item-title a[title*="#PL"]:after {
+.module-item-title a[title*="#PL"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/pl-colour.svg');
 	background-size: 27px 29px;
 	width: 37px;
 	margin-left:-35px;
 }
 
-div.module-item-title a[title*="#CP"]:after {
+.module-item-title a[title*="#CP"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-colour.svg');
 	background-size: 27px 29px;
 	width: 39px;
 	margin-left:-38px;
 }
 
-div.module-item-title a[title*="#SS"][title*="#CP"]:after {
+.module-item-title a[title*="#SS"][title*="#CP"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-cp-colour.svg');
 	background-size: 57px 29px;
 	width: 80px;
 	margin-left: -75px;
 }
 
-div.module-item-title a[title*="#SS"][title*="#HS"]:after {
+.module-item-title a[title*="#SS"][title*="#HS"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-hs-colour.svg');
 	background-size: 58px 29px;
 	width: 80px;
 	margin-left: -75px;
 }
 
-div.module-item-title a[title*="#SS"][title*="#PL"]:after {
+.module-item-title a[title*="#SS"][title*="#PL"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-pl-colour.svg');
 	background-size: 57px 29px;
 	width: 80px;
 	margin-left: -71px;
 }
 
-div.module-item-title a[title*="#CP"][title*="#HS"]:after {
+.module-item-title a[title*="#CP"][title*="#HS"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-hs-colour.svg');
 	background-size: 57px 29px;
 	width: 80px;
 	margin-left: -75px;
 }
 
-div.module-item-title a[title*="#CP"][title*="#PL"]:after {
+.module-item-title a[title*="#CP"][title*="#PL"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-pl-colour.svg');
 	background-size: 54px 29px;
 	width: 80px;
 	margin-left:-75px;
 }
 
-div.module-item-title a[title*="#HS"][title*="#PL"]:after {
+.module-item-title a[title*="#HS"][title*="#PL"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/hs-pl-colour.svg');
 	background-size: 57px 29px;
 	width: 80px;
 	margin-left:-75px;
 }
 
-div.module-item-title a[title*="#SS"][title*="#CP"][title*="#HS"]:after {
+.module-item-title a[title*="#SS"][title*="#CP"][title*="#HS"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-cp-hs-colour.svg');
 	background-size: 97px 29px;
 	width: 114px;
 	margin-left: -114px;
 }
 
-div.module-item-title a[title*="#SS"][title*="#HS"][title*="#PL"]:after {
+.module-item-title a[title*="#SS"][title*="#HS"][title*="#PL"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-hs-pl-colour.svg');
 	background-size: 97px 29px;
 	width: 114px;
 	margin-left: -108px;
 }
 
-div.module-item-title a[title*="#SS"][title*="#CP"][title*="#PL"]:after {
+.module-item-title a[title*="#SS"][title*="#CP"][title*="#PL"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/ss-cp-pl-colour.svg');
 	background-size: 97px 29px;
 	width: 114px;
 	margin-left: -108px;
 }
 
-div.module-item-title a[title*="#CP"][title*="#HS"][title*="#PL"]:after {
+.module-item-title a[title*="#CP"][title*="#HS"][title*="#PL"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/cp-hs-pl-colour.svg');
 	background-size: 97px 29px;
 	width: 114px;
 	margin-left: -109px;
 }
 
-div.module-item-title a[title*="#SS"][title*="#CP"][title*="#HS"][title*="#PL"]:after {
+.module-item-title a[title*="#SS"][title*="#CP"][title*="#HS"][title*="#PL"]:after {
 	background-image: url('https://uamediaprod.github.io/bmd/assets/icons/all-colour.svg');
 	background-size: 123px 29px;
 	width: 146px;

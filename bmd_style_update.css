@@ -46,7 +46,7 @@ TEXT STYLES
 }
 
 /* Link grid (home page etc) */
-.dp-wrapper .dp-link-grid>ul>li {text-align: center;width: 33.33%;font-weight: bold;background: var(--rocc_secondary)!important;}
+.dp-wrapper .dp-link-grid>ul>li {padding:10px;text-align: center;width: 33.33%;font-weight: bold;background: var(--rocc_secondary)!important;}
 .dp-wrapper .dp-link-grid>ul>li a {color:white;}
 
 /* Fundamental font formatting */

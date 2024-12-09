@@ -60,13 +60,15 @@ TEXT STYLES
 }
 
 .kl_wrapper a, .dp-wrapper a {
-	color:var(--rocc_secondary);
+	color:var(--rocc_secondary)!important;
 	text-decoration: underline;
 }
 
 .kl_wrapper a:hover, .dp-wrapper a:hover {
 	color:var(--rocc_primary)!important;
 }
+
+.dp-wrapper ol {padding-left:40px!important;}
 
 /* Reset font style for left menu tray */
 .navigation-tray-container a.fbyHH_bGBk {font-family:LatoWeb, "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif!important;color:#005a9c;}
@@ -112,6 +114,9 @@ TEXT STYLES
 	margin: 0px 0px 6px;}
 /* END Not yet updated for new Cidilabs - unable to find */
 
+/* Fix bootstrap padding in Cidilabs Design Tools Plus */
+.dp-wrapper .col, .dp-wrapper .col-1, .dp-wrapper .col-2, .dp-wrapper .col-3, .dp-wrapper .col-4, .dp-wrapper .col-5, .dp-wrapper .col-6, .dp-wrapper .col-7, .dp-wrapper .col-8, .dp-wrapper .col-9, .dp-wrapper .col-10, .dp-wrapper .col-11, .dp-wrapper .col-12, .dp-wrapper .col-auto, .dp-wrapper .col-lg, .dp-wrapper .col-lg-1, .dp-wrapper .col-lg-2, .dp-wrapper .col-lg-3, .dp-wrapper .col-lg-4, .dp-wrapper .col-lg-5, .dp-wrapper .col-lg-6, .dp-wrapper .col-lg-7, .dp-wrapper .col-lg-8, .dp-wrapper .col-lg-9, .dp-wrapper .col-lg-10, .dp-wrapper .col-lg-11, .dp-wrapper .col-lg-12, .dp-wrapper .col-lg-auto, .dp-wrapper .col-md, .dp-wrapper .col-md-1, .dp-wrapper .col-md-2, .dp-wrapper .col-md-3, .dp-wrapper .col-md-4, .dp-wrapper .col-md-5, .dp-wrapper .col-md-6, .dp-wrapper .col-md-7, .dp-wrapper .col-md-8, .dp-wrapper .col-md-9, .dp-wrapper .col-md-10, .dp-wrapper .col-md-11, .dp-wrapper .col-md-12, .dp-wrapper .col-md-auto, .dp-wrapper .col-sm, .dp-wrapper .col-sm-1, .dp-wrapper .col-sm-2, .dp-wrapper .col-sm-3, .dp-wrapper .col-sm-4, .dp-wrapper .col-sm-5, .dp-wrapper .col-sm-6, .dp-wrapper .col-sm-7, .dp-wrapper .col-sm-8, .dp-wrapper .col-sm-9, .dp-wrapper .col-sm-10, .dp-wrapper .col-sm-11, .dp-wrapper .col-sm-12, .dp-wrapper .col-sm-auto, .dp-wrapper .col-xl, .dp-wrapper .col-xl-1, .dp-wrapper .col-xl-2, .dp-wrapper .col-xl-3, .dp-wrapper .col-xl-4, .dp-wrapper .col-xl-5, .dp-wrapper .col-xl-6, .dp-wrapper .col-xl-7, .dp-wrapper .col-xl-8, .dp-wrapper .col-xl-9, .dp-wrapper .col-xl-10, .dp-wrapper .col-xl-11, .dp-wrapper .col-xl-12, .dp-wrapper .col-xl-auto {padding-left:15px!important;padding-right:15px!important;}
+
 .kl_wrapper h4, .dp-wrapper h4 {
   	color: var(--rocc_primary);
 	font-weight: 500; 
@@ -139,7 +144,7 @@ TEXT STYLES
 #breadcrumbs li, #breadcrumbs li a {color:grey;}
 
 
-/* Override the icons that Canvas starting including as of mid-2022. */
+/* Override the icons that Canvas started including as of mid-2022. */
 
 .external_link_icon, .file_download_btn {display:none!important;}
 
@@ -206,7 +211,7 @@ TEXT STYLES
 @media only screen and (min-width:761px) {
 	.kl_wrapper .rocc_major_header img, .dp-wrapper .rocc_major_header img {max-width:2.375rem!important;float:right;margin: 0 0 0 10px;}
 	.kl_wrapper .rocc_major_header_icon, .dp-wrapper .rocc_major_header_icon {
-	padding: 1.75rem;
+	padding: 1.75rem!important;
 	display: flex;
     	align-items: flex-end;
     	justify-content: flex-end;}

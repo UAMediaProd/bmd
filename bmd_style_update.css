@@ -60,7 +60,7 @@ TEXT STYLES
 }
 
 .kl_wrapper a, .dp-wrapper a {
-	color:var(--rocc_secondary)!important;
+	color:var(--rocc_secondary);
 	text-decoration: underline;
 }
 

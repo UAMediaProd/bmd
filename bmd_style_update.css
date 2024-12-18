@@ -299,9 +299,9 @@ TEXT STYLES
 	.kl_wrapper .rocc_page_title img, .dp-wrapper .rocc_page_title img {max-width:2.375rem!important;float:right;margin: 0 0 0 10px;}
 	.kl_wrapper .rocc_page_title_icon, .dp-wrapper .rocc_page_title_icon {
 	padding:0 0.25rem 0.625rem 1.25rem;
-	display: flex;
-    	align-items: flex-end;
-    	justify-content: flex-end;}
+	display: block;
+    	/* align-items: flex-end;
+    	justify-content: flex-end;} (removed flex to help with new Cidilabs update) */ 
 	
 	.kl_wrapper .rocc_page_title h1, .dp-wrapper .rocc_page_title h1 {
 	font-size: 2.5rem;

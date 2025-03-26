@@ -2046,6 +2046,12 @@ a.ou-section-link-sub.active:focus{
  * START - Styles for progress icons buttons and bar
 *********************************************************************************/
 
+/* temporary fix for busted nav bar - march 2025 */
+
+li.ou-progress-item {min-width:14px;}
+.module-sequence-footer .module-sequence-footer-content {display:inherit;}
+
+/* end fix */
 
 .ou-ProgressBar {
   height: 15px;

@@ -3422,3 +3422,8 @@ li.ou-progress-item a.active:hover {
 .pill {
     border: 1px solid rgba(255, 255, 255, 0.5);
 }
+
+// Hide page titles
+.pages.show .page-title {
+    display: none;
+}

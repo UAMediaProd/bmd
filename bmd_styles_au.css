@@ -4540,4 +4540,8 @@ TEXT STYLES
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
+.pages.show .page-title {
+  display: none;
+}
+
 /*# sourceMappingURL=bmd_styles_au.css.map */
